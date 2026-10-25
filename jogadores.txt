@@ -11,21 +11,21 @@ iterru = João
 jujuba_belmont = Jujuba
 oldvenirr = Juliano
 _gandalfthewhite_ = Kauã M
-Kauan
-Lepi
-Louis
-Marchesini
-Marquinhos
-Massaki
-Mateus L
-Mel
-Melquizedeque
-Queiroz
-Rafael Rosa
-Ricardo
-Silva
-Sonard
-Vasgo
-Victor
-Xiko
-Yuki
+kauan4 = Kauan
+lepidois = Lepi
+lunargetdl = Louis
+bootycall_ = Marchesini
+coppolaop = Marquinhos
+massaki_vht = Massaki
+matts1656 = Mateus L
+memelsghost = Mel
+melquisedeque9288 = Melquizedeque
+pkminipato = Queiroz
+rafaelrosa1 = Rafael Rosa
+ricardo1325753 = Ricardo
+rhaua_2208_ = Silva
+sonard23 = Sonard
+vasgo = Vasgo
+malttez = Victor
+xikovis = Xiko
+yuki_zt = Yuki
