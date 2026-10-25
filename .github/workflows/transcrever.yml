@@ -29,18 +29,13 @@ jobs:
         with:
           ref: ${{ github.event.repository.default_branch }}
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
       - name: Instalar ffmpeg e requests
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg
-          pip install requests
+          sudo apt-get install -y -qq ffmpeg python3-requests
 
       - name: Transcrever e atualizar a wiki
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          python processar.py
+          python3 processar.py
