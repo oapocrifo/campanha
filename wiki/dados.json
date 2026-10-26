@@ -871,6 +871,33 @@
     "itens/pa3-esverdeado-aromatico",
     "criaturas/urso"
    ]
+  },
+  "sessao-33": {
+   "titulo": "A Descida pela ChaminÃ© e a Queda de Markhor",
+   "resumo": "No quinto dia do nono mÃªs de 2993, os aventureiros Markhor, Miragem e Nia acolheram o mago Salazarr na Pousada do Sinal da CabeÃ§a Quebrada. ApÃ³s negociarem provisÃµes com o taberneiro Cronos a preÃ§os exorbitantes e debaterem a comercializaÃ§Ã£o culinÃ¡ria de carnes exÃ³ticas, a expediÃ§Ã£o marchou em direÃ§Ã£o Ã s ruÃ­nas prÃ³ximas ao rio para desvendar a passagem secreta sob a chaminÃ© da edificaÃ§Ã£o desabada onde haviam enfrentado centopeias.\n\nVasculhando os escombros ao redor da lareira com picaretas, Salazarr encontrou uma pedra cinzenta de magnetismo natural que se prendeu de imediato Ã  lanÃ§a de metal negro de Markhor. Constatando que a chaminÃ© continuava por cerca de quinze metros atÃ© uma cÃ¢mara inferior e exalava cheiro de carniÃ§a, o grupo abriu uma brecha na alvenaria a golpes de marreta. O ruÃ­do perturbou um enxame de stirges subterrÃ¢neas, que comeÃ§aram a subir pelo duto. Com o uso de pedras pesadas arremessadas pelo vÃ£o e armadilhas improvisadas com lona, os exploradores esmagaram vÃ¡rios monstros antes de comeÃ§arem a descida por cordas.\n\nMarkhor desceu desprovido de armadura para passar pela estreita fresta da lareira, deparando-se com uma sala retangular imunda repleta de portas, uma pilha viscosa e mais de uma dÃºzia de sanguessugas aladas. Salazarr desceu logo em seguida e adormeceu quatro criaturas com a magia Sono, mas o restante do enxame atacou com ferocidade incontrolÃ¡vel. Cravando suas probÃ³scides no corpo do guerreiro caprino, os monstros drenaram todo o sangue de Markhor, levando-o Ã  morte. ApÃ³s abaterem quase todas as criaturas restantes e verem uma Ãºltima fugir ferida por um corredor, Nia, Miragem e Salazarr resgataram a lanÃ§a negra e o amuleto protetor do falecido, esconderam suas mochilas e a armadura nos entulhos e fugiram feridos de volta Ã  pousada.",
+   "linha_do_tempo": [
+    "Salazarr junta-se a Markhor, Nia e Miragem na Pousada do Sinal da CabeÃ§a Quebrada e debatem a venda de raÃ§Ãµes exÃ³ticas com Cronos.",
+    "O grupo adquire mantimentos caros, enche cantis no rio caudaloso e marcha atÃ© a edificaÃ§Ã£o desabada da chaminÃ©.",
+    "Salazarr escava os entulhos da lareira e descobre uma pedra com forte propriedade magnÃ©tica que gruda na lanÃ§a negra de Markhor.",
+    "O grupo martela a alvenaria da chaminÃ© para alargar a passagem, atiÃ§ando os gritos e o bater de asas de criaturas no fundo do duto.",
+    "Os aventureiros arremessam pedras e utilizam lonas para capturar e abater as primeiras stirges que sobem pela chaminÃ©.",
+    "Nia e Miragem descem de rapel e de ponta-cabeÃ§a para iÃ§ar pedras e desobstruir a abertura da lareira no nÃ­vel inferior.",
+    "Markhor retira a armadura de talas e desce atÃ© a cÃ¢mara subterrÃ¢nea, deparando-se com mais de uma dÃºzia de stirges e uma pilha viscosa.",
+    "Salazarr desce pela corda e conjura a magia Sono, adormecendo quatro monstros enquanto os demais avanÃ§am em enxame.",
+    "MÃºltiplas stirges cravam-se no corpo de Markhor e drenam todo o seu sangue, resultando na morte do guerreiro caprino.",
+    "Nia e Miragem juntam-se ao combate, esmagando e perfurando os monstros remanescentes enquanto uma stirge ferida foge pelo corredor.",
+    "Os sobreviventes recolhem a lanÃ§a negra e o amuleto mÃ¡gico de Markhor, ocultam suas mochilas e a armadura nos escombros e fogem para a pousada."
+   ],
+   "entidades": [
+    "personagens/markhor",
+    "personagens/salazarr",
+    "personagens/miragem",
+    "personagens/nia",
+    "npcs/cronos",
+    "criaturas/stirge",
+    "itens/pedra-magnatica",
+    "eventos/morte-de-markhor"
+   ]
   }
  },
  "entidades": {
@@ -4407,9 +4434,9 @@
    "tipo": "personagem",
    "nome": "Miragem",
    "apelidos": [],
-   "resumo": "Aventureiro pequenino e mago acompanhado por um cÃ£o de grande porte. Explora as ruÃ­nas de Arden Vul utilizando suas magias e astÃºcia, auxiliando o grupo nas batalhas e buscas no subterrÃ¢neo.",
+   "resumo": "Aventureiro pequenino e mago acompanhado por um cÃ£o de caÃ§a treinado. Explora as ruÃ­nas de Arden Vul utilizando suas magias, armas de disparo e astÃºcia no subterrÃ¢neo. Participou da incursÃ£o Ã  chaminÃ© e sobreviveu ao ninho de monstros sugadores.",
    "atributos": {
-    "RaÃ§a": "Pequenino",
+    "RaÃ§a": "Pequenino (Halfling)",
     "Classe": "Mago",
     "Jogador": "Guilherme"
    },
@@ -4445,12 +4472,25 @@
     [
      "sessao-23",
      "Comandou seu cÃ£o de caÃ§a para atacar o esqueleto de macaco durante o combate no subterrÃ¢neo."
+    ],
+    [
+     "sessao-33",
+     "Foi descido de ponta-cabeÃ§a amarrado por cordas na chaminÃ© para laÃ§ar e retirar pedras e carcaÃ§as que bloqueavam a lareira."
+    ],
+    [
+     "sessao-33",
+     "Teve seu sangue drenado apÃ³s ser atacado no pescoÃ§o por uma stirge, conseguindo matÃ¡-la ao quebrar sua espinha com as mÃ£os."
+    ],
+    [
+     "sessao-33",
+     "Retornou com seguranÃ§a Ã  Pousada do Sinal da CabeÃ§a Quebrada apÃ³s abandonar sua mochila nos entulhos para acelerar a fuga."
     ]
    ],
    "sessoes": [
     "sessao-20",
     "sessao-21",
-    "sessao-23"
+    "sessao-23",
+    "sessao-33"
    ]
   },
   "personagens/kaelen": {
@@ -6382,12 +6422,13 @@
    "apelidos": [
     "Melchior"
    ],
-   "resumo": "Aventureiro homem-fera caprino focado em buscar tesouros para seu clÃ£. Explorou as ruÃ­nas de Arden Vul, adquiriu uma armadura de talas com auxÃ­lio financeiro de Momonga e sofreu grave perfuraÃ§Ã£o na coxa pela estÃ¡tua guardiÃ£. Coordenou a captura da lanÃ§a de metal negro e distraiu um urso faminto com raÃ§Ãµes para salvar os aliados.",
+   "resumo": "Aventureiro homem-fera caprino focado em buscar tesouros para seu clÃ£. Explorou Arden Vul, adquiriu armadura de talas e ajudou a desarmar a estÃ¡tua guardiÃ£, apaziguando um urso faminto com raÃ§Ãµes. Acabou morto por um enxame de stirges na cÃ¢mara subterrÃ¢nea sob a chaminÃ©.",
    "atributos": {
     "Jogador": "Juliano",
     "Ra a": "Homem-fera",
     "RaÃ§a": "Homem-fera (Caprino)",
-    "Classe": "Guerreiro"
+    "Classe": "Guerreiro",
+    "Status": "Morto"
    },
    "fatos": [
     [
@@ -6437,12 +6478,25 @@
     [
      "sessao-32",
      "Sacrificou nove raÃ§Ãµes de explorador e berrou como um bode para distrair um urso marrom nas ruÃ­nas."
+    ],
+    [
+     "sessao-33",
+     "Retirou sua armadura de talas para conseguir espremer-se pela estreita fresta da lareira subterrÃ¢nea."
+    ],
+    [
+     "sessao-33",
+     "Foi alvejado e envolvido por quatro stirges simultÃ¢neas que drenaram seus fluidos vitais atÃ© a morte."
+    ],
+    [
+     "sessao-33",
+     "Teve seu amuleto mÃ¡gico de Ankh e sua lanÃ§a negra resgatados pelos companheiros antes do grupo bater em retirada."
     ]
    ],
    "sessoes": [
     "sessao-30",
     "sessao-31",
-    "sessao-32"
+    "sessao-32",
+    "sessao-33"
    ]
   },
   "personagens/nia": {
@@ -6451,29 +6505,47 @@
    "apelidos": [
     "Louris"
    ],
-   "resumo": "Aventureira cautelosa que integra o grupo na explora £o das ru nas e com rcio local. Ajudou a mapear suprimentos e participou da incurs£o nas constru s em ru nas.",
+   "resumo": "Aventureira exploradora habilidosa e resistente que atua em Arden Vul munida de espada curta e tÃ©cnicas de escalada. Desceu na vanguarda da chaminÃ© rochosa, abateu stirges com estocadas precisas e resgatou os pertences mais valiosos de Markhor apÃ³s seu falecimento.",
    "atributos": {
-    "Jogador": "Louis"
+    "Jogador": "Louis",
+    "Status": "Viva (Ferida)"
    },
    "fatos": [
     [
      "sessao-30",
      "Nia auxiliou no planejamento das compras e na verifica £o de pre os de suprimentos na estalagem."
+    ],
+    [
+     "sessao-33",
+     "Demonstrou conhecimentos prÃ¡ticos de montanhismo confeccionando nÃ³s de laÃ§ada dupla como cadeirinha de rapel."
+    ],
+    [
+     "sessao-33",
+     "Foi perfurada no pescoÃ§o e atacada no pulso por sanguessugas voadoras, suportando os danos devido Ã  sua alta vitalidade."
+    ],
+    [
+     "sessao-33",
+     "Empunhou sua espada curta com perfuraÃ§Ãµes letais para imobilizar e abater as stirges na cÃ¢mara subterrÃ¢nea."
+    ],
+    [
+     "sessao-33",
+     "Carregou a pesada lanÃ§a negra de Markhor e seu amuleto de volta Ã  Pousada do Sinal da CabeÃ§a Quebrada."
     ]
    ],
    "sessoes": [
-    "sessao-30"
+    "sessao-30",
+    "sessao-33"
    ]
   },
   "npcs/cronos": {
    "tipo": "npc",
    "nome": "Cronos",
    "apelidos": [],
-   "resumo": "ProprietÃ¡rio idoso e corpulento da Pousada do Sinal da CabeÃ§a Quebrada em Arden Vul. Fornece alojamento, refeiÃ§Ãµes a preÃ§os inflacionados e informaÃ§Ãµes bÃ¡sicas a exploradores. Cobrou moedas de ouro de Momonga para destacados funcionÃ¡rios vigiarem sua nova carroÃ§a no estÃ¡bulo.",
+   "resumo": "ProprietÃ¡rio idoso e corpulento da Pousada do Sinal da CabeÃ§a Quebrada em Arden Vul. Fornece alojamento, refeiÃ§Ãµes e raÃ§Ãµes a preÃ§os inflacionados para aventureiros. Demonstrou interesse cauteloso na aquisiÃ§Ã£o de carne de centopeia para refeiÃ§Ãµes caso seja comprovadamente segura.",
    "atributos": {
     "Ocupa £o": "Estalajadeiro",
     "Localiza £o": "Pousada do Sinal da Cabe a Quebrada",
-    "OcupaÃ§Ã£o": "Taberneiro",
+    "OcupaÃ§Ã£o": "Estalajadeiro",
     "LocalizaÃ§Ã£o": "Pousada do Sinal da CabeÃ§a Quebrada"
    },
    "fatos": [
@@ -6496,12 +6568,21 @@
     [
      "sessao-32",
      "Relatou que mortes e ferimentos em grupos de exploradores sÃ£o ocorrÃªncias quase diÃ¡rias na regiÃ£o."
+    ],
+    [
+     "sessao-33",
+     "Vendeu raÃ§Ãµes de ferro de exploradores pelo triplo do preÃ§o normal de mercado."
+    ],
+    [
+     "sessao-33",
+     "Afirmou que cozinheiras da estalagem poderiam preparar pratos com carnes exÃ³ticas se os aventureiros provassem que nÃ£o eram venenosas."
     ]
    ],
    "sessoes": [
     "sessao-30",
     "sessao-31",
-    "sessao-32"
+    "sessao-32",
+    "sessao-33"
    ]
   },
   "npcs/zaron": {
@@ -6922,6 +7003,124 @@
    ],
    "sessoes": [
     "sessao-32"
+   ]
+  },
+  "personagens/salazarr": {
+   "tipo": "personagem",
+   "nome": "Salazarr",
+   "apelidos": [],
+   "resumo": "Mago aventureiro recÃ©m-chegado Ã s ruÃ­nas de Arden Vul que se uniu ao grupo na Pousada do Sinal da CabeÃ§a Quebrada. Utiliza marreta, picareta e magias arcanas em suas incursÃµes. Conjurou Sono contra um enxame de stirges subterrÃ¢neas e sobreviveu ferido ao confronto.",
+   "atributos": {
+    "Jogador": "Caio",
+    "Classe": "Mago",
+    "RaÃ§a": "Humano",
+    "Status": "Vivo (Gravemente Ferido)"
+   },
+   "fatos": [
+    [
+     "sessao-33",
+     "Negociou com Cronos a possibilidade de cozinhar e comercializar carnes exÃ³ticas de monstros como raÃ§Ãµes."
+    ],
+    [
+     "sessao-33",
+     "Encontrou uma pedra de magnetismo natural em uma bolsa deteriorada nos entulhos da chaminÃ©."
+    ],
+    [
+     "sessao-33",
+     "Conjurou a magia Sono na cÃ¢mara subterrÃ¢nea, adormecendo quatro stirges em pleno voo."
+    ],
+    [
+     "sessao-33",
+     "Foi mordido e teve seu sangue drenado por sanguessugas aladas, sobrevivendo com apenas dois pontos de vida."
+    ],
+    [
+     "sessao-33",
+     "Auxiliou na fuga levando seu grimÃ³rio e itens resgatados do falecido Markhor de volta Ã  pousada."
+    ]
+   ],
+   "sessoes": [
+    "sessao-33"
+   ]
+  },
+  "criaturas/stirge": {
+   "tipo": "criatura",
+   "nome": "Stirge",
+   "apelidos": [
+    "Caramelo Voador",
+    "Sanguessuga Alada"
+   ],
+   "resumo": "Monstruosidades voadoras agressivas com corpo comparÃ¡vel a um cÃ£o pequeno, dotadas de quatro patas com garras, um par de asas membranosas e uma longa probÃ³scide pontiaguda. Aninham-se em ruÃ­nas subterrÃ¢neas escuras, atacam em enxames e grudam com firmeza nos corpos de suas presas para drenar sangue atÃ© a morte.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-33",
+     "Habitavam a cÃ¢mara subterrÃ¢nea sob a chaminÃ© da edificaÃ§Ã£o arruinada, reagindo furiosamente a ruÃ­dos de marteladas e fontes de luz."
+    ],
+    [
+     "sessao-33",
+     "Atacam cravando quatro garras nos ombros e membros de seus alvos e perfurando a jugular com o bico para sugar sangue."
+    ],
+    [
+     "sessao-33",
+     "Dezessete espÃ©cimes foram abatidos pelo grupo por meio de pedradas no duto, armadilhas de lona, magia de sono e lÃ¢minas."
+    ],
+    [
+     "sessao-33",
+     "Um exemplar sobrevivente fugiu voando ferido em direÃ§Ã£o a um corredor Ã  esquerda da cÃ¢mara subterrÃ¢nea."
+    ]
+   ],
+   "sessoes": [
+    "sessao-33"
+   ]
+  },
+  "itens/pedra-magnatica": {
+   "tipo": "item",
+   "nome": "Pedra MagnÃ©tica",
+   "apelidos": [
+    "ÃmÃ£ Natural"
+   ],
+   "resumo": "Mineral escuro acinzentado de formato natural irregular e brilho metÃ¡lico, pesando cerca de cinco ciclos. Foi encontrado dentro de uma pequena bolsa de couro podre entre os entulhos da lareira, demonstrando forte propriedade magnÃ©tica que atrai e gruda em armas de metal maciÃ§o.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-33",
+     "Foi desenterrada por Salazarr enquanto limpava o chÃ£o de pedra perto da chaminÃ©."
+    ],
+    [
+     "sessao-33",
+     "Voou espontaneamente da mÃ£o de Salazarr para prender-se por atraÃ§Ã£o magnÃ©tica na ponta da lanÃ§a negra de Markhor."
+    ],
+    [
+     "sessao-33",
+     "Permanece guardada na mochila de Salazarr deixada temporariamente oculta nos entulhos."
+    ]
+   ],
+   "sessoes": [
+    "sessao-33"
+   ]
+  },
+  "eventos/morte-de-markhor": {
+   "tipo": "evento",
+   "nome": "Morte de Markhor",
+   "apelidos": [],
+   "resumo": "TrÃ¡gico confronto travado no interior da cÃ¢mara subterrÃ¢nea sob a chaminÃ© de Arden Vul, no qual o explorador homem-fera Markhor foi imobilizado e drenado fatalmente por quatro stirges simultÃ¢neas. O evento forÃ§ou o grupo sobrevivente a abandonar seus pertences pesados e bater em retirada.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-33",
+     "Markhor desceu desprotegido pela lareira e foi surpreendido por uma colÃ´nia com mais de doze stirges."
+    ],
+    [
+     "sessao-33",
+     "O guerreiro sofreu vinte pontos de dano por sucÃ§Ã£o contÃ­nua de sangue, caindo morto diante de seus companheiros."
+    ],
+    [
+     "sessao-33",
+     "Seus aliados mataram quase todo o enxame, recolheram seus itens mÃ¡gicos e esconderam seus equipamentos antes de fugir."
+    ]
+   ],
+   "sessoes": [
+    "sessao-33"
    ]
   }
  },
@@ -7588,8 +7787,8 @@
    "id": "p95",
    "texto": "Investigar o fundo da chaminÃ© nas ruÃ­nas prÃ³ximas Ã  pirÃ¢mide onde foram avistados ossos e forte cheiro de carniÃ§a.",
    "aberta_em": "sessao-31",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-33",
+   "como": "O grupo desobstruiu o duto da chaminÃ© e desceu por cordas atÃ© o fundo, revelando uma sala subterrÃ¢nea infestada por stirges e restos orgÃ¢nicos."
   },
   {
    "id": "p96",
@@ -7646,10 +7845,31 @@
    "aberta_em": "sessao-32",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p104",
+   "texto": "Recuperar a armadura de talas de Markhor e as mochilas do grupo escondidas nos entulhos da edificaÃ§Ã£o da chaminÃ©.",
+   "aberta_em": "sessao-33",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p105",
+   "texto": "Explorar a cÃ¢mara subterrÃ¢nea sob a chaminÃ©, verificando as portas trancadas e a pilha vermelha e viscosa situada no centro da sala.",
+   "aberta_em": "sessao-33",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p106",
+   "texto": "Investigar o corredor subterrÃ¢neo para onde a Ãºltima stirge ferida fugiu apÃ³s o combate.",
+   "aberta_em": "sessao-33",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-32",
-  "texto": "O grupo encontra-se reunido na Pousada do Sinal da CabeÃ§a Quebrada apÃ³s uma arriscada incursÃ£o Ã  oficina de esculturas em Arden Vul. Markhor recupera-se de uma perfuraÃ§Ã£o profunda na coxa provocada pela estÃ¡tua guardiÃ£, de quem arrancaram uma poderosa lanÃ§a de metal negro. Momonga assegurou a vigilÃ¢ncia de sua carroÃ§a e possui uma promissÃ³ria de 300 ciclos de prata pela estÃ¡tua de goblin, alÃ©m de um misterioso pÃ³ aromÃ¡tico verde. O paradeiro da perna colossal de mÃ¡rmore que sumiu da oficina permanece um mistÃ©rio. Resta ao trio identificar as propriedades da nova lanÃ§a, explorar a sala desarmada e decidir quando viajar a Newmarket."
+  "apos": "sessao-33",
+  "texto": "Os aventureiros Nia, Miragem e Salazarr retornaram feridos e exaustos Ã  Pousada do Sinal da CabeÃ§a Quebrada apÃ³s uma trÃ¡gica expediÃ§Ã£o Ã  edificaÃ§Ã£o da chaminÃ©. O guerreiro caprino Markhor pereceu apÃ³s ser completamente drenado por um enxame de stirges na cÃ¢mara subterrÃ¢nea recÃ©m-descoberta. Seus companheiros conseguiram recuperar a lanÃ§a de metal negro e o amuleto de Ankh de seu corpo, mas tiveram que ocultar as mochilas e a armadura de talas entre os entulhos para conseguirem fugir com vida. Restam em aberto a recuperaÃ§Ã£o dos equipamentos abandonados na ruÃ­na e a exploraÃ§Ã£o da misteriosa cÃ¢mara subterrÃ¢nea e suas portas."
  }
 }
