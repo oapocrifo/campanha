@@ -222,6 +222,24 @@
     "locais/antiga-floresta",
     "itens/planta-fernie"
    ]
+  },
+  "sessao-09": {
+   "titulo": "A Marca da VinganÃ§a",
+   "resumo": "No dia 30 do terceiro mÃªs de 2993, Deyos tentou negociar a devoluÃ§Ã£o da corda comprada para a expediÃ§Ã£o e acabou reencontrando os mercenÃ¡rios conhecidos como Os Vizinhos Ruins na praÃ§a de Gosterwick. ApÃ³s uma sÃ©rie de desentendimentos e perseguiÃ§Ãµes pela cidade, o grupo decidiu emboscar os perseguidores em um beco estreito. O combate desfavorÃ¡vel terminou com a derrota dos aventureiros, que foram desacordados por magia, totalmente roubados e marcados com as iniciais VR no rosto de Deyos. Recuperando-se na Estalagem Capa Amarela com a ajuda de poÃ§Ãµes e descanso, o grupo voltou a planejar uma forma de conseguir dinheiro, cogitando inclusive invadir casas na Ã¡rea mais pobre da cidade antes de desistir e reaver parte do valor das cordas com o comerciante Damasco.\n\nSem recursos e precisando de suprimentos, Deyos, Hugios e Abicon decidiram arriscar uma nova incursÃ£o nos ermos. Comprando equipamentos bÃ¡sicos com o pouco dinheiro restante, seguiram em direÃ§Ã£o ao rio e ao paredÃ£o de Arden Vul. No caminho, coletaram Ã¡gua e testaram a correnteza de um misterioso lago rochoso alimentado pela cachoeira, descobrindo que ele drena diretamente para o rio principal por passagens subterrÃ¢neas.\n\nCom a noite avanÃ§ada e enfrentando privaÃ§Ãµes fÃ­sicas, os aventureiros optaram por explorar as catacumbas na colina A Pata. Descendo pela espiral de pedra, investigaram corredores repletos de caixÃµes de madeira vermelha destruÃ­dos e uma sala com pilares de crÃ¢nios humanos. ApÃ³s constatarem que o local estava vazio de tesouros e sob ameaÃ§a de tremores subterrÃ¢neos, o grupo retornou exausto e na penumbra para a seguranÃ§a de Gosterwick.",
+   "linha_do_tempo": [
+    "Deyos encontra Os Vizinhos Ruins na praÃ§a de Gosterwick e se desentende com eles.",
+    "O grupo tenta armar uma emboscada em um beco, mas Ã© derrotado, roubado e marcado com as iniciais VR por magia.",
+    "ApÃ³s recuperarem os sentidos e a saÃºde na Estalagem Capa Amarela, o grupo decide revender as cordas para Damasco.",
+    "Com suprimentos bÃ¡sicos, o trio viaja para os ermos e investiga um lago rochoso misterioso na base da cachoeira de Arden Vul.",
+    "O grupo explora as catacumbas e a sala de crÃ¢nios na colina A Pata, encontrando apenas destroÃ§os e tÃºmulos vazios.",
+    "Retornando Ã  base de Gosterwick pela calada da noite, os aventureiros buscam refÃºgio na Estalagem Capa Amarela."
+   ],
+   "entidades": [
+    "personagens/deyos",
+    "personagens/hugios",
+    "personagens/abicon",
+    "faccoes/os-vizinhos-ruins"
+   ]
   }
  },
  "entidades": {
@@ -229,12 +247,12 @@
    "tipo": "personagem",
    "nome": "Deyos",
    "apelidos": [],
-   "resumo": "Aventureiro da raÃ§a homem-lagarto conhecedor das ruÃ­nas de Arden Vul e guerreiro habilidoso do grupo. Financiou os equipamentos de Hugios em Gosterwick e comprou uma nova cota de malha na forja de Torunn. Liderou os confrontos fÃ­sicos na expediÃ§Ã£o ao Emaranhado e usou uma cauda de kobold para pacificar um leÃ£o gigante na estrada.",
+   "resumo": "Aventureiro homem-lagarto do grupo. Foi emboscado pelos Vizinhos Ruins em Gosterwick, tendo seus pertences roubados e o rosto marcado com as letras VR, mas sobreviveu e liderou a nova incursÃ£o aos ermos e catacumbas.",
    "atributos": {
-    "RaÃ§a": "Homem-Lagarto",
+    "RaÃ§a": "Homem-lagarto",
     "Jogador": "Guilherme",
     "Status": "Vivo",
-    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela, Gosterwick",
+    "LocalizaÃ§Ã£o": "Gosterwick",
     "Classe": "Guerreiro"
    },
    "fatos": [
@@ -261,23 +279,40 @@
     [
      "sessao-04",
      "Evitou o ataque de um leÃ£o gigante na estrada arremessando a cauda de um kobold para a fera."
+    ],
+    [
+     "sessao-09",
+     "Foi emboscado, derrotado e roubado pelos Vizinhos Ruins em um beco de Gosterwick."
+    ],
+    [
+     "sessao-09",
+     "Teve as iniciais VR cravadas a lÃ¢mina em seu rosto durante o cativeiro temporÃ¡rio."
+    ],
+    [
+     "sessao-09",
+     "Vendeu parte das cordas de volta a Damasco para recuperar um pouco de dinheiro."
+    ],
+    [
+     "sessao-09",
+     "Liderou a exploraÃ§Ã£o nas catacumbas da colina A Pata em busca de riquezas."
     ]
    ],
    "sessoes": [
     "sessao-01",
-    "sessao-04"
+    "sessao-04",
+    "sessao-09"
    ]
   },
   "personagens/hugios": {
    "tipo": "personagem",
    "nome": "Hugios",
    "apelidos": [],
-   "resumo": "Aventureiro da classe explorador que integrou a expediÃ§Ã£o a Arden Vul e explorou o cemitÃ©rio Thorcinga na colina A Pata. ApÃ³s participar do saque Ã  Casa dos Deuses, foi capturado e colocado sob a magia MissÃ£o pela sacerdotisa Jador, devendo relatar seus passos atÃ© recuperar o tesouro roubado. Teve seus suprimentos recarregados por Deyos e participou do combate contra os kobolds no Emaranhado.",
+   "resumo": "Aventureiro explorador do grupo. Participou da emboscada fracassada contra os Vizinhos Ruins, perdeu todos os seus equipamentos e acompanhou os companheiros nas investigaÃ§Ãµes em Arden Vul e na colina A Pata.",
    "atributos": {
     "Classe": "Explorador",
     "Jogador": "Sonard",
-    "Status": "Sob magia MissÃ£o",
-    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela, Gosterwick"
+    "Status": "Vivo",
+    "LocalizaÃ§Ã£o": "Gosterwick"
    },
    "fatos": [
     [
@@ -323,12 +358,21 @@
     [
      "sessao-04",
      "Participou da patrulha contra os kobolds e guardou a cabeÃ§a de uma das criaturas como prova para a prefeitura."
+    ],
+    [
+     "sessao-09",
+     "Perdeu todos os seus equipamentos e mochilas apÃ³s a derrota para os Vizinhos Ruins."
+    ],
+    [
+     "sessao-09",
+     "Acompanhou Deyos e Abicon na jornada de exploraÃ§Ã£o rumo Ã  cachoeira e Ã  colina A Pata."
     ]
    ],
    "sessoes": [
     "sessao-01",
     "sessao-02",
-    "sessao-04"
+    "sessao-04",
+    "sessao-09"
    ]
   },
   "personagens/pallas": {
@@ -1801,12 +1845,13 @@
    "tipo": "personagem",
    "nome": "Abicon",
    "apelidos": [],
-   "resumo": "Mago elfo recÃ©m-chegado a Gosterwick em busca de conhecimentos arcanos e trabalho. Ã irmÃ£o do falecido Zion e utiliza cartas herdadas para se orientar na cidade. Uniu-se a Eugeo e Durlan para buscar a planta Fernie para o Clube Arcano, enfrentando um leÃ£o e homens armados antes de se recolher Ã  estalagem.",
+   "resumo": "Mago elfo do grupo. Tentou distrair os perseguidores na praÃ§a, sofreu com a derrota e o roubo em Gosterwick, e enfrentou fortes privaÃ§Ãµes e exaustÃ£o durante a travessia atÃ© a colina A Pata.",
    "atributos": {
     "Jogador": "Massaki",
     "RaÃ§a": "Elfo",
     "Classe": "Mago",
-    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela"
+    "LocalizaÃ§Ã£o": "Gosterwick",
+    "Status": "Vivo"
    },
    "fatos": [
     [
@@ -1828,10 +1873,19 @@
     [
      "sessao-08",
      "Acampou sem Ã¡gua e acumulou um ponto de exaustÃ£o durante a travessia noturna."
+    ],
+    [
+     "sessao-09",
+     "Teve seus pertences roubados pelos Vizinhos Ruins apÃ³s a emboscada no beco."
+    ],
+    [
+     "sessao-09",
+     "Sofreu com a exaustÃ£o e problemas estomacais ao beber Ã¡gua nÃ£o fervida nos ermos."
     ]
    ],
    "sessoes": [
-    "sessao-08"
+    "sessao-08",
+    "sessao-09"
    ]
   },
   "personagens/eugeo": {
@@ -1918,6 +1972,30 @@
    ],
    "sessoes": [
     "sessao-08"
+   ]
+  },
+  "faccoes/os-vizinhos-ruins": {
+   "tipo": "faccao",
+   "nome": "Os Vizinhos Ruins",
+   "apelidos": [],
+   "resumo": "Grupo hostil de mercenÃ¡rios e arconteanos em Gosterwick, composto por cerca de treze pessoas armadas e usuÃ¡rias de magia. Perseguiram e emboscaram os aventureiros, roubando todos os seus bens e marcando Deyos com as letras VR.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-09",
+     "Perseguiram Deyos e Hugios pelas ruas de Gosterwick."
+    ],
+    [
+     "sessao-09",
+     "Emboscaram o grupo em um beco, usando magias de sono e comando para derrotÃ¡-los sem matar."
+    ],
+    [
+     "sessao-09",
+     "Roubaram todos os pertences, armas e armaduras dos aventureiros e marcaram Deyos no rosto com as iniciais VR."
+    ]
+   ],
+   "sessoes": [
+    "sessao-09"
    ]
   }
  },
@@ -2082,10 +2160,31 @@
    "aberta_em": "sessao-08",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p24",
+   "texto": "Investigar a identidade e os objetivos do grupo conhecido como Os Vizinhos Ruins em Gosterwick.",
+   "aberta_em": "sessao-09",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p25",
+   "texto": "Recuperar os equipamentos e moedas roubados pelos Vizinhos Ruins.",
+   "aberta_em": "sessao-09",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p26",
+   "texto": "Investigar o misterioso lago rochoso com redemoinho e passagens subterrÃ¢neas na base da cachoeira de Arden Vul.",
+   "aberta_em": "sessao-09",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-08",
-  "texto": "O grupo de aventureiros encontra-se atualmente abrigado nos quartos da Estalagem Capa Amarela em Gosterwick apÃ³s um retorno tumultuado dos ermos. Durlan, Abicon e Eugeo acabaram de sobreviver a uma noite perigosa na estrada de Deep Town, onde foram feridos por um leÃ£o e quase interceptados por seis patrulheiros armados. Durlan segue sob o encanto da mulher-planta infiltrada no saguÃ£o, devendo entregar mais felinos para honrar seu pacto. Ao mesmo tempo, Abicon e Eugeo mantÃªm como objetivo alcanÃ§ar a Antiga Floresta para recolher as mudas de Fernie e obter acesso aos segredos do Clube dos Praticantes Arcanos."
+  "apos": "sessao-09",
+  "texto": "Deyos, Hugios e Abicon sofreram uma emboscada violenta em Gosterwick nas mÃ£os dos Vizinhos Ruins, perdendo todos os seus pertences, armas e dinheiro, alÃ©m de Deyos ficar marcado com as letras VR no rosto. ApÃ³s venderem as cordas de volta a Damasco por metade do preÃ§o e adquirirem novos equipamentos bÃ¡sicos, o grupo viajou para os ermos na base de Arden Vul. LÃ¡, investigaram um lago rochoso misterioso perto da cachoeira e exploraram novamente as catacumbas assombradas da colina A Pata. Sem encontrar tesouros e lidando com a exaustÃ£o e a fome, os aventureiros retornaram exaustos para a Estalagem Capa Amarela em Gosterwick."
  }
 }
