@@ -713,6 +713,40 @@
     "npcs/deino",
     "criaturas/minhoca-armadurada"
    ]
+  },
+  "sessao-28": {
+   "titulo": "O Monte Errante e os NecrÃ³fagos de Arden Vul",
+   "resumo": "No segundo dia do oitavo mÃªs, o aventureiro Albion desembarcou em Gosterwick acompanhado de seu cÃ£o treinado e uniu-se a Amir e Momonga para uma expediÃ§Ã£o rumo a Arden Vul. ApÃ³s suprirem seus fardos com raÃ§Ãµes de Vera, roupas de inverno e ferramentas, o trio marchou pela estrada imperial e escalou as desgastadas escadarias talhadas na escarpa. Ao alcanÃ§arem as ruÃ­nas no crepÃºsculo, desviaram do caminho habitual e atravessaram uma ponte atÃ© um pÃ¡tio ovalado, onde encontraram uma imponente mansÃ£o abobadada com janelas barricadas e entrada protegida por uma boca mÃ¡gica alarmista.\n\nInfiltrando-se no segundo andar da mansÃ£o apÃ³s atearem fogo controlado a uma das barricadas, os aventureiros vasculharam aposentos tomados por vinhas rastejantes. Enquanto Albion encontrava ramos de orquÃ­deas vermelhas, uma chave oxidada e trÃªs pesadas moedas de ouro antigo em um quarto preservado, o cÃ£o deixado do lado de fora foi encurralado por trÃªs ghouls necrÃ³fagos, forÃ§ando um rÃ¡pido resgate pela corda da janela. Paralelamente, Amir explorou a escada interna e jogou uma pesada porta de madeira sobre uma massa de vegetaÃ§Ã£o podre; o monte vegetal desviou com agilidade assombrosa e ergueu-se na forma humanoide de um aterrorizante Monte Errante, forÃ§ando a fuga imediata de todos pela janela.\n\nAo baterem em retirada atravÃ©s do pÃ¡tio ovalado, os exploradores foram novamente emboscados pelos trÃªs ghouls necrÃ³fagos. Momonga invocou o poder de Demma para enraizar um dos monstros e desferiu o golpe de misericÃ³rdia, enquanto Amir resistiu Ã  peÃ§onha paralisante das garras e rechaÃ§ou outro ghoul ao afundar uma tocha em sua bocarra, afugentando os sobreviventes para os escombros. O grupo retornou em seguranÃ§a pela madrugada atÃ© a Estalagem Capa Amarela em Gosterwick, onde Albion passou a buscar acessos ao Mercado Superior e Momonga recolheu-se no Templo de Demma para consultar a sacerdotisa Vivian acerca das fraquezas e imunidades do monstro vegetal.",
+   "linha_do_tempo": [
+    "No dia 2 do oitavo mÃªs, Albion chega a Gosterwick e alia-se a Amir e Momonga para uma expediÃ§Ã£o a Arden Vul.",
+    "O grupo adquire suprimentos e equipamentos de inverno na praÃ§a central antes de marchar pelas estradas e pontes em direÃ§Ã£o Ã  escarpa.",
+    "Os aventureiros escalam as grandes escadarias de Arden Vul durante a tarde, alcanÃ§ando as ruÃ­nas ao anoitecer.",
+    "Momonga reabastece cantis no rio e o grupo avista uma mansÃ£o abobadada com janelas barricadas alÃ©m de uma ponte em um pÃ¡tio ovalado.",
+    "Albion inicia um fogo controlado em uma das janelas barricadas e a equipe escala uma corda para invadir o segundo piso da mansÃ£o.",
+    "O grupo explora os aposentos tomados por vinhas, colhendo ramos de orquÃ­deas vermelhas e encontrando trÃªs moedas antigas de ouro e uma chave oxidada em uma escrivaninha.",
+    "O cÃ£o de Albion Ã© acuado por trÃªs ghouls na ponte exterior e o grupo desce uma corda para resgatÃ¡-lo, repelindo os monstros com pedras e mÃ³veis quebrados arremessados da janela.",
+    "Albion testa a chave oxidada na fechadura principal da entrada, despertando uma boca mÃ¡gica que emite um alarme berrante em lÃ­ngua desconhecida.",
+    "Amir desce a escada interna e arremessa uma porta contra uma massa de vegetaÃ§Ã£o podre, que desvia e ergue-se na silhueta humanoide de um Monte Errante.",
+    "Os aventureiros fogem Ã s pressas pela janela e sÃ£o emboscados no pÃ¡tio ovalado pelos trÃªs ghouls necrÃ³fagos.",
+    "Momonga utiliza a prece Debulhar da Colheita para enraizar um ghoul em vinhas e eliminÃ¡-lo, enquanto Amir resiste Ã  paralisia e enfia uma tocha na boca de outro monstro antes que os sobreviventes fujam.",
+    "A expediÃ§Ã£o faz a descida noturna de Arden Vul e marcha sem novos encontros atÃ© Gosterwick, abrigando-se na Estalagem Capa Amarela.",
+    "Na manhÃ£ seguinte, Albion busca orientaÃ§Ãµes para acessar o Mercado Superior na colina, enquanto Momonga vai ao Templo de Demma e obtÃ©m com a sacerdotisa Vivian informaÃ§Ãµes vitais sobre o Monte Errante."
+   ],
+   "entidades": [
+    "personagens/albion",
+    "personagens/amir",
+    "personagens/momonga",
+    "npcs/vivian",
+    "criaturas/ghoul",
+    "criaturas/monte-errante",
+    "locais/mansao-em-ruanas-do-patio-ovalado",
+    "itens/orquadea-vermelha-de-arden-vul",
+    "itens/chave-oxidada-da-mansao",
+    "itens/moedas-antigas-de-ouro-da-mansao",
+    "locais/gosterwick",
+    "locais/arden-vul",
+    "locais/templo-de-demma"
+   ]
   }
  },
  "entidades": {
@@ -959,7 +993,7 @@
    "tipo": "local",
    "nome": "Gosterwick",
    "apelidos": [],
-   "resumo": "Cidade comercial prÃ³xima Ã s ruÃ­nas de Arden Vul que serve como base para aventureiros. Possui estabelecimentos variados no Distrito do Mercado, o Clube dos Praticantes Arcanos, forjas e estalagens como a Capa Amarela e a PoÃ§a de Lama.",
+   "resumo": "Cidade comercial fortificada situada aos pÃ©s do vale prÃ³xima Ã s ruÃ­nas de Arden Vul que funciona como base de aventureiros. O assentamento conta com feiras na praÃ§a central, templos religiosos na colina e o Mercado Superior murado prÃ³ximo Ã  Fortaleza AzÃºria. Abriga diversas hospedarias tradicionais, incluindo a Capa Amarela e a PoÃ§a de Lama.",
    "atributos": {
     "Tipo": "Cidade Comercial"
    },
@@ -991,6 +1025,18 @@
     [
      "sessao-20",
      "A cidade conta com a famosa forja da ferreira Torunn e estabelecimentos que compram tomos histÃ³ricos em Mithric."
+    ],
+    [
+     "sessao-28",
+     "Acolheu a chegada do aventureiro Albion no segundo dia do oitavo mÃªs."
+    ],
+    [
+     "sessao-28",
+     "O grupo retornou na madrugada Ã  Estalagem Capa Amarela apÃ³s a incursÃ£o a Arden Vul, pagando dois ciclos de prata por abrigo."
+    ],
+    [
+     "sessao-28",
+     "Moradores indicaram a Albion que o acesso ao Mercado Superior se dÃ¡ atravÃ©s de escadarias de madeira a sudeste do pÃ¡tio comercial."
     ]
    ],
    "sessoes": [
@@ -999,14 +1045,15 @@
     "sessao-04",
     "sessao-11",
     "sessao-16",
-    "sessao-20"
+    "sessao-20",
+    "sessao-28"
    ]
   },
   "locais/arden-vul": {
    "tipo": "local",
    "nome": "Arden Vul",
    "apelidos": [],
-   "resumo": "Antiga cidade em ruÃ­nas localizada no topo de um imenso paredÃ£o rochoso. Possui uma escadaria de zigue-zague com apoios de ferro, abrigos de pedra e um pÃ¡tio central com carvalhos. Sob o pÃ¡tio, hÃ¡ uma escadaria subterrÃ¢nea em espiral que leva a salas antigas com portas mÃ¡gicas e estÃ¡tuas de metal.",
+   "resumo": "Antiga cidade monumental em ruÃ­nas situada no cume de um paredÃ£o rochoso colossal acessÃ­vel por uma escadaria de pedra em zigue-zague. Em seu platÃ´ superior encontram-se obeliscos, a imensa PirÃ¢mide de Thoth, torres caÃ­das e pÃ¡tios secundÃ¡rios. Entre as edificaÃ§Ãµes destaca-se uma mansÃ£o abobadada erguida em um pÃ¡tio ovalado, guardada por bocas mÃ¡gicas e habitada por ghouls e monstros vegetais.",
    "atributos": {
     "Tipo": "RuÃ­nas",
     "Status": "RuÃ­nas Antigas"
@@ -1059,6 +1106,18 @@
     [
      "sessao-20",
      "Uma escadaria em espiral sob o pÃ¡tio central conduz a complexos subterrÃ¢neos contendo livros antigos, louÃ§as de prata e uma porta dupla mÃ­stica de cristal roxo com sÃ­mbolos de Thoth."
+    ],
+    [
+     "sessao-28",
+     "O grupo escalou a grande escadaria sob clima gÃ©lido e alcanÃ§ou o platÃ´ superior ao cair da noite."
+    ],
+    [
+     "sessao-28",
+     "Os aventureiros exploraram um pÃ¡tio ovalado alÃ©m do pÃ¡tio principal, encontrando pontes de pedra, um pedestal de estÃ¡tua quebrada e uma mansÃ£o com cÃºpulas."
+    ],
+    [
+     "sessao-28",
+     "O pÃ¡tio e a mansÃ£o abrigavam predadores necrÃ³fagos (ghouls) e um Monte Errante que perseguiu a equipe durante a expediÃ§Ã£o."
     ]
    ],
    "sessoes": [
@@ -1067,7 +1126,8 @@
     "sessao-15",
     "sessao-16",
     "sessao-18",
-    "sessao-20"
+    "sessao-20",
+    "sessao-28"
    ]
   },
   "locais/estalagem-capa-amarela": {
@@ -4692,12 +4752,13 @@
    "tipo": "personagem",
    "nome": "Momonga",
    "apelidos": [],
-   "resumo": "Aventureiro clÃ©rigo devoto de Demma recÃ©m-chegado ao grupo. Adquiriu mudas de trevo no templo de sua deusa e aceitou abrigar a presenÃ§a espiritual do fantasma Irthol em sua mente para ajudÃ¡-lo a encontrar os restos de sua esposa.",
+   "resumo": "Aventureiro clÃ©rigo devoto de Demma que abriga a presenÃ§a espiritual do fantasma Irthol em sua mente. Participou da incursÃ£o Ã  mansÃ£o do pÃ¡tio ovalado em Arden Vul, auxiliando no resgate do cÃ£o de caÃ§a e colhendo orquÃ­deas vermelhas. Utilizou sua prece divina Debulhar da Colheita para imobilizar e abater um ghoul durante a emboscada noturna. Consultou a alta sacerdotisa Vivian em Gosterwick para identificar as caracterÃ­sticas do Monte Errante e iniciou uma estadia de sete dias no Templo de Demma.",
    "atributos": {
     "Classe": "ClÃ©rigo",
     "Jogador": "Silva",
     "AfiliaÃ§Ã£o": "Templo de Demma",
-    "Status": "Vivo"
+    "Status": "Vivo",
+    "LocalizaÃ§Ã£o": "Templo de Demma, Gosterwick"
    },
    "fatos": [
     [
@@ -4715,11 +4776,36 @@
     [
      "sessao-24",
      "Apoiou o combate contra os cultistas encapuzados arremessando Ã³leo e atacando com clava."
+    ],
+    [
+     "sessao-28",
+     "Reabasteceu cantis de Ã¡gua no rio de Arden Vul e guiou os companheiros atÃ© a mansÃ£o abobadada no pÃ¡tio ovalado."
+    ],
+    [
+     "sessao-28",
+     "Colheu um ramo de orquÃ­dea vermelha no segundo piso da mansÃ£o e auxiliou no resgate do cÃ£o de Albion."
+    ],
+    [
+     "sessao-28",
+     "LanÃ§ou sua tocha contra o Monte Errante antes de saltar pela janela para escapar da mansÃ£o."
+    ],
+    [
+     "sessao-28",
+     "Canalizou a habilidade Debulhar da Colheita de Demma para enraizar um ghoul necrÃ³fago com vinhas divinas, desferindo em seguida o golpe letal no morto-vivo."
+    ],
+    [
+     "sessao-28",
+     "Consultou a alta sacerdotisa Vivian no Templo de Demma em Gosterwick, obtendo revelaÃ§Ãµes cruciais sobre as imunidades e tÃ¡ticas do Monte Errante."
+    ],
+    [
+     "sessao-28",
+     "Decidiu hospedar-se por sete dias no Templo de Demma para dedicar-se a estudos religiosos e botÃ¢nicos."
     ]
    ],
    "sessoes": [
     "sessao-22",
-    "sessao-24"
+    "sessao-24",
+    "sessao-28"
    ]
   },
   "personagens/selene": {
@@ -4968,11 +5054,13 @@
    "tipo": "personagem",
    "nome": "Amir",
    "apelidos": [],
-   "resumo": "Aventureiro recÃ©m-chegado a Gosterwick via carroÃ§a, equipado de forma leve com faca, mochila e funda. Uniu-se a Galmyr e Momonga em exploraÃ§Ãµes pelo paredÃ£o de Arden Vul e pela Colina da Pata de Gato.",
+   "resumo": "Aventureiro expedicionÃ¡rio equipado de forma leve que atua na regiÃ£o de Gosterwick e Arden Vul. Participou da exploraÃ§Ã£o da mansÃ£o em ruÃ­nas no pÃ¡tio ovalado, onde identificou vinhas em movimento atravÃ©s de um buraco no piso e despertou um temÃ­vel Monte Errante ao arremessar uma porta na escadaria. Foi atingido por um ghoul durante o confronto exterior, resistindo Ã  paralisia e repelindo o monstro com fogo antes de regressar em seguranÃ§a Ã  cidade.",
    "atributos": {
     "Jogador": "Guilherme",
     "Classe": "Ladino",
-    "Status": "Vivo"
+    "Status": "Vivo",
+    "RaÃ§a": "Humano",
+    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela, Gosterwick"
    },
    "fatos": [
     [
@@ -4986,10 +5074,35 @@
     [
      "sessao-24",
      "Participou do combate contra os cultistas encapuzados no acampamento da Colina da Pata de Gato utilizando sua funda."
+    ],
+    [
+     "sessao-28",
+     "Adquiriu traje de inverno, tochas, raÃ§Ãµes de sopa e equipamentos de acampamento em Gosterwick antes da subida a Arden Vul."
+    ],
+    [
+     "sessao-28",
+     "Vasculhou o segundo andar da mansÃ£o e avistou vinhas em movimento atravÃ©s de um buraco que dava para o corredor inferior."
+    ],
+    [
+     "sessao-28",
+     "Arremessou uma porta de madeira sobre um amontoado vegetal podre na escadaria, provocando o despertar de um Monte Errante humanoide."
+    ],
+    [
+     "sessao-28",
+     "Fugiu pela corda da janela e foi ferido por um golpe de garra de um ghoul no pÃ¡tio exterior."
+    ],
+    [
+     "sessao-28",
+     "Resistiu com sucesso aos efeitos paralisantes da garra do morto-vivo e enfiou a ponta de sua tocha acesa na boca da criatura."
+    ],
+    [
+     "sessao-28",
+     "Retornou a Gosterwick e recolheu-se para descansar na Estalagem Capa Amarela."
     ]
    ],
    "sessoes": [
-    "sessao-24"
+    "sessao-24",
+    "sessao-28"
    ]
   },
   "npcs/irthol": {
@@ -5051,7 +5164,7 @@
    "apelidos": [
     "Templo de Dema"
    ],
-   "resumo": "Estrutura religiosa situada na Colina dos Deuses em Gosterwick com formato semelhante a um grande celeiro ornamentado. Possui um pÃ¡tio circular central aberto ao cÃ©u contendo diversos cultivos agrÃ­colas e vegetais onde cai chuva mÃ¡gica localizada.",
+   "resumo": "Estrutura religiosa consagrada Ã  deusa Demma localizada na Colina dos Deuses em Gosterwick, apresentando traÃ§os rurais e pÃ¡tio com plantios sob chuva localizada. Ã administrado pela alta sacerdotisa Vivian e serve como refÃºgio espiritual e centro de estudos agrÃ­colas e botÃ¢nicos. Abrigou Momonga para oraÃ§Ãµes e acolheu o plantio de orquÃ­deas raras trazidas de Arden Vul.",
    "atributos": {
     "LocalizaÃ§Ã£o": "Colina dos Deuses, Gosterwick"
    },
@@ -5067,10 +5180,23 @@
     [
      "sessao-24",
      "Apresenta um canteiro central aberto onde ocorre chuva mÃ¡gica restrita ao pÃ¡tio interno."
+    ],
+    [
+     "sessao-28",
+     "Recebeu Momonga na manhÃ£ seguinte Ã  exploraÃ§Ã£o para o cultivo de mudas de orquÃ­dea vermelha colhidas na mansÃ£o de Arden Vul."
+    ],
+    [
+     "sessao-28",
+     "A alta sacerdotisa Vivian prestou consultoria no local identificando a natureza e as tÃ¡ticas do Monte Errante."
+    ],
+    [
+     "sessao-28",
+     "Disponibilizou alojamento temporÃ¡rio para que Momonga permaneÃ§a em retiro de sete dias estudando conhecimentos herbais e botÃ¢nicos."
     ]
    ],
    "sessoes": [
-    "sessao-24"
+    "sessao-24",
+    "sessao-28"
    ]
   },
   "locais/torre-em-ruanas-do-paredao": {
@@ -5522,6 +5648,277 @@
    ],
    "sessoes": [
     "sessao-27"
+   ]
+  },
+  "personagens/albion": {
+   "tipo": "personagem",
+   "nome": "Albion",
+   "apelidos": [],
+   "resumo": "Aventureiro recÃ©m-chegado a Gosterwick acompanhado por um cÃ£o de caÃ§a treinado. Participou da incursÃ£o Ã  mansÃ£o em ruÃ­nas do pÃ¡tio ovalado em Arden Vul ao lado de Amir e Momonga. Resgatou trÃªs moedas pesadas de ouro antigo, uma chave oxidada e orquÃ­deas vermelhas nos aposentos superiores do palÃ¡cio. Enfrentou ghouls necrÃ³fagos com azagaias e sua massa de espinhos antes de buscar negociar seus espÃ³lios no Mercado Superior.",
+   "atributos": {
+    "Jogador": "Massaki",
+    "OcupaÃ§Ã£o": "Aventureiro",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-28",
+     "Chegou a Gosterwick no dia 2 do oitavo mÃªs trazendo consigo um cÃ£o de caÃ§a treinado."
+    ],
+    [
+     "sessao-28",
+     "Subiu as escadarias de Arden Vul com Amir e Momonga para explorar as ruÃ­nas ao entardecer."
+    ],
+    [
+     "sessao-28",
+     "Ateou fogo controlado a uma janela barricada para viabilizar a entrada do grupo no segundo andar de uma mansÃ£o em ruÃ­nas."
+    ],
+    [
+     "sessao-28",
+     "Encontrou trÃªs moedas pesadas de ouro antigo em um armÃ¡rio e uma chave oxidada sobre uma escrivaninha."
+    ],
+    [
+     "sessao-28",
+     "Testou a chave na fechadura da entrada principal, ativando uma boca mÃ¡gica que gritou um alarme incompreensÃ­vel."
+    ],
+    [
+     "sessao-28",
+     "Combateu ghouls com azagaias e massa de espinhos, comandando seu cÃ£o de caÃ§a para atacar os mortos-vivos."
+    ],
+    [
+     "sessao-28",
+     "Retornou ileso a Gosterwick e buscou direÃ§Ãµes para alcanÃ§ar o Mercado Superior situado na colina da cidade."
+    ]
+   ],
+   "sessoes": [
+    "sessao-28"
+   ]
+  },
+  "npcs/vivian": {
+   "tipo": "npc",
+   "nome": "Vivian",
+   "apelidos": [],
+   "resumo": "Alta sacerdotisa e autoridade principal no comando do Templo de Demma em Gosterwick. Atendeu ao clÃ©rigo Momonga apÃ³s a incursÃ£o a Arden Vul, identificando com precisÃ£o a criatura vegetal encontrada como um Monte Errante. Detalhou ao clÃ©rigo os perigos da criatura, ressaltando sua imunidade absoluta a chamas, absorÃ§Ã£o de eletricidade e tÃ¡ticas de asfixia.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Alta Sacerdotisa",
+    "AfiliaÃ§Ã£o": "Templo de Demma",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-28",
+     "Atua como lÃ­der e sacerdotisa chefe do Templo de Demma na colina religiosa de Gosterwick."
+    ],
+    [
+     "sessao-28",
+     "Identificou a monstruosidade que perseguiu o grupo em Arden Vul como sendo um Monte Errante (Shambling Mound)."
+    ],
+    [
+     "sessao-28",
+     "Informou a Momonga que a criatura Ã© imune ao fogo, alimentada por eletricidade, resistente ao frio e sufoca suas presas ao envolvÃª-las."
+    ],
+    [
+     "sessao-28",
+     "Esclareceu que a real origem da criatura vegetal, seja demonÃ­aca, arcana ou espontÃ¢nea, permanece desconhecida pelo templo."
+    ]
+   ],
+   "sessoes": [
+    "sessao-28"
+   ]
+  },
+  "criaturas/ghoul": {
+   "tipo": "criatura",
+   "nome": "Ghoul",
+   "apelidos": [
+    "CarniÃ§al",
+    "Morto-vivo"
+   ],
+   "resumo": "Monstros mortos-vivos necrÃ³fagos de comportamento feroz que perambulam pelas ruÃ­nas e escombros de Arden Vul. Movem-se com extrema rapidez apoiando mÃ£os e pÃ©s no chÃ£o como feras quadrÃºpedes e buscam dilacerar alvos vivos com presas e garras. Seus toques transmitem uma secreÃ§Ã£o tÃ³xica capaz de causar paralisia fÃ­sica instantÃ¢nea em quem for arranhado.",
+   "atributos": {
+    "Tipo": "Morto-vivo"
+   },
+   "fatos": [
+    [
+     "sessao-28",
+     "Um trio de ghouls espreitava nos escombros ao redor da ponte e do pÃ¡tio ovalado em Arden Vul."
+    ],
+    [
+     "sessao-28",
+     "Acuaram o cÃ£o de Albion na ponte e tentaram abocanhÃ¡-lo antes de o animal ser iÃ§ado para o segundo andar da mansÃ£o."
+    ],
+    [
+     "sessao-28",
+     "Foram bombardeados com pedras, restos de escrivaninha e uma adaga arremessados do alto da janela da mansÃ£o."
+    ],
+    [
+     "sessao-28",
+     "Emboscam o grupo no pÃ¡tio exterior durante a noite, com um deles ferindo Amir com um golpe de garra paralisante."
+    ],
+    [
+     "sessao-28",
+     "Um deles foi imobilizado por raÃ­zes mÃ¡gicas de Demma e destruÃ­do por Momonga, enquanto os dois sobreviventes fugiram feridos, com um deles levando a tocha de Amir na boca."
+    ]
+   ],
+   "sessoes": [
+    "sessao-28"
+   ]
+  },
+  "criaturas/monte-errante": {
+   "tipo": "criatura",
+   "nome": "Monte Errante",
+   "apelidos": [
+    "Chumbling Mound",
+    "Monte Rastejante",
+    "Shambling Mound"
+   ],
+   "resumo": "Monstruosidade vegetal predatÃ³ria e disforme composta por raÃ­zes, lodo, folhas podres e vinhas encharcadas que habita a mansÃ£o do pÃ¡tio ovalado em Arden Vul. Pode assumir silhuetas bÃ­pedes sem feiÃ§Ãµes faciais para perseguir vÃ­timas e envolvÃª-las atÃ© a sufocaÃ§Ã£o completa. Ã completamente imune ao fogo ordinÃ¡rio, energiza-se com eletricidade e possui alta tolerÃ¢ncia ao frio.",
+   "atributos": {
+    "Tipo": "Monstro Vegetal"
+   },
+   "fatos": [
+    [
+     "sessao-28",
+     "Habita a escadaria interna e os corredores inferiores da mansÃ£o em ruÃ­nas no pÃ¡tio ovalado de Arden Vul."
+    ],
+    [
+     "sessao-28",
+     "Apresentava-se inicialmente como um amontoado rastejante de vegetaÃ§Ã£o podre que exalava forte odor de decomposiÃ§Ã£o vegetal."
+    ],
+    [
+     "sessao-28",
+     "Capturou e absorveu instantaneamente no ar um pedaÃ§o de carne seca arremessado por Amir."
+    ],
+    [
+     "sessao-28",
+     "Demonstrou imunidade total a tochas acesas e apagou o fogo desferindo batidas contra o chÃ£o."
+    ],
+    [
+     "sessao-28",
+     "Ergueu-se em formato humanoide sem rosto e avanÃ§ou apoiando as mÃ£os na parede apÃ³s desviar de uma porta jogada escada abaixo."
+    ],
+    [
+     "sessao-28",
+     "A alta sacerdotisa Vivian revelou que o monstro engana vÃ­timas fingindo lentidÃ£o, sufoca alvos vivos e Ã© energizado por raios e relÃ¢mpagos."
+    ]
+   ],
+   "sessoes": [
+    "sessao-28"
+   ]
+  },
+  "locais/mansao-em-ruanas-do-patio-ovalado": {
+   "tipo": "local",
+   "nome": "MansÃ£o em RuÃ­nas do PÃ¡tio Ovalado",
+   "apelidos": [
+    "PalÃ¡cio em RuÃ­nas"
+   ],
+   "resumo": "Grandiosa edificaÃ§Ã£o palaciana em alvenaria dotada de uma cÃºpula central e duas cÃºpulas laterais, situada alÃ©m de uma ponte em um pÃ¡tio ovalado de Arden Vul. Suas janelas exteriores encontram-se bloqueadas por fortes tÃ¡buas de madeira e sua entrada principal Ã© guardada por uma boca mÃ¡gica que emite um alarme estridente. O interior exibe cÃ´modos tomados por vinhas rastejantes e orquÃ­deas, servindo de covil a um terrÃ­vel Monte Errante.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-28",
+     "Localiza-se apÃ³s uma ponte de pedra que parte do caminho prÃ³ximo ao pedestal de estÃ¡tua sem pÃ©s em Arden Vul."
+    ],
+    [
+     "sessao-28",
+     "Possui formato de pequeno palÃ¡cio com trÃªs cÃºpulas e janelas tÃ©rreas barricadas com madeiramento pesado."
+    ],
+    [
+     "sessao-28",
+     "Sua porta principal de madeira escura preservada conta com uma fechadura que, ao ser manipulada, projeta uma boca mÃ¡gica berrante."
+    ],
+    [
+     "sessao-28",
+     "O segundo pavimento conta com um quarto conservado contendo armÃ¡rio, cama, gavetas, orquÃ­deas vermelhas e um buraco no chÃ£o com vista para o piso inferior."
+    ],
+    [
+     "sessao-28",
+     "A escadaria interna de madeira estava bloqueada por um Monte Errante que impedia a descida aos salÃµes inferiores."
+    ]
+   ],
+   "sessoes": [
+    "sessao-28"
+   ]
+  },
+  "itens/orquadea-vermelha-de-arden-vul": {
+   "tipo": "item",
+   "nome": "OrquÃ­dea Vermelha de Arden Vul",
+   "apelidos": [
+    "OrquÃ­dea Vermelha"
+   ],
+   "resumo": "Flor ornamental de pÃ©talas avermelhadas que viceja sobre vinhas envelhecidas no interior Ãºmido da mansÃ£o abobadada de Arden Vul. Cada ramo recolhido possui cerca de cem gramas e apresenta botÃµes vÃ­vidos apesar do abandono das ruÃ­nas. Um exemplar foi levado a Gosterwick por Momonga para fins de cultivo sagrado e estudo no Templo de Demma.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Templo de Demma, Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-28",
+     "Crescia incrustada em grossas vinhas secas dentro de um cÃ´modo no segundo pavimento da mansÃ£o em ruÃ­nas."
+    ],
+    [
+     "sessao-28",
+     "TrÃªs ramos de flores vermelhas foram colhidos cuidadosamente pelas raÃ­zes pelos membros do grupo."
+    ],
+    [
+     "sessao-28",
+     "Momonga transportou seu ramo atÃ© Gosterwick e plantou-o nas dependÃªncias sagradas do Templo de Demma."
+    ]
+   ],
+   "sessoes": [
+    "sessao-28"
+   ]
+  },
+  "itens/chave-oxidada-da-mansao": {
+   "tipo": "item",
+   "nome": "Chave Oxidada da MansÃ£o",
+   "apelidos": [],
+   "resumo": "Chave metÃ¡lica antiga de tamanho comum com forte oxidaÃ§Ã£o esverdeada, resgatada por Albion de uma escrivaninha na mansÃ£o em ruÃ­nas de Arden Vul. Deixou sua marca impressa na madeira apÃ³s sÃ©culos de repouso no mesmo local. Encaixa-se perfeitamente no buraco da fechadura da entrada principal do palÃ¡cio, embora seu toque dispare um alarme arcano.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Com Albion"
+   },
+   "fatos": [
+    [
+     "sessao-28",
+     "Foi encontrada ao lado de uma adaga enferrujada sobre uma escrivaninha de madeira no quarto superior da mansÃ£o."
+    ],
+    [
+     "sessao-28",
+     "Apresenta forte oxidaÃ§Ã£o verde provocada pelo tempo e pela umidade do ambiente abandonado."
+    ],
+    [
+     "sessao-28",
+     "Encaixou-se na fechadura da porta principal externa da mansÃ£o, provocando a manifestaÃ§Ã£o imediata da boca mÃ¡gica protetora."
+    ]
+   ],
+   "sessoes": [
+    "sessao-28"
+   ]
+  },
+  "itens/moedas-antigas-de-ouro-da-mansao": {
+   "tipo": "item",
+   "nome": "Moedas Antigas de Ouro da MansÃ£o",
+   "apelidos": [],
+   "resumo": "TrÃªs moedas pesadas cunhadas em ouro antigo descobertas no interior de uma gaveta na mansÃ£o em ruÃ­nas de Arden Vul. Cada peÃ§a pesa o equivalente a dez ciclos comuns e exibe cunhagem arcaica nÃ£o imperial. Permanecem sob posse de Albion, que busca comercializÃ¡-las junto a cambistas de prestÃ­gio no Mercado Superior.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Com Albion"
+   },
+   "fatos": [
+    [
+     "sessao-28",
+     "Estavam guardadas em uma das gavetas do armÃ¡rio de roupas antigas no quarto superior da mansÃ£o."
+    ],
+    [
+     "sessao-28",
+     "Totalizam trÃªs moedas pesadas feitas de ouro autÃªntico com peso aferido em dez ciclos cada."
+    ],
+    [
+     "sessao-28",
+     "Albion guardou as peÃ§as para negociÃ¡-las com avaliadores no Mercado Superior em Gosterwick."
+    ]
+   ],
+   "sessoes": [
+    "sessao-28"
    ]
   }
  },
@@ -6092,10 +6489,45 @@
    "aberta_em": "sessao-27",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p82",
+   "texto": "Investigar o interior e os salÃµes inferiores da mansÃ£o em ruÃ­nas com cÃºpulas no pÃ¡tio ovalado de Arden Vul.",
+   "aberta_em": "sessao-28",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p83",
+   "texto": "Descobrir um meio de derrotar ou afugentar o Monte Errante que guarda a escadaria da mansÃ£o em ruÃ­nas.",
+   "aberta_em": "sessao-28",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p84",
+   "texto": "Descobrir o que a chave oxidada destranca na mansÃ£o em ruÃ­nas e como contornar o alarme berrante da boca mÃ¡gica da porta principal.",
+   "aberta_em": "sessao-28",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p85",
+   "texto": "Avaliar e comercializar as trÃªs moedas pesadas de ouro antigo encontradas na mansÃ£o junto a comerciantes do Mercado Superior em Gosterwick.",
+   "aberta_em": "sessao-28",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p86",
+   "texto": "Descobrir o valor de mercado e as aplicaÃ§Ãµes mÃ­sticas ou medicinais das orquÃ­deas vermelhas colhidas na mansÃ£o de Arden Vul.",
+   "aberta_em": "sessao-28",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-27",
-  "texto": "Os aventureiros Thronodian, Thaenderus e Harllequinnos compraram suprimentos e itens bÃ¡sicos em Gosterwick enfrentando um dia chuvoso e partiram em direÃ§Ã£o ao platÃ´ de Arden Vul. No caminho, desviaram de uma colossal minhoca armadurada subterrÃ¢nea e escalaram a grande escarpa atÃ© as torres em ruÃ­nas para descansar. Surpreendidos e capturados durante o sono por uma patrulha de homens-fera, foram levados amordaÃ§ados pelas entranhas da PirÃ¢mide de Thoth. No santuÃ¡rio subterrÃ¢neo, conheceram Deino, a enigmÃ¡tica governante humana dos homens-fera, que utilizou uma magia de encanto para subjugÃ¡-los. Agora sob o controle da lÃ­der inimiga, o grupo encontra-se separado e prisioneiro nas profundezas do domÃ­nio dos monstros."
+  "apos": "sessao-28",
+  "texto": "O grupo encontra-se em seguranÃ§a em Gosterwick apÃ³s escapar da mansÃ£o em ruÃ­nas de Arden Vul, onde despertou um Monte Errante e combateu uma matilha de ghouls necrÃ³fagos. Albion e Amir descansam na Estalagem Capa Amarela, onde recuperam o fÃ´lego da perigosa marcha noturna. Albion busca informaÃ§Ãµes para subir a escadaria da colina e acessar o Mercado Superior, visando negociar as trÃªs moedas de ouro antigo e a chave oxidada encontradas no palÃ¡cio. Momonga iniciou um retiro de sete dias no Templo de Demma junto Ã  alta sacerdotisa Vivian, aprofundando seus estudos botÃ¢nicos e religiosos sobre a criatura vegetal. Permanecem em aberto os segredos do palÃ¡cio abobadado no pÃ¡tio ovalado e a forma de neutralizar a boca mÃ¡gica e o monstro de vinhas."
  }
 }
