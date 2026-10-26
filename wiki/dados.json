@@ -953,6 +953,32 @@
     "itens/medalhao-de-cobre-dos-sabios",
     "locais/torre-quadrada-do-rio"
    ]
+  },
+  "sessao-36": {
+   "titulo": "O Laboratorio Subterraneo e o Arcanum",
+   "resumo": "No vigesimo dia do nono mes de 2993, os aventureiros Kalvos, Nia, Amir e Quase Nada despertaram na Pousada do Sinal da Cabeca Quebrada. Apos negociacoes de equipamentos com o mercador Ristus e o estalajadeiro Cronos, Kalvos obteve autorizacao para erguer um pequeno santuario a Heschius Ban em uma torre em ruinas a beira do rio. O grupo contratou a jovem Nara por duas moedas de ouro para guardar sua mula e carroca na entrada das ruinas da Casa das Estatuas antes de adentrar as profundezas.\n\nAo descerem a longa escadaria em espiral, os exploradores encontraram uma porta secreta trancada e protegida por uma armadilha de tres balestras. Amir agiu com rapidez e queimou a corda do mecanismo com sua tocha, desativando o disparo automatico. No interior da camara subterranea, o bando confrontou duas estatuas guardias de pedra. Empregando oleo inflamavel, graxa, bolinhas de gude, uma rede pesada e uma chapa de ferro retirada do andar superior, os aventureiros imobilizaram e destruiram ambos os constructos, resgatando uma cimitarra magica +1 da mao de um dos inimigos.\n\nO laboratorio subterraneo revelou um vasto acervo de tomos, frascos e materiais de pesquisa alquimica, incluindo uma grande escultura de babuino cravada na parede. Entre os escombros, o grupo recolheu sete frascos de pocoes misteriosas, uma lasca de diamante, componentes magicos e amostras brutas de Arcanum em formato de pedras laranjas e po brilhante. De volta a pousada, as reliquias foram acondicionadas na carroca e a esposa de Cronos confirmou a natureza arcana e o imenso valor do minerio recuperado.",
+   "linha_do_tempo": [
+    "O grupo acorda na Pousada do Sinal da Cabeca Quebrada, onde Nia compra uma armadura de escamas e bandagens de Ristus, e Amir adquire racoes de ferro com Cronos.",
+    "Kalvos conversa com Cronos e obtem permissao para erguer um pequeno santuario dedicado a Heschius Ban em uma das torres em ruinas a beira do rio.",
+    "Kalvos contrata Nara no salao da pousada por duas moedas de ouro para vigiar sua mula e a carroca do lado de fora das ruinas.",
+    "O grupo marcha ate a Casa das Estatuas e desce pela escadaria em espiral ate alcancar a porta secreta do laboratorio subterraneo.",
+    "Amir queima a corda do mecanismo de armadilha na porta, desarmando tres balestras apontadas para a entrada.",
+    "Apos serem atacados por duas estatuas guardias de pedra, os aventureiros ateiam fogo com oleo na sala, espalham graxa e bolinhas de gude no chao e imobilizam os constructos com uma rede e uma chapa de ferro.",
+    "O grupo destroi as duas estatuas guardias em combate, arrancando a mao de uma delas com uma cimitarra magica +1 recuperada durante o confronto.",
+    "Os exploradores saqueiam o laboratorio alquimico subterraneo, recolhendo sete frascos de pocoes, amostras de Arcanum em pedras laranjas e po brilhante, uma lasca de diamante e diversos componentes magicos.",
+    "De volta a pousada, a esposa de Cronos identifica as pedras laranjas e o po brilhante como Arcanum e confirma que os frascos contem pocoes."
+   ],
+   "entidades": [
+    "personagens/quase-nada",
+    "personagens/kalvos",
+    "personagens/amir",
+    "personagens/nia",
+    "npcs/nara",
+    "npcs/cronos",
+    "npcs/ristus",
+    "itens/arcanum",
+    "itens/cimitarra-magica-1"
+   ]
   }
  },
  "entidades": {
@@ -2299,7 +2325,7 @@
    "tipo": "item",
    "nome": "Arcanum",
    "apelidos": [],
-   "resumo": "SubstÃ¢ncia mÃ¡gica misteriosa descoberta por Arden e Vul nas profundezas subterrÃ¢neas do vale, motivando a fundaÃ§Ã£o da cidade de Arden Vul.",
+   "resumo": "Substancia magica misteriosa de forte poder arcano descoberta nas profundezas de Arden Vul. No laboratorio subterraneo da Casa das Estatuas, o grupo recuperou amostras do minerio na forma de cinco pedras laranjas do tamanho de punhos e tres saquinhos de po brilhante.",
    "atributos": {
     "Tipo": "Material MÃ¡gico"
    },
@@ -2307,10 +2333,19 @@
     [
      "sessao-05",
      "Foi a descoberta central dos aventureiros lendÃ¡rios Arden e Vul nas ruÃ­nas subterrÃ¢neas."
+    ],
+    [
+     "sessao-36",
+     "Foi encontrado no laboratorio subterraneo em forma de cinco pedras laranjas e tres sacos de po brilhante."
+    ],
+    [
+     "sessao-36",
+     "Teve sua identidade confirmada pela esposa de Cronos na Pousada do Sinal da Cabeca Quebrada."
     ]
    ],
    "sessoes": [
-    "sessao-05"
+    "sessao-05",
+    "sessao-36"
    ]
   },
   "personagens/jabilos": {
@@ -5424,13 +5459,14 @@
    "tipo": "personagem",
    "nome": "Amir",
    "apelidos": [],
-   "resumo": "Aventureiro ladino expedicionÃ¡rio que atua em Arden Vul e Gosterwick. Recebeu uma armadura de escamas financiada por Momonga e atuou como batedor no porÃ£o e tÃºneis da oficina de esculturas. Foi peÃ§a-chave para derrubar a estÃ¡tua guardiÃ£ e desarmÃ¡-la utilizando Ã³leo e cordas.",
+   "resumo": "Aventureiro ladino expedicionario que atua em Arden Vul e Gosterwick. Recebeu uma armadura de escamas financiada por Momonga e atuou como batedor na oficina de esculturas e no laboratorio subterraneo. Desarmou uma armadilha de balestras queimando sua corda e destruiu as articulacoes dos joelhos de estatuas guardias em combate.",
    "atributos": {
     "Jogador": "Guilherme",
     "Classe": "Ladino",
     "Status": "Vivo",
     "RaÃ§a": "Humano",
-    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela, Gosterwick"
+    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela, Gosterwick",
+    "Raca": "Humano"
    },
    "fatos": [
     [
@@ -5488,12 +5524,25 @@
     [
      "sessao-32",
      "Recordou que possui um braÃ§o de mÃ¡rmore com veios metÃ¡licos guardado na Estalagem Capa Amarela e citou estÃ¡tuas de cobre perto de portas com sussurros de Thoth."
+    ],
+    [
+     "sessao-36",
+     "Comprou tres racoes de ferro com Cronos na Pousada do Sinal da Cabeca Quebrada."
+    ],
+    [
+     "sessao-36",
+     "Desarmou a armadilha de tres balestras na porta do laboratorio subterraneo ao queimar a corda com sua tocha."
+    ],
+    [
+     "sessao-36",
+     "Encantou sua adaga com um pergaminho arcano e destruiu o joelho de uma estatua guardia de pedra."
     ]
    ],
    "sessoes": [
     "sessao-24",
     "sessao-28",
-    "sessao-32"
+    "sessao-32",
+    "sessao-36"
    ]
   },
   "npcs/irthol": {
@@ -6622,7 +6671,7 @@
    "apelidos": [
     "Louris"
    ],
-   "resumo": "Aventureira exploradora habilidosa e resistente que atua em Arden Vul munida de espada curta, clava de bronze e tÃ©cnicas de combate. Durante a expediÃ§Ã£o ao porÃ£o dos carniÃ§ais, sofreu uma mordida severa no pescoÃ§o e paralisia temporÃ¡ria, sendo salva e curada por seus companheiros.",
+   "resumo": "Aventureira exploradora habilidosa que atua em Arden Vul munida de clava de bronze e equipamentos de combate. Sobreviveu ao ataque de carnicais no porao, comprou uma armadura de escamas com Ristus e auxiliou a derrubar e conter estatuas guardias com uma chapa de ferro no laboratorio subterraneo.",
    "atributos": {
     "Jogador": "Louis",
     "Status": "Viva (Ferida)",
@@ -6670,25 +6719,39 @@
     [
      "sessao-35",
      "Teve seu sangramento estancado por bandagens e recuperou-se da paralisia apÃ³s repousar na pousada."
+    ],
+    [
+     "sessao-36",
+     "Adquiriu uma armadura de escamas e bandagens com o comerciante Ristus por 950 ciclos de cobre."
+    ],
+    [
+     "sessao-36",
+     "Utilizou a chapa de ferro de 1,70m para prensar e imobilizar uma das estatuas guardias no chao."
+    ],
+    [
+     "sessao-36",
+     "Atingiu o constructo de pedra com sua clava magica para auxiliar no combate no laboratorio."
     ]
    ],
    "sessoes": [
     "sessao-30",
     "sessao-33",
     "sessao-34",
-    "sessao-35"
+    "sessao-35",
+    "sessao-36"
    ]
   },
   "npcs/cronos": {
    "tipo": "npc",
    "nome": "Cronos",
    "apelidos": [],
-   "resumo": "ProprietÃ¡rio idoso e corpulento da Pousada do Sinal da CabeÃ§a Quebrada em Arden Vul. Fornece alojamento, refeiÃ§Ãµes e raÃ§Ãµes a preÃ§os inflacionados para aventureiros. Recusou-se a ceder a cabeÃ§a de mÃ¡rmore da fachada a Bolkas a menos que receba uma escultura maior para substituÃ­-la.",
+   "resumo": "Proprietario idoso e corpulento da Pousada do Sinal da Cabeca Quebrada em Arden Vul. Fornece alojamento e racoes de ferro para aventureiros. Autorizou Kalvos a construir um pequeno santuario dedicado a Heschius Ban em uma torre em ruinas perto do rio para atrair peregrinos.",
    "atributos": {
     "Ocupa £o": "Estalajadeiro",
     "Localiza £o": "Pousada do Sinal da Cabe a Quebrada",
     "OcupaÃ§Ã£o": "Estalajadeiro",
-    "LocalizaÃ§Ã£o": "Pousada do Sinal da CabeÃ§a Quebrada"
+    "LocalizaÃ§Ã£o": "Pousada do Sinal da CabeÃ§a Quebrada",
+    "Ocupacao": "Estalajadeiro"
    },
    "fatos": [
     [
@@ -6722,6 +6785,14 @@
     [
      "sessao-34",
      "Declarou que sÃ³ entregarÃ¡ a cabeÃ§a de mÃ¡rmore da fachada caso lhe tragam uma escultura substituta maior."
+    ],
+    [
+     "sessao-36",
+     "Vendeu tres racoes de ferro para Amir por tres moedas de prata cada."
+    ],
+    [
+     "sessao-36",
+     "Concedeu permissao a Kalvos para estabelecer um pequeno santuario de Heschius Ban na torre em ruinas proxima a pousada."
     ]
    ],
    "sessoes": [
@@ -6729,7 +6800,8 @@
     "sessao-31",
     "sessao-32",
     "sessao-33",
-    "sessao-34"
+    "sessao-34",
+    "sessao-36"
    ]
   },
   "npcs/zaron": {
@@ -6890,11 +6962,13 @@
    "tipo": "npc",
    "nome": "Ristus",
    "apelidos": [],
-   "resumo": "Comerciante homem-fera com traÃ§os caninos que opera na Pousada do Sinal da CabeÃ§a Quebrada carregando mochilas de mercadorias. MantÃ©m comÃ©rcio com aventureiros e patrulhas de homens-fera nas ruÃ­nas. Vende equipamentos diversos cobrando margem adicional sobre o preÃ§o padrÃ£o.",
+   "resumo": "Comerciante homem-fera com tracos caninos que opera na Pousada do Sinal da Cabeca Quebrada. Vendeu uma armadura de escamas e bandagens para Nia e informou Kalvos sobre a patrulha de homens-fera liderada por Ariulo nas ruinas.",
    "atributos": {
     "RaÃ§a": "Homem-fera cÃ£o",
     "OcupaÃ§Ã£o": "Mercador itinerante",
-    "LocalizaÃ§Ã£o": "Pousada do Sinal da CabeÃ§a Quebrada"
+    "LocalizaÃ§Ã£o": "Pousada do Sinal da CabeÃ§a Quebrada",
+    "Raca": "Homem-fera",
+    "Ocupacao": "Mercador"
    },
    "fatos": [
     [
@@ -6912,10 +6986,19 @@
     [
      "sessao-31",
      "Comentou que os homens-fera seguem Deino com lealdade duvidosa e que hÃ¡ divergÃªncias se ela Ã© humana ou mulher-fera."
+    ],
+    [
+     "sessao-36",
+     "Vendeu uma armadura de escamas e bandagens para Nia."
+    ],
+    [
+     "sessao-36",
+     "Revelou a Kalvos a existencia do bando de homens-fera liderado pelo homem-cabra Ariulo nas ruinas."
     ]
    ],
    "sessoes": [
-    "sessao-31"
+    "sessao-31",
+    "sessao-36"
    ]
   },
   "npcs/noredden-galesdottir": {
@@ -7285,12 +7368,13 @@
    "apelidos": [
     "Calvos"
    ],
-   "resumo": "ClÃ©rigo anÃ£o devoto de Heschius Ban e irmÃ£o de Bolkas. Chegou Ã s ruÃ­nas de Arden Vul equipado com armadura de talas financiada por Momonga. Liderou a exploraÃ§Ã£o da cÃ¢mara subterrÃ¢nea sob a chaminÃ©, utilizando sua visÃ£o no escuro, magias de iluminaÃ§Ã£o e habilidades com manguais para combater criaturas.",
+   "resumo": "Clerigo anao devoto de Heschius Ban e irmao de Bolkas. Chegou as ruinas de Arden Vul equipado com armadura de talas financiada por Momonga. Liderou a exploracao da camara subterranea sob a chamine e do laboratorio da Casa das Estatuas, obtendo autorizacao de Cronos para erguer um santuario a sua divindade e utilizando magias de restricao contra constructos.",
    "atributos": {
     "RaÃ§a": "AnÃ£o",
-    "Classe": "ClÃ©rigo",
+    "Classe": "Clerigo",
     "Divindade": "Heschius Ban",
-    "Jogador": "Juliano"
+    "Jogador": "Juliano",
+    "Raca": "Anao"
    },
    "fatos": [
     [
@@ -7304,10 +7388,27 @@
     [
      "sessao-34",
      "Cegou o carrapato gigante com magia de luz e destruiu a criatura com seu mangual."
+    ],
+    [
+     "sessao-36",
+     "Obteve autorizacao de Cronos para construir um pequeno santuario dedicado a Heschius Ban na torre em ruinas junto ao rio."
+    ],
+    [
+     "sessao-36",
+     "Contratou Nara por duas moedas de ouro para cuidar de sua mula e carroca na entrada das ruinas."
+    ],
+    [
+     "sessao-36",
+     "Retirou uma chapa de ferro de uma mesa para servir de escudo contra as estatuas guardias."
+    ],
+    [
+     "sessao-36",
+     "Conjurou a magia de restricao de Heschius Ban para paralisar temporariamente uma das estatuas guardias."
     ]
    ],
    "sessoes": [
-    "sessao-34"
+    "sessao-34",
+    "sessao-36"
    ]
   },
   "criaturas/carrapato-gigante": {
@@ -7577,6 +7678,83 @@
    ],
    "sessoes": [
     "sessao-35"
+   ]
+  },
+  "personagens/quase-nada": {
+   "tipo": "personagem",
+   "nome": "Quase Nada",
+   "apelidos": [],
+   "resumo": "Aventureiro guerreiro anao do grupo. Participou da expedicao ao laboratorio subterraneo abaixo da Casa das Estatuas, onde ajudou a imobilizar as estatuas guardias, recuperou uma cimitarra magica +1 e coletou amostras de Arcanum e componentes alquimicos.",
+   "atributos": {
+    "Raca": "Anao",
+    "Classe": "Guerreiro",
+    "Jogador": "Ricardo"
+   },
+   "fatos": [
+    [
+     "sessao-36",
+     "Participou da expedicao ao laboratorio subterraneo na Casa das Estatuas."
+    ],
+    [
+     "sessao-36",
+     "Ajudou a lancar a rede e imobilizar a estatua guardia armada."
+    ],
+    [
+     "sessao-36",
+     "Decepou a mao da estatua guardia utilizando uma cimitarra magica +1 encontrada no local."
+    ],
+    [
+     "sessao-36",
+     "Coletou pedras laranjas de Arcanum, po brilhante e uma lasca de diamante das pilhas do laboratorio."
+    ]
+   ],
+   "sessoes": [
+    "sessao-36"
+   ]
+  },
+  "npcs/nara": {
+   "tipo": "npc",
+   "nome": "Nara",
+   "apelidos": [],
+   "resumo": "Mulher de roupas simples que frequentava a Pousada do Sinal da Cabeca Quebrada. Foi contratada por Kalvos por duas moedas de ouro para vigiar a mula e a carroca do grupo na entrada das ruinas da Casa das Estatuas durante a incursao ao laboratorio subterraneo.",
+   "atributos": {
+    "Ocupacao": "Guardia de carga"
+   },
+   "fatos": [
+    [
+     "sessao-36",
+     "Foi contratada por Kalvos por duas moedas de ouro para guardar a mula e a carroca do grupo durante a exploracao subterranea."
+    ]
+   ],
+   "sessoes": [
+    "sessao-36"
+   ]
+  },
+  "itens/cimitarra-magica-1": {
+   "tipo": "item",
+   "nome": "Cimitarra Magica +1",
+   "apelidos": [],
+   "resumo": "Lamina curva magica recuperada de uma das estatuas guardias no laboratorio subterraneo abaixo da Casa das Estatuas. Possui encantamento +1 e foi utilizada por Quase Nada para cortar a mao de um dos constructos de pedra durante o combate.",
+   "atributos": {
+    "Tipo": "Arma (Cimitarra)",
+    "Bonus": "+1"
+   },
+   "fatos": [
+    [
+     "sessao-36",
+     "Estava sendo empunhada por uma das estatuas guardias de pedra no laboratorio subterraneo."
+    ],
+    [
+     "sessao-36",
+     "Possui encantamento magico +1 comprovado durante o confronto."
+    ],
+    [
+     "sessao-36",
+     "Foi recuperada por Quase Nada apos o grupo decepar a mao da estatua guardia."
+    ]
+   ],
+   "sessoes": [
+    "sessao-36"
    ]
   }
  },
@@ -8348,8 +8526,8 @@
    "id": "p110",
    "texto": "Explorar a escadaria em espiral de pedra descoberta no salÃ£o subterrÃ¢neo, que desce para os nÃ­veis inferiores de Arden Vul.",
    "aberta_em": "sessao-34",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-36",
+   "como": "O grupo desceu a escadaria em espiral e explorou a camara subterranea abaixo da Casa das Estatuas, destruindo as duas estatuas guardias e saqueando o laboratorio alquimico."
   },
   {
    "id": "p111",
@@ -8392,10 +8570,38 @@
    "aberta_em": "sessao-35",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p117",
+   "texto": "Identificar as propriedades e os efeitos das sete pocoes com liquidos coloridos encontradas no laboratorio alquimico subterraneo.",
+   "aberta_em": "sessao-36",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p118",
+   "texto": "Descobrir compradores para os pedacos e materiais das duas estatuas guardias de pedra destruidas.",
+   "aberta_em": "sessao-36",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p119",
+   "texto": "Descobrir a utilidade das caixas de componentes magicos (olhos, folhas brancas, espinhos, dentes, gelatinas e cogumelos com veias vermelhas) e da lasca de diamante.",
+   "aberta_em": "sessao-36",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p120",
+   "texto": "Encontrar um mago interessado em comprar as amostras de Arcanum (pedras laranjas e po brilhante) trazidas do laboratorio.",
+   "aberta_em": "sessao-36",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-35",
-  "texto": "O grupo de aventureiros formado por Miragem, Alexander, E-bola e Nia realizou uma lucrativa incursÃ£o nos arredores da margem do rio em Arden Vul. ApÃ³s encontrarem o explorador Creon na Casa da ChaminÃ©, o grupo descobriu um porÃ£o oculto e combateu trÃªs ferozes carniÃ§ais, sobrevivendo a ataques paralisantes e mordidas letais. AlÃ©m de resgatarem a Capa de LeÃ£o e dardos mÃ­sticos no porÃ£o, os exploradores desobstruÃ­ram o piso tÃ©rreo da torre de vigia do rio com picaretas, encontrando o valioso Olho de Safira e Azeviche. De volta Ã  Pousada do Sinal da CabeÃ§a Quebrada, negociaram seus achados com o abastado comerciante Oberon, arrecadando mais de 7.500 ciclos de prata em ouro. Com Nia recuperada e os bolsos cheios, os aventureiros agora ponderam sobre os mistÃ©rios arcanos revelados e as ameaÃ§as que rondam as ruÃ­nas."
+  "apos": "sessao-36",
+  "texto": "O grupo encontra-se na Pousada do Sinal da Cabeca Quebrada apos explorar com sucesso o laboratorio subterraneo sob a Casa das Estatuas. As duas estatuas guardias foram destruidas e os exploradores retornaram carregando amostras brutas de Arcanum, sete frascos de pocoes misteriosas, uma cimitarra magica +1 e os restos de pedra dos constructos. Nara cumpriu seu papel de guardar a carroca e a mula em seguranca na entrada das ruinas. Os aventureiros agora possuem reliquias valiosas de Arcanum que exigem compradores especializados entre os magos e feiticeiros da regiao."
  }
 }
