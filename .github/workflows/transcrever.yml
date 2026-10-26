@@ -1,12 +1,18 @@
 name: Campanha
 
-# Roda quando você publica uma release e, a cada 2 horas, para continuar o que ficou na fila
+# Roda quando você publica uma release e, a cada 2 horas, para continuar o que ficou na fila.
+# Com a fila vazia, revisa a wiki uma vez por semana.
 on:
   release:
     types: [published]
   schedule:
     - cron: "23 */2 * * *"
   workflow_dispatch:
+    inputs:
+      revisar:
+        description: "Revisar a wiki agora"
+        type: boolean
+        default: false
 
 # Uma execução por vez, as outras esperam na fila
 concurrency:
@@ -15,6 +21,7 @@ concurrency:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   processar:
@@ -24,6 +31,7 @@ jobs:
       GH_TOKEN: ${{ github.token }}
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      REVISAR_AGORA: ${{ inputs.revisar }}
     steps:
       - uses: actions/checkout@v5
         with:
