@@ -611,6 +611,32 @@
     "npcs/mikkel",
     "itens/mortalidade"
    ]
+  },
+  "sessao-24": {
+   "titulo": "O Pacto do Fantasma e a Emboscada Noturna",
+   "resumo": "No dia 12 do sÃ©timo mÃªs de 2993, o aventureiro Amir chegou a Gosterwick de carroÃ§a e juntou-se a Galmyr e Momonga. O grupo dirigiu-se ao Templo de Demma, localizado na Colina dos Deuses, onde Galmyr negociou dois pergaminhos mÃ¡gicos por 160 ciclos de ouro e adquiriu Ã¡gua benta, enquanto Momonga comprou mudas da erva medicinal trevo. De volta Ã  praÃ§a central, presenciaram a exibiÃ§Ã£o do comerciante Jarud e da elfa Franalis Raedisdottir, que apresentaram um CÃ¡lice AmaldiÃ§oado capaz de converter qualquer bebida em Ã¡gua salgada.\n\nDecididos a explorar as imediaÃ§Ãµes do paredÃ£o de Arden Vul, os aventureiros retornaram Ã  torre em ruÃ­nas na base da escarpa. Ao descerem pelo alÃ§apÃ£o para a cÃ¢mara subterrÃ¢nea de ladrilhos azuis e cinzas, encontraram o fantasma Irthol. A entidade revelou o desejo de resgatar os restos de sua esposa Naema, morta por cultistas de um deus antigo que roubaram sua pulseira de esmeralda e ouro. Momonga aceitou permitir que o espÃ­rito habitasse sua mente como guia sem tomar o controle de seu corpo.\n\nAo caÃ­rem da noite e acamparem nas proximidades da Colina da Pata de Gato, o grupo foi surpreendido por quatro cultistas encapuzados que portavam uma lamparina, mangual e adagas. Irthol reconheceu os trajes das figuras como sendo os mesmos algozes de sua esposa. No combate resultante, Galmyr reagiu com rapidez, abatendo o lÃ­der com flechadas e ferindo gravemente outro invasor. Diante da forte resistÃªncia, os cultistas sobreviventes apagaram a luz e fugiram pela mata, permitindo que os aventureiros retornassem a Gosterwick em seguranÃ§a.",
+   "linha_do_tempo": [
+    "Amir chega a Gosterwick de carroÃ§a e se une a Galmyr e Momonga.",
+    "O grupo visita o Templo de Demma na Colina dos Deuses, onde Galmyr vende dois pergaminhos mÃ¡gicos por 160 ciclos de ouro e compra Ã¡gua benta, enquanto Momonga adquire mudas de trevo.",
+    "Na praÃ§a de Gosterwick, o grupo presencia um sorteio promovido por Jarud e Franalis Raedisdottir, revelando um CÃ¡lice AmaldiÃ§oado que transforma lÃ­quidos em Ã¡gua salgada.",
+    "O grupo viaja atÃ© a torre em ruÃ­nas no pÃ© do paredÃ£o de Arden Vul e desce ao alÃ§apÃ£o subterrÃ¢neo.",
+    "Momonga estabelece um pacto com o fantasma Irthol, permitindo que a entidade habite sua mente para guiar a busca pelos restos de sua esposa Naema e pela destruiÃ§Ã£o de cultistas inimigos.",
+    "Ao acamparem Ã  noite perto da Colina da Pata de Gato, os aventureiros sÃ£o emboscados por quatro cultistas encapuzados.",
+    "Galmyr elimina o lÃ­der e repele os invasores com disparos precisos de flechas, forÃ§ando os cultistas sobreviventes a fugir na escuridÃ£o."
+   ],
+   "entidades": [
+    "personagens/amir",
+    "personagens/galmyr",
+    "personagens/momonga",
+    "npcs/irthol",
+    "npcs/naema",
+    "locais/templo-de-demma",
+    "locais/torre-em-ruanas-do-paredao",
+    "criaturas/cultistas-encapuzados",
+    "itens/calice-amaldiaoado",
+    "npcs/jarud",
+    "npcs/franalis-raedisdottir"
+   ]
   }
  },
  "entidades": {
@@ -4350,11 +4376,12 @@
    "tipo": "personagem",
    "nome": "Galmyr",
    "apelidos": [],
-   "resumo": "Aventureiro anÃ£o ferreiro e explorador do grupo. Subiu as escadarias de Arden Vul, decifrou o mecanismo da estÃ¡tua de Thoth e negociou gemas no Clube dos Praticantes Arcanos. Deixou uma pedra gravada em Mithric na guilda dos magos, pagou a permissÃ£o dos halflings e descobriu a parede ilusÃ³ria na PirÃ¢mide de Thoth.",
+   "resumo": "Aventureiro anÃ£o ferreiro e explorador do grupo. Vendeu pergaminhos no Templo de Demma, obteve 160 ciclos de ouro e abateu cultistas encapuzados com arco e flechas no acampamento da Colina da Pata de Gato.",
    "atributos": {
     "RaÃ§a": "AnÃ£o",
     "Classe": "Guerreiro",
-    "Jogador": "Massaki"
+    "Jogador": "Massaki",
+    "Status": "Vivo"
    },
    "fatos": [
     [
@@ -4376,11 +4403,24 @@
     [
      "sessao-23",
      "Identificou uma parede com acabamento atÃ­pico que revelou ser uma passagem ilusÃ³ria para uma escadaria em espiral."
+    ],
+    [
+     "sessao-24",
+     "Vendeu os pergaminhos de SantuÃ¡rio e AbenÃ§oar Arma no Templo de Demma por 160 ciclos de ouro."
+    ],
+    [
+     "sessao-24",
+     "Guardou seu ouro sob o colchÃ£o do quarto de Kazunov na Estalagem Capa Amarela."
+    ],
+    [
+     "sessao-24",
+     "Matou o lÃ­der dos cultistas encapuzados com disparos de flechas envenenadas durante a emboscada noturna."
     ]
    ],
    "sessoes": [
     "sessao-22",
-    "sessao-23"
+    "sessao-23",
+    "sessao-24"
    ]
   },
   "personagens/erphel": {
@@ -4428,19 +4468,34 @@
    "tipo": "personagem",
    "nome": "Momonga",
    "apelidos": [],
-   "resumo": "Aventureiro clÃ©rigo recÃ©m-chegado ao grupo. Acompanhou a expediÃ§Ã£o Ã s ruÃ­nas de Arden Vul e ofereceu suporte mÃ¡gico de cura.",
+   "resumo": "Aventureiro clÃ©rigo devoto de Demma recÃ©m-chegado ao grupo. Adquiriu mudas de trevo no templo de sua deusa e aceitou abrigar a presenÃ§a espiritual do fantasma Irthol em sua mente para ajudÃ¡-lo a encontrar os restos de sua esposa.",
    "atributos": {
     "Classe": "ClÃ©rigo",
-    "Jogador": "Silva"
+    "Jogador": "Silva",
+    "AfiliaÃ§Ã£o": "Templo de Demma",
+    "Status": "Vivo"
    },
    "fatos": [
     [
      "sessao-22",
      "Momonga integrou o grupo nas ruÃ­nas e utilizou magias de cura para auxiliar Erphel apÃ³s o ataque dos zumbis."
+    ],
+    [
+     "sessao-24",
+     "Comprou mudas da planta medicinal trevo no Templo de Demma por 15 ciclos de prata."
+    ],
+    [
+     "sessao-24",
+     "Fez um pacto com o fantasma Irthol para que a entidade habite sua mente como guia sem controlar seu corpo."
+    ],
+    [
+     "sessao-24",
+     "Apoiou o combate contra os cultistas encapuzados arremessando Ã³leo e atacando com clava."
     ]
    ],
    "sessoes": [
-    "sessao-22"
+    "sessao-22",
+    "sessao-24"
    ]
   },
   "personagens/selene": {
@@ -4653,6 +4708,230 @@
    ],
    "sessoes": [
     "sessao-23"
+   ]
+  },
+  "personagens/amir": {
+   "tipo": "personagem",
+   "nome": "Amir",
+   "apelidos": [],
+   "resumo": "Aventureiro recÃ©m-chegado a Gosterwick via carroÃ§a, equipado de forma leve com faca, mochila e funda. Uniu-se a Galmyr e Momonga em exploraÃ§Ãµes pelo paredÃ£o de Arden Vul e pela Colina da Pata de Gato.",
+   "atributos": {
+    "Jogador": "Guilherme",
+    "Classe": "Ladino",
+    "Status": "Vivo"
+   },
+   "fatos": [
+    [
+     "sessao-24",
+     "Chegou a Gosterwick em uma carroÃ§a fechada no dia 12 do sÃ©timo mÃªs."
+    ],
+    [
+     "sessao-24",
+     "Recebeu dez ciclos de ouro de Galmyr como auxÃ­lio financeiro."
+    ],
+    [
+     "sessao-24",
+     "Participou do combate contra os cultistas encapuzados no acampamento da Colina da Pata de Gato utilizando sua funda."
+    ]
+   ],
+   "sessoes": [
+    "sessao-24"
+   ]
+  },
+  "npcs/irthol": {
+   "tipo": "npc",
+   "nome": "Irthol",
+   "apelidos": [
+    "Urton",
+    "Yrtol"
+   ],
+   "resumo": "EspÃ­rito fantasmagÃ³rico que habita a cÃ¢mara subterrÃ¢nea sob a torre em ruÃ­nas no pÃ© do paredÃ£o de Arden Vul. Busca recuperar os restos mortais e a pulseira de esmeralda e ouro de sua falecida esposa Naema, raptada por cultistas de um deus antigo.",
+   "atributos": {
+    "EspÃ©cie": "Fantasma",
+    "LocalizaÃ§Ã£o": "Mente de Momonga",
+    "Status": "Ativo"
+   },
+   "fatos": [
+    [
+     "sessao-24",
+     "Revelou que sua falecida esposa Naema portava uma pulseira de esmeralda com adornos dourados feita por ele prÃ³prio."
+    ],
+    [
+     "sessao-24",
+     "Firmou um acordo com Momonga para habitar a mente do clÃ©rigo e orientÃ¡-lo na busca por Naema e na destruiÃ§Ã£o dos cultistas."
+    ],
+    [
+     "sessao-24",
+     "Reconheceu os cultistas encapuzados que atacaram o acampamento como membros da mesma seita que levou sua esposa."
+    ]
+   ],
+   "sessoes": [
+    "sessao-24"
+   ]
+  },
+  "npcs/naema": {
+   "tipo": "npc",
+   "nome": "Naema",
+   "apelidos": [],
+   "resumo": "Falecida esposa do fantasma Irthol. Foi morta e teve seus restos levados por cultistas de um deus antigo, os quais roubaram sua pulseira de esmeralda com adornos dourados.",
+   "atributos": {
+    "Status": "Morta"
+   },
+   "fatos": [
+    [
+     "sessao-24",
+     "Usava uma pulseira grande de esmeralda com adornos dourados confeccionada por Irthol."
+    ],
+    [
+     "sessao-24",
+     "Foi vÃ­tima de cultistas de um deus antigo que praticavam sacrifÃ­cios humanos."
+    ]
+   ],
+   "sessoes": [
+    "sessao-24"
+   ]
+  },
+  "locais/templo-de-demma": {
+   "tipo": "local",
+   "nome": "Templo de Demma",
+   "apelidos": [
+    "Templo de Dema"
+   ],
+   "resumo": "Estrutura religiosa situada na Colina dos Deuses em Gosterwick com formato semelhante a um grande celeiro ornamentado. Possui um pÃ¡tio circular central aberto ao cÃ©u contendo diversos cultivos agrÃ­colas e vegetais onde cai chuva mÃ¡gica localizada.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Colina dos Deuses, Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-24",
+     "Adquiriu dois pergaminhos sagrados de Galmyr pelo valor de 160 ciclos de ouro."
+    ],
+    [
+     "sessao-24",
+     "Comercializa Ã¡gua benta e mudas de plantas medicinais e agrÃ­colas como trevo, trigo, cevada e sorgo."
+    ],
+    [
+     "sessao-24",
+     "Apresenta um canteiro central aberto onde ocorre chuva mÃ¡gica restrita ao pÃ¡tio interno."
+    ]
+   ],
+   "sessoes": [
+    "sessao-24"
+   ]
+  },
+  "locais/torre-em-ruanas-do-paredao": {
+   "tipo": "local",
+   "nome": "Torre em RuÃ­nas do ParedÃ£o",
+   "apelidos": [],
+   "resumo": "Estrutura de pedra bastante degradada situada no pÃ© da escarpa de Arden Vul antes das escadarias principais. Possui um alÃ§apÃ£o no tÃ©rreo que dÃ¡ acesso a uma cÃ¢mara subterrÃ¢nea fria decorada com ladrilhos azuis e cinzas onde habitava o fantasma Irthol.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "PÃ© da Escarpa de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-24",
+     "Abriga um alÃ§apÃ£o no chÃ£o que leva a uma sala subterrÃ¢nea mantida em clima gÃ©lido."
+    ],
+    [
+     "sessao-24",
+     "Sua cÃ¢mara subterrÃ¢nea possui piso revestido de ladrilhos azuis e cinzas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-24"
+   ]
+  },
+  "criaturas/cultistas-encapuzados": {
+   "tipo": "criatura",
+   "nome": "Cultistas Encapuzados",
+   "apelidos": [],
+   "resumo": "Membros de uma seita dedicada a um deus antigo conhecidos por praticar sacrifÃ­cios humanos. Trajam vestes e tÃºnicas encapuzadas, utilizando lamparinas, manguais e adagas em combates noturnos.",
+   "atributos": {
+    "Tipo": "Humanoides / Seita",
+    "Status": "Hostis"
+   },
+   "fatos": [
+    [
+     "sessao-24",
+     "Atacaram o acampamento dos aventureiros nas imediaÃ§Ãµes da Colina da Pata de Gato durante a noite."
+    ],
+    [
+     "sessao-24",
+     "Foram identificados pelo fantasma Irthol como os responsÃ¡veis pelo desaparecimento de Naema no passado."
+    ],
+    [
+     "sessao-24",
+     "Tiveram seu lÃ­der morto por Galmyr e fugiram para a escuridÃ£o apÃ³s apagarem a lamparina."
+    ]
+   ],
+   "sessoes": [
+    "sessao-24"
+   ]
+  },
+  "itens/calice-amaldiaoado": {
+   "tipo": "item",
+   "nome": "CÃ¡lice AmaldiÃ§oado",
+   "apelidos": [],
+   "resumo": "Artefato mÃ­stico prateado exibido em um sorteio em Gosterwick por Jarud e Franalis Raedisdottir. Possui a maldiÃ§Ã£o de converter qualquer lÃ­quido despejado em seu interior em Ã¡gua salgada.",
+   "atributos": {
+    "Propriedade": "AmaldiÃ§oado"
+   },
+   "fatos": [
+    [
+     "sessao-24",
+     "Foi apresentado na praÃ§a central de Gosterwick durante o sorteio diÃ¡rio de Jarud."
+    ],
+    [
+     "sessao-24",
+     "Transforma automaticamente qualquer bebida colocada em seu interior em Ã¡gua extremamente salgada."
+    ]
+   ],
+   "sessoes": [
+    "sessao-24"
+   ]
+  },
+  "npcs/jarud": {
+   "tipo": "npc",
+   "nome": "Jarud",
+   "apelidos": [],
+   "resumo": "Comerciante de itens exÃ³ticos e mÃ¡gicos que realiza sorteios diÃ¡rios na praÃ§a central de Gosterwick cobrando 30 ciclos de ouro por bilhete.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Comerciante / Leiloeiro",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-24",
+     "Ofera sorteios diÃ¡rios de itens de seu baÃº sobre rodas na praÃ§a de Gosterwick."
+    ],
+    [
+     "sessao-24",
+     "Trabalha em parceria com a elfa Franalis Raedisdottir e conta com seguranÃ§as ocultos."
+    ]
+   ],
+   "sessoes": [
+    "sessao-24"
+   ]
+  },
+  "npcs/franalis-raedisdottir": {
+   "tipo": "npc",
+   "nome": "Franalis Raedisdottir",
+   "apelidos": [
+    "Franales"
+   ],
+   "resumo": "Elfa que auxilia o comerciante Jarud na conduÃ§Ã£o dos sorteios de artefatos exÃ³ticos no mercado central de Gosterwick.",
+   "atributos": {
+    "RaÃ§a": "Elfa",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-24",
+     "Apresentou o CÃ¡lice AmaldiÃ§oado sorteado no dia 12 do sÃ©timo mÃªs na praÃ§a central."
+    ]
+   ],
+   "sessoes": [
+    "sessao-24"
    ]
   }
  },
@@ -5132,10 +5411,31 @@
    "aberta_em": "sessao-23",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p69",
+   "texto": "Localizar os restos mortais de Naema e sua pulseira de esmeralda com adornos dourados para libertar o fantasma de Irthol.",
+   "aberta_em": "sessao-24",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p70",
+   "texto": "Investigar a identidade dos cultistas de vestes encapuzadas que atacaram o acampamento perto da Colina da Pata de Gato e que raptaram Naema no passado.",
+   "aberta_em": "sessao-24",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p71",
+   "texto": "Descobrir a origem e como desfazer a maldiÃ§Ã£o do CÃ¡lice AmaldiÃ§oado sorteado por Jarud e Franalis Raedisdottir em Gosterwick.",
+   "aberta_em": "sessao-24",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-23",
-  "texto": "Os aventureiros retornaram em seguranÃ§a para a Estalagem Capa Amarela apÃ³s explorarem as profundezas da PirÃ¢mide de Thoth. No subterrÃ¢neo, pagaram uma taxa aos Halflings de Phlebotomas, derrotaram esqueletos de macaco e encontraram uma passagem secreta e pergaminhos selados. Na cidade, souberam de uma recompensa pela investigaÃ§Ã£o do veneno Mortalidade. O grupo agora planeja identificar os pergaminhos e decidir o prÃ³ximo destino."
+  "apos": "sessao-24",
+  "texto": "O grupo encontra-se em Gosterwick apÃ³s retornar de uma expediÃ§Ã£o rÃ¡pida aos arredores do paredÃ£o de Arden Vul e da Colina da Pata de Gato. Durante a viagem, Momonga aceitou abrigar em sua mente o espÃ­rito do fantasma Irthol, que busca recuperar a pulseira de esmeralda de sua falecida esposa Naema e vingar-se dos cultistas de um deus antigo. Na mesma noite, os aventureiros foram atacados por quatro cultistas encapuzados, os quais foram repelidos por Galmyr. Permanecem em aberto as buscas pelos restos de Naema, a investigaÃ§Ã£o sobre a seita dos cultistas encapuzados e o mistÃ©rio do CÃ¡lice AmaldiÃ§oado exibido em Gosterwick."
  }
 }
