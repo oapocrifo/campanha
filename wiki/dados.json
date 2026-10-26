@@ -925,6 +925,34 @@
     "criaturas/carrapato-gigante",
     "itens/haste-de-bronze-com-na3"
    ]
+  },
+  "sessao-35": {
+   "titulo": "O PorÃ£o dos CarniÃ§ais e as RelÃ­quias dos Sortians",
+   "resumo": "No dÃ©cimo nono dia do nono mÃªs de 2993, os aventureiros Miragem, Alexander, E-bola e Nia partiram da Pousada do Sinal da CabeÃ§a Quebrada sob um dia frio e nebuloso. ApÃ³s adquirirem tochas, cantis e ferramentas de escavaÃ§Ã£o com o comerciante Zaron, a expediÃ§Ã£o seguiu o curso do rio atÃ© a estrutura conhecida como Casa da ChaminÃ©. LÃ¡, encontraram o explorador Creon Ã  frente de um bando de oito homens armados. Evitando confrontos desnecessÃ¡rios, os aventureiros decidiram explorar uma pilha de escombros prÃ³xima, descobrindo uma fenda oculta que conduzia a um porÃ£o subterrÃ¢neo.\n\nNo interior do porÃ£o imundo, o grupo foi surpreendido por trÃªs carniÃ§ais que se alimentavam da carcaÃ§a de um cervo. Defendendo-se com ferocidade, Alexander estourou o joelho de um dos monstros com uma flechada precisa, enquanto E-bola empalou a segunda criatura com sua espada longa. No entanto, Nia acabou terrivelmente ferida por uma mordida profunda no pescoÃ§o e ficou paralisada pelo toque necrÃ³tico do carniÃ§al. Com o uso do Disco Flutuante de Miragem para imobilizar o inimigo restante e a fuga do Ãºltimo monstro em direÃ§Ã£o Ã  PirÃ¢mide de Thoth, os exploradores estancaram o sangramento da companheira e saquearam o local, resgatando a mÃ­stica Capa de LeÃ£o, dois dardos de sono e moedas de prata.\n\nApÃ³s garantirem o repouso e recuperaÃ§Ã£o de Nia, o grupo voltou sua atenÃ§Ã£o para a torre em ruÃ­nas Ã  beira do rio. Empregando uma picareta em trÃªs horas de trabalho intenso, E-bola e Alexander desobstruÃ­ram os escombros do andar tÃ©rreo, revelando uma saÃ­da para o lado oposto e descobrindo a preciosa relÃ­quia conhecida como Olho de Safira e Azeviche. De volta Ã  pousada, os aventureiros reuniram-se com o influente comerciante Oberon, que identificou os itens como artefatos histÃ³ricos da guerra civil entre Sortians e Theosophs. Oberon comprou o olho de safira, a capa mÃ¡gica e o medalhÃ£o de cobre por uma fortuna superior a 7.500 ciclos de prata pagos em ouro reluzente, encerrando o dia com comemoraÃ§Ãµes e grandes recompensas.",
+   "linha_do_tempo": [
+    "Os aventureiros Miragem, Alexander, E-bola e Nia reuniram-se na Pousada do Sinal da CabeÃ§a Quebrada em um dia de nÃ©voa densa.",
+    "Alexander, E-bola e Nia negociaram suprimentos, tochas, cantis, um chicote e uma picareta com o comerciante Zaron.",
+    "O grupo marchou pela margem do rio atÃ© a Casa da ChaminÃ©, onde encontraram o explorador Creon liderando um bando de oito homens.",
+    "Explorando uma fenda estreita entre entulhos prÃ³ximos, os aventureiros desceram a um porÃ£o subterrÃ¢neo e enfrentaram trÃªs carniÃ§ais que devoravam um cervo.",
+    "Durante o confronto violento, Alexander paralisou o joelho de uma criatura com uma flechada, E-bola empalou outro carniÃ§al e Nia sofreu uma mordida grave no pescoÃ§o antes de o Ãºltimo carniÃ§al fugir.",
+    "ApÃ³s estancarem o sangramento de Nia com bandagens e eliminarem o carniÃ§al preso sob o Disco Flutuante de Miragem, o grupo saqueou o porÃ£o, encontrando a Capa de LeÃ£o, dois dardos de sono e moedas.",
+    "Retornando Ã  torre de vigia no rio, E-bola e Alexander escavaram os entulhos do piso tÃ©rreo por trÃªs horas, desobstruindo a passagem e descobrindo o Olho de Safira e Azeviche.",
+    "De volta Ã  pousada, o grupo negociou os tesouros com o comerciante Oberon, vendendo as relÃ­quias por mais de 7.500 ciclos de prata em moedas de ouro e dividindo a fortuna."
+   ],
+   "entidades": [
+    "personagens/miragem",
+    "personagens/nia",
+    "personagens/e-bola",
+    "personagens/alexander",
+    "npcs/oberon",
+    "npcs/creon",
+    "criaturas/ghoul",
+    "itens/olho-de-safira-e-azeviche",
+    "itens/capa-de-leao",
+    "itens/dardos-de-sono",
+    "itens/medalhao-de-cobre-dos-sabios",
+    "locais/torre-quadrada-do-rio"
+   ]
   }
  },
  "entidades": {
@@ -3136,10 +3164,10 @@
    "tipo": "npc",
    "nome": "Creon",
    "apelidos": [],
-   "resumo": "Guerreiro humano loiro e alto, casado com Cyra, que administra uma loja de penhores em Gosterwick. Reencontrou Hugios em uma pousada perto da Colina dos Deuses e juntou-se Ã  expediÃ§Ã£o ao Emaranhado vestindo cota de malha. Sofreu alucinaÃ§Ãµes graves ao ser atingido pelo veneno das adagas kobolds durante a batalha.",
+   "resumo": "Guerreiro humano loiro e alto, casado com Cyra, que administra uma loja de penhores em Gosterwick. Reencontrado liderando um bando de cerca de oito exploradores na Casa da ChaminÃ© em Arden Vul, onde advertiu o grupo a buscar outro local para explorar.",
    "atributos": {
     "RaÃ§a": "Humano",
-    "OcupaÃ§Ã£o": "Aventureiro e Dono de Loja de Penhores",
+    "OcupaÃ§Ã£o": "Explorador / Comerciante",
     "LocalizaÃ§Ã£o": "Rua da Colina em Gosterwick",
     "Equipamento": "Cota de Malha"
    },
@@ -3163,11 +3191,20 @@
     [
      "sessao-12",
      "Sofreu alucinaÃ§Ãµes intensas apÃ³s ser ferido por uma adaga envenenada de kobold."
+    ],
+    [
+     "sessao-35",
+     "Foi encontrado por E-bola e seu grupo ocupando a Casa da ChaminÃ© acompanhado por aproximadamente oito exploradores."
+    ],
+    [
+     "sessao-35",
+     "Alertou os aventureiros para buscarem outro local de exploraÃ§Ã£o a fim de evitar confrontos por territÃ³rio."
     ]
    ],
    "sessoes": [
     "sessao-10",
-    "sessao-12"
+    "sessao-12",
+    "sessao-35"
    ]
   },
   "npcs/cyra": {
@@ -4474,9 +4511,9 @@
    "tipo": "personagem",
    "nome": "Miragem",
    "apelidos": [],
-   "resumo": "Aventureiro pequenino e mago acompanhado por um cÃ£o de caÃ§a treinado. Explora as ruÃ­nas de Arden Vul utilizando suas magias, armas de disparo e astÃºcia no subterrÃ¢neo. Participou da incursÃ£o Ã  chaminÃ© e sobreviveu ao ninho de monstros sugadores.",
+   "resumo": "Aventureiro pequenino e mago acompanhado por um cÃ£o de caÃ§a treinado. Explora as ruÃ­nas de Arden Vul utilizando suas magias, armas de disparo e astÃºcia no subterrÃ¢neo. Na recente expediÃ§Ã£o ao rio, utilizou seu disco mÃ­stico para imobilizar um carniÃ§al e testou a Capa de LeÃ£o antes de vendÃª-la.",
    "atributos": {
-    "RaÃ§a": "Pequenino (Halfling)",
+    "RaÃ§a": "Pequenino",
     "Classe": "Mago",
     "Jogador": "Guilherme"
    },
@@ -4524,13 +4561,26 @@
     [
      "sessao-33",
      "Retornou com seguranÃ§a Ã  Pousada do Sinal da CabeÃ§a Quebrada apÃ³s abandonar sua mochila nos entulhos para acelerar a fuga."
+    ],
+    [
+     "sessao-35",
+     "Prendeu um carniÃ§al caÃ­do utilizando seu disco mÃ­stico durante o confronto nas ruÃ­nas da chaminÃ©."
+    ],
+    [
+     "sessao-35",
+     "Testou a Capa de LeÃ£o vestindo seu capuz e transformou-se temporariamente em um leÃ£o."
+    ],
+    [
+     "sessao-35",
+     "Participou da venda dos artefatos recuperados ao comerciante Oberon na pousada."
     ]
    ],
    "sessoes": [
     "sessao-20",
     "sessao-21",
     "sessao-23",
-    "sessao-33"
+    "sessao-33",
+    "sessao-35"
    ]
   },
   "personagens/kaelen": {
@@ -6104,9 +6154,10 @@
     "CarniÃ§al",
     "Morto-vivo"
    ],
-   "resumo": "Monstros mortos-vivos necrÃ³fagos de comportamento feroz que perambulam pelas ruÃ­nas e escombros de Arden Vul. Movem-se com extrema rapidez apoiando mÃ£os e pÃ©s no chÃ£o como feras quadrÃºpedes e buscam dilacerar alvos vivos com presas e garras. Seus toques transmitem uma secreÃ§Ã£o tÃ³xica capaz de causar paralisia fÃ­sica instantÃ¢nea em quem for arranhado.",
+   "resumo": "Monstros mortos-vivos necrÃ³fagos de comportamento feroz que perambulam pelas ruÃ­nas e escombros de Arden Vul. Um trio de carniÃ§ais mantinha um porÃ£o imundo devorando um cervo, sendo dois eliminados pelos aventureiros e o terceiro fugindo para a PirÃ¢mide de Thoth.",
    "atributos": {
-    "Tipo": "Morto-vivo"
+    "Tipo": "Morto-vivo",
+    "Habitat": "RuÃ­nas subterrÃ¢neas de Arden Vul"
    },
    "fatos": [
     [
@@ -6128,10 +6179,23 @@
     [
      "sessao-28",
      "Um deles foi imobilizado por raÃ­zes mÃ¡gicas de Demma e destruÃ­do por Momonga, enquanto os dois sobreviventes fugiram feridos, com um deles levando a tocha de Amir na boca."
+    ],
+    [
+     "sessao-35",
+     "Um trio de carniÃ§ais mantinha um covil imundo em um porÃ£o subterrÃ¢neo prÃ³ximo Ã  Casa da ChaminÃ©."
+    ],
+    [
+     "sessao-35",
+     "Transmitiram paralisia e causaram um sangramento severo no pescoÃ§o de Nia com mordidas ferozes."
+    ],
+    [
+     "sessao-35",
+     "Dois dos carniÃ§ais foram eliminados no combate e o terceiro fugiu em direÃ§Ã£o Ã  PirÃ¢mide de Thoth."
     ]
    ],
    "sessoes": [
-    "sessao-28"
+    "sessao-28",
+    "sessao-35"
    ]
   },
   "criaturas/monte-errante": {
@@ -6558,11 +6622,13 @@
    "apelidos": [
     "Louris"
    ],
-   "resumo": "Aventureira exploradora habilidosa e resistente que atua em Arden Vul munida de espada curta e tÃ©cnicas de escalada. Desceu na vanguarda da chaminÃ© rochosa, abateu stirges com estocadas precisas e resgatou os pertences mais valiosos de Markhor apÃ³s seu falecimento. Auxiliou a expediÃ§Ã£o na captura das stirges com lona e no combate contra o carrapato gigante.",
+   "resumo": "Aventureira exploradora habilidosa e resistente que atua em Arden Vul munida de espada curta, clava de bronze e tÃ©cnicas de combate. Durante a expediÃ§Ã£o ao porÃ£o dos carniÃ§ais, sofreu uma mordida severa no pescoÃ§o e paralisia temporÃ¡ria, sendo salva e curada por seus companheiros.",
    "atributos": {
     "Jogador": "Louis",
     "Status": "Viva (Ferida)",
-    "OcupaÃ§Ã£o": "Exploradora"
+    "OcupaÃ§Ã£o": "Exploradora",
+    "RaÃ§a": "Humana",
+    "Classe": "Guerreira"
    },
    "fatos": [
     [
@@ -6592,12 +6658,25 @@
     [
      "sessao-34",
      "Auxiliou Kalvos no combate contra o carrapato gigante cravando sua espada curta na carapaÃ§a do monstro."
+    ],
+    [
+     "sessao-35",
+     "Reabasteceu seus suprimentos com Zaron comprando tochas e cantis antes da expediÃ§Ã£o."
+    ],
+    [
+     "sessao-35",
+     "Foi atacada por um carniÃ§al, ficando temporariamente paralisada por seu toque e sofrendo uma mordida grave no pescoÃ§o."
+    ],
+    [
+     "sessao-35",
+     "Teve seu sangramento estancado por bandagens e recuperou-se da paralisia apÃ³s repousar na pousada."
     ]
    ],
    "sessoes": [
     "sessao-30",
     "sessao-33",
-    "sessao-34"
+    "sessao-34",
+    "sessao-35"
    ]
   },
   "npcs/cronos": {
@@ -7269,6 +7348,235 @@
    ],
    "sessoes": [
     "sessao-34"
+   ]
+  },
+  "personagens/e-bola": {
+   "tipo": "personagem",
+   "nome": "E-bola",
+   "apelidos": [],
+   "resumo": "Guerreiro humano recÃ©m-chegado a Arden Vul equipado com espada longa e armadura. Demonstrou grande forÃ§a fÃ­sica em combate e escavaÃ§Ãµes, empalando um carniÃ§al no porÃ£o subterrÃ¢neo e desobstruindo a torre de vigia do rio.",
+   "atributos": {
+    "RaÃ§a": "Humano",
+    "Classe": "Guerreiro",
+    "Jogador": "Ricardo"
+   },
+   "fatos": [
+    [
+     "sessao-35",
+     "Adquiriu cantis de exploraÃ§Ã£o com Zaron e integrou a incursÃ£o Ã s ruÃ­nas da chaminÃ©."
+    ],
+    [
+     "sessao-35",
+     "Empalou e eliminou um carniÃ§al com sua espada longa durante o confronto no porÃ£o."
+    ],
+    [
+     "sessao-35",
+     "Trabalhou intensamente com uma picareta para desobstruir o piso tÃ©rreo da torre de vigia."
+    ],
+    [
+     "sessao-35",
+     "Espetou o dedo na ponta de um dardo mÃ­stico e adormeceu instantaneamente no salÃ£o da pousada."
+    ]
+   ],
+   "sessoes": [
+    "sessao-35"
+   ]
+  },
+  "personagens/alexander": {
+   "tipo": "personagem",
+   "nome": "Alexander",
+   "apelidos": [],
+   "resumo": "Aventureiro homem-fera arqueiro dotado de olfato aguÃ§ado que explora a regiÃ£o de Arden Vul. Destacou-se em combate ao desabilitar carniÃ§ais com disparos precisos de flecha e resgatar artefatos mÃ¡gicos e histÃ³ricos em ruÃ­nas soterradas.",
+   "atributos": {
+    "RaÃ§a": "Homem-fera",
+    "Classe": "Arqueiro",
+    "Jogador": "Juliano"
+   },
+   "fatos": [
+    [
+     "sessao-35",
+     "Comprou um chicote e uma picareta com o comerciante Zaron antes da exploraÃ§Ã£o."
+    ],
+    [
+     "sessao-35",
+     "Desferiu um disparo de flecha no joelho de um carniÃ§al, derrubando a criatura durante o combate."
+    ],
+    [
+     "sessao-35",
+     "Encontrou a Capa de LeÃ£o, dois dardos de sono e 200 moedas de prata no porÃ£o dos carniÃ§ais."
+    ],
+    [
+     "sessao-35",
+     "Escavou a torre em ruÃ­nas e descobriu o Olho de Safira e Azeviche oculto entre os entulhos."
+    ]
+   ],
+   "sessoes": [
+    "sessao-35"
+   ]
+  },
+  "npcs/oberon": {
+   "tipo": "npc",
+   "nome": "Oberon",
+   "apelidos": [],
+   "resumo": "Comerciante e colecionador de relÃ­quias arconteano que atua em parceria com Zaron na Pousada do Sinal da CabeÃ§a Quebrada. Traja uma armadura refinada, porta uma espada longa e possui vasto conhecimento sobre a histÃ³ria arcana de Arden Vul. Adquiriu tesouros valiosos do grupo pagando mais de 7.500 ciclos em moedas de ouro extraÃ­das de sua bolsa mÃ¡gica.",
+   "atributos": {
+    "RaÃ§a": "Arconteano",
+    "OcupaÃ§Ã£o": "Comerciante / Colecionador",
+    "LocalizaÃ§Ã£o": "Pousada do Sinal da CabeÃ§a Quebrada"
+   },
+   "fatos": [
+    [
+     "sessao-35",
+     "Revelou ter conversado pacificamente com o dragÃ£o que habita uma torre quadrada nas ruÃ­nas de Arden Vul."
+    ],
+    [
+     "sessao-35",
+     "Identificou o Olho de Safira e Azeviche como uma relÃ­quia mÃ¡gica da antiga facÃ§Ã£o dos Sortians."
+    ],
+    [
+     "sessao-35",
+     "Adquiriu os artefatos mÃ¡gicos e histÃ³ricos do grupo pagando mais de 7.500 ciclos em moedas de ouro e prata."
+    ]
+   ],
+   "sessoes": [
+    "sessao-35"
+   ]
+  },
+  "itens/olho-de-safira-e-azeviche": {
+   "tipo": "item",
+   "nome": "Olho de Safira e Azeviche",
+   "apelidos": [],
+   "resumo": "Artefato mÃ­stico de formato realista de olho humano em tamanho natural, esculpido em safira azul-clara com uma pupila incrustada de azeviche preto. Trata-se de uma relÃ­quia histÃ³rica da facÃ§Ã£o dos Sortians associada Ã  antiga guerra civil arcana de Arden Vul. Foi desenterrado na torre de vigia e vendido a Oberon por 2.500 ciclos de prata.",
+   "atributos": {
+    "Material": "Safira e Azeviche",
+    "Natureza": "MÃ¡gica / HistÃ³rica"
+   },
+   "fatos": [
+    [
+     "sessao-35",
+     "Encontrado entre os entulhos desobstruÃ­dos no andar tÃ©rreo da torre em ruÃ­nas no rio."
+    ],
+    [
+     "sessao-35",
+     "Identificado pelo comerciante Oberon como um item mÃ¡gico e relÃ­quia histÃ³rica da facÃ§Ã£o dos Sortians."
+    ],
+    [
+     "sessao-35",
+     "Vendido ao comerciante Oberon pelo valor de 2.500 ciclos de prata (250 ciclos de ouro)."
+    ]
+   ],
+   "sessoes": [
+    "sessao-35"
+   ]
+  },
+  "itens/capa-de-leao": {
+   "tipo": "item",
+   "nome": "Capa de LeÃ£o",
+   "apelidos": [],
+   "resumo": "Manto mÃ­stico confeccionado em couro refinado e pele bege de leÃ£o, acompanhado de um capuz em formato de cabeÃ§a de felino. Concede ao usuÃ¡rio a habilidade mÃ¡gica de transformar-se temporariamente em um leÃ£o uma vez ao dia ao colocar o capuz. Foi resgatada no porÃ£o dos carniÃ§ais e vendida a Oberon por 500 ciclos de ouro.",
+   "atributos": {
+    "Tipo": "Vestimenta MÃ¡gica",
+    "Efeito": "TransformaÃ§Ã£o em LeÃ£o"
+   },
+   "fatos": [
+    [
+     "sessao-35",
+     "Resgatada no porÃ£o dos carniÃ§ais entre os restos de acampamento de exploradores vitimados."
+    ],
+    [
+     "sessao-35",
+     "Permitiu a Miragem transformar-se temporariamente em um leÃ£o ao vestir seu capuz."
+    ],
+    [
+     "sessao-35",
+     "Comprada pelo comerciante Oberon na Pousada do Sinal da CabeÃ§a Quebrada por 500 ciclos de ouro."
+    ]
+   ],
+   "sessoes": [
+    "sessao-35"
+   ]
+  },
+  "itens/dardos-de-sono": {
+   "tipo": "item",
+   "nome": "Dardos de Sono",
+   "apelidos": [],
+   "resumo": "Par de pequenos dardos metÃ¡licos de coloraÃ§Ã£o azul-escuro com penas vermelhas e pontas afiadas extremamente delicadas. Impregnados com veneno ou encantamento de adormecimento fulminante que afeta instantaneamente quem for perfurado. Foram recolhidos no porÃ£o dos carniÃ§ais e conservados por Alexander.",
+   "atributos": {
+    "Tipo": "Arma de Arremesso / Artefato MÃ¡gico",
+    "Efeito": "Sono InstantÃ¢neo"
+   },
+   "fatos": [
+    [
+     "sessao-35",
+     "Encontrados junto Ã  Capa de LeÃ£o no porÃ£o dos carniÃ§ais nas ruÃ­nas da chaminÃ©."
+    ],
+    [
+     "sessao-35",
+     "Induziram E-bola a um sono imediato ao perfurar acidentalmente a ponta de seu dedo."
+    ],
+    [
+     "sessao-35",
+     "Permanecem guardados sob a posse do arqueiro Alexander."
+    ]
+   ],
+   "sessoes": [
+    "sessao-35"
+   ]
+  },
+  "itens/medalhao-de-cobre-dos-sabios": {
+   "tipo": "item",
+   "nome": "MedalhÃ£o de Cobre dos SÃ¡bios",
+   "apelidos": [],
+   "resumo": "MedalhÃ£o circular de cobre pesada do tamanho de uma palma de mÃ£o que exibe a gravura de duas figuras trajando robes arcanos cumprimentando-se. Ã uma relÃ­quia histÃ³rica referente ao acordo de paz que encerrou a guerra civil entre Sortians e Theosophs em Arden Vul. Foi vendido a Oberon por 100 ciclos de prata.",
+   "atributos": {
+    "Material": "Cobre",
+    "Natureza": "HistÃ³rica"
+   },
+   "fatos": [
+    [
+     "sessao-35",
+     "Resgatado durante as exploraÃ§Ãµes nas ruÃ­nas da edificaÃ§Ã£o retangular prÃ³xima Ã  chaminÃ©."
+    ],
+    [
+     "sessao-35",
+     "Retrata o aperto de mÃ£os simbÃ³lico entre magos de ordens arcanas rivais do passado."
+    ],
+    [
+     "sessao-35",
+     "Adquirido pelo colecionador Oberon por 100 ciclos de prata para sua coleÃ§Ã£o pessoal."
+    ]
+   ],
+   "sessoes": [
+    "sessao-35"
+   ]
+  },
+  "locais/torre-quadrada-do-rio": {
+   "tipo": "local",
+   "nome": "Torre Quadrada do Rio",
+   "apelidos": [
+    "Torre em RuÃ­nas do Rio"
+   ],
+   "resumo": "Estrutura quadrada em ruÃ­nas localizada na margem do rio junto Ã s muralhas de Arden Vul. Seu piso tÃ©rreo permaneceu soterrado sob escombros atÃ© ser desobstruÃ­do por E-bola e Alexander com uma picareta, revelando uma saÃ­da para o lado oposto e a relÃ­quia do Olho de Safira e Azeviche.",
+   "atributos": {
+    "Tipo": "Estrutura / RuÃ­na",
+    "LocalizaÃ§Ã£o": "Margem do Rio em Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-35",
+     "Teve seu piso tÃ©rreo desobstruÃ­do apÃ³s trÃªs horas de escavaÃ§Ã£o contÃ­nua com picareta."
+    ],
+    [
+     "sessao-35",
+     "Abrigava vestÃ­gios de um acampamento recente e uma passagem aberta para o lado oposto da muralha."
+    ],
+    [
+     "sessao-35",
+     "Ocultava entre seus destroÃ§os antigos o valioso Olho de Safira e Azeviche."
+    ]
+   ],
+   "sessoes": [
+    "sessao-35"
    ]
   }
  },
@@ -8063,10 +8371,31 @@
    "aberta_em": "sessao-34",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p114",
+   "texto": "Investigar o paradeiro do carniÃ§al ferido que fugiu em direÃ§Ã£o Ã  PirÃ¢mide de Thoth.",
+   "aberta_em": "sessao-35",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p115",
+   "texto": "Investigar o ninho do dragÃ£o mencionado por Oberon no pÃ¡tio da torre quadrada em Arden Vul.",
+   "aberta_em": "sessao-35",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p116",
+   "texto": "Descobrir se o Olho de Safira e Azeviche possui algum encaixe ou funÃ§Ã£o ritualÃ­stica nas ruÃ­nas dos Sortians.",
+   "aberta_em": "sessao-35",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-34",
-  "texto": "O grupo encontra-se na Pousada do Sinal da CabeÃ§a Quebrada apÃ³s uma expediÃ§Ã£o bem-sucedida Ã  cÃ¢mara subterrÃ¢nea sob a chaminÃ© de Arden Vul. Com a ajuda do anÃ£o Kalvos e seu irmÃ£o Bolkas, os aventureiros recuperaram a armadura e os pertences do falecido Markhor, alÃ©m de descobrirem uma nova escadaria em espiral que desce para as profundezas da cidade antiga. Durante a exploraÃ§Ã£o, recolheram uma haste de bronze com inscriÃ§Ãµes antigas, um livreto de couro e um cogumelo misterioso, mas a chaminÃ© desabou parcialmente durante a saÃ­da. Em aberto estÃ£o a exploraÃ§Ã£o da nova escadaria subterrÃ¢nea, a decifraÃ§Ã£o da haste de bronze e a busca por um comprador para os equipamentos ensanguentados rejeitados por TenÃ¡rius."
+  "apos": "sessao-35",
+  "texto": "O grupo de aventureiros formado por Miragem, Alexander, E-bola e Nia realizou uma lucrativa incursÃ£o nos arredores da margem do rio em Arden Vul. ApÃ³s encontrarem o explorador Creon na Casa da ChaminÃ©, o grupo descobriu um porÃ£o oculto e combateu trÃªs ferozes carniÃ§ais, sobrevivendo a ataques paralisantes e mordidas letais. AlÃ©m de resgatarem a Capa de LeÃ£o e dardos mÃ­sticos no porÃ£o, os exploradores desobstruÃ­ram o piso tÃ©rreo da torre de vigia do rio com picaretas, encontrando o valioso Olho de Safira e Azeviche. De volta Ã  Pousada do Sinal da CabeÃ§a Quebrada, negociaram seus achados com o abastado comerciante Oberon, arrecadando mais de 7.500 ciclos de prata em ouro. Com Nia recuperada e os bolsos cheios, os aventureiros agora ponderam sobre os mistÃ©rios arcanos revelados e as ameaÃ§as que rondam as ruÃ­nas."
  }
 }
