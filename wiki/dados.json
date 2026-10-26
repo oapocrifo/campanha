@@ -76,6 +76,40 @@
     "locais/deep-town",
     "locais/o-emaranhado"
    ]
+  },
+  "sessao-04": {
+   "titulo": "SessÃ£o 04 - O Julgamento de Hugios e a Emboscada aos Kobolds",
+   "resumo": "Hugios acorda amarrado no templo atrÃ¡s da Casa dos Deuses em Gosterwick, onde a sacerdotisa Jador o interroga com uma poÃ§Ã£o da verdade sobre o roubo ao santuÃ¡rio. ApÃ³s confirmar que Hugios foi abandonado por Edward e que o saque incluÃ­a um colar de pÃ©rolas e um amuleto rosado, Jador lanÃ§a sobre ele a magia MissÃ£o, proibindo-o de deixar a regiÃ£o e exigindo relatÃ³rios periÃ³dicos atÃ© que a dÃ­vida seja quitada. Sem moedas nem equipamento, Hugios encontra Deyos, que aceita financiar sua hospedagem e comprar seus suprimentos bÃ¡sicos em troca de trabalho na confecÃ§Ã£o de azagaias.\n\nMais tarde, o grupo se reÃºne com o ladino Tobias e o mago Harllequinnos. Tobias visita a prefeita Eusebia Phokas para oficializar o registro dos novos companheiros na caÃ§ada aos kobolds, garantindo a recompensa de 500 ciclos de prata. O grupo compra mantimentos e equipamentos â incluindo uma nova cota de malha para Deyos, comprada do ferreiro Marcion na forja de Torunn â e parte pela estrada de Deep Town rumo ao covil dos monstros.\n\nAo cair da noite, o grupo cruza o rio e avanÃ§a em direÃ§Ã£o ao Emaranhado, onde intercepta uma patrulha marchada de seis kobolds. Harllequinnos lanÃ§a a magia Sono e adormece trÃªs criaturas instantaneamente, enquanto Deyos e Tobias abatem os demais Ã  distÃ¢ncia, fazendo o Ãºltimo fugir. Os aventureiros executam os adormecidos, coletam 56 ciclos de cobre, arcos, flechas envenenadas, dois potes de graxa venenosa esverdeada e cortam a cabeÃ§a, chifres e caudas dos monstros como prova.\n\nNa viagem de regresso ao amanhecer, o grupo Ã© surpreendido por um leÃ£o gigante Ã  beira da estrada. Mantendo a calma, Deyos arremessa uma das caudas de kobold para a fera, que se atenta Ã  carne e permite que os aventureiros recuem em seguranÃ§a atÃ© a Estalagem Capa Amarela em Gosterwick.",
+   "linha_do_tempo": [
+    "Hugios Ã© interrogado por Jador no templo da Casa dos Deuses e coagido a tomar uma poÃ§Ã£o da verdade.",
+    "Jador lanÃ§a a magia MissÃ£o sobre Hugios, liberando-o sem equipamentos, mas preso obrigatoriamente Ã  regiÃ£o de Gosterwick.",
+    "Hugios reencontra Deyos na cidade, que financia seus suprimentos e hospedagem em troca da confecÃ§Ã£o de azagaias.",
+    "Deyos adquire uma cota de malha com o ferreiro Marcion na forja de Torunn.",
+    "Tobias obtÃ©m o aval da prefeita Eusebia Phokas para incluir Deyos, Hugios e Harllequinnos no contrato de caÃ§a aos kobolds.",
+    "O grupo viaja pela estrada de Deep Town e cruza a ponte de troncos sobre o rio ao anoitecer.",
+    "Nas proximidades do Emaranhado, o grupo embosca uma patrulha de seis kobolds, e Harllequinnos adormece trÃªs deles com a magia Sono.",
+    "Os kobolds restantes sÃ£o derrotados por Deyos e Tobias ou fogem pela escuridÃ£o.",
+    "O grupo saqueia os corpos, recolhendo moedas de cobre, arcos, flechas com espinhos, potes de graxa venenosa e partes anatÃ´micas como trofÃ©us.",
+    "Ao amanhecer, o grupo depara-se com um leÃ£o gigante na estrada e consegue escapar incÃ³lume apÃ³s Deyos distrair a fera com uma cauda de kobold.",
+    "Os aventureiros retornam a Gosterwick e descansam na Estalagem Capa Amarela."
+   ],
+   "entidades": [
+    "personagens/hugios",
+    "personagens/deyos",
+    "personagens/tobias",
+    "personagens/harllequinnos",
+    "npcs/jador",
+    "npcs/marcion",
+    "npcs/eusebia-phokas",
+    "locais/gosterwick",
+    "locais/o-emaranhado",
+    "locais/casa-dos-deuses",
+    "locais/estalagem-capa-amarela",
+    "criaturas/kobold",
+    "criaturas/leao",
+    "itens/graxa-venenosa",
+    "eventos/emboscada-no-emaranhado"
+   ]
   }
  },
  "entidades": {
@@ -83,12 +117,13 @@
    "tipo": "personagem",
    "nome": "Deyos",
    "apelidos": [],
-   "resumo": "Aventureiro da raÃ§a homem-lagarto que conhece os caminhos da escadaria e das ruÃ­nas de Arden Vul. Conseguiu sobreviver ao ataque das aranhas e enganou o lÃ­der de um bando rival para escapar das ruÃ­nas.",
+   "resumo": "Aventureiro da raÃ§a homem-lagarto conhecedor das ruÃ­nas de Arden Vul e guerreiro habilidoso do grupo. Financiou os equipamentos de Hugios em Gosterwick e comprou uma nova cota de malha na forja de Torunn. Liderou os confrontos fÃ­sicos na expediÃ§Ã£o ao Emaranhado e usou uma cauda de kobold para pacificar um leÃ£o gigante na estrada.",
    "atributos": {
     "RaÃ§a": "Homem-Lagarto",
     "Jogador": "Guilherme",
     "Status": "Vivo",
-    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela, Gosterwick"
+    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela, Gosterwick",
+    "Classe": "Guerreiro"
    },
    "fatos": [
     [
@@ -98,21 +133,38 @@
     [
      "sessao-01",
      "Empurrou o lÃ­der de um bando de exploradores rivais para dentro da torre de aranhas para conseguir fugir."
+    ],
+    [
+     "sessao-04",
+     "Comprou uma cota de malha com o ferreiro Marcion na forja de Torunn."
+    ],
+    [
+     "sessao-04",
+     "Pagou a hospedagem e os itens de Hugios em troca do trabalho de confecÃ§Ã£o de azagaias."
+    ],
+    [
+     "sessao-04",
+     "Abateu um kobold com um arremesso certeiro de azagaia durante o confronto no Emaranhado."
+    ],
+    [
+     "sessao-04",
+     "Evitou o ataque de um leÃ£o gigante na estrada arremessando a cauda de um kobold para a fera."
     ]
    ],
    "sessoes": [
-    "sessao-01"
+    "sessao-01",
+    "sessao-04"
    ]
   },
   "personagens/hugios": {
    "tipo": "personagem",
    "nome": "Hugios",
    "apelidos": [],
-   "resumo": "Aventureiro da classe explorador que integrou a expediÃ§Ã£o a Arden Vul e posteriormente uniu-se a Edward em Gosterwick. Explorou o cemitÃ©rio Thorcinga na colina A Pata e foi capturado pela guarda da Casa dos Deuses apÃ³s profanar um santuÃ¡rio divino.",
+   "resumo": "Aventureiro da classe explorador que integrou a expediÃ§Ã£o a Arden Vul e explorou o cemitÃ©rio Thorcinga na colina A Pata. ApÃ³s participar do saque Ã  Casa dos Deuses, foi capturado e colocado sob a magia MissÃ£o pela sacerdotisa Jador, devendo relatar seus passos atÃ© recuperar o tesouro roubado. Teve seus suprimentos recarregados por Deyos e participou do combate contra os kobolds no Emaranhado.",
    "atributos": {
     "Classe": "Explorador",
     "Jogador": "Sonard",
-    "Status": "Preso nas celas do Templo da JustiÃ§a",
+    "Status": "Sob magia MissÃ£o",
     "LocalizaÃ§Ã£o": "Estalagem Capa Amarela, Gosterwick"
    },
    "fatos": [
@@ -143,11 +195,28 @@
     [
      "sessao-02",
      "Foi atingido por uma magia de paralisia lanÃ§ada por uma clÃ©riga e acabou encarcerado no templo."
+    ],
+    [
+     "sessao-04",
+     "Foi submetido a uma poÃ§Ã£o da verdade pela sacerdotisa Jador durante seu interrogatÃ³rio."
+    ],
+    [
+     "sessao-04",
+     "Ficou sob o efeito da magia MissÃ£o, que o proÃ­be de abandonar a regiÃ£o de Gosterwick atÃ© o crime ser resolvido."
+    ],
+    [
+     "sessao-04",
+     "Teve seus equipamentos bÃ¡sicos financiados por Deyos em troca de fabricar azagaias durante o descanso."
+    ],
+    [
+     "sessao-04",
+     "Participou da patrulha contra os kobolds e guardou a cabeÃ§a de uma das criaturas como prova para a prefeitura."
     ]
    ],
    "sessoes": [
     "sessao-01",
-    "sessao-02"
+    "sessao-02",
+    "sessao-04"
    ]
   },
   "personagens/pallas": {
@@ -218,7 +287,8 @@
    ],
    "sessoes": [
     "sessao-01",
-    "sessao-02"
+    "sessao-02",
+    "sessao-04"
    ]
   },
   "locais/arden-vul": {
@@ -247,7 +317,7 @@
    "tipo": "local",
    "nome": "Estalagem Capa Amarela",
    "apelidos": [],
-   "resumo": "Estabelecimento situado na esquina do Caminho Imperial com a Rua da Pedra em Gosterwick, utilizado como refÃºgio por aventureiros.",
+   "resumo": "Estabelecimento situado na esquina do Caminho Imperial com a Rua da Pedra em Gosterwick, utilizado como refÃºgio e base de descanso por aventureiros.",
    "atributos": {
     "LocalizaÃ§Ã£o": "Gosterwick"
    },
@@ -258,7 +328,8 @@
     ]
    ],
    "sessoes": [
-    "sessao-01"
+    "sessao-01",
+    "sessao-04"
    ]
   },
   "npcs/damasco": {
@@ -398,7 +469,7 @@
    "tipo": "local",
    "nome": "Casa dos Deuses",
    "apelidos": [],
-   "resumo": "Grande estrutura de templo em estilo clÃ¡ssico situada no Distrito dos Incensos em Gosterwick. ContÃ©m diversos santuÃ¡rios enfileirados dedicados a diferentes divindades com baÃºs de oferendas em pedra.",
+   "resumo": "Grande estrutura de templo em estilo clÃ¡ssico situada no Distrito dos Incensos em Gosterwick. ContÃ©m diversos santuÃ¡rios enfileirados dedicados a diferentes divindades com baÃºs de oferendas em pedra e um templo circular em sua parte traseira.",
    "atributos": {
     "LocalizaÃ§Ã£o": "Distrito dos Incensos, Gosterwick"
    },
@@ -413,7 +484,8 @@
     ]
    ],
    "sessoes": [
-    "sessao-02"
+    "sessao-02",
+    "sessao-04"
    ]
   },
   "eventos/saque-da-casa-dos-deuses": {
@@ -446,10 +518,11 @@
    "tipo": "personagem",
    "nome": "Tobias",
    "apelidos": [],
-   "resumo": "Aventureiro halfling recÃ©m-chegado a Gosterwick ao lado de Sisco. Busca riquezas e aceitou uma missÃ£o para caÃ§ar kobolds.",
+   "resumo": "Aventureiro halfling esperto que atua em Gosterwick em busca de riquezas e recompensas oficiais. Obteve autorizaÃ§Ã£o da prefeita Eusebia Phokas para recrutar novos membros para a caÃ§ada aos kobolds mantendo o sigilo comercial. Liderou o grupo de volta Ã  estrada de Deep Town e combateu a patrulha de kobolds no Emaranhado.",
    "atributos": {
     "Jogador": "Kauan",
-    "RaÃ§a": "Halfling"
+    "RaÃ§a": "Halfling",
+    "Classe": "Ladino"
    },
    "fatos": [
     [
@@ -463,10 +536,27 @@
     [
      "sessao-03",
      "Conduziu o grupo de Hama atÃ© a entrada do covil dos kobolds e coletou amostras de um minÃ©rio branco no retorno."
+    ],
+    [
+     "sessao-04",
+     "Conseguiu a autorizaÃ§Ã£o e promessa de pagamento de Eusebia Phokas para integrar Deyos, Hugios e Harllequinnos na caÃ§ada aos kobolds."
+    ],
+    [
+     "sessao-04",
+     "Guiou o grupo atÃ© a ponte de troncos e a entrada da regiÃ£o das vinhas no Emaranhado."
+    ],
+    [
+     "sessao-04",
+     "Atingiu um kobold com sua funda durante a emboscada noturna."
+    ],
+    [
+     "sessao-04",
+     "Coletou flechas e moedas de cobre dos kobolds abatidos."
     ]
    ],
    "sessoes": [
-    "sessao-03"
+    "sessao-03",
+    "sessao-04"
    ]
   },
   "personagens/sisco": {
@@ -522,19 +612,24 @@
    "tipo": "npc",
    "nome": "Eusebia Phokas",
    "apelidos": [],
-   "resumo": "Chefe administradora de Gosterwick que gerencia os assuntos e contrata aventureiros na prefeitura.",
+   "resumo": "Chefe administradora de Gosterwick que gerencia os assuntos e contrata aventureiros na prefeitura. Autorizou a inclusÃ£o de novos aventureiros no contrato sigiloso para eliminar a ameaÃ§a dos kobolds na estrada de Deep Town.",
    "atributos": {
-    "OcupaÃ§Ã£o": "Chefe Administradora",
+    "OcupaÃ§Ã£o": "Prefeita / Administradora",
     "LocalizaÃ§Ã£o": "Gosterwick"
    },
    "fatos": [
     [
      "sessao-03",
      "Recebeu Tobias e Sisco em seu escritÃ³rio e ofereceu uma recompensa de 500 ciclos de prata pela eliminaÃ§Ã£o dos kobolds."
+    ],
+    [
+     "sessao-04",
+     "Autorizou Tobias a incluir Deyos, Hugios e Harllequinnos no contrato de exterminaÃ§Ã£o dos kobolds sob total sigilo."
     ]
    ],
    "sessoes": [
-    "sessao-03"
+    "sessao-03",
+    "sessao-04"
    ]
   },
   "locais/deep-town": {
@@ -557,16 +652,184 @@
    "tipo": "local",
    "nome": "O Emaranhado",
    "apelidos": [],
-   "resumo": "RegiÃ£o de colinas e vinhas espinhosas onde se localiza o covil dos kobolds que atacam os mercadores.",
+   "resumo": "RegiÃ£o de colinas e vinhas espinhosas onde se localiza o covil dos kobolds que atacam os mercadores. Ã cercado por grama cortada, um pequeno riacho e ruÃ­nas antigas no topo da colina principal.",
    "atributos": {},
    "fatos": [
     [
      "sessao-03",
      "O local possui uma colina de calcÃ¡rio cercada por vinhas densas e tÃºneis de acesso usados pelos kobolds."
+    ],
+    [
+     "sessao-04",
+     "Abriga vinhas tomadas por espinhos pesados e ruÃ­nas no topo de uma colina elevada."
+    ],
+    [
+     "sessao-04",
+     "Foi palco do combate entre o grupo e uma patrulha de seis kobolds."
     ]
    ],
    "sessoes": [
-    "sessao-03"
+    "sessao-03",
+    "sessao-04"
+   ]
+  },
+  "personagens/harllequinnos": {
+   "tipo": "personagem",
+   "nome": "Harllequinnos",
+   "apelidos": [],
+   "resumo": "Mago recÃ©m-chegado a Gosterwick portando o amedrontador grimÃ³rio Nekrotapion. Uniu-se ao grupo de Tobias para caÃ§ar os kobolds no Emaranhado e demonstrou grande utilidade arcana ao conjurar a magia Sono. Busca aprender novas feitiÃ§arias e futuramente treinar um aprendiz.",
+   "atributos": {
+    "Classe": "Mago",
+    "Jogador": "Lepi"
+   },
+   "fatos": [
+    [
+     "sessao-04",
+     "Chegou a Gosterwick trazendo consigo o grimÃ³rio arcano Nekrotapion."
+    ],
+    [
+     "sessao-04",
+     "Foi registrado junto Ã  prefeitura por Tobias para receber a recompensa pelo combate aos kobolds."
+    ],
+    [
+     "sessao-04",
+     "Conjurou a magia Sono durante a emboscada, adormecendo instantaneamente trÃªs dos seis kobolds."
+    ]
+   ],
+   "sessoes": [
+    "sessao-04"
+   ]
+  },
+  "npcs/jador": {
+   "tipo": "npc",
+   "nome": "Jador",
+   "apelidos": [],
+   "resumo": "Sacerdotisa e encarregada da ordem religiosa no templo circular situado atrÃ¡s da Casa dos Deuses em Gosterwick. Conduziu o interrogatÃ³rio de Hugios apÃ³s o furto das oferendas de Freya e aplicou-lhe uma magia de restriÃ§Ã£o.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Sacerdotisa",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-04",
+     "Interrogou Hugios com uma poÃ§Ã£o da verdade para descobrir o paradeiro dos itens roubados do santuÃ¡rio."
+    ],
+    [
+     "sessao-04",
+     "LanÃ§ou a magia MissÃ£o sobre Hugios, obrigando-o a prestar contas periodicamente e a nÃ£o abandonar a regiÃ£o atÃ© a resoluÃ§Ã£o do crime."
+    ]
+   ],
+   "sessoes": [
+    "sessao-04"
+   ]
+  },
+  "npcs/marcion": {
+   "tipo": "npc",
+   "nome": "Marcion",
+   "apelidos": [],
+   "resumo": "Ferreiro que trabalha na famosa forja de Torunn no Distrito Exterior de Gosterwick. Vende armaduras e equipamentos metÃ¡licos produzidos para a guarda da cidade.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Ferreiro",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-04",
+     "Vendeu uma cota de malha para Deyos cobrando um preÃ§o elevado acima do padrÃ£o."
+    ]
+   ],
+   "sessoes": [
+    "sessao-04"
+   ]
+  },
+  "criaturas/kobold": {
+   "tipo": "criatura",
+   "nome": "Kobold",
+   "apelidos": [],
+   "resumo": "Pequenas criaturas reptilianas noturnas que habitam covis no Emaranhado e atacam comboios na estrada de Deep Town. Organizam-se em patrulhas coordenadas e utilizam arcos curtos com flechas envenenadas por um unguento esverdeado.",
+   "atributos": {
+    "Tipo": "HumanÃ³ide Reptiliano"
+   },
+   "fatos": [
+    [
+     "sessao-04",
+     "Uma patrulha de seis kobolds que marchava de forma coordenada foi interceptada pelo grupo perto do Emaranhado."
+    ],
+    [
+     "sessao-04",
+     "Utilizam flechas com pontas de espinho impregnadas com graxa esverdeada venenosa."
+    ]
+   ],
+   "sessoes": [
+    "sessao-04"
+   ]
+  },
+  "criaturas/leao": {
+   "tipo": "criatura",
+   "nome": "LeÃ£o",
+   "apelidos": [
+    "Pururuca"
+   ],
+   "resumo": "Grande predador felino que ronda a margem da floresta ao longo da estrada entre Gosterwick e Deep Town. Pode ser apaziguado com oferendas de carne fresca.",
+   "atributos": {
+    "Tipo": "Besta Selvagem"
+   },
+   "fatos": [
+    [
+     "sessao-04",
+     "Espreitou os aventureiros na estrada de volta a Gosterwick ao amanhecer."
+    ],
+    [
+     "sessao-04",
+     "Aceitou a cauda de kobold atirada por Deyos e parou para devorÃ¡-la, permitindo que o grupo fugisse."
+    ]
+   ],
+   "sessoes": [
+    "sessao-04"
+   ]
+  },
+  "itens/graxa-venenosa": {
+   "tipo": "item",
+   "nome": "Graxa Venenosa",
+   "apelidos": [],
+   "resumo": "Pasta esverdeada de odor forte mantida em potes de cerÃ¢mica pelos kobolds do Emaranhado. Serve para envenenar pontas de flechas e armas de arremesso.",
+   "atributos": {
+    "Tipo": "Veneno / ConsumÃ­vel"
+   },
+   "fatos": [
+    [
+     "sessao-04",
+     "Duas caixas pequenas contendo a substÃ¢ncia foram encontradas nos corpos dos kobolds abatidos."
+    ]
+   ],
+   "sessoes": [
+    "sessao-04"
+   ]
+  },
+  "eventos/emboscada-no-emaranhado": {
+   "tipo": "evento",
+   "nome": "Emboscada no Emaranhado",
+   "apelidos": [],
+   "resumo": "Confronto noturno travado entre o grupo de aventureiros e uma patrulha kobold na entrada de sua regiÃ£o territorial. O combate resultou na eliminaÃ§Ã£o dos monstros, fuga de sobreviventes e apreensÃ£o de provas e saques.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "O Emaranhado"
+   },
+   "fatos": [
+    [
+     "sessao-04",
+     "Harllequinnos colocou trÃªs kobolds para dormir com a magia Sono."
+    ],
+    [
+     "sessao-04",
+     "Deyos e Tobias abateram combatentes com azagaia e funda, enquanto o restante do bando debandou."
+    ],
+    [
+     "sessao-04",
+     "O grupo recolheu 56 moedas de cobre, arcos, flechas envenenadas, o veneno e partes anatÃ´micas das criaturas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-04"
    ]
   }
  },
@@ -596,8 +859,8 @@
    "id": "p4",
    "texto": "Resgatar ou libertar Hugios das celas do templo no Distrito dos Incensos antes do seu julgamento.",
    "aberta_em": "sessao-02",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-04",
+   "como": "A sacerdotisa Jador liberou Hugios das celas ao conjurar sobre ele a magia MissÃ£o, que o obriga a nÃ£o deixar a regiÃ£o e a relatar o progresso na busca pelas oferendas roubadas."
   },
   {
    "id": "p5",
@@ -619,10 +882,31 @@
    "aberta_em": "sessao-03",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p8",
+   "texto": "Entregar a cabeÃ§a, chifres e caudas dos kobolds para Eusebia Phokas na prefeitura para receber a recompensa de 500 ciclos de prata.",
+   "aberta_em": "sessao-04",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p9",
+   "texto": "Identificar com exatidÃ£o as propriedades mÃ¡gicas ou quÃ­micas da graxa venenosa esverdeada capturada.",
+   "aberta_em": "sessao-04",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p10",
+   "texto": "Localizar Edward para reaver as oferendas roubadas da deusa Freya e livrar Hugios da magia MissÃ£o de Jador.",
+   "aberta_em": "sessao-04",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-03",
-  "texto": "Tobias e Sisco chegaram a Gosterwick e aceitaram uma missÃ£o para investigar ataques de kobolds na estrada de Deep Town. Com a ajuda da patrulha liderada por Hama, o grupo encontrou O Emaranhado, o covil dos kobolds prÃ³ximo a um rio e ao paredÃ£o. Ao anoitecer, os aventureiros iniciaram o retorno para Gosterwick e escaparam de uma emboscada com corda e kobolds hostis na estrada, refugiando-se na Estalagem Capa Amarela. O objetivo atual Ã© descansar na cidade e planejar o ataque definitivo ao covil dos kobolds no dia seguinte."
+  "apos": "sessao-04",
+  "texto": "O grupo estÃ¡ abrigado na Estalagem Capa Amarela em Gosterwick apÃ³s uma longa expediÃ§Ã£o noturna. Hugios foi libertado sob a magia MissÃ£o de Jador e precisa encontrar Edward ou o tesouro roubado para se livrar do encanto. Tobias, Deyos, Hugios e Harllequinnos emboscaram uma patrulha kobold no Emaranhado e retornaram com saques e provas do abate. Na estrada de volta, o grupo conseguiu escapar de um leÃ£o gigante ao distraÃ­-lo com carne fresca. Os objetivos abertos sÃ£o entregar as provas de caÃ§a a Eusebia Phokas, identificar a graxa venenosa obtida e explorar o interior do covil no Emaranhado."
  }
 }
