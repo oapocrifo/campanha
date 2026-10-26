@@ -979,6 +979,37 @@
     "itens/arcanum",
     "itens/cimitarra-magica-1"
    ]
+  },
+  "sessao-37": {
+   "titulo": "A Estrada para Newmarket e a Morte de Amir",
+   "resumo": "Em 27 de Bezemius de 2993, os aventureiros Kalvos, Momonga, Nia e Amir reuniram-se na praÃ§a de Gosterwick, onde recepcionaram a recÃ©m-chegada maga elfa Jani Belmont. Na praÃ§a, Momonga participou de um sorteio de itens mÃ¡gicos na tenda de Jarud e obteve o Espelho de Zumbiboo. O artefato amaldiÃ§oado cobriu a ambos com uma fuligem cinzenta permanente e conferiu ao clÃ©rigo uma incÃ´moda aparÃªncia mortificada, forÃ§ando-o a guardar o espelho em seu quarto na Estalagem Capa Amarela antes de partirem.\n\nComprando mantimentos em abundÃ¢ncia com Vera e adquirindo mulas para puxar duas carroÃ§as carregadas com as estÃ¡tuas recuperadas, a comitiva iniciou sua marcha pelo Caminho Imperial rumo a Newmarket. Na primeira noite de acampamento, uma dupla de lobos famintos foi afugentada apÃ³s Jani abater um deles com mÃ­sseis mÃ¡gicos. Na segunda noite, o acampamento foi abordado por uma carroÃ§a com cinco indivÃ­duos em trajes escuros que afirmavam ser mercadores de carne, mas escondiam sÃ­mbolos de serpente espiralada associados Ã  seita dos antigos deuses inimiga do fantasma Irthol.\n\nSuspeitando da emboscada, Amir tentou degolar o porta-voz do bando, mas a adaga bateu em uma armadura oculta e o ladino foi morto instantaneamente por um golpe devastador de mangual. Seguiu-se uma luta intensa em que Kalvos conteve inimigos com grilhÃµes mÃ¡gicos, Momonga cegou o lÃ­der com uma rajada de luz e Jani atropelou brutalmente o comandante cultista conduzindo a carroÃ§a, permitindo que Nia e Kalvos abatessem os demais enquanto um cultista fugia. Sob a lona dos criminosos, os herÃ³is resgataram seis prisioneiros dopados e seguiram viagem atÃ© Newmarket, onde entregaram as estÃ¡tuas por 350 ciclos de ouro no Wisdom Factor, libertaram os cativos aos guardas locais e sepultaram Amir no cemitÃ©rio anexo ao templo de Chibalba.",
+   "linha_do_tempo": [
+    "A maga elfa Jani Belmont chega a Gosterwick e se junta ao grupo na praÃ§a central.",
+    "Momonga aposta no sorteio de Jarud e adquire o Espelho de Zumbiboo, sendo amaldiÃ§oado com poeira e aparÃªncia mortificada.",
+    "O grupo adquire provisÃµes com Vera e duas mulas extras para puxar as carroÃ§as com as estÃ¡tuas.",
+    "A comitiva parte pelo Caminho Imperial em direÃ§Ã£o Ã  cidade de Newmarket.",
+    "No acampamento da primeira noite, Jani fere e afugenta lobos que rondavam a carne com a magia MÃ­sseis MÃ¡gicos.",
+    "Na segunda noite, o acampamento Ã© abordado por cinco cultistas disfarÃ§ados de mercadores portando sÃ­mbolos de serpente em espiral.",
+    "Amir ataca o lÃ­der do bando, mas seu golpe Ã© detido por uma armadura oculta e ele Ã© morto por um golpe de mangual.",
+    "Kalvos prende dois cultistas com grilhÃµes mÃ­sticos e Momonga cega o lÃ­der com a magia Luz.",
+    "Jani atropela o lÃ­der cultista com a carroÃ§a e Nia o finaliza, dispersando e eliminando os agressores enquanto um foge.",
+    "O grupo descobre seis pessoas amarradas e desacordadas na carroÃ§a dos cultistas e recolhe despojos de ouro e cabeÃ§as.",
+    "A comitiva chega a Newmarket, entrega as estÃ¡tuas na guilda Wisdom Factor por 350 ciclos de ouro e entrega os prisioneiros Ã  guarda.",
+    "Kalvos sepulta o corpo de Amir no cemitÃ©rio murado de Newmarket, prÃ³ximo ao templo de Chibalba."
+   ],
+   "entidades": [
+    "personagens/amir",
+    "personagens/jani-belmont",
+    "personagens/kalvos",
+    "personagens/momonga",
+    "personagens/nia",
+    "criaturas/cultistas-encapuzados",
+    "locais/newmarket",
+    "locais/estalagem-padrao-imperial",
+    "faccoes/wisdom-factor",
+    "itens/espelho-de-zumbiboo",
+    "eventos/morte-de-amir"
+   ]
   }
  },
  "entidades": {
@@ -5102,13 +5133,13 @@
    "tipo": "personagem",
    "nome": "Momonga",
    "apelidos": [],
-   "resumo": "Aventureiro clÃ©rigo devoto de Demma que abriga a presenÃ§a espiritual de Irthol em sua mente. Restaurou a estÃ¡tua de goblin e financiou equipamentos e armaduras para o grupo na Pousada do Sinal da CabeÃ§a Quebrada. Financiou armaduras de talas para Kalvos e Bolkas e organizou a subida de pertences e desobstruÃ§Ã£o da chaminÃ©.",
+   "resumo": "ClÃ©rigo devoto de Demma que abriga a presenÃ§a espiritual de Irthol em sua mente. Adquiriu o amaldiÃ§oado Espelho de Zumbiboo em Gosterwick, ganhando visÃ£o aprimorada nas sombras ao custo de uma queimaÃ§Ã£o persistente e de uma aparÃªncia decrÃ©pita e mortificada. Na estrada, reconheceu os cultistas inimigos de Irthol, cegou o lÃ­der com a magia Luz e resgatou 350 ciclos de ouro pela venda das estÃ¡tuas em Newmarket.",
    "atributos": {
     "Classe": "ClÃ©rigo",
     "Jogador": "Silva",
     "AfiliaÃ§Ã£o": "Templo de Demma",
     "Status": "Vivo",
-    "LocalizaÃ§Ã£o": "Templo de Demma, Gosterwick",
+    "LocalizaÃ§Ã£o": "Newmarket",
     "RaÃ§a": "Humano",
     "Divindade": "Demma"
    },
@@ -5188,6 +5219,22 @@
     [
      "sessao-34",
      "Escapou ileso do desabamento parcial da chaminÃ© e usou hastes de sua tenda para criar uma rampa de escalada."
+    ],
+    [
+     "sessao-37",
+     "Pagou 30 ciclos de ouro pelo sorteio do baÃº de Jarud e obteve o amaldiÃ§oado Espelho de Zumbiboo."
+    ],
+    [
+     "sessao-37",
+     "Passou a apresentar aspecto fÃ­sico cadavÃ©rico e tom de pele acinzentado apÃ³s carregar o espelho mÃ­stico."
+    ],
+    [
+     "sessao-37",
+     "Conjurou a magia Luz diretamente contra os olhos do lÃ­der dos cultistas na estrada, deixando-o atordoado e cego."
+    ],
+    [
+     "sessao-37",
+     "Negociou as estÃ¡tuas recuperadas na guilda Wisdom Factor em Newmarket, obtendo 350 ciclos de ouro."
     ]
    ],
    "sessoes": [
@@ -5195,7 +5242,8 @@
     "sessao-24",
     "sessao-28",
     "sessao-32",
-    "sessao-34"
+    "sessao-34",
+    "sessao-37"
    ]
   },
   "personagens/selene": {
@@ -5459,11 +5507,11 @@
    "tipo": "personagem",
    "nome": "Amir",
    "apelidos": [],
-   "resumo": "Aventureiro ladino expedicionario que atua em Arden Vul e Gosterwick. Recebeu uma armadura de escamas financiada por Momonga e atuou como batedor na oficina de esculturas e no laboratorio subterraneo. Desarmou uma armadilha de balestras queimando sua corda e destruiu as articulacoes dos joelhos de estatuas guardias em combate.",
+   "resumo": "Aventureiro ladino expedicionÃ¡rio que atuou em Arden Vul e Gosterwick como batedor habilidoso. Durante a escolta das carroÃ§as atÃ© Newmarket, tentou desferir um ataque furtivo contra um lÃ­der de cultistas na estrada, mas teve seu golpe barrado por armadura oculta e foi fatalmente atingido por um mangual. Teve seu corpo transportado atÃ© Newmarket e sepultado por Kalvos no cemitÃ©rio anexo ao templo de Chibalba.",
    "atributos": {
     "Jogador": "Guilherme",
     "Classe": "Ladino",
-    "Status": "Vivo",
+    "Status": "Morto",
     "RaÃ§a": "Humano",
     "LocalizaÃ§Ã£o": "Estalagem Capa Amarela, Gosterwick",
     "Raca": "Humano"
@@ -5536,13 +5584,30 @@
     [
      "sessao-36",
      "Encantou sua adaga com um pergaminho arcano e destruiu o joelho de uma estatua guardia de pedra."
+    ],
+    [
+     "sessao-37",
+     "Integrou a expediÃ§Ã£o que transportou as estÃ¡tuas de Gosterwick para Newmarket."
+    ],
+    [
+     "sessao-37",
+     "Tentou surpreender o lÃ­der dos cultistas com uma estocada de adaga no pescoÃ§o na estrada."
+    ],
+    [
+     "sessao-37",
+     "Foi morto instantaneamente ao ser golpeado no peito pelo mangual pesado do lÃ­der cultista."
+    ],
+    [
+     "sessao-37",
+     "Teve seu corpo sepultado por Kalvos em uma cova no cemitÃ©rio municipal de Newmarket."
     ]
    ],
    "sessoes": [
     "sessao-24",
     "sessao-28",
     "sessao-32",
-    "sessao-36"
+    "sessao-36",
+    "sessao-37"
    ]
   },
   "npcs/irthol": {
@@ -5664,8 +5729,10 @@
   "criaturas/cultistas-encapuzados": {
    "tipo": "criatura",
    "nome": "Cultistas Encapuzados",
-   "apelidos": [],
-   "resumo": "Membros de uma seita dedicada a um deus antigo conhecidos por praticar sacrifÃ­cios humanos. Trajam vestes e tÃºnicas encapuzadas, utilizando lamparinas, manguais e adagas em combates noturnos.",
+   "apelidos": [
+    "Seita da Serpente em Espiral"
+   ],
+   "resumo": "Membros de uma seita sinistra devotada a um deus antigo que praticam raptos e sacrifÃ­cios rituais. Vestem mantos escuros com o sÃ­mbolo de uma serpente em redemoinho gravado no forro interno, ocultam armaduras de talas e manguais pesados e transportam prisioneiros sedados em carroÃ§as nas estradas do vale.",
    "atributos": {
     "Tipo": "Humanoides / Seita",
     "Status": "Hostis"
@@ -5682,10 +5749,27 @@
     [
      "sessao-24",
      "Tiveram seu lÃ­der morto por Galmyr e fugiram para a escuridÃ£o apÃ³s apagarem a lamparina."
+    ],
+    [
+     "sessao-37",
+     "Uma cÃ©lula de cinco membros abordou o acampamento do grupo no Caminho Imperial fingindo transportar carne exÃ³tica."
+    ],
+    [
+     "sessao-37",
+     "Carregavam no interior de sua carroÃ§a seis prisioneiros amarrados e desacordados sob lonas pesadas."
+    ],
+    [
+     "sessao-37",
+     "O comandante da cÃ©lula vestia armadura de talas sob o manto e empunhava um mangual de guerra letal."
+    ],
+    [
+     "sessao-37",
+     "Exibiam no forro de seus mantos pretos o sÃ­mbolo herÃ©tico de uma serpente enrolada em espiral."
     ]
    ],
    "sessoes": [
-    "sessao-24"
+    "sessao-24",
+    "sessao-37"
    ]
   },
   "itens/calice-amaldiaoado": {
@@ -6671,13 +6755,14 @@
    "apelidos": [
     "Louris"
    ],
-   "resumo": "Aventureira exploradora habilidosa que atua em Arden Vul munida de clava de bronze e equipamentos de combate. Sobreviveu ao ataque de carnicais no porao, comprou uma armadura de escamas com Ristus e auxiliou a derrubar e conter estatuas guardias com uma chapa de ferro no laboratorio subterraneo.",
+   "resumo": "Aventureira exploradora experiente equipada com armadura de escamas e clava de bronze. Integrou a escolta de carroÃ§as rumo a Newmarket, onde derrubou o lÃ­der dos cultistas com uma investida de escudo e esmagou outro com sua clava, decapitando os mortos para recolher provas e recompensas.",
    "atributos": {
     "Jogador": "Louis",
     "Status": "Viva (Ferida)",
     "OcupaÃ§Ã£o": "Exploradora",
     "RaÃ§a": "Humana",
-    "Classe": "Guerreira"
+    "Classe": "Guerreira",
+    "LocalizaÃ§Ã£o": "Newmarket"
    },
    "fatos": [
     [
@@ -6731,6 +6816,22 @@
     [
      "sessao-36",
      "Atingiu o constructo de pedra com sua clava magica para auxiliar no combate no laboratorio."
+    ],
+    [
+     "sessao-37",
+     "Contribuiu com custos financeiros para aquisiÃ§Ã£o de Ã¡gua e comida para os animais de traÃ§Ã£o."
+    ],
+    [
+     "sessao-37",
+     "Derrubou o lÃ­der cultista com uma investida de escudo e eliminou outro combatente com golpe certeiro de clava na tÃªmpora."
+    ],
+    [
+     "sessao-37",
+     "Cortou e ensacou a cabeÃ§a do comandante cultista para apresentar Ã s autoridades como prova de caÃ§a aos criminosos."
+    ],
+    [
+     "sessao-37",
+     "Descobriu com sentinelas de Newmarket que nÃ£o havia mandados nem recompensas ativas pelo grupo de cultistas da regiÃ£o."
     ]
    ],
    "sessoes": [
@@ -6738,7 +6839,8 @@
     "sessao-33",
     "sessao-34",
     "sessao-35",
-    "sessao-36"
+    "sessao-36",
+    "sessao-37"
    ]
   },
   "npcs/cronos": {
@@ -7368,13 +7470,14 @@
    "apelidos": [
     "Calvos"
    ],
-   "resumo": "Clerigo anao devoto de Heschius Ban e irmao de Bolkas. Chegou as ruinas de Arden Vul equipado com armadura de talas financiada por Momonga. Liderou a exploracao da camara subterranea sob a chamine e do laboratorio da Casa das Estatuas, obtendo autorizacao de Cronos para erguer um santuario a sua divindade e utilizando magias de restricao contra constructos.",
+   "resumo": "ClÃ©rigo anÃ£o devoto de Heschius Ban e irmÃ£o de Bolkas que explora Arden Vul e cidades vizinhas. Durante a viagem para Newmarket, financiou mulas para transporte, conteve cultistas hostis com grilhÃµes fantasmagÃ³ricos na estrada e sepultou dignamente o companheiro Amir no cemitÃ©rio de Newmarket.",
    "atributos": {
     "RaÃ§a": "AnÃ£o",
-    "Classe": "Clerigo",
+    "Classe": "ClÃ©rigo",
     "Divindade": "Heschius Ban",
     "Jogador": "Juliano",
-    "Raca": "Anao"
+    "Raca": "Anao",
+    "LocalizaÃ§Ã£o": "Newmarket"
    },
    "fatos": [
     [
@@ -7404,11 +7507,28 @@
     [
      "sessao-36",
      "Conjurou a magia de restricao de Heschius Ban para paralisar temporariamente uma das estatuas guardias."
+    ],
+    [
+     "sessao-37",
+     "Ajudou a financiar mantimentos com Vera e comprou duas mulas adicionais para tracionar as carroÃ§as da expediÃ§Ã£o."
+    ],
+    [
+     "sessao-37",
+     "Conjurou grilhÃµes espirituais que imobilizaram dois cultistas encapuzados durante a emboscada noturna na estrada."
+    ],
+    [
+     "sessao-37",
+     "Tentou atingir as pernas de um cultista em fuga com sua lanÃ§a, mas o alvo conseguiu escapar."
+    ],
+    [
+     "sessao-37",
+     "Cavou a sepultura de Amir e realizou preces fÃºnebres no cemitÃ©rio murado de Newmarket."
     ]
    ],
    "sessoes": [
     "sessao-34",
-    "sessao-36"
+    "sessao-36",
+    "sessao-37"
    ]
   },
   "criaturas/carrapato-gigante": {
@@ -7755,6 +7875,176 @@
    ],
    "sessoes": [
     "sessao-36"
+   ]
+  },
+  "personagens/jani-belmont": {
+   "tipo": "personagem",
+   "nome": "Jani Belmont",
+   "apelidos": [],
+   "resumo": "Maga elfa recÃ©m-chegada Ã  regiÃ£o que fuma cachimbo e porta um cajado de madeira. Uniu-se aos aventureiros na praÃ§a de Gosterwick e participou da viagem rumo a Newmarket, utilizando a magia MÃ­sseis MÃ¡gicos contra predadores e atropelando um lÃ­der cultista com a conduÃ§Ã£o impetuosa de uma carroÃ§a de carga.",
+   "atributos": {
+    "RaÃ§a": "Elfa",
+    "Classe": "Maga",
+    "Status": "Viva",
+    "LocalizaÃ§Ã£o": "Newmarket",
+    "Jogador": "Jujuba"
+   },
+   "fatos": [
+    [
+     "sessao-37",
+     "Chegou a Gosterwick de carroÃ§a e se juntou ao grupo na praÃ§a principal."
+    ],
+    [
+     "sessao-37",
+     "Acionou o sorteio do baÃº de Jarud que tirou o Espelho de Zumbiboo, ficando temporariamente coberta de poeira cinzenta."
+    ],
+    [
+     "sessao-37",
+     "Abateu um lobo que cercava o acampamento noturno conjurando MÃ­sseis MÃ¡gicos."
+    ],
+    [
+     "sessao-37",
+     "Conduziu a carroÃ§a sobre o lÃ­der dos cultistas encapuzados na estrada, esmagando-o sob as rodas e os animais de traÃ§Ã£o."
+    ]
+   ],
+   "sessoes": [
+    "sessao-37"
+   ]
+  },
+  "locais/newmarket": {
+   "tipo": "local",
+   "nome": "Newmarket",
+   "apelidos": [
+    "Novo Mercado"
+   ],
+   "resumo": "Grande cidade comercial situada a nordeste de Gosterwick apÃ³s o curso do rio acessÃ­vel pelo Caminho Imperial. Ã cercada por muralhas de pedra e abriga a guilda comercial Wisdom Factor, grandes hospedarias como a PadrÃ£o Imperial e um cemitÃ©rio exterior que contÃ©m um templo dedicado a Chibalba.",
+   "atributos": {
+    "Tipo": "Cidade"
+   },
+   "fatos": [
+    [
+     "sessao-37",
+     "Fica a cerca de trÃªs a quatro dias de viagem por carroÃ§a partindo de Gosterwick pelo Caminho Imperial."
+    ],
+    [
+     "sessao-37",
+     "Possui tamanho e populaÃ§Ã£o sensivelmente maiores do que o assentamento de Gosterwick."
+    ],
+    [
+     "sessao-37",
+     "Conta com um cemitÃ©rio murado situado do lado de fora dos muros urbanos acessÃ­vel por uma viela residencial."
+    ],
+    [
+     "sessao-37",
+     "Abriga um templo ou santuÃ¡rio no centro de seu cemitÃ©rio associado Ã  divindade Chibalba."
+    ]
+   ],
+   "sessoes": [
+    "sessao-37"
+   ]
+  },
+  "locais/estalagem-padrao-imperial": {
+   "tipo": "local",
+   "nome": "Estalagem PadrÃ£o Imperial",
+   "apelidos": [
+    "Imperial Standard"
+   ],
+   "resumo": "EdificaÃ§Ã£o ampla de alvenaria localizada nas proximidades da ponte de entrada de Newmarket. Funciona como hospedaria e ponto de pouso para caravanas comerciais e viajantes abastados que percorrem a estrada imperial.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Newmarket"
+   },
+   "fatos": [
+    [
+     "sessao-37",
+     "Fica localizada logo apÃ³s a travessia da ponte de pedra na entrada da cidade de Newmarket."
+    ],
+    [
+     "sessao-37",
+     "Serviu de abrigo e repouso aos aventureiros apÃ³s a conclusÃ£o da viagem e a venda de suas mercadorias."
+    ]
+   ],
+   "sessoes": [
+    "sessao-37"
+   ]
+  },
+  "faccoes/wisdom-factor": {
+   "tipo": "faccao",
+   "nome": "Wisdom Factor",
+   "apelidos": [
+    "Fator da Sabedoria"
+   ],
+   "resumo": "Posto comercial e sede da guilda de mercadores operante na cidade de Newmarket. Recebe e negocia antiguidades, mercadorias refinadas e obras de arte de exploradores, honrando promissÃ³rias e contratos comerciais emitidos na regiÃ£o.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Newmarket"
+   },
+   "fatos": [
+    [
+     "sessao-37",
+     "Opera em uma edificaÃ§Ã£o ampla prÃ³xima ao centro comercial de Newmarket."
+    ],
+    [
+     "sessao-37",
+     "Adquiriu as duas estÃ¡tuas trazidas por Momonga e Kalvos pagando 350 ciclos de ouro em espÃ©cie aos portadores das promissÃ³rias."
+    ]
+   ],
+   "sessoes": [
+    "sessao-37"
+   ]
+  },
+  "itens/espelho-de-zumbiboo": {
+   "tipo": "item",
+   "nome": "Espelho de Zumbiboo",
+   "apelidos": [
+    "Espelho da Variedade de Zumbiboo"
+   ],
+   "resumo": "Espelho de mÃ£o ornamental associado Ã  antiga entidade divina Zumbiboo sorteado por Jarud em Gosterwick. Revela ao usuÃ¡rio um reflexo aprimorado de si mesmo e amplia a clareza visual em Ã¡reas escuras, mas impregna seu possuidor com cinzas inamovÃ­veis, provocando desconforto ardente e uma tÃ©trica aparÃªncia mortificada.",
+   "atributos": {
+    "Origem": "Zumbiboo"
+   },
+   "fatos": [
+    [
+     "sessao-37",
+     "Foi retirado por Jani e adquirido por Momonga no sorteio do baÃº mÃ­stico de Jarud."
+    ],
+    [
+     "sessao-37",
+     "Faz com que o reflexo mostre o portador mais velho, rico e bem equipado, cobrindo seu corpo fÃ­sico de pÃ³ cinzento permanente."
+    ],
+    [
+     "sessao-37",
+     "Permite ao usuÃ¡rio enxergar atravÃ©s de penumbras e escuridÃ£o sem dificuldade."
+    ],
+    [
+     "sessao-37",
+     "Provoca forte incÃ´modo espiritual e queimaÃ§Ã£o corporal em sacerdotes devotos de outras divindades."
+    ]
+   ],
+   "sessoes": [
+    "sessao-37"
+   ]
+  },
+  "eventos/morte-de-amir": {
+   "tipo": "evento",
+   "nome": "Morte de Amir",
+   "apelidos": [],
+   "resumo": "Confronto fatal travado no acostamento do Caminho Imperial entre o grupo de aventureiros e uma patrulha disfarÃ§ada de cultistas encapuzados. Amir tentou golpear o lÃ­der inimigo no pescoÃ§o, mas a lÃ¢mina colidiu contra malha de ferro e o ladino foi mortalmente atingido no crÃ¢nio por um mangual de guerra.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-37",
+     "Ocorreu durante a vigÃ­lia da segunda noite de viagem entre Gosterwick e Newmarket."
+    ],
+    [
+     "sessao-37",
+     "Foi desencadeado apÃ³s a descoberta de que os falsos mercadores eram membros da seita da serpente em espiral."
+    ],
+    [
+     "sessao-37",
+     "Resultou no Ã³bito imediato de Amir antes que reforÃ§os pudessem prestar socorro."
+    ]
+   ],
+   "sessoes": [
+    "sessao-37"
    ]
   }
  },
@@ -8463,8 +8753,8 @@
    "id": "p101",
    "texto": "Levar a estÃ¡tua de goblin restaurada atÃ© a cidade de Newmarket para resgatar os 300 ciclos de prata da promissÃ³ria.",
    "aberta_em": "sessao-32",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-37",
+   "como": "O grupo conduziu a estÃ¡tua de goblin restaurada e a estÃ¡tua de mulher atÃ© o posto da guilda Wisdom Factor em Newmarket, resgatando 350 ciclos de ouro pelo lote."
   },
   {
    "id": "p102",
@@ -8598,10 +8888,31 @@
    "aberta_em": "sessao-36",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p121",
+   "texto": "Investigar o templo e a figura do guardiÃ£o Chibalba situado no cemitÃ©rio murado de Newmarket.",
+   "aberta_em": "sessao-37",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p122",
+   "texto": "Rastrear o paradeiro do cultista encapuzado sobrevivente que fugiu a pÃ© pelos campos durante o combate na estrada.",
+   "aberta_em": "sessao-37",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p123",
+   "texto": "Descobrir um meio ritual ou alquÃ­mico de dissipar a cinza mÃ¡gica e a aparÃªncia mortificada causada pelo Espelho de Zumbiboo em Momonga.",
+   "aberta_em": "sessao-37",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-36",
-  "texto": "O grupo encontra-se na Pousada do Sinal da Cabeca Quebrada apos explorar com sucesso o laboratorio subterraneo sob a Casa das Estatuas. As duas estatuas guardias foram destruidas e os exploradores retornaram carregando amostras brutas de Arcanum, sete frascos de pocoes misteriosas, uma cimitarra magica +1 e os restos de pedra dos constructos. Nara cumpriu seu papel de guardar a carroca e a mula em seguranca na entrada das ruinas. Os aventureiros agora possuem reliquias valiosas de Arcanum que exigem compradores especializados entre os magos e feiticeiros da regiao."
+  "apos": "sessao-37",
+  "texto": "O grupo encontra-se em Newmarket, abrigado na estalagem PadrÃ£o Imperial apÃ³s uma longa viagem pelo Caminho Imperial. Amir pereceu em combate contra cultistas na estrada e foi sepultado no cemitÃ©rio local, enquanto a maga elfa Jani Belmont uniu-se formalmente aos aventureiros. O grupo vendeu com sucesso as estÃ¡tuas na guilda Wisdom Factor e libertou seis pessoas resgatadas das mÃ£os da seita da serpente em espiral. Permanece em aberto investigar o templo de Chibalba no cemitÃ©rio, encontrar o cultista que fugiu e descobrir como desfazer a aparÃªncia mortificada imposta pelo Espelho de Zumbiboo."
  }
 }
