@@ -555,6 +555,32 @@
     "locais/colina-dos-pinos-de-prata",
     "itens/pinos-de-prata-magicos"
    ]
+  },
+  "sessao-22": {
+   "titulo": "A PirÃ¢mide e os AutÃ´matos",
+   "resumo": "O grupo de aventureiros parte de Gosterwick em direÃ§Ã£o Ã s perigosas ruÃ­nas de Arden Vul, enfrentando o clima nublado e os perigos da escarpa atÃ© alcanÃ§arem o topo do platÃ´. No topo, exploram a lendÃ¡ria PirÃ¢mide de Thoth e, apÃ³s decifrarem os relevos antigos, conseguem alinhar os braÃ§os da estÃ¡tua de Thoth para revelar uma escadaria secreta subterrÃ¢nea.\n\nDescendendo para as profundezas, o grupo encontra inscriÃ§Ãµes nas paredes de outros exploradores e cruza caminho com um grupo amigÃ¡vel de aventureiros conhecido como Achados e Perdidos, liderado por Baltazar o Azul, que oferece valiosas informaÃ§Ãµes sobre os perigos locais e os nÃ­veis inferiores. Prosseguindo com cautela, eles abrem uma parede secreta e enfrentam zumbis perigosos antes de recuperar tesouros como uma safira e um misterioso painel de vidro azul.\n\nDurante o descanso na masmorra, o grupo Ã© vigiado por um pequeno inseto mecÃ¢nico voador com olhos de pedra preciosa azul que investiga o local antes de partir. Decidindo retornar Ã  superfÃ­cie, os aventureiros escapam com sucesso das ruÃ­nas e voltam a Gosterwick, onde Galmyr negocia as gemas encontradas no Clube dos Praticantes Arcanos em troca de moedas de ouro.",
+   "linha_do_tempo": [
+    "Os aventureiros partem de Gosterwick pelo Caminho Imperial rumo ao platÃ´ de Arden Vul.",
+    "O grupo chega ao topo das ruÃ­nas e investiga a PirÃ¢mide de Thoth.",
+    "Ao ajustarem os braÃ§os da estÃ¡tua de Thoth, os aventureiros revelam uma escadaria secreta e descem ao subterrÃ¢neo.",
+    "O grupo encontra inscriÃ§Ãµes nas paredes e cruza com o grupo de aventureiros Achados e Perdidos liderado por Baltazar o Azul.",
+    "Aventureiros abrem uma parede oculta e derrotam zumbis em combate corpo a corpo, recuperando tesouros e uma safira.",
+    "Um inseto mecÃ¢nico voador com olhos de safira azul investiga o acampamento subterrÃ¢neo do grupo durante o descanso.",
+    "O grupo retorna Ã  superfÃ­cie pelas escadarias e viaja de volta a Gosterwick em seguranÃ§a.",
+    "Galmyr vende as gemas coletadas no Clube dos Praticantes Arcanos por ciclos de ouro."
+   ],
+   "entidades": [
+    "personagens/galmyr",
+    "personagens/erphel",
+    "personagens/astrezenika",
+    "personagens/momonga",
+    "personagens/selene",
+    "npcs/baltazar-o-azul",
+    "npcs/drombauch-slate",
+    "criaturas/inseto-metalico",
+    "itens/gema-verde-da-piramide",
+    "itens/painel-de-vidro-azul"
+   ]
   }
  },
  "entidades": {
@@ -3731,19 +3757,27 @@
   "itens/gema-verde-da-piramide": {
    "tipo": "item",
    "nome": "Gema Verde da PirÃ¢mide",
-   "apelidos": [],
-   "resumo": "Gigantesca gema verde em formato de laranja incrustada no olho da estÃ¡tua de Ãbis na PirÃ¢mide de Thoth. Sua remoÃ§Ã£o desencadeia a ira dos guardiÃµes mÃ¡gicos.",
+   "apelidos": [
+    "Safira"
+   ],
+   "resumo": "Gema preciosa de grande valor extraÃ­da do interior do crÃ¢nio de um esqueleto nas ruÃ­nas subterrÃ¢neas.",
    "atributos": {
-    "LocalizaÃ§Ã£o": "The Pyramid of Thoth"
+    "LocalizaÃ§Ã£o": "The Pyramid of Thoth",
+    "Valor": "Alto"
    },
    "fatos": [
     [
      "sessao-17",
      "A gema verde foi arrancada por Inocente II e brevemente resgatada por Thydal antes do grupo ser exterminado."
+    ],
+    [
+     "sessao-22",
+     "Uma grande safira foi recuperada de dentro de um crÃ¢nio esquelÃ©tico e posteriormente vendida por Galmyr em Gosterwick."
     ]
    ],
    "sessoes": [
-    "sessao-17"
+    "sessao-17",
+    "sessao-22"
    ]
   },
   "eventos/chacina-na-piramide-de-thoth": {
@@ -4133,8 +4167,10 @@
   "personagens/astrezenika": {
    "tipo": "personagem",
    "nome": "Astrezenika",
-   "apelidos": [],
-   "resumo": "Aventureiro recÃ©m-chegado a Gosterwick que se uniu ao grupo nas expediÃ§Ãµes urbanas e na exploraÃ§Ã£o da colina dos pinos de prata.",
+   "apelidos": [
+    "Lois"
+   ],
+   "resumo": "Aventureiro do grupo que explorou as ruÃ­nas de Arden Vul e ajudou a enfrentar os perigos no subterrÃ¢neo da pirÃ¢mide.",
    "atributos": {
     "Jogador": "Louis"
    },
@@ -4150,10 +4186,15 @@
     [
      "sessao-21",
      "Auxiliou Kazunov no combate contra a criatura esquelÃ©tica na colina."
+    ],
+    [
+     "sessao-22",
+     "Astrezenika participou ativamente da invasÃ£o Ã  sala secreta e ajudou a imobilizar os zumbis em combate."
     ]
    ],
    "sessoes": [
-    "sessao-21"
+    "sessao-21",
+    "sessao-22"
    ]
   },
   "npcs/kallian": {
@@ -4246,6 +4287,166 @@
    ],
    "sessoes": [
     "sessao-21"
+   ]
+  },
+  "personagens/galmyr": {
+   "tipo": "personagem",
+   "nome": "Galmyr",
+   "apelidos": [],
+   "resumo": "Aventureiro anÃ£o ferreiro e explorador do grupo. Subiu as escadarias de Arden Vul, decifrou o mecanismo da estÃ¡tua de Thoth e negociou gemas valiosas no Clube dos Praticantes Arcanos.",
+   "atributos": {
+    "RaÃ§a": "AnÃ£o",
+    "Classe": "Guerreiro",
+    "Jogador": "Massaki"
+   },
+   "fatos": [
+    [
+     "sessao-22",
+     "Galmyr utilizou conhecimentos de metalurgia para identificar alumÃ­nio e negociou pedras preciosas no Clube dos Praticantes Arcanos."
+    ]
+   ],
+   "sessoes": [
+    "sessao-22"
+   ]
+  },
+  "personagens/erphel": {
+   "tipo": "personagem",
+   "nome": "Erphel",
+   "apelidos": [],
+   "resumo": "Aventureiro clÃ©rigo e arqueÃ³logo do grupo. Investigou inscriÃ§Ãµes antigas na pirÃ¢mide, arrebentou a parede secreta e participou do combate contra os zumbis subterrÃ¢neos.",
+   "atributos": {
+    "RaÃ§a": "Humano",
+    "Classe": "ClÃ©rigo",
+    "Jogador": "Mateus L"
+   },
+   "fatos": [
+    [
+     "sessao-22",
+     "Erphel utilizou seu conhecimento de arqueologia para decifrar os relevos da PirÃ¢mide de Thoth."
+    ],
+    [
+     "sessao-22",
+     "Erphel sofreu ferimentos graves ao ser atacado por zumbis nas ruÃ­nas subterrÃ¢neas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-22"
+   ]
+  },
+  "personagens/momonga": {
+   "tipo": "personagem",
+   "nome": "Momonga",
+   "apelidos": [],
+   "resumo": "Aventureiro clÃ©rigo recÃ©m-chegado ao grupo. Acompanhou a expediÃ§Ã£o Ã s ruÃ­nas de Arden Vul e ofereceu suporte mÃ¡gico de cura.",
+   "atributos": {
+    "Classe": "ClÃ©rigo",
+    "Jogador": "Silva"
+   },
+   "fatos": [
+    [
+     "sessao-22",
+     "Momonga integrou o grupo nas ruÃ­nas e utilizou magias de cura para auxiliar Erphel apÃ³s o ataque dos zumbis."
+    ]
+   ],
+   "sessoes": [
+    "sessao-22"
+   ]
+  },
+  "personagens/selene": {
+   "tipo": "personagem",
+   "nome": "Selene",
+   "apelidos": [],
+   "resumo": "Aventureiro integrante do grupo nas exploraÃ§Ãµes.",
+   "atributos": {
+    "Jogador": "Ricardo"
+   },
+   "fatos": [
+    [
+     "sessao-22",
+     "Selene participou dos preparativos iniciais da expediÃ§Ã£o antes de ausentar-se temporariamente."
+    ]
+   ],
+   "sessoes": [
+    "sessao-22"
+   ]
+  },
+  "npcs/baltazar-o-azul": {
+   "tipo": "npc",
+   "nome": "Baltazar o Azul",
+   "apelidos": [
+    "Baltazar"
+   ],
+   "resumo": "Lider experiente do grupo de exploradores conhecido como Achados e Perdidos. Encontrou os aventureiros na escadaria subterrÃ¢nea de Arden Vul e forneceu conselhos Ãºteis sobre os perigos locais.",
+   "atributos": {
+    "AfiliaÃ§Ã£o": "Achados e Perdidos",
+    "LocalizaÃ§Ã£o": "Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-22",
+     "Baltazar o Azul alertou os aventureiros sobre os perigos dos goblins e recomendou cautela nas masmorras subterrÃ¢neas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-22"
+   ]
+  },
+  "npcs/drombauch-slate": {
+   "tipo": "npc",
+   "nome": "Drombauch Slate",
+   "apelidos": [],
+   "resumo": "AnÃ£o aventureiro integrante do grupo Achados e Perdidos que explora as ruÃ­nas de Arden Vul.",
+   "atributos": {
+    "RaÃ§a": "AnÃ£o",
+    "AfiliaÃ§Ã£o": "Achados e Perdidos"
+   },
+   "fatos": [
+    [
+     "sessao-22",
+     "Drombauch Slate conversou com Galmyr nas escadarias subterrÃ¢neas sobre clÃ£s de anÃµes."
+    ]
+   ],
+   "sessoes": [
+    "sessao-22"
+   ]
+  },
+  "criaturas/inseto-metalico": {
+   "tipo": "criatura",
+   "nome": "Inseto MetÃ¡lico",
+   "apelidos": [
+    "Drone",
+    "Vespa mecÃ¢nica"
+   ],
+   "resumo": "Pequena criatura voadora artificial com estrutura metÃ¡lica e olhos feitos de pedras preciosas azuis que atua como autÃ´mato de reconhecimento.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "SubterrÃ¢neo de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-22",
+     "Um inseto metÃ¡lico investigou o acampamento subterrÃ¢neo dos aventureiros com um feixe de escaneamento antes de retornar para as profundezas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-22"
+   ]
+  },
+  "itens/painel-de-vidro-azul": {
+   "tipo": "item",
+   "nome": "Painel de Vidro Azul",
+   "apelidos": [],
+   "resumo": "Placa quadrada de vidro azulado com cerca de duas mÃ£os de tamanho encontrada dentro de um baÃº antigo.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Clube dos Praticantes Arcanos"
+   },
+   "fatos": [
+    [
+     "sessao-22",
+     "Um painel de vidro azul misterioso foi encontrado no baÃº dos zumbis e retido pelo grupo durante as negociaÃ§Ãµes em Gosterwick."
+    ]
+   ],
+   "sessoes": [
+    "sessao-22"
    ]
   }
  },
@@ -4683,10 +4884,24 @@
    "aberta_em": "sessao-21",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p63",
+   "texto": "Investigar a origem e a utilidade do misterioso painel de vidro azul encontrado no baÃº subterrÃ¢neo.",
+   "aberta_em": "sessao-22",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p64",
+   "texto": "Averiguar para onde o inseto metÃ¡lico voador retornou apÃ³s escanear o grupo nas ruÃ­nas.",
+   "aberta_em": "sessao-22",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-21",
-  "texto": "Miragem, Kazunov, Kaelen e Astrezenika estÃ£o hospedados na Estalagem Capa Amarela em Gosterwick, apÃ³s acumularem uma imensa fortuna com a venda de armaduras antigas. ApÃ³s passarem dias em transaÃ§Ãµes bancÃ¡rias e compras de equipamentos e cavalos de traÃ§Ã£o, o grupo cometeu o erro de arrancar pinos de prata mÃ¡gicos que protegiam uma colina nos arredores. Descobertos por Torunn e forÃ§ados pelas autoridades a devolverem os artefatos, eles enfrentaram e derrotaram uma criatura esquelÃ©tica mortal durante o ritual de restauraÃ§Ã£o. Agora, o grupo descansa na cidade com suas novas finanÃ§as e contas bancÃ¡rias estabelecidas, prontos para novos rumos."
+  "apos": "sessao-22",
+  "texto": "Os aventureiros viajaram de Gosterwick atÃ© as ruÃ­nas de Arden Vul e conseguiram abrir a passagem secreta na PirÃ¢mide de Thoth. Nas masmorras subterrÃ¢neas, o grupo encontrou o grupo de Baltazar e derrotou mortos-vivos perigosos atrÃ¡s de uma parede oculta. Eles resgataram gemas valiosas e um painel de vidro mecÃ¢nico, evitando confrontos com um drone inseto voador. De volta a Gosterwick, o grupo vendeu suas descobertas com sucesso e descansou na Estalagem Capa Amarela."
  }
 }
