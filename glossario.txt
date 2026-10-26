@@ -88,6 +88,7 @@ Bernerius Pictor
 Josafina
 Cyra
 Creon adventure partner of Cyra
+Creon the Shopkeeper
 Thyxia
 Vera
 Tuk
@@ -276,7 +277,6 @@ Gaius Christopher Relleion
 Martin Hadellor
 Lucia Nemead
 Kaelo
-Creon the Unctuous
 Huguccio
 Beryl Gneiss
 Eusebia Phokas
