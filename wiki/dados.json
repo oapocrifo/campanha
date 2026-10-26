@@ -137,6 +137,36 @@
     "locais/templo-de-mitra",
     "itens/arcanum"
    ]
+  },
+  "sessao-06": {
+   "titulo": "A Queda no Emaranhado",
+   "resumo": "Durante seu perÃ­odo de descanso em Gosterwick, o ladino Tobias visitou a loja de Damasco e dirigiu-se ao Clube dos Praticantes Arcanos, onde negociou a cauda de kobold obtida na caÃ§ada anterior com a maga Lissandra Astorion por dois ciclos de ouro. LÃ¡, recebeu conselhos sobre navegar as facÃ§Ãµes do subterrÃ¢neo de Arden Vul e a menÃ§Ã£o ao meio-troll Gog. Mais tarde, reunindo-se com o batedor Hama na Estalagem Capa Amarela, Tobias soube que o covil do Emaranhado abrigava mais de cem kobolds e que uma misteriosa mulher humana havia sido vista entre as vinhas.\n\nNa praÃ§a central da cidade, os recÃ©m-chegados Jabilos, Cho'Gath e Albert Lion desembarcaram de carroÃ§a, conversaram com a cambista pequenina Cassie sobre serviÃ§os de troca e se equiparam na loja de Damasco. Unindo forÃ§as com Tobias, o grupo partiu pela estrada de Deep Town rumo ao Emaranhado. Ao se aproximarem da densa vegetaÃ§Ã£o espinhosa, avistaram batedores kobolds no topo de uma Ã¡rvore; Albert Lion conjurou a magia Sono, neutralizando duas sentinelas. Contudo, ao tentar recolher amostras cortando uma vinha mÃ¡gica com sua adaga, Jabilos foi violentamente atacado, sufocado e puxado para a morte por uma ramificaÃ§Ã£o espessa. Com a retirada precoce de Tobias, apenas Cho'Gath e Albert Lion prosseguiram para o interior da colina de calcÃ¡rio.\n\nAdentrando uma fenda que exalava vapor de cozimento, a dupla desceu por um fosso equipado com escadas e cordas atÃ© cavernas subterrÃ¢neas repletas de crÃ¢nios de kobolds suspensos. Cho'Gath encontrou um cercado com trÃªs javalis famintos e os alimentou com cogumelos e castanhas antes de avanÃ§ar por um corredor atÃ© uma cÃ¢mara apinhada de kobolds armados. Embora tenha tentado apaziguar as criaturas oferecendo comida, o pequenino foi subjugado, amarrado e feito prisioneiro. Em fuga solitÃ¡ria, Albert Lion tocou acidentalmente em um crÃ¢nio com chifres que disparou um alarme estridente, correu pelos tÃºneis e ateou fogo Ã s vinhas com sua tocha antes de perecer tragicamente na estrada durante o retorno noturno a Gosterwick.",
+   "linha_do_tempo": [
+    "Tobias visita o Clube dos Praticantes Arcanos em Gosterwick e vende uma cauda de kobold para Lissandra Astorion por dois ciclos de ouro.",
+    "Tobias encontra o batedor Hama na Estalagem Capa Amarela e descobre que hÃ¡ mais de cem kobolds no Emaranhado e uma mulher humana entre eles.",
+    "Jabilos, Cho'Gath e Albert Lion chegam Ã  praÃ§a de Gosterwick, conversam com a cambista Cassie e compram equipamentos com Damasco.",
+    "O grupo marcha pela estrada de Deep Town, cruza a ponte do rio e alcanÃ§a a clareira diante do Emaranhado.",
+    "Albert Lion conjura a magia Sono e adormece dois sentinelas kobolds no topo de uma Ã¡rvore nas vinhas.",
+    "Jabilos tenta cortar um espinho das vinhas mÃ¡gicas com uma adaga e Ã© estrangulado atÃ© a morte por um tentÃ¡culo vegetal.",
+    "Tobias parte de volta para a cidade, enquanto Cho'Gath e Albert Lion entram na colina de calcÃ¡rio no centro do covil.",
+    "Cho'Gath e Albert Lion descem por um fosso com cordas e escada atÃ© uma caverna subterrÃ¢nea decorada com crÃ¢nios suspensos.",
+    "Cho'Gath encontra um cercado subterrÃ¢neo e alimenta trÃªs javalis corpulentos com castanhas e cogumelos.",
+    "Cho'Gath entra no salÃ£o principal dos kobolds, tenta negociar e acaba capturado e amarrado por dezenas de monstros.",
+    "Albert Lion toca em um crÃ¢nio encantado com chifres que comeÃ§a a gritar em alarme, obrigando-o a fugir em disparada.",
+    "Albert Lion ateia fogo Ã s vinhas do Emaranhado com sua tocha ao sair, mas perece durante o trajeto de regresso a Gosterwick."
+   ],
+   "entidades": [
+    "personagens/tobias",
+    "personagens/jabilos",
+    "personagens/cho-gath",
+    "personagens/albert-lion",
+    "npcs/cassie",
+    "npcs/lyssandra-astorion",
+    "locais/clube-dos-praticantes-arcanos",
+    "criaturas/javali",
+    "locais/o-emaranhado",
+    "npcs/hama"
+   ]
   }
  },
  "entidades": {
@@ -550,11 +580,13 @@
    "tipo": "personagem",
    "nome": "Tobias",
    "apelidos": [],
-   "resumo": "Aventureiro halfling esperto que atua em Gosterwick em busca de riquezas e recompensas oficiais. Obteve autorizaÃ§Ã£o da prefeita Eusebia Phokas para recrutar novos membros para a caÃ§ada aos kobolds mantendo o sigilo comercial. Liderou o grupo de volta Ã  estrada de Deep Town e combateu a patrulha de kobolds no Emaranhado.",
+   "resumo": "Aventureiro halfling esperto que atua em Gosterwick em busca de riquezas e recompensas oficiais. Obteve autorizaÃ§Ã£o da prefeita Eusebia Phokas para a caÃ§ada aos kobolds e negociou despojos no Clube dos Praticantes Arcanos. Descobriu com Hama a escala da ameaÃ§a no Emaranhado antes de guiar companheiros atÃ© a entrada do covil.",
    "atributos": {
     "Jogador": "Kauan",
-    "RaÃ§a": "Halfling",
-    "Classe": "Ladino"
+    "RaÃ§a": "Pequenino (Halfling)",
+    "Classe": "Ladino",
+    "Status": "Vivo",
+    "LocalizaÃ§Ã£o": "Gosterwick"
    },
    "fatos": [
     [
@@ -584,11 +616,24 @@
     [
      "sessao-04",
      "Coletou flechas e moedas de cobre dos kobolds abatidos."
+    ],
+    [
+     "sessao-06",
+     "Vendeu a cauda de kobold por dois ciclos de ouro para Lissandra Astorion no Clube dos Praticantes Arcanos."
+    ],
+    [
+     "sessao-06",
+     "Descobriu com o batedor Hama que o Emaranhado abriga mais de cem kobolds e que uma mulher humana foi avistada entre as vinhas."
+    ],
+    [
+     "sessao-06",
+     "Conduziu os novos aventureiros pela estrada atÃ© o Emaranhado antes de recuar em seguranÃ§a para Gosterwick."
     ]
    ],
    "sessoes": [
     "sessao-03",
-    "sessao-04"
+    "sessao-04",
+    "sessao-06"
    ]
   },
   "personagens/sisco": {
@@ -622,9 +667,10 @@
    "tipo": "npc",
    "nome": "Hama",
    "apelidos": [],
-   "resumo": "Guerreiro e lÃ­der de patrulha encarregado de investigar os ataques de kobolds na estrada de Deep Town.",
+   "resumo": "Guerreiro experiente e lÃ­der de patrulha encarregado de investigar os ataques de kobolds na estrada de Deep Town. Monitora a atividade militar no entorno do Emaranhado e busca reforÃ§os oficiais para operaÃ§Ãµes de grande escala.",
    "atributos": {
-    "OcupaÃ§Ã£o": "Guerreiro e LÃ­der de Patrulha"
+    "OcupaÃ§Ã£o": "LÃ­der de Patrulha / Guerreiro",
+    "LocalizaÃ§Ã£o": "Gosterwick"
    },
    "fatos": [
     [
@@ -634,10 +680,23 @@
     [
      "sessao-03",
      "Convidou Tobias e Sisco para participarem da investigaÃ§Ã£o e acampou na regiÃ£o ao anoitecer."
+    ],
+    [
+     "sessao-06",
+     "Vigiou o Emaranhado por vÃ¡rios dias e contabilizou mais de cem kobolds habitando o complexo."
+    ],
+    [
+     "sessao-06",
+     "Avistou uma mulher humana nÃ£o identificada caminhando entre as vinhas do covil."
+    ],
+    [
+     "sessao-06",
+     "Busca negociar com a administradora Eusebia Phokas o envio de um contingente armado maior."
     ]
    ],
    "sessoes": [
-    "sessao-03"
+    "sessao-03",
+    "sessao-06"
    ]
   },
   "npcs/eusebia-phokas": {
@@ -684,8 +743,10 @@
    "tipo": "local",
    "nome": "O Emaranhado",
    "apelidos": [],
-   "resumo": "RegiÃ£o de colinas e vinhas espinhosas onde se localiza o covil dos kobolds que atacam os mercadores. Ã cercado por grama cortada, um pequeno riacho e ruÃ­nas antigas no topo da colina principal.",
-   "atributos": {},
+   "resumo": "RegiÃ£o de colinas e vinhas espinhosas artificiais onde se localiza o covil fortificado dos kobolds. Abriga um complexo de cavernas em sua colina central de calcÃ¡rio com fossos, alarmes mÃ¡gicos e dezenas de tÃºneis interligados.",
+   "atributos": {
+    "RegiÃ£o": "Vale de Burdock"
+   },
    "fatos": [
     [
      "sessao-03",
@@ -698,11 +759,28 @@
     [
      "sessao-04",
      "Foi palco do combate entre o grupo e uma patrulha de seis kobolds."
+    ],
+    [
+     "sessao-06",
+     "Suas vinhas grossas reagem com espasmos ao corte e atacam intrusos como tentÃ¡culos letais de origem mÃ¡gica."
+    ],
+    [
+     "sessao-06",
+     "Possui sentinelas empoleiradas em plataformas de madeira no topo de Ã¡rvores ao longo das vinhas."
+    ],
+    [
+     "sessao-06",
+     "ContÃ©m em seu subterrÃ¢neo um fosso com escadas de mÃ£o, cercados de javalis, depÃ³sitos de nozes e um alarme feito de crÃ¢nio mÃ¡gico com chifres."
+    ],
+    [
+     "sessao-06",
+     "Teve trechos de suas vinhas incendiados pela tocha arremessada por Albert Lion durante sua fuga."
     ]
    ],
    "sessoes": [
     "sessao-03",
-    "sessao-04"
+    "sessao-04",
+    "sessao-06"
    ]
   },
   "personagens/harllequinnos": {
@@ -1090,6 +1168,207 @@
    "sessoes": [
     "sessao-05"
    ]
+  },
+  "personagens/jabilos": {
+   "tipo": "personagem",
+   "nome": "Jabilos",
+   "apelidos": [
+    "Jeb"
+   ],
+   "resumo": "Mago recÃ©m-chegado a Gosterwick que se interessou pelo funcionamento financeiro e comercial local. Uniu-se Ã  marcha rumo ao covil dos kobolds na esperanÃ§a de enriquecer e estudar a regiÃ£o. Foi morto brutalmente pelas vinhas encantadas na entrada do Emaranhado.",
+   "atributos": {
+    "Jogador": "Queiroz",
+    "RaÃ§a": "Humano",
+    "Classe": "Mago",
+    "Status": "Morto",
+    "LocalizaÃ§Ã£o": "O Emaranhado"
+   },
+   "fatos": [
+    [
+     "sessao-06",
+     "Conversou com Cassie na praÃ§a central sobre o funcionamento de bancos e casas de cÃ¢mbio em Gosterwick."
+    ],
+    [
+     "sessao-06",
+     "Comprou uma Ã¢nfora de Ã³leo para lampiÃ£o com Damasco."
+    ],
+    [
+     "sessao-06",
+     "Foi estrangulado e puxado para dentro da mata espinhosa apÃ³s cortar uma vinha mÃ¡gica com sua adaga."
+    ]
+   ],
+   "sessoes": [
+    "sessao-06"
+   ]
+  },
+  "personagens/cho-gath": {
+   "tipo": "personagem",
+   "nome": "Cho'Gath",
+   "apelidos": [
+    "Agos"
+   ],
+   "resumo": "Aventureiro pequenino equipado com besta e armadura pesada que integrou a incursÃ£o ao covil dos kobolds. Demonstrou cautela ao navegar o subterrÃ¢neo e apaziguar animais famintos com mantimentos roubados. Acabou cercado, dominado e feito prisioneiro pelas hordas de monstros no interior da colina.",
+   "atributos": {
+    "Jogador": "Gabe",
+    "RaÃ§a": "Pequenino (Halfling)",
+    "Classe": "Guerreiro",
+    "Status": "Capturado",
+    "LocalizaÃ§Ã£o": "Cavernas dos Kobolds (O Emaranhado)"
+   },
+   "fatos": [
+    [
+     "sessao-06",
+     "Identificou que a vegetaÃ§Ã£o espinhosa do Emaranhado tem origem mÃ¡gica anormal."
+    ],
+    [
+     "sessao-06",
+     "Desceu pela abertura subterrÃ¢nea usando cordas e alimentou trÃªs javalis famintos com nozes e cogumelos."
+    ],
+    [
+     "sessao-06",
+     "Foi cercado no salÃ£o principal dos kobolds, desarmado e amarrado como prisioneiro."
+    ]
+   ],
+   "sessoes": [
+    "sessao-06"
+   ]
+  },
+  "personagens/albert-lion": {
+   "tipo": "personagem",
+   "nome": "Albert Lion",
+   "apelidos": [],
+   "resumo": "Mago elfo que viajou a Gosterwick munido de pergaminhos e materiais de escrita para mapear e registrar viagens. Auxiliou a infiltraÃ§Ã£o no Emaranhado adormecendo vigias, mas disparou um alarme mÃ¡gico nas cavernas subterrÃ¢neas. Pereceu no caminho de regresso apÃ³s atear fogo Ã s vinhas da colina.",
+   "atributos": {
+    "Jogador": "Massaki",
+    "RaÃ§a": "Elfo",
+    "Classe": "Mago",
+    "Status": "Morto",
+    "LocalizaÃ§Ã£o": "Estrada entre Gosterwick e O Emaranhado"
+   },
+   "fatos": [
+    [
+     "sessao-06",
+     "Adormeceu dois kobolds sentinelas empoleirados em uma Ã¡rvore no Emaranhado com a magia Sono."
+    ],
+    [
+     "sessao-06",
+     "Desceu Ã s cavernas subterrÃ¢neas e tocou em um crÃ¢nio mÃ¡gico de alarme que alertou os monstros com berros."
+    ],
+    [
+     "sessao-06",
+     "Ateou fogo Ã s vinhas espinhosas usando uma tocha ao fugir do covil."
+    ],
+    [
+     "sessao-06",
+     "Morreu em circunstÃ¢ncias fatais na estrada ao retornar sozinho em direÃ§Ã£o a Gosterwick."
+    ]
+   ],
+   "sessoes": [
+    "sessao-06"
+   ]
+  },
+  "npcs/cassie": {
+   "tipo": "npc",
+   "nome": "Cassie",
+   "apelidos": [],
+   "resumo": "Pequenina que administra a barraca de cÃ¢mbio de moedas na praÃ§a central de Gosterwick, trabalhando com seu pai Jeremias Smallleaf. Ã prÃ¡tica, atenciosa e utiliza planilhas para verificar taxas de clientes.",
+   "atributos": {
+    "RaÃ§a": "Pequenina (Halfling)",
+    "OcupaÃ§Ã£o": "Cambista",
+    "LocalizaÃ§Ã£o": "PraÃ§a Central de Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-06",
+     "Esclareceu a Jabilos que cobra uma taxa de cinco por cento para a troca de moedas de novos clientes."
+    ],
+    [
+     "sessao-06",
+     "Relatou que a barraca vazia ao lado pertencia a um idoso chamado Jarud, que vendia itens exÃ³ticos para aventureiros."
+    ]
+   ],
+   "sessoes": [
+    "sessao-06"
+   ]
+  },
+  "npcs/lyssandra-astorion": {
+   "tipo": "npc",
+   "nome": "Lyssandra Astorion",
+   "apelidos": [
+    "Lissandra"
+   ],
+   "resumo": "Maga de ascendÃªncia arconteana que gerencia o Clube dos Praticantes Arcanos em Gosterwick ao lado de seu companheiro. Negocia componentes mÃ¡gicos raros e estuda os mistÃ©rios arcanos da regiÃ£o de Arden Vul.",
+   "atributos": {
+    "RaÃ§a": "Humana (Arconteana)",
+    "OcupaÃ§Ã£o": "Maga / Administradora",
+    "AfiliaÃ§Ã£o": "Clube dos Praticantes Arcanos",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-06",
+     "Comprou uma cauda de kobold de Tobias por dois ciclos de ouro para uso em poÃ§Ãµes e estudos."
+    ],
+    [
+     "sessao-06",
+     "Avisou que facÃ§Ãµes habitam o subterrÃ¢neo de Arden Vul e recomendou parlamentar antes de entrar em combate."
+    ],
+    [
+     "sessao-06",
+     "Mencionou a presenÃ§a de um meio-troll sociÃ¡vel chamado Gog nos nÃ­veis inferiores de Arden Vul."
+    ]
+   ],
+   "sessoes": [
+    "sessao-06"
+   ]
+  },
+  "locais/clube-dos-praticantes-arcanos": {
+   "tipo": "local",
+   "nome": "Clube dos Praticantes Arcanos",
+   "apelidos": [
+    "Clube Arcano"
+   ],
+   "resumo": "EdificaÃ§Ã£o de quatro andares situada nos limites urbanos de Gosterwick, composta por trÃªs pisos de granito escuro e um topo de madeira. Funciona como ponto de encontro, pesquisa e comÃ©rcio de itens mÃ¡gicos para praticantes das artes arcanas.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-06",
+     "Fica localizado entre a Rua da Pedra e o Caminho Imperial, um pouco antes do cemitÃ©rio municipal."
+    ],
+    [
+     "sessao-06",
+     "Possui portas duplas de pedra escura e uma sala de espera mobiliada com sofÃ¡s e mesas."
+    ],
+    [
+     "sessao-06",
+     "Ã gerido pelo casal de magos arconteanos Lissandra Astorion e seu parceiro."
+    ]
+   ],
+   "sessoes": [
+    "sessao-06"
+   ]
+  },
+  "criaturas/javali": {
+   "tipo": "criatura",
+   "nome": "Javali",
+   "apelidos": [],
+   "resumo": "Grandes animais suÃ­nos selvagens de grande porte mantidos em confinamento subterrÃ¢neo nas cavernas de calcÃ¡rio do Emaranhado. SÃ£o agressivos e agitados quando famintos, mas acalmam-se rapidamente ao receberem alimento.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-06",
+     "TrÃªs espÃ©cimes corpulentos foram encontrados encarcerados em um cercado de gravetos e vinhas sobre solo arenoso."
+    ],
+    [
+     "sessao-06",
+     "Devoraram avidamente castanhas, bolotas e cogumelos oferecidos por Cho'Gath."
+    ]
+   ],
+   "sessoes": [
+    "sessao-06"
+   ]
   }
  },
  "pendencias": [
@@ -1183,10 +1462,45 @@
    "aberta_em": "sessao-05",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p14",
+   "texto": "Resgatar o aventureiro Cho'Gath do cativeiro no salÃ£o principal dos kobolds no Emaranhado.",
+   "aberta_em": "sessao-06",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p15",
+   "texto": "Investigar a identidade e os objetivos da mulher humana avistada por Hama liderando os kobolds no Emaranhado.",
+   "aberta_em": "sessao-06",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p16",
+   "texto": "Verificar a extensÃ£o da destruiÃ§Ã£o causada pelo incÃªndio ateado por Albert Lion nas vinhas mÃ¡gicas do Emaranhado.",
+   "aberta_em": "sessao-06",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p17",
+   "texto": "Localizar o meio-troll Gog nos andares inferiores de Arden Vul para obter informaÃ§Ãµes seguras do subterrÃ¢neo.",
+   "aberta_em": "sessao-06",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p18",
+   "texto": "Investigar os misteriosos olhos de prata que supostamente abrem os portÃµes de obsidiana e acalmam estÃ¡tuas de sapo em Arden Vul.",
+   "aberta_em": "sessao-06",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-05",
-  "texto": "O grupo chegou a Gosterwick e investigou ofertas de trabalho no Templo de Mitra, descobrindo o desaparecimento da cÃ´nega Lillian e recebendo a missÃ£o de resgatÃ¡-la por 5.000 ciclos de prata. Ao partirem para o norte em direÃ§Ã£o ao penhasco de Arden Vul, Malzaâhar e Latom enfrentaram uma harpia ferida, apaziguando a criatura ao curarem suas feridas com magia divina. Mais tarde, enquanto acompanhavam o leito do rio, os dois aventureiros foram cercados e capturados por um bando de sete homens-fera. Atualmente, Malzaâhar e Latom estÃ£o aprisionados e sendo arrastados pelos homens-fera em direÃ§Ã£o ao paredÃ£o rochoso de Arden Vul. O objetivo urgente do grupo Ã© encontrar uma forma de escapar do cativeiro e dar prosseguimento Ã  busca pela cÃ´nega Lillian."
+  "apos": "sessao-06",
+  "texto": "Tobias retornou a Gosterwick com avisos graves de Hama sobre mais de cem kobolds e uma figura humana no Emaranhado. A expediÃ§Ã£o ao covil resultou em desastre completo para os novos aventureiros: Jabilos foi estrangulado pelas vinhas mÃ¡gicas e Albert Lion tombou na viagem de volta apÃ³s incendiar as folhagens. Cho'Gath sobreviveu, mas jaz amarrado e aprisionado nas profundezas do covil dos kobolds. Com o alarme mÃ¡gico acionado e as vinhas chamuscadas, o resgate de Cho'Gath e a erradicaÃ§Ã£o dos kobolds tornaram-se tarefas ainda mais perigosas."
  }
 }
