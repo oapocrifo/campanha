@@ -11,6 +11,7 @@ import tempfile
 import time
 from pathlib import Path
 
+import revisar
 import transcrever
 import wiki
 
@@ -24,7 +25,8 @@ def sh(*cmd):
 
 
 def salvar(mensagem):
-    caminhos = [p for p in ("transcricoes", "wiki/dados.json") if Path(p).exists()]
+    caminhos = [p for p in ("transcricoes", "wiki/dados.json", "wiki/correcoes.txt", "wiki/revisao.json")
+                if Path(p).exists()]
     sh("git", "add", "-A", *caminhos)
     if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode:
         sh("git", "commit", "-m", mensagem)
@@ -108,6 +110,16 @@ def main():
         print(f"Pausa: {pausa}. A próxima execução continua de onde parou.", flush=True)
     if wiki_parada:
         print(f"Wiki parada nesta execução ({wiki_parada})", flush=True)
+    # revisão periódica: só com a fila vazia, para não revisar uma wiki incompleta
+    falta = ({p.stem for p in Path("transcricoes").glob("*.md")} | set(pendentes)) - set(wiki.carregar()["sessoes"])
+    if not wiki_parada and not falta and revisar.pendente(os.environ.get("REVISAR_AGORA") == "true"):
+        try:
+            relatorio = revisar.revisar()
+            if relatorio:
+                revisar.abrir_issue(relatorio)
+            salvar("Revisão da wiki")
+        except (RuntimeError, wiki.Pausa) as e:
+            print(f"Revisão adiada: {e}", flush=True)
     if erro_wiki:
         sys.exit("Erro na wiki. A transcrição seguiu normalmente, e a wiki tenta de novo na próxima execução.")
 

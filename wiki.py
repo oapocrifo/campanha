@@ -45,7 +45,7 @@ Regras:
 - linha_do_tempo: os acontecimentos principais da sessão, em ordem, uma frase cada.
 - pendencias_novas: missões, mistérios, ameaças, dívidas ou promessas que surgiram e ficaram sem solução.
 - pendencias_resolvidas: ids das pendências abertas do índice que foram resolvidas nesta sessão, com uma frase sobre como.
-- titulo: um título curto para a sessão. resumo: 2 a 4 parágrafos separados por linha em branco.
+- titulo: um título curto para a sessão, sem o número dela. resumo: 2 a 4 parágrafos separados por linha em branco.
 - recapitulacao: até 6 frases para os jogadores lerem antes da próxima sessão: onde o grupo está, o que acabou de acontecer, quem está envolvido e quais objetivos estão em aberto. Use esta sessão e os resumos das sessões anteriores.
 - Escreva em português do Brasil, com frases curtas e nomes grafados como no índice."""
 
@@ -83,8 +83,42 @@ class Pausa(Exception):
 
 def carregar():
     if DADOS.exists():
-        return corrigir(json.loads(DADOS.read_text(encoding="utf-8")))
+        return corrigir(reparar(json.loads(DADOS.read_text(encoding="utf-8"))))
     return {"sessoes": {}, "entidades": {}, "pendencias": []}
+
+
+def reparar(dados):
+    """Desfaz acentos corrompidos ("LeÃ£o" vira "Leão"), gravados pela versão de 26/10 da leitura do Gemini.
+    Páginas cujo nome estava corrompido ganham o endereço do nome certo."""
+    def texto(t):
+        try:
+            return t.encode("latin-1").decode("utf-8")
+        except (UnicodeEncodeError, UnicodeDecodeError):  # texto já correto
+            return t
+
+    def andar(x):
+        if isinstance(x, str):
+            return texto(x)
+        if isinstance(x, list):
+            return [andar(v) for v in x]
+        if isinstance(x, dict):
+            return {texto(k): andar(v) for k, v in x.items()}
+        return x
+
+    novo, trocas = andar(dados), {}
+    for i, e in list(novo["entidades"].items()):
+        if e["nome"] != dados["entidades"][i]["nome"]:
+            base = j = f"{TIPOS.get(e['tipo'], TIPOS['npc'])[0]}/{slug(e['nome'])}"
+            n = 2
+            while j != i and j in novo["entidades"]:
+                j, n = f"{base}-{n}", n + 1
+            if j != i:
+                novo["entidades"][j] = novo["entidades"].pop(i)
+                trocas[i] = j
+    for s in novo["sessoes"].values():
+        s["entidades"] = [trocas.get(i, i) for i in s["entidades"]]
+        s["titulo"] = re.sub(r"^sess[aã]o\s*\d+\s*[-–:]\s*", "", s["titulo"], flags=re.I)  # o número já aparece antes
+    return novo
 
 
 def corrigir(dados):
@@ -132,7 +166,7 @@ def slug(texto):
 
 # ---------- atualização com o Gemini ----------
 
-def gemini(texto):
+def gemini(texto, instrucoes=INSTRUCOES, esquema=ESQUEMA):
     import socket
 
     import requests  # só a atualização precisa; a geração de páginas roda sem dependências
@@ -151,9 +185,9 @@ def gemini(texto):
     sessao = requests.Session()
     sessao.mount("https://", ComKeepalive())
     corpo = {
-        "systemInstruction": {"parts": [{"text": INSTRUCOES}]},
+        "systemInstruction": {"parts": [{"text": instrucoes}]},
         "contents": [{"role": "user", "parts": [{"text": texto}]}],
-        "generationConfig": {"responseMimeType": "application/json", "responseSchema": ESQUEMA,
+        "generationConfig": {"responseMimeType": "application/json", "responseSchema": esquema,
                              "maxOutputTokens": 65536},
         "safetySettings": [{"category": c, "threshold": "BLOCK_NONE"} for c in (
             "HARM_CATEGORY_HARASSMENT", "HARM_CATEGORY_HATE_SPEECH",
@@ -168,6 +202,7 @@ def gemini(texto):
             r = sessao.post(url, json=corpo, stream=True, timeout=(30, 600),
                             headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]})
             if r.status_code == 200:
+                r.encoding = "utf-8"  # o Google não informa a codificação, e sem isso os acentos se corrompem
                 partes, motivo = [], None
                 for linha in r.iter_lines(decode_unicode=True):
                     if linha and linha.startswith("data:"):
@@ -379,7 +414,7 @@ def paginas():
             linhas.append(f"| Primeira aparição | [{nome_sessao(primeira)}]({rel(de, f'sessoes/{primeira}.md')}) |")
             if ultima != primeira:
                 linhas.append(f"| Última aparição | [{nome_sessao(ultima)}]({rel(de, f'sessoes/{ultima}.md')}) |")
-            linhas.append(f"| Aparições | {len(e['sessoes'])} sessões |")
+            linhas.append(f"| Aparições | {len(e['sessoes'])} {'sessão' if len(e['sessoes']) == 1 else 'sessões'} |")
         corpo = [f"{SEM_MENU}# {seguro(e['nome'])}", "", '<div class="infobox" markdown>',
                  f'<p class="infobox-titulo">{seguro(e["nome"])}</p>', "", "| | |", "|---|---|", *linhas,
                  "", "</div>", "", ligar(e["resumo"] or "Sem resumo ainda.", de, usados), ""]
