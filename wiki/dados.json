@@ -1,0 +1,274 @@
+{
+ "sessoes": {
+  "sessao-01": {
+   "titulo": "A ExpediÃ§Ã£o Ã s RuÃ­nas e a Queda em Arden Vul",
+   "resumo": "O grupo de aventureiros formado por Deyos, Hugios, Pallas e Adan comeÃ§ou sua jornada na cidade de Gosterwick. ApÃ³s realizarem preparativos e comprarem mantimentos com comerciantes locais como Vera e Damasco, alÃ©m de conversarem com feirantes na praÃ§a central, os exploradores seguiram em direÃ§Ã£o ao impressionante paredÃ£o rochoso que leva Ã s ruÃ­nas de Arden Vul. No caminho pela extensa escadaria, investigaram um posto de descanso escavado na pedra, onde encontraram uma grave infestaÃ§Ã£o de fungo amarelo e um trecho de chÃ£o oco que desabou em um poÃ§o insondÃ¡vel apÃ³s ser escavado. Continuando atÃ© o topo do paredÃ£o, o grupo alcanÃ§ou as ruÃ­nas da antiga cidade de Arden Vul e decidiu investigar uma das torres circulares destruÃ­das na entrada. A exploraÃ§Ã£o rapidamente se tornou mortal quando aranhas gigantes atacaram o grupo; apesar da tentativa de conter as criaturas com uma armadilha, Pallas foi mortalmente ferido e teve seu corpo enrolado em teias. Em pÃ¢nico e sem suprimentos de Ã¡gua suficientes, Deyos e Hugios recuaram atÃ© o rio das ruÃ­nas. LÃ¡ foram surpreendidos por um bando armado de treze exploradores hostis. Usando de astÃºcia, Deyos guiou o lÃ­der dos rivais de volta Ã  torre das aranhas e o empurrou para dentro da estrutura, criando uma distraÃ§Ã£o que permitiu a fuga dos dois sobreviventes. Deyos e Hugios desceram a escadaria do paredÃ£o e conseguiram retornar em seguranÃ§a para a Estalagem Capa Amarela em Gosterwick, lamentando a perda do companheiro.",
+   "linha_do_tempo": [
+    "O grupo chega Ã  praÃ§a central de Gosterwick e compra mantimentos e ferramentas com os comerciantes Vera e Damasco.",
+    "Hugios explora a feira na praÃ§a central de Gosterwick, adquire cogumelos comestÃ­veis e escuta rumores sobre babuÃ­nos albinos e homens-lagarto.",
+    "Os aventureiros seguem pelo Caminho Imperial e sobem a escadaria do paredÃ£o atÃ© um posto de descanso em uma caverna.",
+    "O grupo investiga a caverna infestada por fungo amarelo, e a escavaÃ§Ã£o de Deyos faz o chÃ£o oco desabar em um buraco profundo.",
+    "No topo do paredÃ£o, o grupo alcanÃ§a as ruÃ­nas de Arden Vul e passa a investigar uma torre circular destruÃ­da.",
+    "Aranhas gigantes atacam os exploradores na torre de entrada de Arden Vul.",
+    "Pallas Ã© mordido e morto por uma aranha gigante, tendo seu corpo capturado e coberto por teias.",
+    "Deyos e Hugios fogem em direÃ§Ã£o ao rio das ruÃ­nas para reabastecer seus cantis e descansar.",
+    "Um bando hostil de treze exploradores encurrala Deyos e exige a entrega de seus pertences.",
+    "Deyos engana o lÃ­der dos exploradores rivais, levando-o atÃ© a torre de aranhas e empurrando-o para dentro.",
+    "Deyos e Hugios fogem individualmente pela escadaria e se reencontram na Estalagem Capa Amarela em Gosterwick."
+   ],
+   "entidades": [
+    "personagens/deyos",
+    "personagens/hugios",
+    "personagens/pallas",
+    "personagens/adan",
+    "locais/gosterwick",
+    "locais/arden-vul",
+    "locais/estalagem-capa-amarela",
+    "npcs/damasco",
+    "npcs/vera",
+    "eventos/morte-de-pallas"
+   ]
+  }
+ },
+ "entidades": {
+  "personagens/deyos": {
+   "tipo": "personagem",
+   "nome": "Deyos",
+   "apelidos": [],
+   "resumo": "Aventureiro da raÃ§a homem-lagarto que conhece os caminhos da escadaria e das ruÃ­nas de Arden Vul. Conseguiu sobreviver ao ataque das aranhas e enganou o lÃ­der de um bando rival para escapar das ruÃ­nas.",
+   "atributos": {
+    "RaÃ§a": "Homem-Lagarto",
+    "Jogador": "Guilherme",
+    "Status": "Vivo",
+    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela, Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-01",
+     "Escavou o chÃ£o oco do posto de descanso, fazendo-o desabar em um poÃ§o profundo."
+    ],
+    [
+     "sessao-01",
+     "Empurrou o lÃ­der de um bando de exploradores rivais para dentro da torre de aranhas para conseguir fugir."
+    ]
+   ],
+   "sessoes": [
+    "sessao-01"
+   ]
+  },
+  "personagens/hugios": {
+   "tipo": "personagem",
+   "nome": "Hugios",
+   "apelidos": [],
+   "resumo": "Aventureiro da classe explorador que integrou a expediÃ§Ã£o atÃ© Arden Vul. Coletou informaÃ§Ãµes na feira de Gosterwick e conseguiu escapar furtivamente de exploradores hostis apÃ³s o massacre na torre.",
+   "atributos": {
+    "Classe": "Explorador",
+    "Jogador": "Sonard",
+    "Status": "Vivo",
+    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela, Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-01",
+     "Comprou raÃ§Ãµes e cogumelos de um feirante em Gosterwick."
+    ],
+    [
+     "sessao-01",
+     "Destruiu ovos de aranha gigante no posto de descanso da escadaria."
+    ],
+    [
+     "sessao-01",
+     "Fugiu furtivamente de um grupo de treze exploradores armados e retornou em seguranÃ§a a Gosterwick."
+    ]
+   ],
+   "sessoes": [
+    "sessao-01"
+   ]
+  },
+  "personagens/pallas": {
+   "tipo": "personagem",
+   "nome": "Pallas",
+   "apelidos": [],
+   "resumo": "Aventureiro integrante da expediÃ§Ã£o Ã s ruÃ­nas de Arden Vul. Foi atacado e morto por uma aranha gigante na torre de entrada da antiga cidade.",
+   "atributos": {
+    "Jogador": "Lepi",
+    "Status": "Morto",
+    "LocalizaÃ§Ã£o": "Torre de Entrada, RuÃ­nas de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-01",
+     "Armou uma armadilha de lobo para tentar conter as aranhas gigantes."
+    ],
+    [
+     "sessao-01",
+     "Foi fatalmente mordido no pescoÃ§o por uma aranha gigante na torre das ruÃ­nas de Arden Vul."
+    ]
+   ],
+   "sessoes": [
+    "sessao-01"
+   ]
+  },
+  "personagens/adan": {
+   "tipo": "personagem",
+   "nome": "Adan",
+   "apelidos": [],
+   "resumo": "Guerreiro equipado com espada e escudo que acompanhou o grupo nas compras em Gosterwick e nos primeiros trechos da exploraÃ§Ã£o.",
+   "atributos": {
+    "Classe": "Guerreiro",
+    "Jogador": "Vasgo",
+    "Status": "Vivo"
+   },
+   "fatos": [
+    [
+     "sessao-01",
+     "Adquiriu diversos equipamentos de exploraÃ§Ã£o na loja de Damasco."
+    ]
+   ],
+   "sessoes": [
+    "sessao-01"
+   ]
+  },
+  "locais/gosterwick": {
+   "tipo": "local",
+   "nome": "Gosterwick",
+   "apelidos": [],
+   "resumo": "Cidade comercial prÃ³xima Ã s ruÃ­nas de Arden Vul. Serve como base de suprimentos e descanso para aventureiros que exploram a regiÃ£o.",
+   "atributos": {
+    "Tipo": "Cidade"
+   },
+   "fatos": [
+    [
+     "sessao-01",
+     "Possui uma praÃ§a central movimentada com feiras e lojas de suprimentos gerais."
+    ]
+   ],
+   "sessoes": [
+    "sessao-01"
+   ]
+  },
+  "locais/arden-vul": {
+   "tipo": "local",
+   "nome": "Arden Vul",
+   "apelidos": [],
+   "resumo": "Antiga cidade em ruÃ­nas localizada no topo de um imenso paredÃ£o rochoso. Ã repleta de perigos, criaturas hostis e mistÃ©rios subterrÃ¢neos.",
+   "atributos": {
+    "Tipo": "RuÃ­nas / Masmorra"
+   },
+   "fatos": [
+    [
+     "sessao-01",
+     "Sua escadaria conta com cravos de ferro instalados para facilitar a subida."
+    ],
+    [
+     "sessao-01",
+     "As torres de entrada sÃ£o habitadas por aranhas gigantes paralisantes."
+    ]
+   ],
+   "sessoes": [
+    "sessao-01"
+   ]
+  },
+  "locais/estalagem-capa-amarela": {
+   "tipo": "local",
+   "nome": "Estalagem Capa Amarela",
+   "apelidos": [],
+   "resumo": "Estabelecimento situado na esquina do Caminho Imperial com a Rua da Pedra em Gosterwick, utilizado como refÃºgio por aventureiros.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-01",
+     "Serviu de abrigo para Deyos e Hugios apÃ³s o retorno das ruÃ­nas de Arden Vul."
+    ]
+   ],
+   "sessoes": [
+    "sessao-01"
+   ]
+  },
+  "npcs/damasco": {
+   "tipo": "npc",
+   "nome": "Damasco",
+   "apelidos": [],
+   "resumo": "Comerciante idoso de Gosterwick, proprietÃ¡rio de uma loja de artigos gerais localizada em frente Ã  Estalagem Capa Amarela.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Comerciante",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-01",
+     "Vendeu ferramentas de exploraÃ§Ã£o ao grupo e presenteou os aventureiros com um elmo antigo de metal."
+    ]
+   ],
+   "sessoes": [
+    "sessao-01"
+   ]
+  },
+  "npcs/vera": {
+   "tipo": "npc",
+   "nome": "Vera",
+   "apelidos": [],
+   "resumo": "Vendedora na praÃ§a central de Gosterwick especializada no comÃ©rcio de carnes secas, raÃ§Ãµes e suprimentos para viagens longas.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Comerciante",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-01",
+     "Vendeu carne seca e suprimentos de Ã¡gua para a expediÃ§Ã£o do grupo."
+    ]
+   ],
+   "sessoes": [
+    "sessao-01"
+   ]
+  },
+  "eventos/morte-de-pallas": {
+   "tipo": "evento",
+   "nome": "Morte de Pallas",
+   "apelidos": [],
+   "resumo": "Confronto trÃ¡gico ocorrido na torre de entrada das ruÃ­nas de Arden Vul, no qual o aventureiro Pallas foi fatalmente atacado por uma aranha gigante.",
+   "atributos": {
+    "Local": "RuÃ­nas de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-01",
+     "Pallas foi mordo no pescoÃ§o e teve seu corpo envelopado em teias pelas aranhas da torre."
+    ]
+   ],
+   "sessoes": [
+    "sessao-01"
+   ]
+  }
+ },
+ "pendencias": [
+  {
+   "id": "p1",
+   "texto": "Investigar as profundezas do buraco que desabou no posto de descanso da escadaria de Arden Vul.",
+   "aberta_em": "sessao-01",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p2",
+   "texto": "Lidar com o grupo hostil de treze exploradores que assumiu a torre de entrada das ruÃ­nas.",
+   "aberta_em": "sessao-01",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p3",
+   "texto": "Recuperar o corpo e os pertences do falecido Pallas na torre das ruÃ­nas de Arden Vul.",
+   "aberta_em": "sessao-01",
+   "resolvida_em": null,
+   "como": ""
+  }
+ ],
+ "recapitulacao": {
+  "apos": "sessao-01",
+  "texto": "ApÃ³s se reabastecerem em Gosterwick, o grupo subiu a escadaria do paredÃ£o rumo a Arden Vul e descobriu um poÃ§o profundo sob um posto de descanso tomado por fungos amarelados. No topo das ruÃ­nas, um confronto contra aranhas gigantes na torre de entrada resultou na morte de Pallas. Os sobreviventes Deyos e Hugios foram abordados por um grupo hostil de treze exploradores, mas Deyos conseguiu virar o jogo empurrando o lÃ­der rival para o ninho de aranhas. Agora, Deyos e Hugios estÃ£o em seguranÃ§a na Estalagem Capa Amarela em Gosterwick. Resta decidir se montarÃ£o um novo grupo para resgatar os pertences de Pallas e explorar as profundezas de Arden Vul."
+ }
+}
