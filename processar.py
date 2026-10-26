@@ -6,6 +6,7 @@ import json
 import os
 import re
 import subprocess
+import sys
 import tempfile
 import time
 from pathlib import Path
@@ -72,6 +73,9 @@ def main():
     transcritas = {p.stem for p in Path("transcricoes").glob("*.md")}
     sessoes, pendentes = fila(releases, transcritas, set(wiki.carregar()["sessoes"]))
     print("Fila:", ", ".join(sessoes) or "vazia", flush=True)
+    # a wiki segue a ordem das sessões: se ela parar numa sessão, a transcrição das seguintes continua
+    wiki_parada = None if os.environ.get("GEMINI_API_KEY") else "a chave GEMINI_API_KEY não está cadastrada no GitHub"
+    erro_wiki = False
     try:
         for ep in sessoes:
             if time.time() > ULTIMO_INICIO:
@@ -92,13 +96,20 @@ def main():
                     releases[tag][1].remove(z)
                 if not releases[tag][1]:
                     sh("gh", "release", "delete", tag, "--yes", "--cleanup-tag")
-            if not os.environ.get("GEMINI_API_KEY"):
-                print(f"{ep}: wiki desligada até a chave GEMINI_API_KEY ser cadastrada", flush=True)
+            if wiki_parada:
                 continue
-            wiki.atualizar(saida)
+            try:
+                wiki.atualizar(saida)
+            except (RuntimeError, wiki.Pausa) as e:
+                wiki_parada, erro_wiki = f"{ep}: {e}", isinstance(e, RuntimeError)
+                continue
             salvar(f"Wiki: {ep}")
-    except (transcrever.Pausa, wiki.Pausa) as pausa:
+    except transcrever.Pausa as pausa:
         print(f"Pausa: {pausa}. A próxima execução continua de onde parou.", flush=True)
+    if wiki_parada:
+        print(f"Wiki parada nesta execução ({wiki_parada})", flush=True)
+    if erro_wiki:
+        sys.exit("Erro na wiki. A transcrição seguiu normalmente, e a wiki tenta de novo na próxima execução.")
 
 
 if __name__ == "__main__":

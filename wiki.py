@@ -15,7 +15,7 @@ from pathlib import Path
 
 DADOS = Path("wiki/dados.json")
 DOCS = Path("wiki/docs")
-MODELO = "gemini-2.5-flash"
+MODELO = "gemini-3.8-flash"  # o Google bloqueou os modelos 2.5 para projetos novos em set/2026
 TIPOS = {  # tipo: (pasta, nome da seção, nome no singular)
     "personagem": ("personagens", "Personagens", "Personagem de jogador"),
     "npc": ("npcs", "NPCs", "NPC"),
@@ -136,7 +136,7 @@ def gemini(texto):
         "systemInstruction": {"parts": [{"text": INSTRUCOES}]},
         "contents": [{"role": "user", "parts": [{"text": texto}]}],
         "generationConfig": {"responseMimeType": "application/json", "responseSchema": ESQUEMA,
-                             "temperature": 0.2, "maxOutputTokens": 65536},
+                             "maxOutputTokens": 65536},
         "safetySettings": [{"category": c, "threshold": "BLOCK_NONE"} for c in (
             "HARM_CATEGORY_HARASSMENT", "HARM_CATEGORY_HATE_SPEECH",
             "HARM_CATEGORY_SEXUALLY_EXPLICIT", "HARM_CATEGORY_DANGEROUS_CONTENT")],  # combates e vilões de RPG
