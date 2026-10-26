@@ -695,6 +695,24 @@
     "faccoes/halflings-de-phlebotomas-plumthorn",
     "eventos/emboscada-na-escadaria-de-arden-vul"
    ]
+  },
+  "sessao-27": {
+   "titulo": "Prisioneiros de Deino",
+   "resumo": "No dia 23 do sÃ©timo mÃªs de 2993, Thronodian, Thaenderus e Harllequinnos prepararam seus equipamentos em Gosterwick antes de iniciarem a jornada rumo Ã s ruÃ­nas de Arden Vul sob forte chuva. No trajeto pela estrada escura, o grupo sobreviveu a um encontro furtivo com uma minhoca armadurada gigante antes de subir a escarpa e montar acampamento nas torres em ruÃ­nas. Durante a noite, os aventureiros foram surpreendidos enquanto dormiam, capturados por batedores e levados desacordados pelas profundezas do subterrÃ¢neo. No covil dos homens-fera, foram conduzidos atÃ© Deino, uma mulher de traÃ§os arconteanos aclamada como a mÃ£e de todos os homens-fera, que os enfeitiÃ§ou com uma melodia nostÃ¡lgica. Sob o efeito do encanto, o grupo cedeu Ã  influÃªncia da lÃ­der, culminando na separaÃ§Ã£o de Harllequinnos e na integraÃ§Ã£o forÃ§ada dos demais ao grupo dos monstros nos salÃµes de Thoth.",
+   "linha_do_tempo": [
+    "Thronodian e Thaenderus compraram raÃ§Ãµes, cantis e tochas no Distrito do Mercado de Gosterwick.",
+    "Harllequinnos comprou um canÃ¡rio com gaiola e um cachorro treinado de uma vendedora na praÃ§a central.",
+    "O grupo viajou sob forte chuva e enfrentou uma minhoca armadurada gigante na estrada antes de alcanÃ§ar a escarpa.",
+    "Os aventureiros montaram acampamento sem rondas nas torres em ruÃ­nas de Arden Vul e acabaram capturados durante o sono.",
+    "Conduzidos pelo subterrÃ¢neo, Thronodian, Thaenderus e Harllequinnos foram apresentados Ã  lÃ­der Deino nos salÃµes de Thoth."
+   ],
+   "entidades": [
+    "personagens/thronodian",
+    "personagens/thaenderus",
+    "personagens/harllequinnos",
+    "npcs/deino",
+    "criaturas/minhoca-armadurada"
+   ]
   }
  },
  "entidades": {
@@ -1592,7 +1610,7 @@
    "tipo": "personagem",
    "nome": "Harllequinnos",
    "apelidos": [],
-   "resumo": "Mago recÃ©m-chegado a Gosterwick portando o amedrontador grimÃ³rio Nekrotapion. Uniu-se ao grupo de Tobias para caÃ§ar os kobolds no Emaranhado e demonstrou grande utilidade arcana ao conjurar a magia Sono. Busca aprender novas feitiÃ§arias e futuramente treinar um aprendiz.",
+   "resumo": "Mago do grupo que comprou um canÃ¡rio na feira de Gosterwick, tentou usar a magia Sono contra uma minhoca gigante e acabou capturado e separado dos aliados por Deino.",
    "atributos": {
     "Classe": "Mago",
     "Jogador": "Lepi"
@@ -1609,10 +1627,23 @@
     [
      "sessao-04",
      "Conjurou a magia Sono durante a emboscada, adormecendo instantaneamente trÃªs dos seis kobolds."
+    ],
+    [
+     "sessao-27",
+     "Comprou um canÃ¡rio com gaiola na feira encharcada da praÃ§a central de Gosterwick."
+    ],
+    [
+     "sessao-27",
+     "Tentou conjurar a magia Sono em uma minhoca armadurada gigante durante a marcha noturna, mas o monstro resistiu."
+    ],
+    [
+     "sessao-27",
+     "Foi capturado nas ruÃ­nas, levado a Deino e separado dos companheiros por guardas homens-fera."
     ]
    ],
    "sessoes": [
-    "sessao-04"
+    "sessao-04",
+    "sessao-27"
    ]
   },
   "npcs/jador": {
@@ -5386,6 +5417,112 @@
    "sessoes": [
     "sessao-26"
    ]
+  },
+  "personagens/thronodian": {
+   "tipo": "personagem",
+   "nome": "Thronodian",
+   "apelidos": [],
+   "resumo": "Aventureiro do grupo conhecido como Dian que comprou armadura de couro batido, martelo de guerra e zagaias em Gosterwick antes de ser capturado e enfeitiÃ§ado por Deino em Arden Vul.",
+   "atributos": {
+    "Jogador": "Massaki"
+   },
+   "fatos": [
+    [
+     "sessao-27",
+     "Adquiriu armadura de couro batido, martelo de guerra, zagaias e um cachorro treinado em Gosterwick."
+    ],
+    [
+     "sessao-27",
+     "Foi capturado por batedores homens-fera nas torres em ruÃ­nas e levado atÃ© a presenÃ§a de Deino."
+    ],
+    [
+     "sessao-27",
+     "Sucumbiu ao encanto da melodia de Deino, passando a obedecer Ã  lÃ­der dos homens-fera."
+    ]
+   ],
+   "sessoes": [
+    "sessao-27"
+   ]
+  },
+  "personagens/thaenderus": {
+   "tipo": "personagem",
+   "nome": "Thaenderus",
+   "apelidos": [],
+   "resumo": "Aventureiro lobisomem do grupo que viajou para Arden Vul, tentou despistar perigos com pedras na escuridÃ£o e foi capturado e enfeitiÃ§ado por Deino.",
+   "atributos": {
+    "Jogador": "Louis"
+   },
+   "fatos": [
+    [
+     "sessao-27",
+     "Comprou itens de exploraÃ§Ã£o como raÃ§Ãµes, cantis e saco de dormir em Gosterwick."
+    ],
+    [
+     "sessao-27",
+     "Tentou distrair a minhoca armadurada jogando pedras para gerar som na vegetaÃ§Ã£o escura."
+    ],
+    [
+     "sessao-27",
+     "Foi capturado dormindo nas torres e enfeitiÃ§ado pela melodia de Deino no subterrÃ¢neo."
+    ]
+   ],
+   "sessoes": [
+    "sessao-27"
+   ]
+  },
+  "npcs/deino": {
+   "tipo": "npc",
+   "nome": "Deino",
+   "apelidos": [],
+   "resumo": "Misteriosa mulher de traÃ§os arconteanos aclamada como a mÃ£e de todos os homens-fera, que habita as profundezas dos salÃµes de Thoth em Arden Vul e possui poderosas habilidades de encanto.",
+   "atributos": {
+    "Status": "Ativo",
+    "LocalizaÃ§Ã£o": "PirÃ¢mide de Thoth",
+    "AfiliaÃ§Ã£o": "Homens-fera"
+   },
+   "fatos": [
+    [
+     "sessao-27",
+     "Comanda patrulhas de homens-fera e recebe prisioneiros em seus aposentos subterrÃ¢neos."
+    ],
+    [
+     "sessao-27",
+     "Recebeu o grupo de Thronodian e Thaenderus apÃ³s a captura nas ruÃ­nas superiores."
+    ],
+    [
+     "sessao-27",
+     "Utilizou uma melodia mÃ¡gica nostÃ¡lgica para enfeitiÃ§ar e subjugar a vontade dos aventureiros."
+    ]
+   ],
+   "sessoes": [
+    "sessao-27"
+   ]
+  },
+  "criaturas/minhoca-armadurada": {
+   "tipo": "criatura",
+   "nome": "Minhoca Armadurada",
+   "apelidos": [],
+   "resumo": "Gigantesca criatura subterrÃ¢nea com corpo blindado, mandÃ­bulas verticais e antenas sensoriais que emerge do solo em regiÃµes ermas e persegue alvos atravÃ©s de vibraÃ§Ãµes.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Ermos da escarpa de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-27",
+     "Emergiu do solo na estrada para Arden Vul emitindo um guincho alto para atrair presas."
+    ],
+    [
+     "sessao-27",
+     "Resistiu Ã  magia de Sono conjurada por Harllequinnos."
+    ],
+    [
+     "sessao-27",
+     "Investigou pedras arremessadas na grama antes de retornar para o subsolo."
+    ]
+   ],
+   "sessoes": [
+    "sessao-27"
+   ]
   }
  },
  "pendencias": [
@@ -5941,10 +6078,24 @@
    "aberta_em": "sessao-26",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p80",
+   "texto": "Resgatar Thronodian, Thaenderus e Harllequinnos do cativeiro de Deino nos salÃµes subterrÃ¢neos de Thoth.",
+   "aberta_em": "sessao-27",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p81",
+   "texto": "Recuperar os equipamentos confiscados dos aventureiros apÃ³s a captura no acampamento.",
+   "aberta_em": "sessao-27",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-26",
-  "texto": "O grupo encontra-se encurralado na grande escadaria externa de Arden Vul durante a descida noturna. Seis humanos selvagens munidos de armas de pedra emboscaram os exploradores, ferindo gravemente Kazunov. Nas profundezas da PirÃ¢mide de Thoth, os aventureiros deixaram para trÃ¡s um acordo tenso de passagem com a patrulha de homens-fera liderada por Ariulo. Permanece em aberto o enigma do busto metÃ¡lico flutuante e do mecanismo de seis encaixes encontrado no subterrÃ¢neo. TambÃ©m segue desconhecido o paradeiro exato do covil dos homens-lagarto Skreel nas imediaÃ§Ãµes do CÃ¢nion Alagado."
+  "apos": "sessao-27",
+  "texto": "Os aventureiros Thronodian, Thaenderus e Harllequinnos compraram suprimentos e itens bÃ¡sicos em Gosterwick enfrentando um dia chuvoso e partiram em direÃ§Ã£o ao platÃ´ de Arden Vul. No caminho, desviaram de uma colossal minhoca armadurada subterrÃ¢nea e escalaram a grande escarpa atÃ© as torres em ruÃ­nas para descansar. Surpreendidos e capturados durante o sono por uma patrulha de homens-fera, foram levados amordaÃ§ados pelas entranhas da PirÃ¢mide de Thoth. No santuÃ¡rio subterrÃ¢neo, conheceram Deino, a enigmÃ¡tica governante humana dos homens-fera, que utilizou uma magia de encanto para subjugÃ¡-los. Agora sob o controle da lÃ­der inimiga, o grupo encontra-se separado e prisioneiro nas profundezas do domÃ­nio dos monstros."
  }
 }
