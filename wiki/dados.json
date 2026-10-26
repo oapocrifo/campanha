@@ -1093,6 +1093,25 @@
     "itens/disco-metalico-de-ouro-batido",
     "eventos/morte-de-otis"
    ]
+  },
+  "sessao-41": {
+   "titulo": "A Fronteira do PÃ¢ntano e o Encontro com o DragÃ£o",
+   "resumo": "Os aventureiros iniciaram sua jornada partindo da pousada em direÃ§Ã£o aos pÃ¢ntanos e ruÃ­nas ao sul do grande lago de Arden Vul. No trajeto, enfrentaram os riscos da travessia de uma ponte de metal altamente deteriorada, onde Nia acabou caindo na Ã¡gua fria antes de ser resgatada por uma corda de seguranÃ§a. Em seguida, investigaram uma estrutura de barragem e uma casa civil em ruÃ­nas na borda da Ã¡rea pantanosa, encontrando cones de metal, um fÃªmur com inscriÃ§Ãµes misteriosas, uma carta em alfabeto mÃ­trico e dois frascos com lÃ­quido verde Ã¡cido.\n\nEnquanto o grupo vasculhava o local e coletava cogumelos brancos, Vixen avanÃ§ou sozinha pelo pÃ¢ntano em direÃ§Ã£o a uma torre distante e acabou ficando frente a frente com um gigantesco dragÃ£o verde. A raposa tentou negociar uma alianÃ§a e acabou recebendo uma missÃ£o perigosa de caÃ§a a uma entidade maligna conhecida como Galef, senhor da Casa Longa. ApÃ³s titubear diante da exigÃªncia do monstro, Vixen foi ameaÃ§ada de morte e bateu em retirada, reunindo-se aos companheiros para o retorno seguro Ã  pousada.",
+   "linha_do_tempo": [
+    "O grupo partiu da pousada com duas mulas em direÃ§Ã£o Ã s margens do rio e do lago em Arden Vul.",
+    "Os aventureiros atravessaram uma ponte de metal deteriorada, com Nia caindo brevemente na Ã¡gua fria antes de ser resgatada.",
+    "O grupo inspecionou uma porta trancada na barragem de pedra que continha duas grandes rodas de manivela.",
+    "Alexander, ArnÃ³bio e Nia vasculharam uma casa em ruÃ­nas na borda do pÃ¢ntano, encontrando frascos de Ã¡cido, cones de metal e um fÃªmur rÃºnico.",
+    "Vixen aproximou-se sozinha de uma torre no pÃ¢ntano e confrontou um gigantesco dragÃ£o verde que lhe exigiu uma missÃ£o perigosa contra Galef.",
+    "ApÃ³s ser ameaÃ§ada pelo dragÃ£o, Vixen recuou e o grupo retornou em seguranÃ§a para a pousada antes do anoitecer."
+   ],
+   "entidades": [
+    "personagens/vixen-vestappen",
+    "criaturas/dragao-verde",
+    "npcs/galef",
+    "locais/barragem-do-lago",
+    "itens/frascos-de-acido"
+   ]
   }
  },
  "entidades": {
@@ -8731,6 +8750,128 @@
    "sessoes": [
     "sessao-40"
    ]
+  },
+  "personagens/vixen-vestappen": {
+   "tipo": "personagem",
+   "nome": "Vixen Vestappen",
+   "apelidos": [],
+   "resumo": "Aventureira raposa Ã¡gil do grupo que se arriscou a caminhar sozinha pelo pÃ¢ntano de Arden Vul e teve um encontro aterrorizante com um dragÃ£o verde, recebendo uma missÃ£o para investigar a entidade Galef.",
+   "atributos": {
+    "Jogador": "Mel",
+    "Classe": "Guerreiro",
+    "Status": "Ativo"
+   },
+   "fatos": [
+    [
+     "sessao-41",
+     "Vixen caminhou sozinha pelo pÃ¢ntano atÃ© se aproximar de uma torre e ser interceptada por um dragÃ£o verde."
+    ],
+    [
+     "sessao-41",
+     "A raposa tentou negociar com o dragÃ£o, mas falhou em sua salvaguarda contra a aura de aterrorizamento da besta."
+    ],
+    [
+     "sessao-41",
+     "Aceitou relutantemente uma missÃ£o do dragÃ£o para descobrir a fraqueza de Galef, o senhor da Casa Longa, antes de fugir apÃ³s hesitar."
+    ]
+   ],
+   "sessoes": [
+    "sessao-41"
+   ]
+  },
+  "criaturas/dragao-verde": {
+   "tipo": "criatura",
+   "nome": "DragÃ£o Verde",
+   "apelidos": [],
+   "resumo": "Colossal e poderoso dragÃ£o de escamas verdes que habita o platÃ´ e as regiÃµes pantanosas de Arden Vul, dotado de uma aterrorizante aura de medo e exigente com aqueles que o ousam abordar.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "PÃ¢ntano de Arden Vul",
+    "Status": "Ativo"
+   },
+   "fatos": [
+    [
+     "sessao-41",
+     "O dragÃ£o verde avistou Vixen se aproximando pelo pÃ¢ntano, voou ao seu encontro e pousou gerando ondas de Ã¡gua."
+    ],
+    [
+     "sessao-41",
+     "Emitiu uma poderosa aura de medo que aterrorizou Vixen e impediu qualquer tentativa de ataque."
+    ],
+    [
+     "sessao-41",
+     "Exigiu que Vixen descubra a fraqueza de Galef, uma entidade maligna e 'White' superior que habita a Casa Longa."
+    ]
+   ],
+   "sessoes": [
+    "sessao-41"
+   ]
+  },
+  "npcs/galef": {
+   "tipo": "npc",
+   "nome": "Galef",
+   "apelidos": [],
+   "resumo": "Poderosa entidade maligna classificada como um 'White' superior que habita uma construÃ§Ã£o retangular conhecida como a Casa Longa no pÃ¢ntano de Arden Vul.",
+   "atributos": {
+    "AfiliaÃ§Ã£o": "Casa Longa",
+    "Status": "Ativo"
+   },
+   "fatos": [
+    [
+     "sessao-41",
+     "Foi apontado pelo dragÃ£o verde como uma entidade maligna e alvo de interesse investigativo."
+    ],
+    [
+     "sessao-41",
+     "Reside em uma casa retangular e longa situada na regiÃ£o pantanosa."
+    ]
+   ],
+   "sessoes": [
+    "sessao-41"
+   ]
+  },
+  "locais/barragem-do-lago": {
+   "tipo": "local",
+   "nome": "Barragem do Lago",
+   "apelidos": [],
+   "resumo": "Estrutura de blocos de pedra situada Ã s margens do lago em Arden Vul, equipada com uma porta trancada que guarda duas grandes rodas de metal azulado para controle de fluxo.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Margem do lago em Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-41",
+     "A porta da barragem foi destrancada por ArnÃ³bio e arrombada por Alexander com um machado."
+    ],
+    [
+     "sessao-41",
+     "Abriga em seu interior duas rodas de registro feitas de um metal levemente azulado e nÃ£o oxidado."
+    ]
+   ],
+   "sessoes": [
+    "sessao-41"
+   ]
+  },
+  "itens/frascos-de-acido": {
+   "tipo": "item",
+   "nome": "Frascos de Ãcido",
+   "apelidos": [],
+   "resumo": "Dois frascos de vidro desgastados encontrados em uma ruÃ­na no pÃ¢ntano, vedados com rolha e cera, contendo um lÃ­quido verde-claro altamente corrosivo.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Bolsa de Alexander"
+   },
+   "fatos": [
+    [
+     "sessao-41",
+     "Foram descobertos por Alexander nos escombros de um mÃ³vel em uma casa arruinada."
+    ],
+    [
+     "sessao-41",
+     "Emitiram um forte cheiro Ã¡cido ao terem um deles aberto por ArnÃ³bio para teste com um canÃ¡rio."
+    ]
+   ],
+   "sessoes": [
+    "sessao-41"
+   ]
   }
  },
  "pendencias": [
@@ -9650,10 +9791,31 @@
    "aberta_em": "sessao-40",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p132",
+   "texto": "Investigar a identidade e os poderes de Galef, o White superior que habita a Casa Longa no pÃ¢ntano.",
+   "aberta_em": "sessao-41",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p133",
+   "texto": "Decifrar as inscriÃ§Ãµes mÃ­tricas encontradas na carta e no reboco da casa arruinada no pÃ¢ntano.",
+   "aberta_em": "sessao-41",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p134",
+   "texto": "Testar e descobrir a utilidade exata dos dois frascos de lÃ­quido Ã¡cido verde encontrados nas ruÃ­nas.",
+   "aberta_em": "sessao-41",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-40",
-  "texto": "O grupo encontra-se descansando na Pousada do Sinal da CabeÃ§a Quebrada apÃ³s uma perigosa expediÃ§Ã£o aos subterrÃ¢neos de Arden Vul. Durante a exploraÃ§Ã£o da Sala do SarcÃ³fago de PÃ³rfiro, o guerreiro homem-fera Otis foi morto ao ter sua energia vital drenada por uma mÃºmia libertada de sua tumba. Apesar da trÃ¡gica perda, os aventureiros conseguiram desabilitar temporariamente a perna do monstro e resgatar um valioso disco metÃ¡lico de ouro batido do interior do sarcÃ³fago. Atualmente, a mÃºmia permanece na cÃ¢mara com as armadilhas de chamas ativas e o corpo de Otis precisa ser recuperado. O grupo planeja avaliar o artefato obtido e organizar uma nova incursÃ£o ao local."
+  "apos": "sessao-41",
+  "texto": "O grupo de aventureiros deixou a pousada para explorar a regiÃ£o pantanosa ao sul do grande lago de Arden Vul. ApÃ³s atravessar uma ponte metÃ¡lica enferrujada com a ajuda de cordas, eles investigaram uma antiga ruÃ­na civil na borda do pÃ¢ntano, onde recuperaram frascos de Ã¡cido, um fÃªmur com runas e um tubo de metal com cartas. Paralelamente, Vixen arriscou-se sozinha pelo pÃ¢ntano e encontrou um enorme dragÃ£o verde, que lhe ordenou descobrir a fraqueza de uma entidade maligna chamada Galef na Casa Longa. Sob ameaÃ§a de morte apÃ³s hesitar, a raposa recuou e o grupo retornou em seguranÃ§a para a pousada para reavaliar os prÃ³ximos passos."
  }
 }
