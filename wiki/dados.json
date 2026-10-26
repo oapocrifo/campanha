@@ -198,6 +198,30 @@
     "npcs/damasco",
     "eventos/morte-de-zion"
    ]
+  },
+  "sessao-08": {
+   "titulo": "Rumos Trocados e Garras na Noite",
+   "resumo": "Na manhÃ£ de 22 do terceiro mÃªs de 2993, Durlan cumpriu parte de sua promessa Ã  mulher-planta disfarÃ§ada na Estalagem Capa Amarela, capturando um gato na praÃ§a central e entregando-o Ã  criatura. Pouco depois, desembarcaram na cidade os magos Abicon, irmÃ£o do falecido Zion, e Eugeo. Enquanto supriam suas mochilas com ferramentas na loja de Damasco, armas na Rua do Mercado e bebidas potentes em uma taverna local, os recÃ©m-chegados comeÃ§aram a buscar pistas sobre o paradeiro de praticantes de magia em Gosterwick.\n\nApÃ³s esbarrarem acidentalmente em um velho mago rabugento que examinava seu grimÃ³rio, Abicon e Eugeo decidiram segui-lo discretamente pelas ruelas atÃ© uma estrutura isolada de quatro andares: o Clube dos Praticantes Arcanos. Durlan juntou-se a eles na entrada. No saguÃ£o, a anfitriÃ£ Lyssandra Astorion recolheu o livro do cliente exaltado para correÃ§Ãµes arcanas e informou aos novatos que nÃ£o havia vagas de emprego imediatas, mas ofereceu admissÃ£o gratuita Ã  instituiÃ§Ã£o caso trouxessem mudas da planta mÃ¡gica Fernie, encontrada nas Ã¡reas sombreadas da Antiga Floresta.\n\nEmpolgados com a proposta, os trÃªs aventureiros partiram apressadamente rumo aos ermos, mas confundiram as orientaÃ§Ãµes geogrÃ¡ficas e seguiram pela estrada de Deep Town, mantendo o paredÃ£o de Arden Vul Ã  direita em vez de Ã  esquerda. Ao cair da noite na planÃ­cie de capim alto, acamparam sem Ã¡gua suficiente e foram emboscados por um leÃ£o faminto. ApÃ³s uma violenta escaramuÃ§a em que Durlan e Abicon saÃ­ram feridos e a criatura foi rechaÃ§ada por magia e aÃ§o, o grupo decidiu recuar. No retorno matinal para Gosterwick, cruzaram com seis homens armados na estrada, escaparam em desabalada carreira e refugiaram-se em seguranÃ§a na Estalagem Capa Amarela.",
+   "linha_do_tempo": [
+    "Durlan caÃ§ou um gato na praÃ§a central de Gosterwick e entregou-o Ã  mulher-planta disfarÃ§ada na Estalagem Capa Amarela.",
+    "Os magos Abicon e Eugeo desembarcaram na cidade e adquiriram mantimentos, armas e Ã¡lcool na praÃ§a e na Rua do Mercado.",
+    "Abicon e Eugeo esbarraram em um mago idoso e o seguiram discretamente atÃ© o Clube dos Praticantes Arcanos com o apoio de Durlan.",
+    "Lyssandra Astorion atendeu a reclamaÃ§Ã£o do mago idoso e prometeu entrada gratuita no clube aos recÃ©m-chegados se obtiverem mudas de Fernie na Antiga Floresta.",
+    "O grupo partiu para os ermos, mas confundiu os pontos de referÃªncia e marchou na direÃ§Ã£o oposta pela estrada de Deep Town.",
+    "Durante o acampamento noturno no mato alto, um leÃ£o atacou e feriu Durlan e Abicon antes de fugir ferido por magias e golpes fÃ­sicos.",
+    "Percebendo o erro de rota e a falta de Ã¡gua, os aventureiros levantaram acampamento ao amanhecer e marcharam de volta Ã  cidade.",
+    "Ao avistarem seis homens armados gritando ordens na estrada, os aventureiros fugiram em disparada atÃ© a seguranÃ§a da Estalagem Capa Amarela."
+   ],
+   "entidades": [
+    "personagens/durlan",
+    "personagens/abicon",
+    "personagens/eugeo",
+    "npcs/lyssandra-astorion",
+    "locais/clube-dos-praticantes-arcanos",
+    "criaturas/leao",
+    "locais/antiga-floresta",
+    "itens/planta-fernie"
+   ]
   }
  },
  "entidades": {
@@ -933,7 +957,7 @@
    "apelidos": [
     "Pururuca"
    ],
-   "resumo": "Grande predador felino que ronda a margem da floresta ao longo da estrada entre Gosterwick e Deep Town. Pode ser apaziguado com oferendas de carne fresca.",
+   "resumo": "Grande predador felino que ronda a margem das florestas e as planÃ­cies de capim alto ao longo da estrada entre Gosterwick e Deep Town. Pode ser apaziguado com carne fresca, mas ataca presas desatentas no escuro. Possui pelagem bege, mordidas destruidoras e garras velozes.",
    "atributos": {
     "Tipo": "Besta Selvagem"
    },
@@ -945,10 +969,23 @@
     [
      "sessao-04",
      "Aceitou a cauda de kobold atirada por Deyos e parou para devorÃ¡-la, permitindo que o grupo fugisse."
+    ],
+    [
+     "sessao-08",
+     "Uma fera com juba bege esgueirou-se no capim alto durante a noite para emboscar o acampamento dos aventureiros."
+    ],
+    [
+     "sessao-08",
+     "Mordeu o braÃ§o de Durlan e arranhou Abicon antes de recuar para a vegetaÃ§Ã£o ao ser repelido por golpes e magias."
+    ],
+    [
+     "sessao-08",
+     "Demonstrou alta resistÃªncia fÃ­sica ao resistir aos efeitos sonÃ­feros conjurados por Abicon."
     ]
    ],
    "sessoes": [
-    "sessao-04"
+    "sessao-04",
+    "sessao-08"
    ]
   },
   "itens/graxa-venenosa": {
@@ -1350,10 +1387,10 @@
    "apelidos": [
     "Lissandra"
    ],
-   "resumo": "Maga de ascendÃªncia arconteana que gerencia o Clube dos Praticantes Arcanos em Gosterwick ao lado de seu companheiro. Negocia componentes mÃ¡gicos raros e estuda os mistÃ©rios arcanos da regiÃ£o de Arden Vul.",
+   "resumo": "Maga de ascendÃªncia arconteana que gerencia o Clube dos Praticantes Arcanos em Gosterwick ao lado de seu companheiro. Negocia componentes mÃ¡gicos raros e estuda os mistÃ©rios arcanos da regiÃ£o de Arden Vul. Aceitou recolher um grimÃ³rio defeituoso para correÃ§Ã£o e ofereceu admissÃ£o na ordem a aventureiros que colherem mudas de Fernie.",
    "atributos": {
     "RaÃ§a": "Humana (Arconteana)",
-    "OcupaÃ§Ã£o": "Maga / Administradora",
+    "OcupaÃ§Ã£o": "Gerente do Clube Arcano",
     "AfiliaÃ§Ã£o": "Clube dos Praticantes Arcanos",
     "LocalizaÃ§Ã£o": "Gosterwick"
    },
@@ -1369,10 +1406,23 @@
     [
      "sessao-06",
      "Mencionou a presenÃ§a de um meio-troll sociÃ¡vel chamado Gog nos nÃ­veis inferiores de Arden Vul."
+    ],
+    [
+     "sessao-08",
+     "Atendeu um cliente idoso irritado com o mau funcionamento de um feitiÃ§o de terceiro cÃ­rculo em Arden Vul, dando prazo de dez dias Ãºteis para conserto."
+    ],
+    [
+     "sessao-08",
+     "Prometeu filiaÃ§Ã£o gratuita ao Clube dos Praticantes Arcanos caso os aventureiros lhe entreguem duas mudas da planta Fernie por pessoa."
+    ],
+    [
+     "sessao-08",
+     "Instruiu o grupo sobre a localizaÃ§Ã£o da Antiga Floresta, alertando sobre a necessidade de cruzar o rio perto do paredÃ£o de estÃ¡tuas."
     ]
    ],
    "sessoes": [
-    "sessao-06"
+    "sessao-06",
+    "sessao-08"
    ]
   },
   "locais/clube-dos-praticantes-arcanos": {
@@ -1381,7 +1431,7 @@
    "apelidos": [
     "Clube Arcano"
    ],
-   "resumo": "EdificaÃ§Ã£o de quatro andares situada nos limites urbanos de Gosterwick, composta por trÃªs pisos de granito escuro e um topo de madeira. Funciona como ponto de encontro, pesquisa e comÃ©rcio de itens mÃ¡gicos para praticantes das artes arcanas.",
+   "resumo": "EdificaÃ§Ã£o de quatro andares situada nos limites urbanos de Gosterwick, composta por trÃªs pisos de granito escuro e um topo de madeira. Funciona como ponto de encontro, pesquisa e comÃ©rcio de itens mÃ¡gicos para praticantes das artes arcanas. Conta com sala de espera com sofÃ¡s no tÃ©rreo e realiza serviÃ§os de transcriÃ§Ã£o de feitiÃ§os.",
    "atributos": {
     "LocalizaÃ§Ã£o": "Gosterwick"
    },
@@ -1397,10 +1447,23 @@
     [
      "sessao-06",
      "Ã gerido pelo casal de magos arconteanos Lissandra Astorion e seu parceiro."
+    ],
+    [
+     "sessao-08",
+     "Fica situada prÃ³xima ao fim da Ã¡rea habitada do Caminho Imperial, acessÃ­vel por um beco Ã  direita."
+    ],
+    [
+     "sessao-08",
+     "Possui uma ampla sala de recepÃ§Ã£o tÃ©rrea com vÃ¡rios sofÃ¡s e um balcÃ£o central de atendimento."
+    ],
+    [
+     "sessao-08",
+     "Realiza transcriÃ§Ãµes, correÃ§Ãµes e encomendas de magias em grimÃ³rios mediante prazos comerciais."
     ]
    ],
    "sessoes": [
-    "sessao-06"
+    "sessao-06",
+    "sessao-08"
    ]
   },
   "criaturas/javali": {
@@ -1497,7 +1560,7 @@
    "tipo": "personagem",
    "nome": "Durlan",
    "apelidos": [],
-   "resumo": "Guerreiro expedicionÃ¡rio que atuou na caÃ§ada do cervo na estrada de Deep Town. Foi vÃ­tima de um poderoso encanto lanÃ§ado por uma mulher-planta nos matagais, jurando protegÃª-la e aceitando um pacto para fornecer-lhe dois gatos por semana. Encontra-se hospedado na Estalagem Capa Amarela sob discreta vigilÃ¢ncia da criatura.",
+   "resumo": "Guerreiro expedicionÃ¡rio que atua em expediÃ§Ãµes nos arredores de Gosterwick. EnfeitiÃ§ado por uma mulher-planta nos matagais, jurou protegÃª-la e entregou o primeiro gato de seu bizarro pacto na Estalagem Capa Amarela. Acompanhou Abicon e Eugeo em uma marcha equivocada pela estrada de Deep Town, sobreviveu a um ataque de leÃ£o e refugiou-se na hospedaria.",
    "atributos": {
     "Jogador": "Mateus L",
     "Classe": "Guerreiro",
@@ -1524,10 +1587,27 @@
     [
      "sessao-07",
      "Alugou um quarto na Estalagem Capa Amarela sem notar que a criatura disfarÃ§ada em tecido civil o seguiu atÃ© o saguÃ£o."
+    ],
+    [
+     "sessao-08",
+     "CaÃ§ou e entregou o primeiro gato vivo Ã  mulher-planta que o vigia no saguÃ£o da estalagem."
+    ],
+    [
+     "sessao-08",
+     "Comprou pÃ£es com a padeira Damara na praÃ§a central de Gosterwick."
+    ],
+    [
+     "sessao-08",
+     "Foi mordido e ferido por um leÃ£o durante um acampamento noturno no matagal alto."
+    ],
+    [
+     "sessao-08",
+     "Correu em retirada junto a Abicon e Eugeo ao ser interpelado por seis homens armados na estrada."
     ]
    ],
    "sessoes": [
-    "sessao-07"
+    "sessao-07",
+    "sessao-08"
    ]
   },
   "npcs/abacuque-overman": {
@@ -1716,6 +1796,129 @@
    "sessoes": [
     "sessao-07"
    ]
+  },
+  "personagens/abicon": {
+   "tipo": "personagem",
+   "nome": "Abicon",
+   "apelidos": [],
+   "resumo": "Mago elfo recÃ©m-chegado a Gosterwick em busca de conhecimentos arcanos e trabalho. Ã irmÃ£o do falecido Zion e utiliza cartas herdadas para se orientar na cidade. Uniu-se a Eugeo e Durlan para buscar a planta Fernie para o Clube Arcano, enfrentando um leÃ£o e homens armados antes de se recolher Ã  estalagem.",
+   "atributos": {
+    "Jogador": "Massaki",
+    "RaÃ§a": "Elfo",
+    "Classe": "Mago",
+    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela"
+   },
+   "fatos": [
+    [
+     "sessao-08",
+     "Apresentou-se a Damasco como irmÃ£o do falecido mago elfo Zion."
+    ],
+    [
+     "sessao-08",
+     "Comprou um martelo de mÃ£o na loja de armas e trÃªs garrafas de Ã¡lcool potente de 21% em uma taverna da Rua do Mercado."
+    ],
+    [
+     "sessao-08",
+     "Seguiu um mago idoso atÃ© o Clube dos Praticantes Arcanos para buscar oportunidades de ofÃ­cio arcano."
+    ],
+    [
+     "sessao-08",
+     "Acertou um leÃ£o com seu martelo e sofreu ferimentos leves ao tentar colocar a fera para dormir com magia Sono."
+    ],
+    [
+     "sessao-08",
+     "Acampou sem Ã¡gua e acumulou um ponto de exaustÃ£o durante a travessia noturna."
+    ]
+   ],
+   "sessoes": [
+    "sessao-08"
+   ]
+  },
+  "personagens/eugeo": {
+   "tipo": "personagem",
+   "nome": "Eugeo",
+   "apelidos": [
+    "Eujo",
+    "Iljo"
+   ],
+   "resumo": "Mago humano recÃ©m-chegado a Gosterwick apÃ³s viagens e estudos com companheiros Ã©lficos. Busca aprofundar suas artes arcanas e ingressar em confrarias de feiticeiros. Integrou a expediÃ§Ã£o rumo Ã  Antiga Floresta ao lado de Abicon e Durlan, confrontando perigos selvagens com sua magia ofensiva.",
+   "atributos": {
+    "Jogador": "Victor",
+    "RaÃ§a": "Humano",
+    "Classe": "Mago",
+    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela"
+   },
+   "fatos": [
+    [
+     "sessao-08",
+     "Pesquisou poÃ§Ãµes de aprimoramento mental na barraca de um comerciante do alquimista Ariel na praÃ§a central."
+    ],
+    [
+     "sessao-08",
+     "Comprou uma espada longa na loja de armas da Rua do Mercado."
+    ],
+    [
+     "sessao-08",
+     "Ajudou a seguir o mago idoso atÃ© a sede do Clube dos Praticantes Arcanos."
+    ],
+    [
+     "sessao-08",
+     "Conjurou MÃ­sseis MÃ¡gicos contra o leÃ£o que atacava Durlan nas planÃ­cies noturnas."
+    ],
+    [
+     "sessao-08",
+     "Acumulou um ponto de exaustÃ£o por falta de Ã¡gua e dormiu improvisando cobertura de folhas no mato."
+    ]
+   ],
+   "sessoes": [
+    "sessao-08"
+   ]
+  },
+  "locais/antiga-floresta": {
+   "tipo": "local",
+   "nome": "Antiga Floresta",
+   "apelidos": [
+    "Old Forest"
+   ],
+   "resumo": "Vasta floresta situada na extremidade oposta do vale em relaÃ§Ã£o Ã  Nova Floresta, localizada apÃ³s o pÃ¢ntano. Exige a travessia do rio prÃ³ximo Ã s cachoeiras e Ã s colossais estÃ¡tuas do paredÃ£o de Arden Vul. Abriga vegetaÃ§Ãµes raras em Ã¡reas sombreadas, como a cobiÃ§ada planta mÃ¡gica Fernie.",
+   "atributos": {
+    "RegiÃ£o": "Vale de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-08",
+     "Fica situada do outro lado do vale, exigindo manter o grande paredÃ£o rochoso Ã  esquerda de quem viaja."
+    ],
+    [
+     "sessao-08",
+     "Ã o habitat conhecido das raras folhas e mudas da planta mÃ¡gica Fernie."
+    ]
+   ],
+   "sessoes": [
+    "sessao-08"
+   ]
+  },
+  "itens/planta-fernie": {
+   "tipo": "item",
+   "nome": "Planta Fernie",
+   "apelidos": [
+    "Fernie"
+   ],
+   "resumo": "Vegetal raro de formato semelhante a uma samambaia que cresce exclusivamente em Ã¡reas sombreadas de florestas densas, como a Antiga Floresta. Ã altamente valorizada por praticantes das artes arcanas como catalisador em poÃ§Ãµes e feitiÃ§os.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-08",
+     "Possui folhagens semelhantes Ã s de uma samambaia e cresce sob copas de Ã¡rvores em florestas fechadas."
+    ],
+    [
+     "sessao-08",
+     "Ã intensamente procurada por Lyssandra Astorion no Clube dos Praticantes Arcanos como reagente mÃ¡gico."
+    ]
+   ],
+   "sessoes": [
+    "sessao-08"
+   ]
   }
  },
  "pendencias": [
@@ -1865,10 +2068,24 @@
    "aberta_em": "sessao-07",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p22",
+   "texto": "Coletar mudas da planta Fernie na Antiga Floresta para entregÃ¡-las a Lyssandra Astorion e obter acesso livre ao Clube dos Praticantes Arcanos.",
+   "aberta_em": "sessao-08",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p23",
+   "texto": "Investigar a identidade e as intenÃ§Ãµes dos seis homens armados que patrulham a estrada entre Gosterwick e Deep Town.",
+   "aberta_em": "sessao-08",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-07",
-  "texto": "Corsa e Durlan estÃ£o refugiados na Estalagem Capa Amarela em Gosterwick apÃ³s uma desastrosa caÃ§ada nos arredores da estrada de Deep Town. A expediÃ§Ã£o custou a vida do elfo mago Zion, morto nos ermos pelas presas de uma cobra gigante. Corsa sobreviveu por pouco aos ferimentos e conseguiu lucrar vendendo parte da carne de cervo a aÃ§ougueiros locais. Enquanto isso, Durlan encontra-se sob feitiÃ§o e comprometeu-se a entregar dois gatos semanais para uma mulher-planta que o seguiu atÃ© a cidade e agora o espreita disfarÃ§ada no prÃ³prio saguÃ£o da estalagem."
+  "apos": "sessao-08",
+  "texto": "O grupo de aventureiros encontra-se atualmente abrigado nos quartos da Estalagem Capa Amarela em Gosterwick apÃ³s um retorno tumultuado dos ermos. Durlan, Abicon e Eugeo acabaram de sobreviver a uma noite perigosa na estrada de Deep Town, onde foram feridos por um leÃ£o e quase interceptados por seis patrulheiros armados. Durlan segue sob o encanto da mulher-planta infiltrada no saguÃ£o, devendo entregar mais felinos para honrar seu pacto. Ao mesmo tempo, Abicon e Eugeo mantÃªm como objetivo alcanÃ§ar a Antiga Floresta para recolher as mudas de Fernie e obter acesso aos segredos do Clube dos Praticantes Arcanos."
  }
 }
