@@ -459,6 +459,34 @@
     "itens/gema-verde-da-piramide",
     "eventos/chacina-na-piramide-de-thoth"
    ]
+  },
+  "sessao-18": {
+   "titulo": "A Estalagem em Vinhas e os Segredos da PirÃ¢mide",
+   "resumo": "No primeiro dia do sexto mÃªs de 2993, os aventureiros Wayne, Virthurion e Hans chegaram a Gosterwick e encontraram a Estalagem Capa Amarela completamente tomada por vinhas mÃ¡gicas. Ao investigarem com guardas e moradores locais, souberam que uma drÃ­ade conjurou um feitiÃ§o antes de morrer, transformando os funcionÃ¡rios em homens-fera-gato e interditando o local. Diante do ocorrido, o grupo comprou mantimentos e guisados na praÃ§a central com Vera e reservou hospedagem na estalagem PoÃ§a de Lama com o proprietÃ¡rio Jouko.\n\nNa manhÃ£ seguinte, os exploradores subiram as escadarias de Arden Vul atÃ© o platÃ´ superior. Durante uma busca noturna nos escombros do pÃ¡tio, Wayne encontrou um pergaminho antigo preso por um barbante e Virthurion descobriu uma ampla escadaria subterrÃ¢nea oculta sob os destroÃ§os. O grupo acampou no local sob a proteÃ§Ã£o de feitiÃ§os de detecÃ§Ã£o e continuou a expediÃ§Ã£o ao amanhecer em direÃ§Ã£o Ã  PirÃ¢mide de Thoth.\n\nNo topo da pirÃ¢mide, Hans percebeu um leve odor de decomposiÃ§Ã£o e correntes de ar sutis, enquanto Virthurion observou um desgaste acentuado nas pedras brancas do piso no lado direito. Ao iniciarem o retorno, o grupo foi emboscado por quatro sapos gigantes no portÃ£o em ruÃ­nas. Wayne utilizou um molotov improvisado com Ã¡lcool para libertar Hans das garras de um dos monstros, garantindo que o grupo fugisse com seguranÃ§a de volta a Gosterwick.",
+   "linha_do_tempo": [
+    "Chegada de Wayne, Virthurion e Hans a Gosterwick e descoberta da interdiÃ§Ã£o da Estalagem Capa Amarela por vinhas mÃ¡gicas.",
+    "Compra de suprimentos com Vera e reserva de quartos na estalagem PoÃ§a de Lama com o proprietÃ¡rio Jouko.",
+    "Marcha pelo Caminho Imperial e subida das escadarias de Arden Vul atÃ© o platÃ´ superior.",
+    "InvestigaÃ§Ã£o do pÃ¡tio de Arden Vul, revelando um pergaminho antigo com Wayne e uma escadaria subterrÃ¢nea oculta.",
+    "Acampamento noturno no pÃ¡tio de Arden Vul com vigilÃ¢ncia e detecÃ§Ã£o mÃ¡gica.",
+    "ExploraÃ§Ã£o do topo da PirÃ¢mide de Thoth, identificando pisos desgastados, correntes de ar e odor de decomposiÃ§Ã£o.",
+    "Confronto com quatro sapos gigantes no portÃ£o das ruÃ­nas e uso de um molotov improvisado por Wayne para salvar Hans.",
+    "Retorno seguro do grupo a Gosterwick para descansar na PoÃ§a de Lama."
+   ],
+   "entidades": [
+    "personagens/wayne",
+    "personagens/virthurion",
+    "personagens/hans",
+    "npcs/jouko",
+    "locais/estalagem-capa-amarela",
+    "locais/poaa-de-lama",
+    "locais/arden-vul",
+    "locais/the-pyramid-of-thoth",
+    "criaturas/sapo-gigante",
+    "npcs/eusebia-phokas",
+    "npcs/vera",
+    "itens/pergaminho-antigo-com-barbante"
+   ]
   }
  },
  "entidades": {
@@ -747,9 +775,9 @@
    "tipo": "local",
    "nome": "Arden Vul",
    "apelidos": [],
-   "resumo": "Antiga cidade em ruÃ­nas localizada no topo de um imenso paredÃ£o rochoso. Possui uma escadaria de zigue-zague com apoios de ferro, abrigos de pedra na parede e casarÃµes arruinados repletos de vegetaÃ§Ã£o e perigos no platÃ´ superior.",
+   "resumo": "Antiga cidade em ruÃ­nas localizada no topo de um imenso paredÃ£o rochoso. Possui uma escadaria de zigue-zague com apoios de ferro, abrigos de pedra na parede, um pÃ¡tio com Ã¡rvores e uma escadaria subterrÃ¢nea oculta sob escombros.",
    "atributos": {
-    "Tipo": "RuÃ­nas / Masmorra",
+    "Tipo": "RuÃ­nas",
     "Status": "RuÃ­nas Antigas"
    },
    "fatos": [
@@ -788,22 +816,32 @@
     [
      "sessao-16",
      "Suas ruÃ­nas prÃ³ximas ao lago abrigam canteiros com as plantas medicinais Skullcap e CalÃªndula."
+    ],
+    [
+     "sessao-18",
+     "Teve uma passagem subterrÃ¢nea oculta com escadaria revelada sob os escombros de seu pÃ¡tio principal."
+    ],
+    [
+     "sessao-18",
+     "Abriga uma torre quadrada de quatro andares com porta metÃ¡lica trancada no pÃ¡tio."
     ]
    ],
    "sessoes": [
     "sessao-01",
     "sessao-14",
     "sessao-15",
-    "sessao-16"
+    "sessao-16",
+    "sessao-18"
    ]
   },
   "locais/estalagem-capa-amarela": {
    "tipo": "local",
    "nome": "Estalagem Capa Amarela",
    "apelidos": [],
-   "resumo": "Estabelecimento situado em Gosterwick utilizado como refÃºgio e base por aventureiros. Passou a abrigar uma grande quantidade de gatos e a exalar cheiro forte de urina apÃ³s o estilhaÃ§amento de um osso preto na lareira.",
+   "resumo": "Estabelecimento situado em Gosterwick utilizado como refÃºgio e base por aventureiros. Ficou completamente interditado e coberto por vinhas MÃ¡gicas apÃ³s o sacrifÃ­cio de uma drÃ­ade, que transformou seus funcionÃ¡rios em homens-fera-gato.",
    "atributos": {
-    "LocalizaÃ§Ã£o": "Gosterwick"
+    "LocalizaÃ§Ã£o": "Gosterwick",
+    "Status": "Interditada"
    },
    "fatos": [
     [
@@ -837,6 +875,14 @@
     [
      "sessao-16",
      "Serviu como local de descanso final onde os aventureiros dividiram os objetos estranhos e as plantas medicinais colhidas."
+    ],
+    [
+     "sessao-18",
+     "Foi tomada por vinhas mÃ¡gicas saindo de todas as portas e janelas apÃ³s a morte de uma drÃ­ade."
+    ],
+    [
+     "sessao-18",
+     "Teve seus funcionÃ¡rios e proprietÃ¡rios transformados em homens-fera-gato devido ao feitiÃ§o."
     ]
    ],
    "sessoes": [
@@ -845,7 +891,8 @@
     "sessao-07",
     "sessao-11",
     "sessao-14",
-    "sessao-16"
+    "sessao-16",
+    "sessao-18"
    ]
   },
   "npcs/damasco": {
@@ -903,7 +950,7 @@
    "tipo": "npc",
    "nome": "Vera",
    "apelidos": [],
-   "resumo": "Vendedora na praÃ§a central de Gosterwick especializada no comÃ©rcio de carnes secas, raÃ§Ãµes e suprimentos para viagens longas.",
+   "resumo": "Vendedora na praÃ§a central de Gosterwick especializada no comÃ©rcio de carnes secas, raÃ§Ãµes e guisados artesanais para aventureiros.",
    "atributos": {
     "OcupaÃ§Ã£o": "Comerciante",
     "LocalizaÃ§Ã£o": "Gosterwick"
@@ -912,10 +959,15 @@
     [
      "sessao-01",
      "Vendeu carne seca e suprimentos de Ã¡gua para a expediÃ§Ã£o do grupo."
+    ],
+    [
+     "sessao-18",
+     "Passou a comercializar guisado de carne em potes de madeira com tampa vedada."
     ]
    ],
    "sessoes": [
-    "sessao-01"
+    "sessao-01",
+    "sessao-18"
    ]
   },
   "eventos/morte-de-pallas": {
@@ -1212,10 +1264,11 @@
    "tipo": "npc",
    "nome": "Eusebia Phokas",
    "apelidos": [],
-   "resumo": "Chefe administradora de Gosterwick que gerencia os assuntos e contrata aventureiros na prefeitura. Autorizou a inclusÃ£o de novos aventureiros no contrato sigiloso para eliminar a ameaÃ§a dos kobolds na estrada de Deep Town. Convocou uma reuniÃ£o oficial para o dia 10 do quinto mÃªs com recompensa de 500 ciclos de prata por grupo.",
+   "resumo": "Chefe administradora de Gosterwick que gerencia os assuntos e contrata aventureiros na prefeitura. Coordenou a vigilÃ¢ncia e a contenÃ§Ã£o da Estalagem Capa Amarela apÃ³s o incidente com a drÃ­ade.",
    "atributos": {
     "OcupaÃ§Ã£o": "Administradora da Prefeitura",
-    "LocalizaÃ§Ã£o": "Gosterwick"
+    "LocalizaÃ§Ã£o": "Gosterwick",
+    "Cargo": "Administradora Chefe"
    },
    "fatos": [
     [
@@ -1229,12 +1282,17 @@
     [
      "sessao-14",
      "Anunciou no quadro de avisos da praÃ§a uma reuniÃ£o no dia 10 do quinto mÃªs oferecendo 500 ciclos de prata por grupo contra os kobolds."
+    ],
+    [
+     "sessao-18",
+     "Supervisionou a interdiÃ§Ã£o da Estalagem Capa Amarela tomada por vinhas na praÃ§a central."
     ]
    ],
    "sessoes": [
     "sessao-03",
     "sessao-04",
-    "sessao-14"
+    "sessao-14",
+    "sessao-18"
    ]
   },
   "locais/deep-town": {
@@ -3139,8 +3197,10 @@
    "tipo": "criatura",
    "nome": "Sapo Gigante",
    "apelidos": [],
-   "resumo": "AnfÃ­bios colossais de coloraÃ§Ã£o verde-escura com manchas pretas que habitam estruturas alagadas no pÃ¢ntano. Possuem lÃ­nguas compridas, ataques de grande alcance e emitem um coaxar extremamente grave.",
-   "atributos": {},
+   "resumo": "AnfÃ­bios colossais do tamanho de um humano que habitam as ruÃ­nas de Arden Vul e Ã¡reas alagadas do pÃ¢ntano. Possuem lÃ­nguas compridas e viscosas capazes de puxar presas, mas temem chamas.",
+   "atributos": {
+    "Tipo": "Besta / AnfÃ­bio"
+   },
    "fatos": [
     [
      "sessao-14",
@@ -3149,10 +3209,19 @@
     [
      "sessao-14",
      "Atacam presas utilizando lÃ­nguas compridas que projetam atravÃ©s de corredores e aberturas."
+    ],
+    [
+     "sessao-18",
+     "Um bando de quatro exemplares bloqueou a passagem do antigo portÃ£o no topo de Arden Vul."
+    ],
+    [
+     "sessao-18",
+     "Um deles prendeu o aventureiro Hans pela lÃ­ngua, mas recuou ao ser atingido por um molotov."
     ]
    ],
    "sessoes": [
-    "sessao-14"
+    "sessao-14",
+    "sessao-18"
    ]
   },
   "personagens/inocente-ii": {
@@ -3278,9 +3347,10 @@
    "apelidos": [
     "PirÃ¢mide de Thoth"
    ],
-   "resumo": "Monumental estrutura de pedra situada no platÃ´ de Arden Vul ao final da grande avenida cerimonial. Apresenta base quadrada de cerca de trinta metros de largura por quinze de altura, culminando em uma plataforma superior plana sustentada por pilares de mÃ¡rmore.",
+   "resumo": "Monumental estrutura de pedra situada no platÃ´ de Arden Vul ao final da grande avenida cerimonial. Apresenta topo coberto sustentado por pilares com efÃ­gies de babuÃ­nos, piso de pedra branca desgastada e fraco odor de decomposiÃ§Ã£o.",
    "atributos": {
-    "LocalizaÃ§Ã£o": "PlatÃ´ de Arden Vul"
+    "LocalizaÃ§Ã£o": "PlatÃ´ de Arden Vul",
+    "Tipo": "Templo / PirÃ¢mide"
    },
    "fatos": [
     [
@@ -3294,10 +3364,19 @@
     [
      "sessao-15",
      "Seu topo plano comporta uma estrutura coberta sustentada por pilares de mÃ¡rmore."
+    ],
+    [
+     "sessao-18",
+     "Teve um desgaste proeminente observado nas pedras brancas do piso no lado direito de seu topo."
+    ],
+    [
+     "sessao-18",
+     "Apresenta correntes de ar sutis e odor fraco de decomposiÃ§Ã£o em sua plataforma superior."
     ]
    ],
    "sessoes": [
-    "sessao-15"
+    "sessao-15",
+    "sessao-18"
    ]
   },
   "itens/disco-metalico-com-v": {
@@ -3596,6 +3675,155 @@
    "sessoes": [
     "sessao-17"
    ]
+  },
+  "personagens/wayne": {
+   "tipo": "personagem",
+   "nome": "Wayne",
+   "apelidos": [],
+   "resumo": "Aventureiro recÃ©m-chegado a Gosterwick dotado de percepÃ§Ã£o aguÃ§ada e conhecimento herbalista. Participou da expediÃ§Ã£o ao platÃ´ de Arden Vul, onde resgatou um pergaminho antigo e salvou um companheiro usando um molotov improvisado.",
+   "atributos": {
+    "Jogador": "Massaki",
+    "Classe": "Aventureiro",
+    "Status": "Vivo",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-18",
+     "Chegou a Gosterwick no dia 1 do sexto mÃªs de 2993 vindo em uma carroÃ§a de mercado."
+    ],
+    [
+     "sessao-18",
+     "Encontrou um pergaminho antigo enrolado em barbante branco nos escombros do pÃ¡tio de Arden Vul."
+    ],
+    [
+     "sessao-18",
+     "Criou um molotov improvisado com garrafa de Ã¡lcool e pano para afugentar um sapo gigante."
+    ]
+   ],
+   "sessoes": [
+    "sessao-18"
+   ]
+  },
+  "personagens/virthurion": {
+   "tipo": "personagem",
+   "nome": "Virthurion",
+   "apelidos": [],
+   "resumo": "ClÃ©rigo devoto recÃ©m-chegado a Gosterwick para explorar as ruÃ­nas de Arden Vul. Descobriu a escadaria subterrÃ¢nea oculta no pÃ¡tio e identificou o desgaste revelador nas pedras do topo da PirÃ¢mide de Thoth.",
+   "atributos": {
+    "Jogador": "Mateus L",
+    "Classe": "ClÃ©rigo",
+    "Status": "Vivo",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-18",
+     "Chegou a Gosterwick no dia 1 do sexto mÃªs de 2993 e uniu-se a Wayne e Hans."
+    ],
+    [
+     "sessao-18",
+     "Descobriu uma passagem subterrÃ¢nea com escadaria de trÃªs metros de largura sob os escombros do pÃ¡tio."
+    ],
+    [
+     "sessao-18",
+     "Identificou que as pedras brancas do piso no lado direito da PirÃ¢mide de Thoth estÃ£o acentuadamente gastas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-18"
+   ]
+  },
+  "personagens/hans": {
+   "tipo": "personagem",
+   "nome": "Hans",
+   "apelidos": [],
+   "resumo": "Aventureiro homem-fera equipado com espada que possui olfato e audiÃ§Ã£o aprimorados. Integrou a expediÃ§Ã£o ao platÃ´ de Arden Vul e sobreviveu a um ataque de sapo gigante.",
+   "atributos": {
+    "Jogador": "Louis",
+    "RaÃ§a": "Homem-Fera",
+    "Status": "Vivo",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-18",
+     "Chegou a Gosterwick no dia 1 do sexto mÃªs de 2993."
+    ],
+    [
+     "sessao-18",
+     "Percebeu um leve cheiro de decomposiÃ§Ã£o e correntes de ar na plataforma superior da PirÃ¢mide de Thoth."
+    ],
+    [
+     "sessao-18",
+     "Foi preso pela lÃ­ngua de um sapo gigante na saÃ­da do platÃ´ de Arden Vul e libertado pelo fogo de Wayne."
+    ]
+   ],
+   "sessoes": [
+    "sessao-18"
+   ]
+  },
+  "npcs/jouko": {
+   "tipo": "npc",
+   "nome": "Jouko",
+   "apelidos": [
+    "Joko"
+   ],
+   "resumo": "ProprietÃ¡rio e atendente da estalagem PoÃ§a de Lama em Gosterwick. Oferece quartos para exploradores da regiÃ£o cobrando uma moeda de prata por noite.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Estalajadeiro",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-18",
+     "Hospedou os aventureiros Wayne, Virthurion e Hans na PoÃ§a de Lama cobrando quatro ciclos de prata por duas noites."
+    ]
+   ],
+   "sessoes": [
+    "sessao-18"
+   ]
+  },
+  "locais/poaa-de-lama": {
+   "tipo": "local",
+   "nome": "PoÃ§a de Lama",
+   "apelidos": [],
+   "resumo": "Estalagem de dois andares feita de pedra e madeira, situada em uma rua paralela Ã  Rua da Colina em Gosterwick. Serve de abrigo para exploradores que buscam hospedagem econÃ´mica na cidade.",
+   "atributos": {
+    "Tipo": "Estalagem",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-18",
+     "Abrigou o grupo de aventureiros apÃ³s a interdiÃ§Ã£o da Estalagem Capa Amarela."
+    ],
+    [
+     "sessao-18",
+     "Ã administrada por Jouko e cobra um ciclo de prata por noite por quarto."
+    ]
+   ],
+   "sessoes": [
+    "sessao-18"
+   ]
+  },
+  "itens/pergaminho-antigo-com-barbante": {
+   "tipo": "item",
+   "nome": "Pergaminho Antigo com Barbante",
+   "apelidos": [],
+   "resumo": "Pergaminho antigo amarrado com um barbante bege sujo, resgatado por Wayne sob os destroÃ§os do pÃ¡tio de Arden Vul.",
+   "atributos": {
+    "Tipo": "Documento / Objeto Arcano"
+   },
+   "fatos": [
+    [
+     "sessao-18",
+     "Foi encontrado sob os escombros no pÃ¡tio de Arden Vul por Wayne."
+    ]
+   ],
+   "sessoes": [
+    "sessao-18"
+   ]
   }
  },
  "pendencias": [
@@ -3736,8 +3964,8 @@
    "id": "p20",
    "texto": "Lidar com a presenÃ§a infiltrada da mulher-planta disfarÃ§ada que se instalou no saguÃ£o da Estalagem Capa Amarela.",
    "aberta_em": "sessao-07",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-18",
+   "como": "A mulher-planta faleceu ao conjurar uma magia que cobriu a Capa Amarela de vinhas e transformou seus funcionÃ¡rios em homens-gato."
   },
   {
    "id": "p21",
@@ -3948,10 +4176,38 @@
    "aberta_em": "sessao-17",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p51",
+   "texto": "Investigar a escadaria subterrÃ¢nea oculta descoberta sob os escombros no pÃ¡tio de Arden Vul.",
+   "aberta_em": "sessao-18",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p52",
+   "texto": "Examinar e decifrar o pergaminho antigo amarrado com barbante branco encontrado por Wayne.",
+   "aberta_em": "sessao-18",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p53",
+   "texto": "Investigar o segredo por trÃ¡s do piso desgastado e das correntes de ar no topo da PirÃ¢mide de Thoth.",
+   "aberta_em": "sessao-18",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p54",
+   "texto": "Descobrir uma forma de abrir a porta metÃ¡lica alaranjada da torre de quatro andares no pÃ¡tio de Arden Vul.",
+   "aberta_em": "sessao-18",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-17",
-  "texto": "Os aventureiros Inocente II, Totza e Thydal deixaram a Estalagem Capa Amarela apÃ³s exterminar os gatos locais e marcharam rumo Ã s ruÃ­nas de Arden Vul. Durante o acampamento na encosta, sobreviveram ao ataque mortal de um leÃ£o das cavernas e coletaram seus despojos. No platÃ´ superior, conversaram com a Ã¡rvore falante Tuftwillig antes de invadirem a PirÃ¢mide de Thoth. No entanto, ao roubarem a gema verde dos olhos da estÃ¡tua principal, o grupo foi surpreendido por guardiÃµes humanoides com cabeÃ§a de Ã­bis e acabou perecendo em combate."
+  "apos": "sessao-18",
+  "texto": "O grupo retornou a Gosterwick apÃ³s explorar o platÃ´ superior de Arden Vul. Durante a expediÃ§Ã£o, descobriram uma escadaria subterrÃ¢nea oculta no pÃ¡tio e notaram pisos desgastados e correntes de ar no topo da PirÃ¢mide de Thoth. Wayne carrega um pergaminho antigo enrolado em barbante que ainda nÃ£o foi aberto. Atualmente, os aventureiros estÃ£o descansando na estalagem PoÃ§a de Lama."
  }
 }
