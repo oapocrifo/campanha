@@ -665,6 +665,36 @@
     "criaturas/gorgona",
     "itens/pena-de-maat"
    ]
+  },
+  "sessao-26": {
+   "titulo": "A Barricada dos Filhos de Deino",
+   "resumo": "No dia 22 do sÃ©timo mÃªs de 2993, os guerreiros homens-fera Fheng e Pixelado chegaram a Gosterwick e juntaram-se a Kazunov, que recrutou os mercenÃ¡rios Kallian e Agathos para uma nova incursÃ£o. ApÃ³s acomodarem mantimentos e deixarem a montaria no entreposto na base da escarpa, o grupo iniciou a subida a Arden Vul. No trajeto pelas escadarias, cruzaram pacificamente com uma patrulha de homens-lagarto Skreel, os quais indagaram sobre a veneraÃ§Ã£o Ã  figura de Deino e mencionaram seu covil prÃ³ximo ao CÃ¢nion Alagado antes de os exploradores alcanÃ§arem a PirÃ¢mide de Thoth.\n\nNo subterrÃ¢neo da pirÃ¢mide, apÃ³s pagarem a costumeira taxa de exploraÃ§Ã£o aos halflings de Phlebotomas Plumthorn, os aventureiros vasculharam alas desconhecidas. Em uma cÃ¢mara adjacente, depararam-se com um busto metÃ¡lico alaranjado que flutuava sobre um cÃ­rculo de pedras e seis cavidades retangulares, alÃ©m de corredores guarnecidos por bocas mÃ¡gicas que zombavam da ruÃ­na dos antigos seguidores de Ãbis. Adiante, o grupo superou uma barricada erguida com mÃ³veis destruÃ­dos e pontas de lanÃ§as ocultas, desarmando o fosso para permitir a passagem segura.\n\nNa sala seguinte, os exploradores interceptaram o sentinela homem-fera Surion e o desacordaram para evitar alarmes, escondendo-o atrÃ¡s de uma pilastra. Pouco depois, uma patrulha liderada pelo caprino Ariulo flagrou a barricada aberta e cercou os aventureiros. AtravÃ©s do pagamento de duas moedas de ouro e da entrega intacta do prisioneiro, Kazunov negociou termos pacÃ­ficos e obteve direÃ§Ãµes para transitar pela Ã¡rea dos homens-fera. Contudo, durante a descida noturna da grande escadaria exterior, o grupo foi surpreendido e brutalmente emboscado por seis humanos selvagens munidos de lanÃ§as e machados de pedra.",
+   "linha_do_tempo": [
+    "Fheng e Pixelado chegam a Gosterwick de carroÃ§a e juntam-se a Kazunov, que contratou o guerreiro Kallian e o clÃ©rigo Agathos.",
+    "O grupo marcha pela estrada imperial atÃ© a base de Arden Vul e deixa o cavalo de traÃ§Ã£o sob custÃ³dia no entreposto aos pÃ©s da escarpa.",
+    "Durante a subida da grande escadaria, os exploradores cruzam pacificamente com patrulheiros homens-lagarto da facÃ§Ã£o Skreel que indagam sobre Deino.",
+    "No topo da pirÃ¢mide, Kazunov manipula os braÃ§os da estÃ¡tua de Ã­bis para abrir a passagem secreta rumo aos subterrÃ¢neos.",
+    "Os aventureiros pagam a taxa de exploraÃ§Ã£o de dez ciclos de prata aos halflings de Phlebotomas Plumthorn na primeira grande galeria.",
+    "Em uma sala lateral, o grupo descobre um busto metÃ¡lico alaranjado flutuante sobre um cÃ­rculo de pedras e seis encaixes retangulares, recolhendo uma espada enferrujada.",
+    "Ao cruzarem um novo corredor, bocas mÃ¡gicas fixadas nas paredes alertam sobre o declÃ­nio dos devotos de Ãbis e a perda de segredos arcanos.",
+    "Os aventureiros encontram uma sala dividida por uma barricada com estacas e uma cabeÃ§a empalada, desarmando um fosso de lanÃ§as para desobstruir o caminho.",
+    "Na sala de pilares, o vigia suÃ­no Surion Ã© rendido com uma boleadeira por Kazunov e desmaiado com um golpe de lanÃ§a de Fheng.",
+    "Uma patrulha de homens-fera liderada por Ariulo confronta o grupo, aceitando duas moedas de ouro para perdoar o ataque e fornecer instruÃ§Ãµes de trÃ¢nsito.",
+    "Ao descerem a grande escadaria da escarpa sob a escuridÃ£o da noite, os aventureiros sÃ£o emboscados por seis humanos selvagens armados com lanÃ§as de pedra."
+   ],
+   "entidades": [
+    "personagens/fheng",
+    "personagens/pixelado",
+    "personagens/kazunov",
+    "npcs/kallian",
+    "npcs/agathos",
+    "npcs/ariulo",
+    "npcs/surion",
+    "faccoes/skreel-lizardmen",
+    "locais/the-pyramid-of-thoth",
+    "faccoes/halflings-de-phlebotomas-plumthorn",
+    "eventos/emboscada-na-escadaria-de-arden-vul"
+   ]
   }
  },
  "entidades": {
@@ -3322,10 +3352,13 @@
    "tipo": "npc",
    "nome": "Surion",
    "apelidos": [],
-   "resumo": "Guarda da cidade de Gosterwick encarregado da vigilÃ¢ncia na cabana e estÃ¡bulo situados na base do penhasco de Arden Vul. Presta informaÃ§Ãµes a exploradores e recebe cavalos sob custÃ³dia.",
+   "resumo": "Homem-fera com traÃ§os suÃ­nos que atua como sentinela armado no territÃ³rio dos homens-fera na PirÃ¢mide de Thoth. Foi surpreendido, desarmado e desmaiado pelos exploradores, sendo devolvido ao seu comandante apÃ³s um acordo financeiro.",
    "atributos": {
-    "OcupaÃ§Ã£o": "Guarda de Gosterwick",
-    "LocalizaÃ§Ã£o": "Base de Arden Vul"
+    "OcupaÃ§Ã£o": "Sentinela",
+    "LocalizaÃ§Ã£o": "Base de Arden Vul",
+    "RaÃ§a": "Homem-fera (Porco)",
+    "AfiliaÃ§Ã£o": "Filhos de Deino",
+    "Status": "Vivo"
    },
    "fatos": [
     [
@@ -3335,10 +3368,23 @@
     [
      "sessao-14",
      "Indicou o criador SÃ¡quion, irmÃ£o de Trucleon, para a compra e negociaÃ§Ã£o de cavalos."
+    ],
+    [
+     "sessao-26",
+     "Montava guarda em uma cÃ¢mara com seis pilares portando espada, escudo e arco curto."
+    ],
+    [
+     "sessao-26",
+     "Tentou fugir ao ver a porta escancarada, mas foi derrubado por uma boleadeira e desmaiado por Fheng."
+    ],
+    [
+     "sessao-26",
+     "Teve seus pertences e armas devolvidos a Ariulo pelo grupo de Kazunov."
     ]
    ],
    "sessoes": [
-    "sessao-14"
+    "sessao-14",
+    "sessao-26"
    ]
   },
   "npcs/sgraal": {
@@ -3545,9 +3591,9 @@
    "apelidos": [
     "PirÃ¢mide de Thoth"
    ],
-   "resumo": "Monumental estrutura de pedra situada no platÃ´ de Arden Vul. Possui nÃ­veis subterrÃ¢neos com salas adornadas por pilares dos deuses OsÃ­ris, Wadjet, Maat e Thoth, um altar de mÃ¡rmore com penas flutuantes e mecanismos de alavancas e grades.",
+   "resumo": "Monumental estrutura de pedra situada no platÃ´ de Arden Vul com vastos nÃ­veis subterrÃ¢neos. ContÃ©m santuÃ¡rios dedicados aos deuses antigos, o entreposto comercial dos halflings de Phlebotomas, bocas mÃ¡gicas zombeteiras e cÃ¢maras barricadas guarnecidas por tribos de homens-fera.",
    "atributos": {
-    "LocalizaÃ§Ã£o": "Arden Vul",
+    "LocalizaÃ§Ã£o": "PlatÃ´ de Arden Vul",
     "Tipo": "Templo / PirÃ¢mide"
    },
    "fatos": [
@@ -3590,13 +3636,26 @@
     [
      "sessao-25",
      "ContÃ©m uma sala circular equipada com trÃªs alavancas de ferro e trÃªs grades de elevaÃ§Ã£o."
+    ],
+    [
+     "sessao-26",
+     "Abriga uma sala com um busto metÃ¡lico alaranjado que levita sobre um piso circular e uma placa com seis encaixes retangulares."
+    ],
+    [
+     "sessao-26",
+     "Possui um corredor com bocas mÃ¡gicas desenhadas nas paredes que zombam dos fiÃ©is mortos de Ãbis."
+    ],
+    [
+     "sessao-26",
+     "ContÃ©m uma cÃ¢mara dividida por uma barricada com estacas afiadas, fossos ocultos e cabeÃ§as empaladas mantida por seguidores de Deino."
     ]
    ],
    "sessoes": [
     "sessao-15",
     "sessao-18",
     "sessao-23",
-    "sessao-25"
+    "sessao-25",
+    "sessao-26"
    ]
   },
   "itens/disco-metalico-com-v": {
@@ -4180,11 +4239,12 @@
    "tipo": "personagem",
    "nome": "Kazunov",
    "apelidos": [],
-   "resumo": "Aventureiro homem-fera morcego e explorador. Negociou duas armaduras adicionais com Torunn por sete mil ciclos de prata, iniciou estudos de escrita em arconteano, comprou um cavalo de traÃ§Ã£o e adquiriu um frasco de veneno nas ruas.",
+   "resumo": "Aventureiro homem-fera morcego e explorador. Negociou equipamentos com ferreiros em Gosterwick e liderou expediÃ§Ãµes armadas aos nÃ­veis subterrÃ¢neos da PirÃ¢mide de Thoth. Empregou diplomacia e ouro para pacificar patrulhas de homens-fera, sendo atingido por lanÃ§as de pedra ao tentar descer a escarpa Ã  noite.",
    "atributos": {
-    "RaÃ§a": "Homem-Fera (Homem-Morcego)",
+    "RaÃ§a": "Homem-fera (Morcego)",
     "Classe": "Explorador",
-    "Jogador": "Massaki"
+    "Jogador": "Massaki",
+    "Status": "Vivo"
    },
    "fatos": [
     [
@@ -4210,11 +4270,32 @@
     [
      "sessao-21",
      "Adquiriu um frasco de veneno de um homem encapuzado na feira noturna de Gosterwick por cinco moedas de ouro."
+    ],
+    [
+     "sessao-26",
+     "Contratou o guerreiro Kallian e o clÃ©rigo Agathos para reforÃ§ar sua nova incursÃ£o a Arden Vul."
+    ],
+    [
+     "sessao-26",
+     "Deixou seu cavalo de traÃ§Ã£o guardado no entreposto da base da montanha ao custo de dois ciclos de ouro."
+    ],
+    [
+     "sessao-26",
+     "Descobriu uma cÃ¢mara oculta contendo um busto metÃ¡lico alaranjado flutuante e um mecanismo com seis cavidades retangulares."
+    ],
+    [
+     "sessao-26",
+     "Imobilizou o vigia suÃ­no Surion com sua boleadeira e negociou passagem segura com o lÃ­der Ariulo mediante duas moedas de ouro."
+    ],
+    [
+     "sessao-26",
+     "Foi atingido no ombro por uma lanÃ§a de pedra lanÃ§ada por humanos selvagens durante a descida da escadaria."
     ]
    ],
    "sessoes": [
     "sessao-20",
-    "sessao-21"
+    "sessao-21",
+    "sessao-26"
    ]
   },
   "npcs/torunn": {
@@ -4344,10 +4425,13 @@
    "tipo": "npc",
    "nome": "Kallian",
    "apelidos": [],
-   "resumo": "Guerreiro humano residente em Gosterwick que atua como protetor informal nas tavernas. Auxiliou Miragem durante uma tentativa de invasÃ£o na PoÃ§a de Lama em troca de moedas.",
+   "resumo": "Guerreiro humano arconteano de pele escura e cabelos negros residente em Gosterwick. Atua como guarda de aluguel e protetor em estabelecimentos, tendo sido contratado por Kazunov para escoltar o grupo nas ruÃ­nas de Arden Vul.",
    "atributos": {
-    "OcupaÃ§Ã£o": "Guerreiro",
-    "LocalizaÃ§Ã£o": "Gosterwick"
+    "OcupaÃ§Ã£o": "MercenÃ¡rio",
+    "LocalizaÃ§Ã£o": "Gosterwick",
+    "RaÃ§a": "Humano Arconteano",
+    "Classe": "Guerreiro",
+    "Status": "Vivo"
    },
    "fatos": [
     [
@@ -4357,10 +4441,19 @@
     [
      "sessao-21",
      "Acompanhou o grupo atÃ© a colina dos pinos de prata e testemunhou o ataque da criatura esquelÃ©tica."
+    ],
+    [
+     "sessao-26",
+     "Foi contratado por Kazunov junto a Agathos para servir como guarda contratado na subida a Arden Vul."
+    ],
+    [
+     "sessao-26",
+     "Acompanhou os aventureiros atravÃ©s dos postos halflings e das cÃ¢maras subterrÃ¢neas barricadas."
     ]
    ],
    "sessoes": [
-    "sessao-21"
+    "sessao-21",
+    "sessao-26"
    ]
   },
   "criaturas/criatura-esquelatica-vertebral": {
@@ -4736,7 +4829,7 @@
    "tipo": "faccao",
    "nome": "Halflings de Phlebotomas Plumthorn",
    "apelidos": [],
-   "resumo": "Bando de pequeninos liderados por Phlebotomas Plumthorn que dominam e patrulham trechos subterrÃ¢neos da PirÃ¢mide de Thoth, cobrando taxas de permissÃ£o de aventureiros, inspecionando saques e comprando itens mÃ¡gicos raros.",
+   "resumo": "Bando de pequeninos que dominam e patrulham os trechos superiores subterrÃ¢neos da PirÃ¢mide de Thoth sob as ordens de Phlebotomas Plumthorn. Cobram pedÃ¡gios de passagem, registram inventÃ¡rios de aventureiros e comercializam relÃ­quias encontradas.",
    "atributos": {
     "LocalizaÃ§Ã£o": "PirÃ¢mide de Thoth"
    },
@@ -4760,11 +4853,20 @@
     [
      "sessao-25",
      "Identificaram um dos frascos saqueados como uma PoÃ§Ã£o de Invisibilidade e a adquiriram por 100 ciclos de ouro."
+    ],
+    [
+     "sessao-26",
+     "Cobraram uma taxa de dez ciclos de prata de Kazunov para autorizar o trÃ¢nsito atÃ© as salas inferiores."
+    ],
+    [
+     "sessao-26",
+     "Revistaram as mochilas e pertences de Fheng, Pixelado e Kazunov antes de franquear o acesso."
     ]
    ],
    "sessoes": [
     "sessao-23",
-    "sessao-25"
+    "sessao-25",
+    "sessao-26"
    ]
   },
   "criaturas/esqueleto-de-macaco": {
@@ -5103,6 +5205,186 @@
    ],
    "sessoes": [
     "sessao-25"
+   ]
+  },
+  "personagens/fheng": {
+   "tipo": "personagem",
+   "nome": "Fheng",
+   "apelidos": [],
+   "resumo": "Guerreiro homem-fera que viajou a Gosterwick apÃ³s a destruiÃ§Ã£o de sua terra natal. Uniu-se a Kazunov e Pixelado para explorar os subterrÃ¢neos da PirÃ¢mide de Thoth, auxiliando a abrir caminho pelas barricadas dos homens-fera antes de ser emboscado na escadaria externa.",
+   "atributos": {
+    "RaÃ§a": "Homem-fera",
+    "Classe": "Guerreiro",
+    "Jogador": "Denis",
+    "Status": "Vivo"
+   },
+   "fatos": [
+    [
+     "sessao-26",
+     "Chegou a Gosterwick acompanhado por Pixelado e aceitou a proposta de exploraÃ§Ã£o de Kazunov."
+    ],
+    [
+     "sessao-26",
+     "Utilizou sua audiÃ§Ã£o e olfato aguÃ§ados para rastrear ruÃ­dos e ecos nos corredores subterrÃ¢neos."
+    ],
+    [
+     "sessao-26",
+     "Saltou sobre a barricada com estacas da PirÃ¢mide de Thoth e ajudou a desarmar suas armadilhas."
+    ],
+    [
+     "sessao-26",
+     "Desmaiou o vigia suÃ­no Surion com a parte traseira de sua lanÃ§a para ocultÃ¡-lo atrÃ¡s de um pilar."
+    ],
+    [
+     "sessao-26",
+     "Enfrentou a emboscada noturna dos humanos selvagens na escadaria externa de Arden Vul."
+    ]
+   ],
+   "sessoes": [
+    "sessao-26"
+   ]
+  },
+  "personagens/pixelado": {
+   "tipo": "personagem",
+   "nome": "Pixelado",
+   "apelidos": [],
+   "resumo": "Guerreiro homem-fera criado entre mercenÃ¡rios que chegou a Gosterwick em busca de riqueza e glÃ³ria. Integrou a expediÃ§Ã£o de Kazunov Ã  PirÃ¢mide de Thoth, auxiliando nas negociaÃ§Ãµes de passagem com outras criaturas humanoides e recolhendo espadas antigas.",
+   "atributos": {
+    "RaÃ§a": "Homem-fera",
+    "Classe": "Guerreiro",
+    "Jogador": "Louis",
+    "Status": "Vivo"
+   },
+   "fatos": [
+    [
+     "sessao-26",
+     "Chegou a Gosterwick junto a Fheng e assumiu o equipamento sobressalente deixado por Astrezenika."
+    ],
+    [
+     "sessao-26",
+     "Carregou raÃ§Ãµes e uma espada longa antiga e enferrujada encontrada nos escombros subterrÃ¢neos."
+    ],
+    [
+     "sessao-26",
+     "Participou das tratativas com a patrulha dos homens-lagarto Skreel e com os homens-fera seguidores de Deino."
+    ],
+    [
+     "sessao-26",
+     "Ajudou a remover as estacas e escombros que bloqueavam a barricada subterrÃ¢nea."
+    ]
+   ],
+   "sessoes": [
+    "sessao-26"
+   ]
+  },
+  "npcs/agathos": {
+   "tipo": "npc",
+   "nome": "Agathos",
+   "apelidos": [],
+   "resumo": "ClÃ©rigo humano arconteano devoto do deus Heschius Ban contratado em Gosterwick por Kazunov. Porta armadura e a magia Causar Ferimentos Leves, acompanhando expediÃ§Ãµes de exploraÃ§Ã£o aos subterrÃ¢neos de Arden Vul.",
+   "atributos": {
+    "RaÃ§a": "Humano Arconteano",
+    "Classe": "ClÃ©rigo",
+    "AfiliaÃ§Ã£o": "Heschius Ban",
+    "Status": "Vivo"
+   },
+   "fatos": [
+    [
+     "sessao-26",
+     "Foi contratado em Gosterwick para prestar assistÃªncia clerical ao grupo de Kazunov."
+    ],
+    [
+     "sessao-26",
+     "Tentou decifrar sem sucesso o significado arcano do cÃ­rculo de pedras localizado sob o busto metÃ¡lico flutuante."
+    ],
+    [
+     "sessao-26",
+     "Integrou a retaguarda dos exploradores durante a passagem pelos postos fortificados da PirÃ¢mide de Thoth."
+    ]
+   ],
+   "sessoes": [
+    "sessao-26"
+   ]
+  },
+  "npcs/ariulo": {
+   "tipo": "npc",
+   "nome": "Ariulo",
+   "apelidos": [
+    "ArÃ­ulo"
+   ],
+   "resumo": "Patrulheiro homem-fera com traÃ§os de cabra que lidera combatentes nos corredores fortificados da PirÃ¢mide de Thoth. Declara-se filho de Deino e concordou em estabelecer trÃ©gua com o grupo de Kazunov mediante pagamento de duas moedas de ouro.",
+   "atributos": {
+    "RaÃ§a": "Homem-fera (Cabra)",
+    "OcupaÃ§Ã£o": "LÃ­der de Patrulha",
+    "AfiliaÃ§Ã£o": "Filhos de Deino",
+    "Status": "Vivo"
+   },
+   "fatos": [
+    [
+     "sessao-26",
+     "Interrompeu o grupo com quatro soldados armados ao notar que a barricada territorial havia sido violada."
+    ],
+    [
+     "sessao-26",
+     "Afirmou que seu bando representa os filhos de Deino e que aquele setor subterrÃ¢neo lhes pertence."
+    ],
+    [
+     "sessao-26",
+     "Aceitou duas moedas de ouro para perdoar o ataque contra Surion e instruiu o grupo sobre como navegar pelo seu territÃ³rio utilizando seu nome como senha."
+    ]
+   ],
+   "sessoes": [
+    "sessao-26"
+   ]
+  },
+  "faccoes/skreel-lizardmen": {
+   "tipo": "faccao",
+   "nome": "Skreel Lizardmen",
+   "apelidos": [
+    "Homens-lagarto Skreel"
+   ],
+   "resumo": "ClÃ£ de homens-lagarto que patrulha as escadarias e arredores de Arden Vul. Habitam a Caverna dos Homens Lagarto nas proximidades do CÃ¢nion Alagado e prestam reverÃªncia a Deino, a suposta mÃ£e de homens-fera e seres similares.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Caverna dos Homens Lagarto (CÃ¢nion Alagado)"
+   },
+   "fatos": [
+    [
+     "sessao-26",
+     "Uma patrulha armada com lanÃ§as abordou o grupo na escadaria indagando se eram seguidores de Deino."
+    ],
+    [
+     "sessao-26",
+     "Revelaram que sua base comunitÃ¡ria situa-se na Caverna dos Homens Lagarto, junto ao CÃ¢nion Alagado."
+    ]
+   ],
+   "sessoes": [
+    "sessao-26"
+   ]
+  },
+  "eventos/emboscada-na-escadaria-de-arden-vul": {
+   "tipo": "evento",
+   "nome": "Emboscada na Escadaria de Arden Vul",
+   "apelidos": [],
+   "resumo": "Confronto noturno violento deflagrado durante a descida da grande escadaria exterior de Arden Vul. Seis humanos selvagens munidos de armamentos de pedra emboscaram a expediÃ§Ã£o de Kazunov, atingindo o explorador morcego com um arremesso certeiro de lanÃ§a.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Grande Escadaria de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-26",
+     "Ocorreu Ã  noite nos lances de degraus de pedra talhados na escarpa rochosa de Arden Vul."
+    ],
+    [
+     "sessao-26",
+     "Seis humanos maltrapilhos de longos cabelos investiram contra o grupo com urros agressivos e armas rÃºsticas."
+    ],
+    [
+     "sessao-26",
+     "Kazunov foi perfurado por uma lanÃ§a de pedra e derrubou um dos agressores antes de a descida ser bloqueada."
+    ]
+   ],
+   "sessoes": [
+    "sessao-26"
    ]
   }
  },
@@ -5624,10 +5906,45 @@
    "aberta_em": "sessao-25",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p75",
+   "texto": "Investigar a utilidade arcana do busto metÃ¡lico alaranjado flutuante e os seis encaixes retangulares na PirÃ¢mide de Thoth.",
+   "aberta_em": "sessao-26",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p76",
+   "texto": "Localizar a Caverna dos Homens Lagarto da facÃ§Ã£o Skreel nas proximidades do CÃ¢nion Alagado.",
+   "aberta_em": "sessao-26",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p77",
+   "texto": "Descobrir a identidade e os ensinamentos de Deino, reverenciada por homens-lagarto e homens-fera em Arden Vul.",
+   "aberta_em": "sessao-26",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p78",
+   "texto": "Descobrir a origem e a lideranÃ§a dos seis humanos selvagens com lanÃ§as e machados de pedra que emboscam viajantes na escadaria externa.",
+   "aberta_em": "sessao-26",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p79",
+   "texto": "Averiguar se os mercenÃ¡rios contratados Kallian e Agathos sobreviveram Ã  emboscada na grande escadaria de Arden Vul.",
+   "aberta_em": "sessao-26",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-25",
-  "texto": "O grupo retornou de uma incursÃ£o Ã  PirÃ¢mide de Thoth carregando penas sagradas da deusa Maat e lucrando com a venda de uma poÃ§Ã£o mÃ¡gica. No entanto, o regresso a Gosterwick tomou um rumo trÃ¡gico quando esbarraram com uma figura misteriosa nas ruas. Astrezenika encarou o rosto de uma mulher com cabelos de serpente e acabou petrificado no corredor da Estalagem Capa Amarela. Agora, Erphel e Galmyr precisam encontrar com urgÃªncia uma forma de reverter a petrificaÃ§Ã£o de seu companheiro enquanto lidam com a ameaÃ§a oculta na cidade."
+  "apos": "sessao-26",
+  "texto": "O grupo encontra-se encurralado na grande escadaria externa de Arden Vul durante a descida noturna. Seis humanos selvagens munidos de armas de pedra emboscaram os exploradores, ferindo gravemente Kazunov. Nas profundezas da PirÃ¢mide de Thoth, os aventureiros deixaram para trÃ¡s um acordo tenso de passagem com a patrulha de homens-fera liderada por Ariulo. Permanece em aberto o enigma do busto metÃ¡lico flutuante e do mecanismo de seis encaixes encontrado no subterrÃ¢neo. TambÃ©m segue desconhecido o paradeiro exato do covil dos homens-lagarto Skreel nas imediaÃ§Ãµes do CÃ¢nion Alagado."
  }
 }
