@@ -167,6 +167,37 @@
     "locais/o-emaranhado",
     "npcs/hama"
    ]
+  },
+  "sessao-07": {
+   "titulo": "A CaÃ§ada FatÃ­dica e o PreÃ§o da Carne",
+   "resumo": "TrÃªs novos aventureiros â o elfo mago Zion e os guerreiros Corsa e Durlan â chegaram Ã  praÃ§a central de Gosterwick na manhÃ£ de 19 do terceiro mÃªs de 2993. ApÃ³s abastecerem suas mochilas com ferramentas na loja do experiente Damasco e comprarem pÃ£es recÃ©m-chegados do padeiro forasteiro Abacuque Overman, o trio partiu rumo Ã  estrada de Deep Town. No percurso, os pÃ£es fermentados inadequadamente causaram forte intoxicaÃ§Ã£o e nÃ¡useas em Zion e Corsa. Ainda assim, ao cruzarem a ponte de madeira sobre o rio, Zion utilizou sua magia de sono para abater um imenso cervo selvagem. O esquartejamento do animal rendeu mais de setenta quilos de carne fresca, sobrecarregando a marcha do grupo e obrigando-os a retornar lentamente para a cidade.\n\nO forte odor de sangue e gordura na estrada atraiu perigos naturais e sobrenaturais. Inicialmente, o grupo foi abordado por quatro mulheres-planta seminuas saÃ­das do matagal; uma delas lanÃ§ou um encanto sobre Durlan, enquanto Zion adormeceu as outras trÃªs para que fossem abatidas. Cego pela magia, Durlan recusou-se a deixar sua nova \"amiga\" ser queimada e selou um bizarro pacto de fornecer dois gatos por semana a ela em troca de sua soltura. Separando-se dele, Zion e Corsa acamparam na margem da estrada, onde foram surpreendidos no escuro por uma serpente colossal de seis metros. Imune ao feitiÃ§o de sono, a fera mordeu e envenenou letalmente Zion no calcanhar. Gravemente ferido, Corsa conseguiu escapar ao atirar sua mochila com carne na boca do rÃ©ptil.\n\nÃ beira da exaustÃ£o e com apenas um ponto de vida, Corsa alcanÃ§ou Gosterwick com parte da caÃ§a e vendeu a carne ao aÃ§ougueiro Trucleon no cercado do Caminho Imperial por peÃ§as de prata antes de se recolher na Estalagem Capa Amarela. Algumas horas mais tarde, Durlan tambÃ©m chegou Ã  cidade em busca de Ã¡gua e alugou um quarto na mesma hospedaria. Contudo, sem que percebesse o real perigo, a mulher-planta o seguiu pela estrada, transformando sua casca vegetal em vestes de tecido para se infiltrar no centro urbano e acomodar-se tranquilamente em um sofÃ¡ do saguÃ£o para vigiÃ¡-lo.",
+   "linha_do_tempo": [
+    "Zion, Corsa e Durlan chegam Ã  praÃ§a de Gosterwick e compram tochas, Ã³leo e pÃ£es na barraca do padeiro Abacuque Overman.",
+    "Durlan observa o interior requintado da Casa das Moedas enquanto Corsa e Zion preparam suprimentos na loja de Damasco e na Estalagem Capa Amarela.",
+    "O grupo marcha pela estrada rumo a Deep Town, sofrendo nÃ¡useas e intoxicaÃ§Ã£o pelo consumo dos pÃ£es estragados.",
+    "Ao cruzarem a ponte sobre o rio em direÃ§Ã£o ao Emaranhado, Zion localiza um cervo e usa a magia Sono para abatÃª-lo.",
+    "Os aventureiros esquartejam o cervo e partilham dezenas de quilos de carne fresca, reduzindo drasticamente a velocidade de marcha devido ao sobrepeso.",
+    "O forte cheiro da carne atrai quatro mulheres-planta na estrada; uma delas enfeitiÃ§a Durlan e as outras trÃªs sÃ£o colocadas para dormir por Zion e mortas pelo grupo.",
+    "Durlan permanece para trÃ¡s protegendo a mulher-planta sobrevivente e aceita um pacto de entregar dois gatos por semana em troca de sua liberdade.",
+    "Zion e Corsa acampam na beira da estrada e sÃ£o emboscados por uma cobra gigante que resiste ao feitiÃ§o de sono.",
+    "A serpente gigante mata Zion com uma picada venenosa e fere a coxa de Corsa, que escapa com vida ao lanÃ§ar a mochila com carne na boca do monstro.",
+    "Corsa chega a Gosterwick e vende a carne restante aos irmÃ£os aÃ§ougueiros Trucleon e Sakeon, refugiando-se na Estalagem Capa Amarela.",
+    "Durlan retorna sedento Ã  cidade e aluga um quarto na estalagem, sem perceber que a mulher-planta adotou disfarce humano e o vigia do saguÃ£o."
+   ],
+   "entidades": [
+    "personagens/zion",
+    "personagens/corsa",
+    "personagens/durlan",
+    "npcs/abacuque-overman",
+    "npcs/trucleon",
+    "npcs/sakeon",
+    "locais/casa-das-moedas",
+    "criaturas/cobra-gigante",
+    "criaturas/mulher-planta",
+    "locais/estalagem-capa-amarela",
+    "npcs/damasco",
+    "eventos/morte-de-zion"
+   ]
   }
  },
  "entidades": {
@@ -374,7 +405,7 @@
    "tipo": "local",
    "nome": "Estalagem Capa Amarela",
    "apelidos": [],
-   "resumo": "Estabelecimento situado na esquina do Caminho Imperial com a Rua da Pedra em Gosterwick, utilizado como refÃºgio e base de descanso por aventureiros.",
+   "resumo": "Estabelecimento situado na esquina do Caminho Imperial com a Rua da Pedra em Gosterwick, utilizado como refÃºgio e base de descanso por aventureiros. Passou a hospedar Durlan e Corsa apÃ³s a caÃ§ada, enquanto uma mulher-planta disfarÃ§ada vigia seus aposentos no tÃ©rreo.",
    "atributos": {
     "LocalizaÃ§Ã£o": "Gosterwick"
    },
@@ -382,18 +413,31 @@
     [
      "sessao-01",
      "Serviu de abrigo para Deyos e Hugios apÃ³s o retorno das ruÃ­nas de Arden Vul."
+    ],
+    [
+     "sessao-07",
+     "Vendeu garrafas de bebida alcoÃ³lica para Zion."
+    ],
+    [
+     "sessao-07",
+     "Alugou um quarto para Durlan descansar apÃ³s sua exaustiva caminhada pela estrada."
+    ],
+    [
+     "sessao-07",
+     "Seu saguÃ£o tÃ©rreo foi ocupado discretamente por uma mulher-planta metamorfoseada em trajes civis."
     ]
    ],
    "sessoes": [
     "sessao-01",
-    "sessao-04"
+    "sessao-04",
+    "sessao-07"
    ]
   },
   "npcs/damasco": {
    "tipo": "npc",
    "nome": "Damasco",
    "apelidos": [],
-   "resumo": "Comerciante idoso de Gosterwick, proprietÃ¡rio de uma loja de artigos gerais localizada em frente Ã  Estalagem Capa Amarela. Contou aos aventureiros sobre o Arcanum e os descobridores Arden e Vul.",
+   "resumo": "Comerciante idoso de Gosterwick, proprietÃ¡rio de uma loja de artigos gerais localizada em frente Ã  Estalagem Capa Amarela. Contou aos aventureiros sobre o Arcanum e os descobridores Arden e Vul, fornecendo ferramentas e indicando aÃ§ougueiros locais a grupos de caÃ§a.",
    "atributos": {
     "OcupaÃ§Ã£o": "Comerciante",
     "LocalizaÃ§Ã£o": "Gosterwick"
@@ -406,11 +450,20 @@
     [
      "sessao-05",
      "Relatou que Arden e Vul fundaram a cidade nas ruÃ­nas apÃ³s descobrirem a substÃ¢ncia Arcanum no vale."
+    ],
+    [
+     "sessao-07",
+     "Vendeu adagas, tochas, pederneiras e frascos de Ã³leo inflamÃ¡vel para Zion, Corsa e Durlan."
+    ],
+    [
+     "sessao-07",
+     "Orientou Corsa sobre a localizaÃ§Ã£o da fazenda de abate de animais operada por Trucleon perto do Caminho Imperial."
     ]
    ],
    "sessoes": [
     "sessao-01",
-    "sessao-05"
+    "sessao-05",
+    "sessao-07"
    ]
   },
   "npcs/vera": {
@@ -1369,6 +1422,300 @@
    "sessoes": [
     "sessao-06"
    ]
+  },
+  "personagens/zion": {
+   "tipo": "personagem",
+   "nome": "Zion",
+   "apelidos": [],
+   "resumo": "Mago elfo que viajou para Gosterwick e se uniu a Corsa e Durlan em uma expediÃ§Ã£o caÃ§adora nos arredores da estrada de Deep Town. Utilizou magia de sono com maestria para abater um cervo grande e neutralizar criaturas hostis de folhagem. Foi morto na beira da estrada picado por uma cobra gigante voraz.",
+   "atributos": {
+    "Jogador": "Massaki",
+    "RaÃ§a": "Elfo",
+    "Classe": "Mago",
+    "Status": "Morto"
+   },
+   "fatos": [
+    [
+     "sessao-07",
+     "Chegou a Gosterwick e comprou mantimentos com Damasco e bebida na Estalagem Capa Amarela."
+    ],
+    [
+     "sessao-07",
+     "Sofreu intoxicaÃ§Ã£o estomacal apÃ³s ingerir pÃ£es comprados do padeiro Abacuque Overman."
+    ],
+    [
+     "sessao-07",
+     "Usou a magia Sono para abater um cervo nos bosques perto do rio e depois contra trÃªs mulheres-planta hostis."
+    ],
+    [
+     "sessao-07",
+     "Acabou atacado e morto por uma mordida venenosa de cobra gigante enquanto acampava na estrada."
+    ]
+   ],
+   "sessoes": [
+    "sessao-07"
+   ]
+  },
+  "personagens/corsa": {
+   "tipo": "personagem",
+   "nome": "Corsa",
+   "apelidos": [],
+   "resumo": "Guerreiro recÃ©m-chegado a Gosterwick que participou da expediÃ§Ã£o de caÃ§a pela rota de Deep Town. Sobreviveu por um fio ao ataque brutal de uma serpente gigante nos ermos e retornou ferido para vender carnes no aÃ§ougue de Trucleon. Encontra-se descansando na Estalagem Capa Amarela.",
+   "atributos": {
+    "Jogador": "Queiroz",
+    "Classe": "Guerreiro",
+    "Status": "Vivo",
+    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela"
+   },
+   "fatos": [
+    [
+     "sessao-07",
+     "Comprou pÃ£es de Abacuque Overman e materiais de fogo com Damasco em Gosterwick."
+    ],
+    [
+     "sessao-07",
+     "Foi intoxicado ao se alimentar dos pÃ£es de Abacuque durante a viagem."
+    ],
+    [
+     "sessao-07",
+     "Ajudou a eliminar trÃªs mulheres-planta adormecidas por Zion na estrada."
+    ],
+    [
+     "sessao-07",
+     "Foi ferido na coxa e reduzido a 1 ponto de vida no combate contra a cobra gigante."
+    ],
+    [
+     "sessao-07",
+     "Escapou do rÃ©ptil arremessando uma mochila com carne como distraÃ§Ã£o e vendeu os restos da caÃ§ada ao aÃ§ougueiro Trucleon por moedas de prata."
+    ]
+   ],
+   "sessoes": [
+    "sessao-07"
+   ]
+  },
+  "personagens/durlan": {
+   "tipo": "personagem",
+   "nome": "Durlan",
+   "apelidos": [],
+   "resumo": "Guerreiro expedicionÃ¡rio que atuou na caÃ§ada do cervo na estrada de Deep Town. Foi vÃ­tima de um poderoso encanto lanÃ§ado por uma mulher-planta nos matagais, jurando protegÃª-la e aceitando um pacto para fornecer-lhe dois gatos por semana. Encontra-se hospedado na Estalagem Capa Amarela sob discreta vigilÃ¢ncia da criatura.",
+   "atributos": {
+    "Jogador": "Mateus L",
+    "Classe": "Guerreiro",
+    "Status": "EnfeitiÃ§ado",
+    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela"
+   },
+   "fatos": [
+    [
+     "sessao-07",
+     "Curisou a entrada da Casa das Moedas na Rua da Pedra antes de partir para a floresta."
+    ],
+    [
+     "sessao-07",
+     "Auxiliou no esquartejamento do cervo abatido por Zion."
+    ],
+    [
+     "sessao-07",
+     "Falhou em sua salvaguarda e foi enfeitiÃ§ado por uma mulher-planta na estrada, recusando-se a deixÃ¡-la ser atacada."
+    ],
+    [
+     "sessao-07",
+     "Aceitou um acordo para levar dois gatos semanais para a criatura em troca de ser deixado em paz."
+    ],
+    [
+     "sessao-07",
+     "Alugou um quarto na Estalagem Capa Amarela sem notar que a criatura disfarÃ§ada em tecido civil o seguiu atÃ© o saguÃ£o."
+    ]
+   ],
+   "sessoes": [
+    "sessao-07"
+   ]
+  },
+  "npcs/abacuque-overman": {
+   "tipo": "npc",
+   "nome": "Abacuque Overman",
+   "apelidos": [],
+   "resumo": "Padeiro corpulento e de braÃ§os musculosos recÃ©m-chegado de uma localidade vizinha a Gosterwick. Montou uma barraca na praÃ§a central para comercializar grandes pÃ£es artesanais por um ciclo de cobre cada.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Padeiro",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-07",
+     "Apresentou-se como padeiro forasteiro recÃ©m-chegado em uma carroÃ§a na praÃ§a central."
+    ],
+    [
+     "sessao-07",
+     "Vendeu pÃ£es volumosos por um ciclo de cobre cada para Zion, Corsa e Durlan."
+    ],
+    [
+     "sessao-07",
+     "Seus primeiros pÃ£es vendidos causaram mal-estar gÃ¡strico e intoxicaÃ§Ã£o em dois compradores."
+    ]
+   ],
+   "sessoes": [
+    "sessao-07"
+   ]
+  },
+  "npcs/trucleon": {
+   "tipo": "npc",
+   "nome": "Trucleon",
+   "apelidos": [],
+   "resumo": "AÃ§ougueiro que opera em uma cabana localizada dentro de uma ampla Ã¡rea cercada de pastagem Ã s margens do Caminho Imperial em Gosterwick. Trabalha no processamento e corte de carnes animais em parceria com seu irmÃ£o Sakeon.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "AÃ§ougueiro",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-07",
+     "Trabalha limpando e fatiando carnes em uma cabana de aÃ§ougue no limite urbano de Gosterwick."
+    ],
+    [
+     "sessao-07",
+     "Comprou mais de setecentos ciclos de peso em carne fresca de cervo trazida por Corsa por peÃ§as de prata."
+    ]
+   ],
+   "sessoes": [
+    "sessao-07"
+   ]
+  },
+  "npcs/sakeon": {
+   "tipo": "npc",
+   "nome": "Sakeon",
+   "apelidos": [],
+   "resumo": "Criador e trabalhador rural que cuida de rebanhos de vacas, ovelhas e cabritos em uma propriedade cercada prÃ³xima ao Caminho Imperial em Gosterwick. Encaminha clientes interessados em comÃ©rcio de carne ao seu irmÃ£o Trucleon.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Criador de animais",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-07",
+     "Recepcionou Corsa na entrada da pastagem murada nos limites de Gosterwick."
+    ],
+    [
+     "sessao-07",
+     "Apresentou o aventureiro ao seu irmÃ£o Trucleon para a negociaÃ§Ã£o de carne de caÃ§a."
+    ]
+   ],
+   "sessoes": [
+    "sessao-07"
+   ]
+  },
+  "locais/casa-das-moedas": {
+   "tipo": "local",
+   "nome": "Casa das Moedas",
+   "apelidos": [],
+   "resumo": "EdificaÃ§Ã£o requintada de pedra branca com colunas em estilo clÃ¡ssico situada na Rua da Pedra, em frente Ã  Estalagem Capa Amarela em Gosterwick. Seu interior conta com chÃ£o de alabastro polido, balcÃµes de atendimento e um grande lustre dourado.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Gosterwick, Rua da Pedra"
+   },
+   "fatos": [
+    [
+     "sessao-07",
+     "Situa-se na Rua da Pedra, diretamente em frente Ã  Estalagem Capa Amarela."
+    ],
+    [
+     "sessao-07",
+     "Possui trÃªs balcÃµes de pedra branca com funcionÃ¡rios e portas laterais para salas internas."
+    ],
+    [
+     "sessao-07",
+     "Apresenta piso lustrado de alabastro e iluminaÃ§Ã£o com lustre dourado central."
+    ]
+   ],
+   "sessoes": [
+    "sessao-07"
+   ]
+  },
+  "criaturas/cobra-gigante": {
+   "tipo": "criatura",
+   "nome": "Cobra Gigante",
+   "apelidos": [],
+   "resumo": "Serpente colossal de cerca de seis metros de comprimento que espreita nos matagais ao longo da rota para Deep Town. Possui forÃ§a mandibular destrutiva, veneno fulminante e resistÃªncia natural contra magias de sono.",
+   "atributos": {
+    "Habitat": "Estrada entre Gosterwick e Deep Town"
+   },
+   "fatos": [
+    [
+     "sessao-07",
+     "Espreitou sorrateiramente e emboscou o acampamento de Zion e Corsa na estrada."
+    ],
+    [
+     "sessao-07",
+     "Mostrou-se imune ao efeito do feitiÃ§o Sono devido ao seu porte e dados de vida elevados."
+    ],
+    [
+     "sessao-07",
+     "Matou o elfo Zion imediatamente ao cravar suas presas venenosas em seu calcanhar."
+    ],
+    [
+     "sessao-07",
+     "Abocanhou a coxa de Corsa e deteve seu ataque ao engolir uma mochila inteira recheada com carne fresca."
+    ]
+   ],
+   "sessoes": [
+    "sessao-07"
+   ]
+  },
+  "criaturas/mulher-planta": {
+   "tipo": "criatura",
+   "nome": "Mulher-Planta",
+   "apelidos": [
+    "DrÃ­ade"
+   ],
+   "resumo": "Criaturas humanoides femininas feitas de vegetaÃ§Ã£o, folhas e vinhas entrelaÃ§adas que habitam Ã¡reas boscosas prÃ³ximas Ã  escarpa. Emitem aroma doce de flores, dominam encantos hipnÃ³ticos e sÃ£o capazes de moldar sua aparÃªncia para se misturar entre humanos comuns.",
+   "atributos": {
+    "Habitat": "Florestas e matagais da estrada de Deep Town"
+   },
+   "fatos": [
+    [
+     "sessao-07",
+     "Surgiram em grupo de quatro mulheres seminuas cobertas por vinhas e cabelos verdes na beira da estrada."
+    ],
+    [
+     "sessao-07",
+     "Uma delas enfeitiÃ§ou Durlan com um toque amigÃ¡vel apÃ³s ele falhar em sua salvaguarda mÃ­stica."
+    ],
+    [
+     "sessao-07",
+     "A sobrevivente estabeleceu um trato com Durlan exigindo dois gatos por semana."
+    ],
+    [
+     "sessao-07",
+     "Seguiu Durlan atÃ© Gosterwick, transmutando sua cobertura vegetal em roupas de tecido para se sentar no saguÃ£o da Estalagem Capa Amarela."
+    ]
+   ],
+   "sessoes": [
+    "sessao-07"
+   ]
+  },
+  "eventos/morte-de-zion": {
+   "tipo": "evento",
+   "nome": "Morte de Zion",
+   "apelidos": [],
+   "resumo": "Ataque noturno violento ocorrido na beira da estrada entre Gosterwick e Deep Town, no qual o elfo mago Zion foi surpreendido e mortalmente picado por uma serpente gigante que emboscou seu acampamento.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Estrada de Deep Town"
+   },
+   "fatos": [
+    [
+     "sessao-07",
+     "Ocorreu enquanto Zion e Corsa tentavam descansar cercados pelo cheiro forte de caÃ§a de cervo."
+    ],
+    [
+     "sessao-07",
+     "A cobra gigante resistiu ao feitiÃ§o de sono conjurado por Zion e mordeu seu calcanhar com veneno fulminante."
+    ],
+    [
+     "sessao-07",
+     "O corpo e a mochila do elfo foram deixados para trÃ¡s na estrada durante a fuga desesperada de Corsa."
+    ]
+   ],
+   "sessoes": [
+    "sessao-07"
+   ]
   }
  },
  "pendencias": [
@@ -1497,10 +1844,31 @@
    "aberta_em": "sessao-06",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p19",
+   "texto": "Entregar dois gatos vivos por semana para a mulher-planta para honrar o pacto estabelecido por Durlan.",
+   "aberta_em": "sessao-07",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p20",
+   "texto": "Lidar com a presenÃ§a infiltrada da mulher-planta disfarÃ§ada que se instalou no saguÃ£o da Estalagem Capa Amarela.",
+   "aberta_em": "sessao-07",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p21",
+   "texto": "Recuperar o corpo e os pertences deixados por Zion na estrada de Deep Town apÃ³s o ataque da cobra gigante.",
+   "aberta_em": "sessao-07",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-06",
-  "texto": "Tobias retornou a Gosterwick com avisos graves de Hama sobre mais de cem kobolds e uma figura humana no Emaranhado. A expediÃ§Ã£o ao covil resultou em desastre completo para os novos aventureiros: Jabilos foi estrangulado pelas vinhas mÃ¡gicas e Albert Lion tombou na viagem de volta apÃ³s incendiar as folhagens. Cho'Gath sobreviveu, mas jaz amarrado e aprisionado nas profundezas do covil dos kobolds. Com o alarme mÃ¡gico acionado e as vinhas chamuscadas, o resgate de Cho'Gath e a erradicaÃ§Ã£o dos kobolds tornaram-se tarefas ainda mais perigosas."
+  "apos": "sessao-07",
+  "texto": "Corsa e Durlan estÃ£o refugiados na Estalagem Capa Amarela em Gosterwick apÃ³s uma desastrosa caÃ§ada nos arredores da estrada de Deep Town. A expediÃ§Ã£o custou a vida do elfo mago Zion, morto nos ermos pelas presas de uma cobra gigante. Corsa sobreviveu por pouco aos ferimentos e conseguiu lucrar vendendo parte da carne de cervo a aÃ§ougueiros locais. Enquanto isso, Durlan encontra-se sob feitiÃ§o e comprometeu-se a entregar dois gatos semanais para uma mulher-planta que o seguiu atÃ© a cidade e agora o espreita disfarÃ§ada no prÃ³prio saguÃ£o da estalagem."
  }
 }
