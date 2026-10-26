@@ -778,6 +778,26 @@
     "criaturas/esqueleto",
     "npcs/josafina"
    ]
+  },
+  "sessao-30": {
+   "titulo": "As EstÃ¡tuas de Cornalina e o Segredo do Forte",
+   "resumo": "O grupo formado por Markhor, Nia e Momonga iniciou suas exploraÃ§Ãµes nas imediaÃ§Ãµes da arruinada cidade de Arden Vul, hospedando-se na Pousada do Sinal da CabeÃ§a Quebrada. Durante a estadia, investigaram as margens do rio caudaloso, onde encontraram rastros misteriosos, e conversaram com guardas locais sobre os perigos da regiÃ£o. Explorando uma ruÃ­na prÃ³xima, Markhor descobriu uma bolsinha de couro contendo cinquenta valiosas pedras de cornalina dentro de uma escrivaninha arruinada. Posteriormente, o trio aventurou-se em um porÃ£o repleto de estÃ¡tuas quebradas, decidindo recolher pedaÃ§os de uma estÃ¡tua de goblin e de uma mulher para posterior restauraÃ§Ã£o e venda. De volta Ã  estalagem, Momonga negociou com sucesso as pedras preciosas com o comerciante Zaron, garantindo um excelente lucro e encomendando materiais para consertar as esculturas.",
+   "linha_do_tempo": [
+    "O grupo reÃºne-se na Pousada do Sinal da CabeÃ§a Quebrada e obtÃ©m informaÃ§Ãµes sobre a regiÃ£o e compradores de estÃ¡tuas.",
+    "Os aventureiros examinam as margens do rio caudaloso e encontram pegadas de tr s ou quatro dedos.",
+    "O grupo explora as ru nas e investiga uma antiga casa destru da pr xima   ponte da ilhota.",
+    "Markhor descobre cinquenta pedras de cornalina escondidas em uma gaveta de escrivaninha em ru nas.",
+    "Os aventureiros encontram um por o subterr neo com est tuas quebradas e decidem recolher peda os de um goblin e de uma mulher.",
+    "Momonga negocia e vende as pedras de cornalina ao comerciante Zaron e encomenda materiais para consertar as est tas."
+   ],
+   "entidades": [
+    "personagens/markhor",
+    "personagens/nia",
+    "npcs/cronos",
+    "npcs/zaron",
+    "locais/pousada-do-sinal-da-cabe-a-quebrada",
+    "itens/cornalina"
+   ]
   }
  },
  "entidades": {
@@ -6184,6 +6204,121 @@
    "sessoes": [
     "sessao-29"
    ]
+  },
+  "personagens/markhor": {
+   "tipo": "personagem",
+   "nome": "Markhor",
+   "apelidos": [],
+   "resumo": "Aventureiro com tra os de cabra das montanhas focado em buscar tesouros e riquezas para seu cl . Explorou as ru nas de Arden Vul, descobriu as cornalinas e ajudou a recolher est tuas quebradas.",
+   "atributos": {
+    "Jogador": "Juliano",
+    "Ra a": "Homem-fera"
+   },
+   "fatos": [
+    [
+     "sessao-30",
+     "Markhor encontrou cinquenta pedras de cornalina em uma escrivaninha arruinada."
+    ],
+    [
+     "sessao-30",
+     "O aventureiro recolheu peda os de est tuas quebradas de goblin e de uma mulher nas ru nas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-30"
+   ]
+  },
+  "personagens/nia": {
+   "tipo": "personagem",
+   "nome": "Nia",
+   "apelidos": [
+    "Louris"
+   ],
+   "resumo": "Aventureira cautelosa que integra o grupo na explora £o das ru nas e com rcio local. Ajudou a mapear suprimentos e participou da incurs£o nas constru s em ru nas.",
+   "atributos": {
+    "Jogador": "Louis"
+   },
+   "fatos": [
+    [
+     "sessao-30",
+     "Nia auxiliou no planejamento das compras e na verifica £o de pre os de suprimentos na estalagem."
+    ]
+   ],
+   "sessoes": [
+    "sessao-30"
+   ]
+  },
+  "npcs/cronos": {
+   "tipo": "npc",
+   "nome": "Cronos",
+   "apelidos": [],
+   "resumo": "Propriet rio idoso de cabelos grisalhos da Pousada do Sinal da Cabe a Quebrada. Fornece alojamento, refe ¥es e rumores aos aventureiros que chegam   escarpa.",
+   "atributos": {
+    "Ocupa £o": "Estalajadeiro",
+    "Localiza £o": "Pousada do Sinal da Cabe a Quebrada"
+   },
+   "fatos": [
+    [
+     "sessao-30",
+     "Cronos informou sobre compradores de est tuas e cobrou pelas di rias e ra ¥es na pousada."
+    ]
+   ],
+   "sessoes": [
+    "sessao-30"
+   ]
+  },
+  "npcs/zaron": {
+   "tipo": "npc",
+   "nome": "Zaron",
+   "apelidos": [],
+   "resumo": "Comerciante itinerante que monta barraca na Pousada do Sinal da Cabe a Quebrada para vender equipamentos e comprar tesouros de exploradores.",
+   "atributos": {
+    "Ocupa £o": "Comerciante",
+    "Localiza £o": "Pousada do Sinal da Cabe a Quebrada"
+   },
+   "fatos": [
+    [
+     "sessao-30",
+     "Zaron comprou cinquenta pedras de cornalina do grupo por um valor negociado e aceitou encomendar cola e gesso."
+    ]
+   ],
+   "sessoes": [
+    "sessao-30"
+   ]
+  },
+  "locais/pousada-do-sinal-da-cabe-a-quebrada": {
+   "tipo": "local",
+   "nome": "Pousada do Sinal da Cabe a Quebrada",
+   "apelidos": [],
+   "resumo": "Estabelecimento r stico situado logo ap s as ru nas de Arden Vul na perspectiva de quem sobe a escarpa. Possui uma grande cabe a de est tua sobre a porta e serve de base para aventureiros e guardas.",
+   "atributos": {
+    "Localiza £o": "A s p s das ru nas de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-30",
+     "A pousada abriga beliches, um quarto privado e serve refe ¥es b sicas aos exploradores da regi o."
+    ]
+   ],
+   "sessoes": [
+    "sessao-30"
+   ]
+  },
+  "itens/cornalina": {
+   "tipo": "item",
+   "nome": "Cornalina",
+   "apelidos": [],
+   "resumo": "Pequenas pedras semipreciosas de colora £o avermelhada amarronzada, muito lisas e polidas, utilizadas para decora £o e fabrica £o de joias.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-30",
+     "Foram encontradas cinquenta pedras de cornalina dentro de uma bolsa em uma escrivaninha abandonada nas ru nas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-30"
+   ]
   }
  },
  "pendencias": [
@@ -6809,10 +6944,24 @@
    "aberta_em": "sessao-29",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p90",
+   "texto": "Consertar as est tuas quebradas de goblin e da mulher utilizando a cola e o gesso encomendados com Zaron.",
+   "aberta_em": "sessao-30",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p91",
+   "texto": "Retornar  s ru nas para investigar a fenda na parede do por o subterr neo.",
+   "aberta_em": "sessao-30",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-29",
-  "texto": "O grupo composto por Albion, Kaelen, Hermes e Kutis-Check encontra-se abrigado na Estalagem Capa Amarela em Gosterwick apÃ³s retornar de uma incursÃ£o Ã  PirÃ¢mide de Thoth. No subterrÃ¢neo, os aventureiros repeliram com sucesso uma patrulha de esqueletos com o auxÃ­lio do explorador Lucrotus e de seu companheiro de turbante. A grande porta dupla de metal alaranjado na pirÃ¢mide permaneceu lacrada, mantendo inacessÃ­vel a cÃ¢mara onde repousa uma alabarda de bronze ou metal similar. Em Gosterwick, Albion apurou que o Mercado Superior Ã© Ã¡rea restrita e sÃ³ pode ser acessado com autorizaÃ§Ã£o da governadora Lady Alexia Basileon ou da guarda. Seguem em aberto a busca por credenciais para o mercado fortificado e o desenvolvimento de um mÃ©todo para destrancar os portÃµes na pirÃ¢mide."
+  "apos": "sessao-30",
+  "texto": "Markhor, Nia e Momonga encontraram-se na Pousada do Sinal da CabeÃ§a Quebrada, logo apÃ³s as ruÃ­nas de Arden Vul. ApÃ³s adquirirem suprimentos e conversarem com o estalajadeiro Cronos e guardas locais, o grupo explorou as margens do rio e encontrou cinquenta pedras de cornalina em uma escrivaninha em ruÃ­nas. Em seguida, desceram a um porÃ£o subterrÃ¢neo repleto de estÃ¡tuas quebradas e decidiram recolher partes de esculturas para revenda. De volta Ã  base, Momonga vendeu as cornalinas para o comerciante Zaron por um Ã³timo preÃ§o e encomendou cola e gesso para consertar as estÃ¡tuas."
  }
 }
