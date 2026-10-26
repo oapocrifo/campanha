@@ -487,6 +487,23 @@
     "npcs/vera",
     "itens/pergaminho-antigo-com-barbante"
    ]
+  },
+  "sessao-19": {
+   "titulo": "A Queda na Escadaria e o Fim no Ermo",
+   "resumo": "No dia 3 do sexto mÃªs de 2993, os aventureiros Wayne, Virthurion e Hans iniciaram o dia em Gosterwick, onde compraram Ã¡gua, sal e melÃµes antes de retornarem rapidamente pelas estradas em direÃ§Ã£o Ã s ruÃ­nas de Arden Vul. No topo, exploraram os arredores e coletaram ervas, um vaso quebrado com um anel de metal e um objeto em forma de cabeÃ§a de babuÃ­no, mas acabaram sofrendo o ataque implacÃ¡vel de ferozes criaturas quadrÃºpedes nascidas nos escombros. Durante o confronto mortal e a subsequente fuga desesperada pelas escadarias da escarpa, tanto Virthurion quanto Wayne pereceram vitimados pelas ferocidades das feras.\n\nRestando apenas Hans, o aventureiro sobreviveu ao terceiro descanso do dia na descida, esfolou uma das criaturas abatidas e recolheu sua pata e dentes caninos para identificaÃ§Ã£o. Ao amanhecer, enquanto tentava retornar para Gosterwick pela estrada plana, Hans cruzou com o grupo hostil de treze exploradores armados conhecido como Os Vizinhos Ruins. Ao ser abordado e ter sua mochila exigida, Hans desferiu um golpe certeiro no pescoÃ§o do lÃ­der, mas acabou mortalmente crivado por uma salva de flechas disparada pelos demais membros do bando antes de alcanÃ§ar a seguranÃ§a da cidade.",
+   "linha_do_tempo": [
+    "O grupo faz compras na praÃ§a central de Gosterwick e viaja rapidamente pelas estradas atÃ© o topo das ruÃ­nas de Arden Vul.",
+    "Os aventureiros coletam ervas, um vaso com anel e um objeto em formato de cabeÃ§a de babuÃ­no em meio aos destroÃ§os.",
+    "Criaturas quadrÃºpedes agressivas emergem dos escombros e atacam o grupo, matando Virthurion apÃ³s uma perseguiÃ§Ã£o encarniÃ§ada.",
+    "Wayne e Hans fogem pelas escadarias, mas Wayne Ã© alcanÃ§ado e morto pela fera no quarto lance.",
+    "Hans mata a fera restante, descansa na escarpa e coleta a pele, uma pata e um dente canino do monstro.",
+    "Ao retornar para Gosterwick ao amanhecer, Hans ataca o lÃ­der do grupo de treze exploradores dos Vizinhos Ruins e Ã© morto por flechadas."
+   ],
+   "entidades": [
+    "personagens/wayne",
+    "personagens/virthurion",
+    "personagens/hans"
+   ]
   }
  },
  "entidades": {
@@ -3680,11 +3697,11 @@
    "tipo": "personagem",
    "nome": "Wayne",
    "apelidos": [],
-   "resumo": "Aventureiro recÃ©m-chegado a Gosterwick dotado de percepÃ§Ã£o aguÃ§ada e conhecimento herbalista. Participou da expediÃ§Ã£o ao platÃ´ de Arden Vul, onde resgatou um pergaminho antigo e salvou um companheiro usando um molotov improvisado.",
+   "resumo": "Aventureiro dotado de percepÃ§Ã£o aguÃ§ada e conhecimento herbalista. Participou da expediÃ§Ã£o ao platÃ´ de Arden Vul, onde coletou ervas, um anel e um objeto em formato de cabeÃ§a de babuÃ­no, mas acabou sendo morto por uma criatura quadrÃºpede nas escadarias.",
    "atributos": {
     "Jogador": "Massaki",
     "Classe": "Aventureiro",
-    "Status": "Vivo",
+    "Status": "Morto",
     "LocalizaÃ§Ã£o": "Gosterwick"
    },
    "fatos": [
@@ -3699,21 +3716,30 @@
     [
      "sessao-18",
      "Criou um molotov improvisado com garrafa de Ã¡lcool e pano para afugentar um sapo gigante."
+    ],
+    [
+     "sessao-19",
+     "Coletou um anel em um vaso quebrado e um objeto de metal em forma de cabeÃ§a de babuÃ­no nas ruÃ­nas."
+    ],
+    [
+     "sessao-19",
+     "Foi morto por uma criatura quadrÃºpede peluda durante a fuga pelas escadarias de Arden Vul."
     ]
    ],
    "sessoes": [
-    "sessao-18"
+    "sessao-18",
+    "sessao-19"
    ]
   },
   "personagens/virthurion": {
    "tipo": "personagem",
    "nome": "Virthurion",
    "apelidos": [],
-   "resumo": "ClÃ©rigo devoto recÃ©m-chegado a Gosterwick para explorar as ruÃ­nas de Arden Vul. Descobriu a escadaria subterrÃ¢nea oculta no pÃ¡tio e identificou o desgaste revelador nas pedras do topo da PirÃ¢mide de Thoth.",
+   "resumo": "ClÃ©rigo devoto que explorou as ruÃ­nas de Arden Vul. Foi brutalmente atacado e morto por uma feroz criatura quadrÃºpede nas ruÃ­nas superiores.",
    "atributos": {
     "Jogador": "Mateus L",
     "Classe": "ClÃ©rigo",
-    "Status": "Vivo",
+    "Status": "Morto",
     "LocalizaÃ§Ã£o": "Gosterwick"
    },
    "fatos": [
@@ -3728,21 +3754,26 @@
     [
      "sessao-18",
      "Identificou que as pedras brancas do piso no lado direito da PirÃ¢mide de Thoth estÃ£o acentuadamente gastas."
+    ],
+    [
+     "sessao-19",
+     "Tentou se fingir de morto apÃ³s ser atacado, mas foi fatalmente estraÃ§alhado por uma criatura quadrÃºpede."
     ]
    ],
    "sessoes": [
-    "sessao-18"
+    "sessao-18",
+    "sessao-19"
    ]
   },
   "personagens/hans": {
    "tipo": "personagem",
    "nome": "Hans",
    "apelidos": [],
-   "resumo": "Aventureiro homem-fera equipado com espada que possui olfato e audiÃ§Ã£o aprimorados. Integrou a expediÃ§Ã£o ao platÃ´ de Arden Vul e sobreviveu a um ataque de sapo gigante.",
+   "resumo": "Aventureiro homem-fera equipado com espada e olfato aprimorado. Sobreviveu ao massacre em Arden Vul matando uma fera e coletando trofÃ©us, mas acabou sendo morto por flechadas do grupo Os Vizinhos Ruins prÃ³ximo a Gosterwick.",
    "atributos": {
     "Jogador": "Louis",
     "RaÃ§a": "Homem-Fera",
-    "Status": "Vivo",
+    "Status": "Morto",
     "LocalizaÃ§Ã£o": "Gosterwick"
    },
    "fatos": [
@@ -3757,10 +3788,23 @@
     [
      "sessao-18",
      "Foi preso pela lÃ­ngua de um sapo gigante na saÃ­da do platÃ´ de Arden Vul e libertado pelo fogo de Wayne."
+    ],
+    [
+     "sessao-19",
+     "Matou a criatura quadrÃºpede desferindo um golpe certeiro com sua espada durante a fuga na escadaria."
+    ],
+    [
+     "sessao-19",
+     "Esfolou a criatura abatida e recolheu sua pele, uma pata e um dente canino antes de retornar."
+    ],
+    [
+     "sessao-19",
+     "Atacou o lÃ­der do grupo Os Vizinhos Ruins com uma espada no pescoÃ§o e foi alvejado mortalmente por flechas."
     ]
    ],
    "sessoes": [
-    "sessao-18"
+    "sessao-18",
+    "sessao-19"
    ]
   },
   "npcs/jouko": {
@@ -4204,10 +4248,24 @@
    "aberta_em": "sessao-18",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p55",
+   "texto": "Recuperar os corpos e os pertences de Wayne, Virthurion e Hans espalhados pelas escadarias e estradas de Arden Vul.",
+   "aberta_em": "sessao-19",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p56",
+   "texto": "Investigar a identidade e as intenÃ§Ãµes exatas do grupo de treze exploradores armados (Os Vizinhos Ruins) que patrulha a estrada de Gosterwick.",
+   "aberta_em": "sessao-19",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-18",
-  "texto": "O grupo retornou a Gosterwick apÃ³s explorar o platÃ´ superior de Arden Vul. Durante a expediÃ§Ã£o, descobriram uma escadaria subterrÃ¢nea oculta no pÃ¡tio e notaram pisos desgastados e correntes de ar no topo da PirÃ¢mide de Thoth. Wayne carrega um pergaminho antigo enrolado em barbante que ainda nÃ£o foi aberto. Atualmente, os aventureiros estÃ£o descansando na estalagem PoÃ§a de Lama."
+  "apos": "sessao-19",
+  "texto": "Wayne, Virthurion e Hans subiram para as ruÃ­nas de Arden Vul no dia 3 do sexto mÃªs de 2993, mas a expediÃ§Ã£o terminou em tragÃ©dia sangrenta. O grupo foi emboscado por ferozes criaturas quadrÃºpedes nos escombros superiores, resultando nas mortes violentas de Virthurion e Wayne nas escadarias da escarpa. Apenas Hans conseguiu abater uma das feras e escapar de volta pelo caminho imperial, carregando trofÃ©us do monstro. Contudo, ao amanhecer nos arredores de Gosterwick, Hans cruzou com Os Vizinhos Ruins, reagiu a uma extorsÃ£o de espÃ³lio e acabou crivado por flechas do bando hostil, marcando a aniquilaÃ§Ã£o total da expediÃ§Ã£o."
  }
 }
