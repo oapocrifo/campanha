@@ -1027,6 +1027,42 @@
     "itens/moedas-pesadas-de-ouro",
     "itens/estatueta-de-thoth"
    ]
+  },
+  "sessao-39": {
+   "titulo": "O PoÃ§o dos Degraus de Ferro e a Gosma Cinzenta",
+   "resumo": "Em 21 de Basilembrios de 2993, os aventureiros Kalvos, ArnÃ³bio, Nia e Leviathan reuniram-se na Pousada do Sinal da CabeÃ§a Quebrada, onde recrutaram o recÃ©m-chegado guerreiro thorcinga Kalec. No salÃ£o comunal, Kalvos conversou com o anÃ£o Malachi Jade, integrante do grupo de exploradores A Vassoura, liderado pelo ex-faxineiro Harold Good-Ears. ArnÃ³bio cogitou contratar Nara para carregar sua lanterna e gaiola de canÃ¡rio, mas desistiu diante da cobranÃ§a de oito moedas de ouro e do receio de manchar sua reputaÃ§Ã£o caso a assistente perecesse. Com suprimentos distribuÃ­dos e mulas equipadas, o grupo seguiu pelas margens do rio atÃ© a ruÃ­na da chaminÃ© em Arden Vul, onde ArnÃ³bio instalou uma escada de cordas de quinze metros para facilitar futuros acessos.\n\nDescendo pelos antigos grampos de ferro sob o tampo de mÃ¡rmore por mais de trinta e cinco metros, os herÃ³is alcanÃ§aram uma caverna com solo ressecado. Uma colossal gosma cinzenta que rastejava pelo teto e paredes reagiu ao grupo apÃ³s Kalec cuspir sobre ela e Nia manusear raÃ§Ãµes secas, despencando ao solo e subindo pelos grampos de metal, que comeÃ§aram a derreter sob seu contato Ã¡cido. Com Nia e Leviathan encurralados na escada, Kalvos desferiu estocadas com sua lanÃ§a mÃ¡gica e ArnÃ³bio arremessou uma Ã¢nfora de Ã³leo inflamÃ¡vel, gerando fumaÃ§a densa e asfixiante. Por fim, Kalec desferiu um poderoso golpe de espada longa, destruindo o monstro ao custo do fio de sua lÃ¢mina.\n\nLivres do perigo, os exploradores examinaram o entorno. ArnÃ³bio escalou uma saliÃªncia de trÃªs metros e avistou um tÃºnel cavernoso estreito e sinuoso. Em seguida, junto a Kalvos, inspecionou uma cÃ¢mara anexa de alvenaria dotada de degraus de ardÃ³sia, mosaicos arconteanos sobre dragÃµes e pirÃ¢mides, um sarcÃ³fago de pÃ³rfiro e orifÃ­cios de uma armadilha incendiÃ¡ria espalhados por todo o teto. Com uma vara e cordas, ArnÃ³bio laÃ§ou e arrastou para fora da sala trÃªs cadÃ¡veres calcinados sem ativar o mecanismo de fogo. O grupo recolheu uma cota de malha, uma espada longa e um bastÃ£o de madeira bifurcado, todos confirmados como mÃ¡gicos por Kalvos. Pressionados pelo cansaÃ§o e tempo exÃ­guo, os aventureiros subiram pela corda de Leviathan, descansaram na superfÃ­cie e retornaram em seguranÃ§a Ã  pousada.",
+   "linha_do_tempo": [
+    "Em 21 de Basilembrios de 2993, Kalvos, ArnÃ³bio, Nia e Leviathan recebem o guerreiro thorcinga Kalec na Pousada do Sinal da CabeÃ§a Quebrada.",
+    "Kalvos conversa no saguÃ£o com o anÃ£o Malachi Jade sobre o grupo explorador A Vassoura, liderado por Harold Good-Ears.",
+    "ArnÃ³bio negocia serviÃ§os com Nara, mas desiste da contrataÃ§Ã£o devido ao custo e riscos de reputaÃ§Ã£o.",
+    "O grupo caminha atÃ© a ruÃ­na da chaminÃ© em Arden Vul e ArnÃ³bio instala uma escada de cordas de quinze metros no buraco do tÃ©rreo.",
+    "Os herÃ³is descem pelo poÃ§o vertical de grampos de ferro sob o tampo de mÃ¡rmore e alcanÃ§am uma caverna profunda.",
+    "Uma grande gosma cinzenta escorre pelas paredes e teto, reagindo com vapores quentes ao cuspe de Kalec e perseguindo Nia quando esta mexe em raÃ§Ãµes.",
+    "O monstro avanÃ§a pela escadaria e dissolve grampos metÃ¡licos, forÃ§ando Nia e Leviathan a subirem Ã s pressas.",
+    "Kalvos perfura a gosma com sua lanÃ§a mÃ¡gica, ArnÃ³bio incendeia Ã³leo sobre o teto gerando fumaÃ§a densa e Kalec desfere um golpe de espada que dissipa a criatura.",
+    "ArnÃ³bio escala trÃªs metros de rocha irregular e reconhece a entrada de um tÃºnel cavernoso estreito e sinuoso.",
+    "ArnÃ³bio e Kalvos encontram uma cÃ¢mara de pedra contendo mosaicos de dragÃµes arconteanos, um sarcÃ³fago de pÃ³rfiro e um teto perfurado por furos de armadilha de fogo.",
+    "Utilizando corda e vara de trÃªs metros com canÃ¡rio, ArnÃ³bio arrasta trÃªs corpos queimados para fora da cÃ¢mara sem disparar a armadilha.",
+    "O grupo resgata uma cota de malha, uma espada longa e um bastÃ£o de madeira bifurcado, identificando aura mÃ¡gica em todos via conjuraÃ§Ã£o de Kalvos.",
+    "Os exploradores escalam a corda de Leviathan, realizam um descanso de uma hora no tÃ©rreo da chaminÃ© e regressam em seguranÃ§a Ã  pousada."
+   ],
+   "entidades": [
+    "personagens/kalvos",
+    "personagens/nia",
+    "personagens/arna3bio",
+    "personagens/kalec",
+    "personagens/leviathan",
+    "npcs/harold-good-ears",
+    "npcs/malachi-jade",
+    "faccoes/the-broom",
+    "npcs/nara",
+    "npcs/zaron",
+    "criaturas/gosma-cinzenta",
+    "locais/sala-do-sarca3fago-de-pa3rfiro",
+    "itens/bastao-bifurcado-de-madeira",
+    "itens/cota-de-malha-magica",
+    "itens/espada-longa-magica"
+   ]
   }
  },
  "entidades": {
@@ -6772,7 +6808,7 @@
    "apelidos": [
     "Louris"
    ],
-   "resumo": "Aventureira exploradora experiente equipada com armadura de escamas e clava de bronze. Integrou a escolta de carroÃ§as rumo a Newmarket, onde derrubou o lÃ­der dos cultistas com uma investida de escudo e esmagou outro com sua clava, decapitando os mortos para recolher provas e recompensas.",
+   "resumo": "Aventureira exploradora experiente equipada com armadura de escamas e clava de bronze. Integrou a escolta de carroÃ§as rumo a Newmarket e atuou na exploraÃ§Ã£o do poÃ§o de grampos de ferro em Arden Vul. Ao descer a escada subterrÃ¢nea, atraiu a investida de uma gosma cinzenta ao sacar pedaÃ§os de carne seca de sua mochila, tendo de recuar pela subida.",
    "atributos": {
     "Jogador": "Louis",
     "Status": "Viva (Ferida)",
@@ -6849,6 +6885,18 @@
     [
      "sessao-37",
      "Descobriu com sentinelas de Newmarket que nÃ£o havia mandados nem recompensas ativas pelo grupo de cultistas da regiÃ£o."
+    ],
+    [
+     "sessao-39",
+     "Prendeu uma corda de vinte e um metros enrolada no antebraÃ§o esquerdo para auxiliar na descida e escalada."
+    ],
+    [
+     "sessao-39",
+     "Atraiu a perseguiÃ§Ã£o da gosma cinzenta ao retirar uma porÃ§Ã£o de carne seca de sua mochila na base da escadaria."
+    ],
+    [
+     "sessao-39",
+     "Recuou subindo pelos grampos de ferro no escuro enquanto a criatura dissolvia os apoios logo abaixo de seus pÃ©s."
     ]
    ],
    "sessoes": [
@@ -6857,7 +6905,8 @@
     "sessao-34",
     "sessao-35",
     "sessao-36",
-    "sessao-37"
+    "sessao-37",
+    "sessao-39"
    ]
   },
   "npcs/cronos": {
@@ -6927,19 +6976,25 @@
    "tipo": "npc",
    "nome": "Zaron",
    "apelidos": [],
-   "resumo": "Comerciante itinerante que monta barraca na Pousada do Sinal da Cabe a Quebrada para vender equipamentos e comprar tesouros de exploradores.",
+   "resumo": "Comerciante itinerante que monta barraca na Pousada do Sinal da CabeÃ§a Quebrada para vender equipamentos e comprar tesouros de exploradores.",
    "atributos": {
     "Ocupa £o": "Comerciante",
-    "Localiza £o": "Pousada do Sinal da Cabe a Quebrada"
+    "Localiza £o": "Pousada do Sinal da Cabe a Quebrada",
+    "OcupaÃ§Ã£o": "Mercador"
    },
    "fatos": [
     [
      "sessao-30",
      "Zaron comprou cinquenta pedras de cornalina do grupo por um valor negociado e aceitou encomendar cola e gesso."
+    ],
+    [
+     "sessao-39",
+     "Estava sozinho atendendo na pousada pela manhÃ£ enquanto seu parceiro Oberon saÃ­a antes do amanhecer."
     ]
    ],
    "sessoes": [
-    "sessao-30"
+    "sessao-30",
+    "sessao-39"
    ]
   },
   "locais/pousada-do-sinal-da-cabe-a-quebrada": {
@@ -7487,7 +7542,7 @@
    "apelidos": [
     "Calvos"
    ],
-   "resumo": "ClÃ©rigo anÃ£o devoto de Heschius Ban e irmÃ£o de Bolkas que explora Arden Vul e cidades vizinhas. Durante a viagem para Newmarket, financiou mulas para transporte, conteve cultistas hostis com grilhÃµes fantasmagÃ³ricos na estrada e sepultou dignamente o companheiro Amir no cemitÃ©rio de Newmarket.",
+   "resumo": "ClÃ©rigo anÃ£o devoto de Heschius Ban e irmÃ£o de Bolkas que explora Arden Vul e cidades vizinhas. Durante a expediÃ§Ã£o ao poÃ§o sob o tampo de mÃ¡rmore, enfrentou a gosma cinzenta com sua lanÃ§a mÃ¡gica e abenÃ§oou os companheiros. Utilizou a magia Detectar Magia para analisar os tesouros resgatados da sala do sarcÃ³fago e guardou o bastÃ£o bifurcado de madeira.",
    "atributos": {
     "RaÃ§a": "AnÃ£o",
     "Classe": "ClÃ©rigo",
@@ -7540,12 +7595,29 @@
     [
      "sessao-37",
      "Cavou a sepultura de Amir e realizou preces fÃºnebres no cemitÃ©rio murado de Newmarket."
+    ],
+    [
+     "sessao-39",
+     "Atingiu a gosma cinzenta no subterrÃ¢neo com sua lanÃ§a mÃ¡gica, sofrendo desgaste no fio da arma devido Ã  acidez do monstro."
+    ],
+    [
+     "sessao-39",
+     "Conjurou a bÃªnÃ§Ã£o de Heschius Ban sobre o grupo antes dos testes na cÃ¢mara da armadilha de fogo."
+    ],
+    [
+     "sessao-39",
+     "Utilizou Detectar Magia do lado de fora da Pousada do Sinal da CabeÃ§a Quebrada e confirmou que a cota de malha, a espada longa e o bastÃ£o resgatados sÃ£o mÃ¡gicos."
+    ],
+    [
+     "sessao-39",
+     "Ficou responsÃ¡vel pela guarda do bastÃ£o bifurcado de madeira para posterior identificaÃ§Ã£o."
     ]
    ],
    "sessoes": [
     "sessao-34",
     "sessao-36",
-    "sessao-37"
+    "sessao-37",
+    "sessao-39"
    ]
   },
   "criaturas/carrapato-gigante": {
@@ -7853,18 +7925,28 @@
    "tipo": "npc",
    "nome": "Nara",
    "apelidos": [],
-   "resumo": "Mulher de roupas simples que frequentava a Pousada do Sinal da Cabeca Quebrada. Foi contratada por Kalvos por duas moedas de ouro para vigiar a mula e a carroca do grupo na entrada das ruinas da Casa das Estatuas durante a incursao ao laboratorio subterraneo.",
+   "resumo": "Mulher de roupas simples que frequenta a Pousada do Sinal da CabeÃ§a Quebrada e realiza serviÃ§os de apoio para aventureiros. JÃ¡ foi contratada para cuidar de mulas e foi procurada por ArnÃ³bio para carregar tochas, mas a negociaÃ§Ã£o nÃ£o se concretizou.",
    "atributos": {
-    "Ocupacao": "Guardia de carga"
+    "Ocupacao": "Guardia de carga",
+    "OcupaÃ§Ã£o": "Trabalhadora de aluguel"
    },
    "fatos": [
     [
      "sessao-36",
      "Foi contratada por Kalvos por duas moedas de ouro para guardar a mula e a carroca do grupo durante a exploracao subterranea."
+    ],
+    [
+     "sessao-39",
+     "Estava sentada comendo na pousada quando foi abordada por ArnÃ³bio para uma contrataÃ§Ã£o."
+    ],
+    [
+     "sessao-39",
+     "Pediu oito moedas de ouro adiantadas para segurar a lanterna e a gaiola do canÃ¡rio durante uma incursÃ£o subterrÃ¢nea."
     ]
    ],
    "sessoes": [
-    "sessao-36"
+    "sessao-36",
+    "sessao-39"
    ]
   },
   "itens/cimitarra-magica-1": {
@@ -8143,6 +8225,328 @@
    ],
    "sessoes": [
     "sessao-38"
+   ]
+  },
+  "personagens/arna3bio": {
+   "tipo": "personagem",
+   "nome": "ArnÃ³bio",
+   "apelidos": [
+    "Caolho"
+   ],
+   "resumo": "Ladino esguio e alto, conhecido como Caolho, que explora os subterrÃ¢neos de Arden Vul com grande cautela. Carrega arco longo, funda, vara de trÃªs metros e um canÃ¡rio em gaiola para testar o ar e armadilhas. Conduziu o desarmamento Ã  distÃ¢ncia dos cadÃ¡veres na cÃ¢mara do sarcÃ³fago de pÃ³rfiro apÃ³s enfrentar a gosma cinzenta com Ã³leo inflamÃ¡vel.",
+   "atributos": {
+    "Classe": "Ladino",
+    "Jogador": "Xiko"
+   },
+   "fatos": [
+    [
+     "sessao-39",
+     "Comprou e fixou uma escada de cordas de quinze metros de comprimento no fosso da chaminÃ©."
+    ],
+    [
+     "sessao-39",
+     "Carrega um canÃ¡rio em pequena gaiola de madeira atada Ã  mochila para servir como sentinela de gases tÃ³xicos e armadilhas."
+    ],
+    [
+     "sessao-39",
+     "Tentou atingir a gosma cinzenta com sua vara de trÃªs metros e depois arremessou uma Ã¢nfora de Ã³leo em chamas contra o teto sobre a criatura."
+    ],
+    [
+     "sessao-39",
+     "Escalou uma parede de pedra de trÃªs metros na caverna e avistou um tÃºnel sinuoso e estreito."
+    ],
+    [
+     "sessao-39",
+     "Utilizou sua corda e a vara com a gaiola do canÃ¡rio para arrastar trÃªs corpos incinerados para fora da sala do sarcÃ³fago sem disparar a armadilha do teto."
+    ]
+   ],
+   "sessoes": [
+    "sessao-39"
+   ]
+  },
+  "personagens/kalec": {
+   "tipo": "personagem",
+   "nome": "Kalec",
+   "apelidos": [],
+   "resumo": "Guerreiro humano da etnia Thorcinga recÃ©m-chegado Ã  Pousada do Sinal da CabeÃ§a Quebrada em busca de riquezas. Participou da descida ao poÃ§o sob a chaminÃ© e destruiu a gosma cinzenta com um ataque decisivo de espada, perdendo o fio de sua arma no processo. Assumiu a cota de malha mÃ¡gica recuperada na cÃ¢mara do sarcÃ³fago.",
+   "atributos": {
+    "RaÃ§a": "Humano Thorcinga",
+    "Classe": "Guerreiro",
+    "Jogador": "Rafael Rosa"
+   },
+   "fatos": [
+    [
+     "sessao-39",
+     "Cospe na gosma cinzenta ao descer a escadaria, provocando uma reaÃ§Ã£o quÃ­mica e evaporaÃ§Ã£o instantÃ¢nea com fumaÃ§a."
+    ],
+    [
+     "sessao-39",
+     "Desferiu um golpe de espada longa de oito pontos de dano que liquidou a gosma cinzenta, tendo sua lÃ¢mina danificada e sem fio pelo Ã¡cido."
+    ],
+    [
+     "sessao-39",
+     "Equipou a cota de malha mÃ¡gica resgatada dos corpos incinerados na cÃ¢mara do sarcÃ³fago de pÃ³rfiro."
+    ]
+   ],
+   "sessoes": [
+    "sessao-39"
+   ]
+  },
+  "personagens/leviathan": {
+   "tipo": "personagem",
+   "nome": "Leviathan",
+   "apelidos": [],
+   "resumo": "Aventureiro homem-fera que explora os subterrÃ¢neos de Arden Vul junto ao grupo. Possui visÃ£o adaptada Ã  penumbra e auxiliou na descida e subida do poÃ§o de grampos sob a chaminÃ©, cedendo sua corda para contornar os degraus derretidos. Ficou com a espada longa mÃ¡gica encontrada na cÃ¢mara do sarcÃ³fago.",
+   "atributos": {
+    "RaÃ§a": "Homem-fera",
+    "Classe": "Guerreiro",
+    "Jogador": "Melquizedeque"
+   },
+   "fatos": [
+    [
+     "sessao-39",
+     "Deixou temporariamente cerca de trezentas moedas sob a guarda de Kalec para nÃ£o sobrecarregar o peso da marcha."
+    ],
+    [
+     "sessao-39",
+     "Subiu a escadaria de grampos na penumbra guiando Nia para longe da gosma cinzenta."
+    ],
+    [
+     "sessao-39",
+     "Amarrou sua corda longa no topo dos grampos intactos para viabilizar a fuga e resgate dos companheiros sobre a seÃ§Ã£o derretida."
+    ],
+    [
+     "sessao-39",
+     "Recebeu a espada longa mÃ¡gica resgatada da cÃ¢mara do sarcÃ³fago de pÃ³rfiro."
+    ]
+   ],
+   "sessoes": [
+    "sessao-39"
+   ]
+  },
+  "npcs/harold-good-ears": {
+   "tipo": "npc",
+   "nome": "Harold Good-Ears",
+   "apelidos": [
+    "Harald"
+   ],
+   "resumo": "Guerreiro alto de orelhas muito largas, armado com machado e arco e vestido com cota de malha, que lidera o grupo de aventureiros A Vassoura. Costumava trabalhar como faxineiro antes de ingressar na vida de exploraÃ§Ã£o em Arden Vul.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "LÃ­der aventureiro",
+    "AfiliaÃ§Ã£o": "The Broom"
+   },
+   "fatos": [
+    [
+     "sessao-39",
+     "Ã o lÃ­der do grupo explorador A Vassoura na Pousada do Sinal da CabeÃ§a Quebrada."
+    ],
+    [
+     "sessao-39",
+     "Era faxineiro antes de se tornar aventureiro, fato que inspirou o nome de sua equipe."
+    ]
+   ],
+   "sessoes": [
+    "sessao-39"
+   ]
+  },
+  "npcs/malachi-jade": {
+   "tipo": "npc",
+   "nome": "Malachi Jade",
+   "apelidos": [
+    "Malash de Jade"
+   ],
+   "resumo": "Guerreiro anÃ£o vestindo cota de malha que integra a companhia de exploradores A Vassoura. Conversou amigavelmente com Kalvos na Pousada do Sinal da CabeÃ§a Quebrada e explicou a origem do nome de seu bando.",
+   "atributos": {
+    "RaÃ§a": "AnÃ£o",
+    "AfiliaÃ§Ã£o": "The Broom"
+   },
+   "fatos": [
+    [
+     "sessao-39",
+     "Apresentou-se a Kalvos no saguÃ£o da pousada e revelou que seu clÃ£ Ã© o Jade."
+    ],
+    [
+     "sessao-39",
+     "Explicou a composiÃ§Ã£o de seu grupo e que seu lÃ­der Harold era um antigo faxineiro."
+    ]
+   ],
+   "sessoes": [
+    "sessao-39"
+   ]
+  },
+  "faccoes/the-broom": {
+   "tipo": "faccao",
+   "nome": "The Broom",
+   "apelidos": [
+    "A Vassoura"
+   ],
+   "resumo": "Grupo de quatro aventureiros que opera a partir da Pousada do Sinal da CabeÃ§a Quebrada. Ã liderado pelo guerreiro Harold Good-Ears e composto por um ladino loiro chamado Muxi, o anÃ£o Malachi Jade e um usuÃ¡rio de magia trajando robe.",
+   "atributos": {
+    "Tipo": "Grupo de aventureiros",
+    "Base": "Pousada do Sinal da CabeÃ§a Quebrada"
+   },
+   "fatos": [
+    [
+     "sessao-39",
+     "Opera nas ruÃ­nas de Arden Vul e tem Harold Good-Ears como lÃ­der e fundador."
+    ],
+    [
+     "sessao-39",
+     "Recebeu seu nome devido ao passado de faxineiro de seu lÃ­der."
+    ]
+   ],
+   "sessoes": [
+    "sessao-39"
+   ]
+  },
+  "criaturas/gosma-cinzenta": {
+   "tipo": "criatura",
+   "nome": "Gosma Cinzenta",
+   "apelidos": [
+    "Catarro Cinzento",
+    "Slime Ãcido"
+   ],
+   "resumo": "Monstruosidade amorfa de coloraÃ§Ã£o acinzentada e consistÃªncia viscosa que espreita em cavernas subterrÃ¢neas. Dissolve metais e matÃ©ria orgÃ¢nica rapidamente atravÃ©s de secreÃ§Ãµes Ã¡cidas quentes, sendo resistente a fogo e impactos contundentes de madeira.",
+   "atributos": {
+    "Tipo": "Gosma / Monstruosidade"
+   },
+   "fatos": [
+    [
+     "sessao-39",
+     "Habitava as paredes e teto de uma caverna a dezenas de metros abaixo das ruÃ­nas da chaminÃ©."
+    ],
+    [
+     "sessao-39",
+     "Reagiu fervendo e soltando fumaÃ§a Ã¡cida quando atingida por cuspe humano e lanÃ§ou-se em perseguiÃ§Ã£o a carne seca."
+    ],
+    [
+     "sessao-39",
+     "Subiu por grampos de ferro e dissolveu o metal sob seu contato."
+    ],
+    [
+     "sessao-39",
+     "NÃ£o foi afetada por golpes de madeira e vaporizou Ã³leo incandescente, mas foi ferida por perfuraÃ§Ãµes de lanÃ§a mÃ¡gica e dissipada por corte de espada."
+    ]
+   ],
+   "sessoes": [
+    "sessao-39"
+   ]
+  },
+  "locais/sala-do-sarca3fago-de-pa3rfiro": {
+   "tipo": "local",
+   "nome": "Sala do SarcÃ³fago de PÃ³rfiro",
+   "apelidos": [],
+   "resumo": "CÃ¢mara quadrangular de pedra situada em nÃ­vel cavernoso abaixo da chaminÃ© em Arden Vul, acessÃ­vel por trÃªs degraus de ardÃ³sia cinzenta. ContÃ©m mosaicos arconteanos nas paredes laterais e frontais, um sarcÃ³fago central de pÃ³rfiro e um teto repleto de orifÃ­cios projetados para liberar rajadas de fogo sobre intrusos.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "SubterrÃ¢neo da ChaminÃ© de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-39",
+     "Possui trÃªs degraus de alvenaria em ardÃ³sia cinzenta que a conectam Ã  caverna."
+    ],
+    [
+     "sessao-39",
+     "ContÃ©m mosaicos arconteanos representando cavaleiros sobre dragÃµes, construÃ§Ãµes de pirÃ¢mides e inspeÃ§Ãµes a covis de serpes."
+    ],
+    [
+     "sessao-39",
+     "Abriga um sarcÃ³fago esculpido em pÃ³rfiro no centro da sala."
+    ],
+    [
+     "sessao-39",
+     "Seu teto Ã© perfurado por mÃºltiplos orifÃ­cios equidistantes conectados a uma armadilha incendiÃ¡ria que chamuscou todo o piso e calcinou trÃªs aventureiros."
+    ]
+   ],
+   "sessoes": [
+    "sessao-39"
+   ]
+  },
+  "itens/bastao-bifurcado-de-madeira": {
+   "tipo": "item",
+   "nome": "BastÃ£o Bifurcado de Madeira",
+   "apelidos": [
+    "Cetro de Madeira"
+   ],
+   "resumo": "BastÃ£o de madeira escura chamuscada com cerca de quarenta e cinco centÃ­metros de comprimento resgatado de um esqueleto na cÃ¢mara do sarcÃ³fago de pÃ³rfiro. Possui uma extremidade curva semelhante a um pÃ© de cabra e a base bifurcada, emanando forte aura mÃ¡gica.",
+   "atributos": {
+    "Tipo": "Item MÃ¡gico",
+    "Portador": "Kalvos"
+   },
+   "fatos": [
+    [
+     "sessao-39",
+     "Foi encontrado preso Ã  mÃ£o de um esqueleto calcinado na cÃ¢mara do sarcÃ³fago."
+    ],
+    [
+     "sessao-39",
+     "Mede quarenta e cinco centÃ­metros e solta pÃ³ de cinza ao ser manuseado."
+    ],
+    [
+     "sessao-39",
+     "Possui uma ponta curva e uma base com duas pontas bifurcadas."
+    ],
+    [
+     "sessao-39",
+     "Teve sua natureza mÃ¡gica detectada por Kalvos e permaneceu sob sua posse."
+    ]
+   ],
+   "sessoes": [
+    "sessao-39"
+   ]
+  },
+  "itens/cota-de-malha-magica": {
+   "tipo": "item",
+   "nome": "Cota de Malha MÃ¡gica",
+   "apelidos": [],
+   "resumo": "Armadura metÃ¡lica pesada composta por argolas perfeitamente forjadas e sem deformaÃ§Ãµes, imune ao fogo que incinerou seu antigo usuÃ¡rio na cÃ¢mara do sarcÃ³fago. Possui encantamento mÃ¡gico confirmado e foi equipada pelo guerreiro Kalec.",
+   "atributos": {
+    "Tipo": "Armadura MÃ¡gica",
+    "Portador": "Kalec"
+   },
+   "fatos": [
+    [
+     "sessao-39",
+     "Foi resgatada intacta de um dos corpos calcinados pela armadilha de chamas do teto."
+    ],
+    [
+     "sessao-39",
+     "NÃ£o apresenta sÃ­mbolos ou marcas gravadas, destacando-se pelo fino encaixe de suas argolas."
+    ],
+    [
+     "sessao-39",
+     "Emana aura mÃ¡gica detectada por Kalvos e passou a ser vestida por Kalec."
+    ]
+   ],
+   "sessoes": [
+    "sessao-39"
+   ]
+  },
+  "itens/espada-longa-magica": {
+   "tipo": "item",
+   "nome": "Espada Longa MÃ¡gica",
+   "apelidos": [],
+   "resumo": "LÃ¢mina longa forjada com excelente acabamento que sobreviveu Ã  armadilha de chamas na cÃ¢mara do sarcÃ³fago de pÃ³rfiro. NÃ£o possui inscriÃ§Ãµes visÃ­veis e emana aura mÃ¡gica, tendo sido entregue ao guerreiro Leviathan.",
+   "atributos": {
+    "Tipo": "Arma MÃ¡gica",
+    "Portador": "Leviathan"
+   },
+   "fatos": [
+    [
+     "sessao-39",
+     "Foi encontrada no piso chamuscado da cÃ¢mara ao lado dos corpos incinerados."
+    ],
+    [
+     "sessao-39",
+     "Permaneceu intacta apÃ³s a combustÃ£o mÃ¡gica que destruiu os demais equipamentos de seus antigos donos."
+    ],
+    [
+     "sessao-39",
+     "Teve sua aura mÃ¡gica constatada por Kalvos e foi repassada para Leviathan empunhar."
+    ]
+   ],
+   "sessoes": [
+    "sessao-39"
    ]
   }
  },
@@ -8921,8 +9325,8 @@
    "id": "p111",
    "texto": "Investigar o poÃ§o vertical com degraus de ferro sob a tampa de mÃ¡rmore e a origem do cheiro de esgoto.",
    "aberta_em": "sessao-34",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-39",
+   "como": "O grupo desceu pelos degraus de ferro sob o tampo de mÃ¡rmore atÃ© uma caverna profunda, onde combateu uma gosma cinzenta que exalava o cheiro podre e descobriu a cÃ¢mara do sarcÃ³fago de pÃ³rfiro."
   },
   {
    "id": "p112",
@@ -9014,10 +9418,38 @@
    "aberta_em": "sessao-38",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p125",
+   "texto": "Descobrir como desarmar ou contornar a armadilha de fogo do teto na sala do sarcÃ³fago de pÃ³rfiro.",
+   "aberta_em": "sessao-39",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p126",
+   "texto": "Identificar as propriedades mÃ¡gicas exatas do bastÃ£o bifurcado de madeira resgatado por Kalvos.",
+   "aberta_em": "sessao-39",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p127",
+   "texto": "Identificar as propriedades mÃ¡gicas e bÃ´nus da cota de malha vestida por Kalec e da espada longa empunhada por Leviathan.",
+   "aberta_em": "sessao-39",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p128",
+   "texto": "Explorar o tÃºnel cavernoso estreito e elevado avistado por ArnÃ³bio a trÃªs metros do solo da caverna.",
+   "aberta_em": "sessao-39",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-38",
-  "texto": "O grupo de aventureiros composto por Kalvos, ArnÃ³bio, Cara Suja e Leviathan explorou os subterrÃ¢neos de Arden Vul a partir da chaminÃ©. Eles enfrentaram e destruÃ­ram um grupo de esqueletos usando o poder sagrado de um amuleto e saquearam uma sala secreta com utensÃ­lios de ouro e moedas raras. No caminho, conheceram Lankius, um habitante excÃªntrico dos tÃºneis que os convidou para uma sopa bizarra. De volta Ã  base, o grupo negociou os tesouros e obteve uma promissÃ³ria valiosa por uma estatueta de Thoth."
+  "apos": "sessao-39",
+  "texto": "O grupo retornou Ã  Pousada do Sinal da CabeÃ§a Quebrada apÃ³s descer pelo poÃ§o de grampos de ferro nas ruÃ­nas da chaminÃ© em Arden Vul. No subterrÃ¢neo, os herÃ³is superaram uma gosma cinzenta Ã¡cida que destruiu parte dos degraus de metal e recolheram trÃªs itens mÃ¡gicos de corpos calcinados perto de uma cÃ¢mara com sarcÃ³fago de pÃ³rfiro. Kalec assumiu a posse da cota de malha mÃ¡gica, Leviathan ficou com a espada longa mÃ¡gica e Kalvos guardou o bastÃ£o bifurcado de madeira. A sala do sarcÃ³fago permanece com sua armadilha incendiÃ¡ria de teto ativa e ainda nÃ£o foi aberta. AlÃ©m disso, um tÃºnel estreito e elevado parte da caverna da gosma e segue inexplorado."
  }
 }
