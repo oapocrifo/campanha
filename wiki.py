@@ -34,6 +34,7 @@ Os personagens dos jogadores são os que aparecem como "Personagem (Jogador)". O
 Regras:
 - Registre só o que aconteceu ou foi revelado dentro da ficção. Ignore conversa fora do jogo, regras, pausas e assuntos pessoais.
 - Não invente. Se algo for incerto na transcrição, escreva que é incerto ou deixe de fora.
+- A transcrição vem de reconhecimento de voz e escreve nomes de várias formas erradas. Quando um nome se parecer com um da lista GRAFIAS CORRETAS ou do índice, use a grafia correta.
 - Para algo que já está no índice, use exatamente o id do índice. Para algo novo, deixe o id vazio.
 - tipo: personagem (só personagens dos jogadores), npc, criatura (espécies e monstros), local, faccao, item, evento (acontecimentos marcantes com nome próprio ou importância duradoura, como batalhas, mortes e rituais).
 - resumo da entidade: a descrição completa e atualizada em até 4 frases, juntando o resumo do índice com o que esta sessão revelou.
@@ -222,8 +223,10 @@ def atualizar(transcricao):
     }
     anteriores = [f"{e}: {dados['sessoes'][e]['resumo']}"
                   for e in sorted((e for e in dados["sessoes"] if ordem(e) < ordem(ep)), key=ordem)[-2:]]
+    glossario = Path("glossario.txt").read_text(encoding="utf-8") if Path("glossario.txt").exists() else ""
     print(f"Enviando {ep} ao Gemini", flush=True)
-    resposta = gemini(f"ÍNDICE ATUAL DA WIKI:\n{json.dumps(indice, ensure_ascii=False)}\n\n"
+    resposta = gemini(f"GRAFIAS CORRETAS DE NOMES DA CAMPANHA:\n{glossario.strip() or 'nenhuma'}\n\n"
+                      f"ÍNDICE ATUAL DA WIKI:\n{json.dumps(indice, ensure_ascii=False)}\n\n"
                       f"RESUMOS DAS SESSÕES ANTERIORES:\n{chr(10).join(anteriores) or 'nenhuma'}\n\n"
                       f"TRANSCRIÇÃO DA SESSÃO {ep}:\n{Path(transcricao).read_text(encoding='utf-8')}")
     mesclar(dados, ep, resposta)
