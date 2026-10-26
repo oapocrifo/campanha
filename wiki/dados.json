@@ -377,6 +377,39 @@
     "locais/estalagem-capa-amarela",
     "locais/arden-vul"
    ]
+  },
+  "sessao-15": {
+   "titulo": "A AscensÃ£o Ã  PirÃ¢mide de Thoth",
+   "resumo": "No dia 7 do quinto mÃªs de 2993, Inocente II desembarcou em Gosterwick e logo recrutou Dogios e o aventureiro Paullor para subirem juntos a escarpa de Arden Vul. Antes de partirem, passaram pela loja de Damasco, onde Inocente II vendeu fumo e Dogios descobriu que as placas metÃ¡licas achadas no pÃ¢ntano continham escrita em Mithric, a lÃ­ngua arcaica do ImpÃ©rio. Equipando-se com pÃ£es e um novo escudo adquirido com Moracius, o trio iniciou a marcha atÃ© o imenso paredÃ£o rochoso.\n\nA subida pelas escadarias de pedra foi auxiliada por grampos de ferro em formato de U cravados na rocha. Ao alcanÃ§arem o patamar do terceiro lance, encontraram o antigo refÃºgio tomado por fungos negros e decidiram acampar ao ar livre, onde foram emboscados na calada da noite por quatro homens selvagens maltrapilhos. Sob a orientaÃ§Ã£o da visÃ£o no escuro de Dogios e o pÃ³ sufocante de um fungo negro atirado por Inocente II, os agressores foram repelidos e mortos, com dois corpos despencando pelo precipÃ­cio.\n\nPela manhÃ£, o grupo alcanÃ§ou o topo de Arden Vul e vasculhou a torre destruÃ­da junto ao portÃ£o, obtendo moedas arcaicas, um disco de metal com a inscriÃ§Ã£o V e uma placa de ouro com cristal. Eles avanÃ§aram pela avenida ornada por Ã¡rvores esfÃ©ricas atÃ© avistarem o colossal Obelisco e a majestosa PirÃ¢mide de Thoth com suas colunas de mÃ¡rmore. ApÃ³s saquearem pepitas de ouro dos corpos na escadaria, retornaram exaustos a Gosterwick e descobriram na Casa das Moedas que deveriam procurar uma casa de cÃ¢mbio para avaliar os achados, momento em que Paullor se despediu levando a placa dourada.",
+   "linha_do_tempo": [
+    "Inocente II desembarca em Gosterwick e recruta Dogios na praÃ§a principal para subir a escarpa de Arden Vul.",
+    "O aventureiro Paullor junta-se Ã  dupla na praÃ§a aceitando repartir igualmente os tesouros que encontrarem.",
+    "Damasco adquire fumo de Inocente II e revela que as placas de metal recolhidas no pÃ¢ntano estÃ£o grafadas em Mithric.",
+    "Dogios compra um escudo na loja de Moracius e o grupo estoca mantimentos na padaria da Rua do Mercado.",
+    "O trio segue pelo Caminho Imperial atÃ© a base de Arden Vul e comeÃ§a a escalada pelas escadarias com apoios de ferro.",
+    "Ao deparar-se com o abrigo da escada infestado por fungos negros, o grupo decide acampar no patamar externo.",
+    "Quatro humanos selvagens descem a escadaria na escuridÃ£o e atacam o acampamento aos gritos.",
+    "Dogios lidera o combate no escuro com sua infravisÃ£o e elimina os invasores apÃ³s Inocente II arremessar um fungo em pÃ³ sufocante.",
+    "O grupo retoma a subida ao amanhecer e alcanÃ§a as ruÃ­nas do portÃ£o superior de Arden Vul.",
+    "A busca nos escombros da torre direita rende treze moedas antigas para Inocente II, um disco de metal para Dogios e uma placa dourada com cristal para Paullor.",
+    "O grupo percorre a avenida de Ã¡rvores exÃ³ticas, analisa o Obelisco do Ankh e contempla a PirÃ¢mide de Thoth.",
+    "Os aventureiros iniciam a descida da escarpa, recolhem duas pepitas de ouro dos cadÃ¡veres e abastecem os cantis no lago da cachoeira.",
+    "Abalados pela exaustÃ£o e escassez de mantimentos na marcha noturna, os trÃªs retornam Ã  Estalagem Capa Amarela tomada por gatos.",
+    "Na manhÃ£ seguinte, a atendente da Casa das Moedas recusa as moedas antigas e as pepitas brutas, e Paullor se despede com sua placa de ouro."
+   ],
+   "entidades": [
+    "personagens/dogios",
+    "personagens/inocente-ii",
+    "npcs/paullor",
+    "npcs/damasco",
+    "npcs/moracius",
+    "locais/arden-vul",
+    "locais/obelisco-de-arden-vul",
+    "locais/the-pyramid-of-thoth",
+    "locais/casa-das-moedas",
+    "itens/disco-metalico-com-v",
+    "eventos/combate-na-escadaria-de-arden-vul"
+   ]
   }
  },
  "entidades": {
@@ -660,9 +693,10 @@
    "tipo": "local",
    "nome": "Arden Vul",
    "apelidos": [],
-   "resumo": "Antiga cidade em ruÃ­nas localizada no topo de um imenso paredÃ£o rochoso. Ã repleta de perigos, criaturas hostis e mistÃ©rios subterrÃ¢neos. Abriga em sua base duas estÃ¡tuas colossais esculpidas na rocha, um posto de guarda e regiÃµes pantanosas com ruÃ­nas em seu entorno.",
+   "resumo": "Antiga cidade em ruÃ­nas localizada no topo de um imenso paredÃ£o rochoso. Ã repleta de perigos, criaturas hostis e mistÃ©rios subterrÃ¢neos. Abriga estÃ¡tuas colossais na base, uma escadaria vertiginosa munida de apoios de ferro, torres arruinadas de entrada, uma longa avenida com Ã¡rvores raras e a PirÃ¢mide de Thoth.",
    "atributos": {
-    "Tipo": "RuÃ­nas / Masmorra"
+    "Tipo": "RuÃ­nas / Masmorra",
+    "Status": "RuÃ­nas Antigas"
    },
    "fatos": [
     [
@@ -676,11 +710,28 @@
     [
      "sessao-14",
      "A estÃ¡tua do feiticeiro Vul possui uma abertura escondida na pedra na altura de sua manga a cerca de 200 metros de altura."
+    ],
+    [
+     "sessao-15",
+     "A grande escadaria entalhada no paredÃ£o conta com pinos de ferro em U a cada um metro para dar firmeza Ã  subida."
+    ],
+    [
+     "sessao-15",
+     "A passagem no terceiro lance de escadas estava tomada por ramificaÃ§Ãµes e cogumelos negros em decomposiÃ§Ã£o seca."
+    ],
+    [
+     "sessao-15",
+     "O topo da escadaria atinge uma rua pavimentada cercada por duas torres arruinadas de quatro andares e os destroÃ§os de um portÃ£o de madeira."
+    ],
+    [
+     "sessao-15",
+     "A via principal possui rachaduras de onde brotam Ã¡rvores de copa esfÃ©rica que desembocam em um pÃ¡tio amplo."
     ]
    ],
    "sessoes": [
     "sessao-01",
-    "sessao-14"
+    "sessao-14",
+    "sessao-15"
    ]
   },
   "locais/estalagem-capa-amarela": {
@@ -733,7 +784,7 @@
    "tipo": "npc",
    "nome": "Damasco",
    "apelidos": [],
-   "resumo": "Comerciante idoso de Gosterwick, proprietÃ¡rio de uma loja de artigos gerais localizada em frente Ã  Estalagem Capa Amarela. Contou aos aventureiros sobre o Arcanum e os descobridores Arden e Vul, fornecendo ferramentas e indicando aÃ§ougueiros locais a grupos de caÃ§a. Relatou um rumor sobre uma mulher que desmaiou na rua e gritou sobre uma pirÃ¢mide e olhos estranhos.",
+   "resumo": "Comerciante idoso de Gosterwick, proprietÃ¡rio de uma loja de artigos gerais localizada em frente Ã  Estalagem Capa Amarela. Contou aos aventureiros sobre o Arcanum, indicou aÃ§ougueiros e forjas locais e identificou a escrita das placas do pÃ¢ntano como sendo Mithric arcaico.",
    "atributos": {
     "OcupaÃ§Ã£o": "Comerciante",
     "LocalizaÃ§Ã£o": "Gosterwick"
@@ -758,13 +809,26 @@
     [
      "sessao-14",
      "Relatou o incidente de uma mulher que desmaiou em frente Ã  sua loja e gritou sobre uma pirÃ¢mide e olhos estranhos."
+    ],
+    [
+     "sessao-15",
+     "Comprou um maÃ§o de fumo artesanal trazido por Inocente II por cinco ciclos de cobre."
+    ],
+    [
+     "sessao-15",
+     "Esclareceu que os escritos das placas de metal pertenciam ao idioma antigo Mithric, antecessor do Arconteano e ainda lecionado em cÃ­rculos arcanos."
+    ],
+    [
+     "sessao-15",
+     "Indicou a loja de armas de Moracius na Rua do Mercado para a compra de escudos."
     ]
    ],
    "sessoes": [
     "sessao-01",
     "sessao-05",
     "sessao-07",
-    "sessao-14"
+    "sessao-14",
+    "sessao-15"
    ]
   },
   "npcs/vera": {
@@ -2055,9 +2119,9 @@
    "tipo": "local",
    "nome": "Casa das Moedas",
    "apelidos": [],
-   "resumo": "EdificaÃ§Ã£o requintada de pedra branca com colunas em estilo clÃ¡ssico situada na Rua da Pedra, em frente Ã  Estalagem Capa Amarela em Gosterwick. Seu interior conta com chÃ£o de alabastro polido, balcÃµes de atendimento e um grande lustre dourado.",
+   "resumo": "EdificaÃ§Ã£o requintada de pedra branca com colunas em estilo clÃ¡ssico situada na Rua da Pedra em Gosterwick. Seu interior conta com chÃ£o de alabastro polido, balcÃµes de atendimento e um grande lustre de cristal. Presta serviÃ§os exclusivos de guarda e custÃ³dia de bens e moedas.",
    "atributos": {
-    "LocalizaÃ§Ã£o": "Gosterwick, Rua da Pedra"
+    "LocalizaÃ§Ã£o": "Rua da Pedra, Gosterwick"
    },
    "fatos": [
     [
@@ -2071,10 +2135,19 @@
     [
      "sessao-07",
      "Apresenta piso lustrado de alabastro e iluminaÃ§Ã£o com lustre dourado central."
+    ],
+    [
+     "sessao-15",
+     "Recusou a troca direta de moedas arcaicas e pepitas de ouro bruto trazidas por Inocente II e Dogios."
+    ],
+    [
+     "sessao-15",
+     "Esclareceu que opera apenas como custodiante de depÃ³sitos e orientou os clientes a procurarem casas de cÃ¢mbio na praÃ§a central."
     ]
    ],
    "sessoes": [
-    "sessao-07"
+    "sessao-07",
+    "sessao-15"
    ]
   },
   "criaturas/cobra-gigante": {
@@ -2578,10 +2651,10 @@
    "tipo": "local",
    "nome": "Obelisco de Arden Vul",
    "apelidos": [],
-   "resumo": "Monumento quadrangular de granito com trÃªs metros de largura por dez de altura localizado na via que liga o portÃ£o de Arden Vul Ã  PirÃ¢mide de Thoth. Apresenta gravuras de homens montando lagartos, cultos solares, um encaixe de Ankh em baixo-relevo e centenas de nomes arconteanos em Mifirik.",
+   "resumo": "Monumento quadrangular de granito com dez metros de altura por trÃªs de largura localizado na via que liga o portÃ£o de Arden Vul Ã  PirÃ¢mide de Thoth. Apresenta gravuras de homens com lagartos, cultos solares, dizeres em Mithric e uma cavidade protuberante no formato exato de uma Ankh.",
    "atributos": {
     "Material": "Granito",
-    "LocalizaÃ§Ã£o": "SuperfÃ­cie de Arden Vul"
+    "LocalizaÃ§Ã£o": "PlatÃ´ de Arden Vul"
    },
    "fatos": [
     [
@@ -2599,10 +2672,19 @@
     [
      "sessao-10",
      "Apresenta mais de cem nomes arconteanos talhados na escrita arcaica Mifirik."
+    ],
+    [
+     "sessao-15",
+     "Mede dez metros de altura e trÃªs de largura em sua estrutura maciÃ§a de granito."
+    ],
+    [
+     "sessao-15",
+     "Apresenta um relevo profundo com trinta centÃ­metros desenhado perfeitamente para acomodar um artefato no formato de Ankh."
     ]
    ],
    "sessoes": [
-    "sessao-10"
+    "sessao-10",
+    "sessao-15"
    ]
   },
   "itens/salvia": {
@@ -2842,10 +2924,11 @@
    "tipo": "personagem",
    "nome": "Dogios",
    "apelidos": [],
-   "resumo": "Aventureiro anÃ£o munido de infravisÃ£o que chegou a Gosterwick com Thydal. Integrou a expediÃ§Ã£o ao pÃ¢ntano nas imediaÃ§Ãµes de Arden Vul, confrontando sapos gigantes e negociando informaÃ§Ãµes com o mercador TenÃ¡rius.",
+   "resumo": "Aventureiro anÃ£o munido de infravisÃ£o que chegou a Gosterwick com Thydal. Integrou a expediÃ§Ã£o ao pÃ¢ntano nas imediaÃ§Ãµes de Arden Vul e enfrentou sapos gigantes. Posteriormente, uniu forÃ§as a Inocente II e Paullor para escalar as escadarias de Arden Vul, onde combateu humanos selvagens na escuridÃ£o e explorou o topo da antiga cidade atÃ© a PirÃ¢mide de Thoth.",
    "atributos": {
     "RaÃ§a": "AnÃ£o",
-    "Jogador": "Sonard"
+    "Jogador": "Sonard",
+    "Classe": "Guerreiro"
    },
    "fatos": [
     [
@@ -2863,10 +2946,31 @@
     [
      "sessao-14",
      "Negociou a localizaÃ§Ã£o das ruÃ­nas do pÃ¢ntano com TenÃ¡rius em troca de moedas de ouro."
+    ],
+    [
+     "sessao-15",
+     "Passou a noite treinando agachamentos e flexÃµes na Estalagem Capa Amarela."
+    ],
+    [
+     "sessao-15",
+     "Comprou um escudo por quinze ciclos de prata na forja de Moracius."
+    ],
+    [
+     "sessao-15",
+     "Utilizou sua infravisÃ£o no combate noturno na escadaria para instruir seus companheiros e matar trÃªs humanos selvagens com sua espada longa."
+    ],
+    [
+     "sessao-15",
+     "Resgatou um disco metÃ¡lico alaranjado com o algarismo romano V entalhado nos escombros da torre de Arden Vul."
+    ],
+    [
+     "sessao-15",
+     "Ficou com seis moedas antigas oxidadas e uma pepita de ouro bruto apÃ³s a partilha dos despojos."
     ]
    ],
    "sessoes": [
-    "sessao-14"
+    "sessao-14",
+    "sessao-15"
    ]
   },
   "npcs/surion": {
@@ -2960,6 +3064,184 @@
    ],
    "sessoes": [
     "sessao-14"
+   ]
+  },
+  "personagens/inocente-ii": {
+   "tipo": "personagem",
+   "nome": "Inocente II",
+   "apelidos": [],
+   "resumo": "Aventureiro pequenino e clÃ©rigo devoto de Alder Lightfingers recÃ©m-chegado a Gosterwick apÃ³s a perda de sua tabacaria. Aliou-se a Dogios e Paullor em busca de riquezas no platÃ´ de Arden Vul, utilizando preces divinas para purificar Ã¡gua e armas de arremesso em combate. Explorou o pÃ¡tio arruinado e a PirÃ¢mide de Thoth antes de retornar com moedas antigas.",
+   "atributos": {
+    "RaÃ§a": "Pequenino",
+    "Classe": "ClÃ©rigo",
+    "Divindade": "Alder Lightfingers",
+    "Jogador": "Guilherme"
+   },
+   "fatos": [
+    [
+     "sessao-15",
+     "Chegou a Gosterwick em uma carroÃ§a comum e recrutou companheiros aos berros na praÃ§a central."
+    ],
+    [
+     "sessao-15",
+     "Vendeu um maÃ§o de fumo por cinco ciclos de cobre para o comerciante Damasco."
+    ],
+    [
+     "sessao-15",
+     "Utilizou sua magia clerical para purificar a Ã¡gua enlameada coletada nos rios e lagos."
+    ],
+    [
+     "sessao-15",
+     "Coletou cogumelos negros no abrigo da escadaria e atirou um no combate noturno para espalhar fumaÃ§a irritante sobre os inimigos."
+    ],
+    [
+     "sessao-15",
+     "Encontrou uma bolsa desgastada com treze moedas antigas escuras nos escombros da torre arruinada de Arden Vul."
+    ],
+    [
+     "sessao-15",
+     "Ficou com sete moedas arcaicas e uma pepita de ouro apÃ³s dividir os tesouros com Dogios."
+    ]
+   ],
+   "sessoes": [
+    "sessao-15"
+   ]
+  },
+  "npcs/paullor": {
+   "tipo": "npc",
+   "nome": "Paullor",
+   "apelidos": [],
+   "resumo": "Guerreiro humano equipado com armadura de escamas, arco e besta que aceitou subir a Arden Vul junto a Dogios e Inocente II. Auxiliou o grupo na travessia das escadarias e no combate noturno contra os selvagens. Ficou com uma placa dourada encrustada com um cristal como sua fatia do tesouro antes de despedir-se em Gosterwick.",
+   "atributos": {
+    "RaÃ§a": "Humano",
+    "Classe": "Guerreiro",
+    "OcupaÃ§Ã£o": "Aventureiro",
+    "Status": "Vivo",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-15",
+     "Apresentou-se na praÃ§a central de Gosterwick vestindo armadura de escamas e portando arco e besta."
+    ],
+    [
+     "sessao-15",
+     "Emprestou uma corda para Inocente II transportar para aliviar sua prÃ³pria carga na viagem."
+    ],
+    [
+     "sessao-15",
+     "Ajudou a salvar Dogios de cair no abismo durante o tumulto na escada e atirou pedras para derrubar os atacantes."
+    ],
+    [
+     "sessao-15",
+     "Encontrou nos escombros da torre de vigia uma placa dourada com cristal e inscriÃ§Ãµes em Mithric."
+    ],
+    [
+     "sessao-15",
+     "Ficou com a placa de ouro e cristal ao regressar a Gosterwick, separando-se amigavelmente do grupo."
+    ]
+   ],
+   "sessoes": [
+    "sessao-15"
+   ]
+  },
+  "npcs/moracius": {
+   "tipo": "npc",
+   "nome": "Moracius",
+   "apelidos": [],
+   "resumo": "Comerciante de armas e armaduras que mantÃ©m um estabelecimento especializado na Rua do Mercado em Gosterwick. Comercializa armamentos metÃ¡licos, escudos e peÃ§as de proteÃ§Ã£o com preÃ§os de mercado.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Armeiro",
+    "LocalizaÃ§Ã£o": "Rua do Mercado, Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-15",
+     "Vendeu um escudo de combate para Dogios por quinze ciclos de prata em sua loja na Rua do Mercado."
+    ]
+   ],
+   "sessoes": [
+    "sessao-15"
+   ]
+  },
+  "locais/the-pyramid-of-thoth": {
+   "tipo": "local",
+   "nome": "The Pyramid of Thoth",
+   "apelidos": [
+    "PirÃ¢mide de Thoth"
+   ],
+   "resumo": "Monumental estrutura de pedra situada no platÃ´ de Arden Vul ao final da grande avenida cerimonial. Apresenta base quadrada de cerca de trinta metros de largura por quinze de altura, culminando em uma plataforma superior plana sustentada por pilares de mÃ¡rmore.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "PlatÃ´ de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-15",
+     "Situa-se apÃ³s o pÃ¡tio arborizado ao tÃ©rmino da avenida diagonal de Arden Vul."
+    ],
+    [
+     "sessao-15",
+     "Possui aproximadamente quinze metros de altura e base quadrada de trinta metros de largura feita em granito."
+    ],
+    [
+     "sessao-15",
+     "Seu topo plano comporta uma estrutura coberta sustentada por pilares de mÃ¡rmore."
+    ]
+   ],
+   "sessoes": [
+    "sessao-15"
+   ]
+  },
+  "itens/disco-metalico-com-v": {
+   "tipo": "item",
+   "nome": "Disco MetÃ¡lico com V",
+   "apelidos": [],
+   "resumo": "Placa circular metÃ¡lica com cerca de trinta centÃ­metros de diÃ¢metro e peso aproximado de vinte ciclos. Possui coloraÃ§Ã£o alaranjada e o algarismo romano V entalhado em sua superfÃ­cie em baixo relevo.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Posse de Dogios"
+   },
+   "fatos": [
+    [
+     "sessao-15",
+     "Foi desenterrado por Dogios sob as pilhas de escombros no interior da torre arruinada de Arden Vul."
+    ],
+    [
+     "sessao-15",
+     "Apresenta cor alaranjada, cerca de trinta centÃ­metros de largura e a figura de um V arranhada no metal."
+    ]
+   ],
+   "sessoes": [
+    "sessao-15"
+   ]
+  },
+  "eventos/combate-na-escadaria-de-arden-vul": {
+   "tipo": "evento",
+   "nome": "Combate na Escadaria de Arden Vul",
+   "apelidos": [],
+   "resumo": "Confronto noturno travado no patamar externo do terceiro lance de escadas de Arden Vul. Quatro humanos selvagens armados com porretes e lanÃ§as emboscaram o acampamento de Dogios, Inocente II e Paullor, sendo repelidos apÃ³s o uso de fumaÃ§a fÃºngica e eliminados com lÃ¢minas e quedas no abismo.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Escadaria de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-15",
+     "Quatro homens vestidos em peles e trapos desciam no escuro proferindo grunhidos e investiram contra o acampamento gritando."
+    ],
+    [
+     "sessao-15",
+     "Inocente II arremessou um fungo seco contra a parede rochosa, liberando uma nuvem escura que desequilibrou os combatentes."
+    ],
+    [
+     "sessao-15",
+     "Dois homens despencaram no precipÃ­cio do paredÃ£o rochoso durante o combate."
+    ],
+    [
+     "sessao-15",
+     "Dogios utilizou sua infravisÃ£o para aparar os ataques e ceifar os invasores restantes com sua espada."
+    ]
+   ],
+   "sessoes": [
+    "sessao-15"
    ]
   }
  },
@@ -3243,10 +3525,45 @@
    "aberta_em": "sessao-14",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p41",
+   "texto": "Trocar as treze moedas antigas oxidadas na barraca de cÃ¢mbio de Cassie e Jeremias Smallleaf na praÃ§a central.",
+   "aberta_em": "sessao-15",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p42",
+   "texto": "Avaliar ou comercializar as duas pepitas de ouro bruto pilhadas dos humanos selvagens na escadaria.",
+   "aberta_em": "sessao-15",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p43",
+   "texto": "Descobrir o significado e a utilidade do disco metÃ¡lico alaranjado com o sÃ­mbolo V recolhido por Dogios.",
+   "aberta_em": "sessao-15",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p44",
+   "texto": "Investigar o acesso e a entrada situada na plataforma superior sustentada por mÃ¡rmore da PirÃ¢mide de Thoth.",
+   "aberta_em": "sessao-15",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p45",
+   "texto": "Descobrir a natureza dos humanos maltrapilhos que descem a escadaria de Arden Vul se comunicando por grunhidos.",
+   "aberta_em": "sessao-15",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-14",
-  "texto": "Thydal e Dogios chegaram a Gosterwick e partiram imediatamente para explorar os arredores de Arden Vul. Na base da escarpa, descobriram uma passagem oculta na estÃ¡tua de Vul e uma ruÃ­na no pÃ¢ntano habitada por sapos gigantes. No casarÃ£o em ruÃ­nas, a dupla obteve moedas de ouro antigo e placas metÃ¡licas gravadas antes de fugir dos monstros. No caminho de volta, venderam informaÃ§Ãµes sobre as ruÃ­nas para o mercador TenÃ¡rius, recebendo mais ouro. Atualmente, os aventureiros encontram-se descansando na Estalagem Capa Amarela em Gosterwick."
+  "apos": "sessao-15",
+  "texto": "O grupo encontra-se em Gosterwick, no interior da Casa das Moedas, apÃ³s uma expediÃ§Ã£o ao platÃ´ de Arden Vul. Dogios e Inocente II dividiram duas pepitas de ouro e treze moedas antigas oxidadas, enquanto o parceiro Paullor partiu com uma placa dourada encrustada com cristal. No topo das ruÃ­nas, os aventureiros alcanÃ§aram o Obelisco do Ankh e a grandiosa PirÃ¢mide de Thoth, retornando antes de adentrarem suas passagens internas. Dogios carrega um enigmÃ¡tico disco metÃ¡lico marcado com o numeral V que ainda carece de estudo. Os exploradores precisam procurar a barraca de cÃ¢mbio de Cassie na praÃ§a para converter as moedas antigas em ciclos utilizÃ¡veis. Enquanto isso, a Estalagem Capa Amarela segue abarrotada de gatos e sob o olhar atento da mulher-planta infiltrada."
  }
 }
