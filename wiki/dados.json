@@ -110,6 +110,33 @@
     "itens/graxa-venenosa",
     "eventos/emboscada-no-emaranhado"
    ]
+  },
+  "sessao-05": {
+   "titulo": "SessÃ£o 05 - O Resgate da CÃ´nega e a Emboscada no Rio",
+   "resumo": "Os recÃ©m-chegados Malzaâhar, Latom e Papa Meia Noite desembarcaram no centro de Gosterwick e iniciaram seus preparativos na cidade. ApÃ³s visitarem a loja geral do idoso Damasco â onde Latom comprou ferramentas e aprendeu sobre o Arcanum descoberto pelos lendÃ¡rios Arden e Vul â, os aventureiros examinaram o quadro de avisos central. LÃ¡ encontraram um cartaz a respeito do roubo na Casa dos Deuses e foram atÃ© o Templo de Mitra, na Colina dos Deuses, buscar mais detalhes. No templo circular, um fiel revelou a situaÃ§Ã£o de Hugios e a fuga de Edward com o tesouro de Freya, alÃ©m de apresentar uma urgente missÃ£o contratual: o resgate da cÃ´nega Lillian, alta sacerdotisa de Mitra desaparecida a caminho de Novo Mercado, prometendo uma vultosa recompensa de 5.000 ciclos de prata.\n\nCom a partida de Papa Meia Noite para descansar, Malzaâhar e Latom decidiram explorar a regiÃ£o ao norte, margeando o rio em direÃ§Ã£o ao impetuoso penhasco de Arden Vul. No percurso, foram repentinamente surpreendidos pelo ataque de uma harpia alada. O elfo Mago foi gravemente ferido, mas o clÃ©rigo pequenino Malzaâhar agiu com compaixÃ£o e conjurou magia de cura sobre as marcas de amarras na pele do monstro. Apaziguada e liberta de suas dores, a harpia abandonou o combate e voou em direÃ§Ã£o Ã s cachoeiras e imensas estÃ¡tuas esculpidas no paredÃ£o da antiga cidade.\n\nApÃ³s recuperarem o fÃ´lego com uma refeiÃ§Ã£o abenÃ§oada Ã  beira d'Ã¡gua, os dois continuaram sua marcha rio acima e avistaram um bando de sete homens-fera na outra margem. Utilizando cordas para vencer a correnteza, as criaturas hÃ­bridas cruzaram o rio e rapidamente cercaram os exploradores. Apesar das tentativas de negociaÃ§Ã£o e suborno por parte de Latom, os homens-fera subjugaram a dupla e a tomaram como prisioneira, arrastando Malzaâhar e Latom acorrentados pelo leito do rio em direÃ§Ã£o Ã  imponente estrutura de Arden Vul.",
+   "linha_do_tempo": [
+    "Malzaâhar, Latom e Papa Meia Noite chegam a Gosterwick pelo Caminho Imperial.",
+    "O grupo visita a loja de artigos gerais do comerciante Damasco, onde Latom adquire suprimentos e ouve sobre o Arcanum e os fundadores Arden e Vul.",
+    "Ao consultar o mural de avisos da praÃ§a central, Malzaâhar descobre a busca do Templo de Mitra pelas oferendas roubadas da Casa dos Deuses.",
+    "Os aventureiros consultam os preÃ§os da Estalagem O AcÃ³lito Atordoado e sobem a Colina dos Deuses para visitar o Templo de Mitra.",
+    "No templo, um acÃ³lito relata a prisÃ£o de Hugios, a fuga de Edward e encomenda a busca pela cÃ´nega Lillian, desaparecida a caminho de Novo Mercado.",
+    "Papa Meia Noite retira-se para descansar, enquanto Malzaâhar e Latom seguem a pÃ© em direÃ§Ã£o ao penhasco ao norte de Gosterwick.",
+    "Ã beira do rio, o grupo Ã© atacado por uma harpia ferida, mas Malzaâhar cura suas marcas de corda e a criatura voa para a cachoeira de Arden Vul.",
+    "ApÃ³s realizarem uma pausa para pescar, coletar ervas e cozinhar, Malzaâhar e Latom sÃ£o abordados por uma patrulha de sete homens-fera.",
+    "Os homens-fera atravessam o rio com cordas, cercam os dois aventureiros e os capturam, levando-os prisioneiros em direÃ§Ã£o ao paredÃ£o de Arden Vul."
+   ],
+   "entidades": [
+    "personagens/malzaahar",
+    "personagens/latom",
+    "personagens/papa-meia-noite",
+    "npcs/damasco",
+    "npcs/lillian",
+    "criaturas/harpia",
+    "criaturas/beastmen",
+    "locais/colina-dos-deuses",
+    "locais/templo-de-mitra",
+    "itens/arcanum"
+   ]
   }
  },
  "entidades": {
@@ -336,7 +363,7 @@
    "tipo": "npc",
    "nome": "Damasco",
    "apelidos": [],
-   "resumo": "Comerciante idoso de Gosterwick, proprietÃ¡rio de uma loja de artigos gerais localizada em frente Ã  Estalagem Capa Amarela.",
+   "resumo": "Comerciante idoso de Gosterwick, proprietÃ¡rio de uma loja de artigos gerais localizada em frente Ã  Estalagem Capa Amarela. Contou aos aventureiros sobre o Arcanum e os descobridores Arden e Vul.",
    "atributos": {
     "OcupaÃ§Ã£o": "Comerciante",
     "LocalizaÃ§Ã£o": "Gosterwick"
@@ -345,10 +372,15 @@
     [
      "sessao-01",
      "Vendeu ferramentas de exploraÃ§Ã£o ao grupo e presenteou os aventureiros com um elmo antigo de metal."
+    ],
+    [
+     "sessao-05",
+     "Relatou que Arden e Vul fundaram a cidade nas ruÃ­nas apÃ³s descobrirem a substÃ¢ncia Arcanum no vale."
     ]
    ],
    "sessoes": [
-    "sessao-01"
+    "sessao-01",
+    "sessao-05"
    ]
   },
   "npcs/vera": {
@@ -831,6 +863,233 @@
    "sessoes": [
     "sessao-04"
    ]
+  },
+  "personagens/malzaahar": {
+   "tipo": "personagem",
+   "nome": "Malzaâhar",
+   "apelidos": [],
+   "resumo": "ClÃ©rigo pequenino devoto da deusa Shinra que chegou a Gosterwick em busca de conhecimentos e mistÃ©rios. Participou da investigaÃ§Ã£o no Templo de Mitra e apaziguou uma harpia ferida com magia de cura antes de ser capturado por homens-fera no rio.",
+   "atributos": {
+    "RaÃ§a": "Pequenino",
+    "Classe": "ClÃ©rigo",
+    "Divindade": "Shinra",
+    "Jogador": "Gabe"
+   },
+   "fatos": [
+    [
+     "sessao-05",
+     "Chegou a Gosterwick e juntou-se a Latom e Papa Meia Noite."
+    ],
+    [
+     "sessao-05",
+     "Descobriu no Templo de Mitra a missÃ£o de resgate da cÃ´nega Lillian."
+    ],
+    [
+     "sessao-05",
+     "Curou os ferimentos de uma harpia atacante Ã  beira do rio."
+    ],
+    [
+     "sessao-05",
+     "Foi capturado por um bando de sete homens-fera e levado prisioneiro."
+    ]
+   ],
+   "sessoes": [
+    "sessao-05"
+   ]
+  },
+  "personagens/latom": {
+   "tipo": "personagem",
+   "nome": "Latom",
+   "apelidos": [],
+   "resumo": "Mago alto-elfo que viajou para Gosterwick para pesquisar magias, pergaminhos e o lendÃ¡rio Arcanum. Foi gravemente ferido por uma harpia Ã  beira do rio e acabou capturado por homens-fera ao tentar negociar a passagem.",
+   "atributos": {
+    "RaÃ§a": "Alto-Elfo",
+    "Classe": "Mago",
+    "Jogador": "Massaki"
+   },
+   "fatos": [
+    [
+     "sessao-05",
+     "Comprou suprimentos e uma pedra de amolar na loja do Damasco em Gosterwick."
+    ],
+    [
+     "sessao-05",
+     "Ouviu de Damasco a histÃ³ria sobre a fundaÃ§Ã£o de Arden Vul e o material Arcanum."
+    ],
+    [
+     "sessao-05",
+     "Sobreviveu a um ataque brutal de harpia na margem do rio."
+    ],
+    [
+     "sessao-05",
+     "Foi capturado por sete homens-fera perto do penhasco de Arden Vul."
+    ]
+   ],
+   "sessoes": [
+    "sessao-05"
+   ]
+  },
+  "personagens/papa-meia-noite": {
+   "tipo": "personagem",
+   "nome": "Papa Meia Noite",
+   "apelidos": [],
+   "resumo": "Aventureiro que acompanhou Malzaâhar e Latom em suas primeiras exploraÃ§Ãµes pelos estabelecimentos de Gosterwick e pelo Templo de Mitra antes de se recolher para descansar.",
+   "atributos": {
+    "Jogador": "Ricardo"
+   },
+   "fatos": [
+    [
+     "sessao-05",
+     "Chegou a Gosterwick junto de Malzaâhar e Latom."
+    ],
+    [
+     "sessao-05",
+     "Acompanhou as visitas Ã  loja do Damasco e ao Templo de Mitra."
+    ],
+    [
+     "sessao-05",
+     "Separou-se do grupo para descansar em Gosterwick."
+    ]
+   ],
+   "sessoes": [
+    "sessao-05"
+   ]
+  },
+  "npcs/lillian": {
+   "tipo": "npc",
+   "nome": "Lillian",
+   "apelidos": [],
+   "resumo": "CÃ´nega e alta sacerdotisa do cultivo de Mitra que desapareceu misteriosamente enquanto viajava de Novo Mercado para Gosterwick. O Templo de Mitra oferece 5.000 ciclos de prata por seu resgate.",
+   "atributos": {
+    "TÃ­tulo": "CÃ´nega de Mitra",
+    "Status": "Desaparecida",
+    "AfiliaÃ§Ã£o": "Culto de Mitra"
+   },
+   "fatos": [
+    [
+     "sessao-05",
+     "Desapareceu durante a viagem entre o templo de Novo Mercado e o de Gosterwick."
+    ],
+    [
+     "sessao-05",
+     "Sua busca Ã© prioridade para o Templo de Mitra, oferecendo recompensa de 5.000 ciclos de prata."
+    ]
+   ],
+   "sessoes": [
+    "sessao-05"
+   ]
+  },
+  "criaturas/harpia": {
+   "tipo": "criatura",
+   "nome": "Harpia",
+   "apelidos": [],
+   "resumo": "Monstro alado hÃ­brido de mulher e pÃ¡ssaro com garras afiadas que habita a regiÃ£o do penhasco. Atacou Latom e Malzaâhar Ã  beira do lago, mas voou em direÃ§Ã£o Ã s cachoeiras de Arden Vul apÃ³s ter suas amarras curadas por Malzaâhar.",
+   "atributos": {
+    "Tipo": "Monstro Alado"
+   },
+   "fatos": [
+    [
+     "sessao-05",
+     "Atacou o grupo na margem do rio, deixando Latom gravemente ferido."
+    ],
+    [
+     "sessao-05",
+     "PossuÃ­a marcas vermelhas profundas no corpo causadas por cordas."
+    ],
+    [
+     "sessao-05",
+     "Fugiu em direÃ§Ã£o Ã s cachoeiras do penhasco de Arden Vul apÃ³s receber cura mÃ¡gica."
+    ]
+   ],
+   "sessoes": [
+    "sessao-05"
+   ]
+  },
+  "criaturas/beastmen": {
+   "tipo": "criatura",
+   "nome": "Beastmen",
+   "apelidos": [
+    "Homens-fera"
+   ],
+   "resumo": "Criaturas hÃ­bridas de humanos com caracterÃ­sticas animais como cÃ£o, porco e cabra que patrulham o vale. Um bando de sete deles usou cordas para cruzar o rio e capturou Malzaâhar e Latom.",
+   "atributos": {
+    "EspÃ©cie": "Homem-Fera"
+   },
+   "fatos": [
+    [
+     "sessao-05",
+     "Patrulhavam a margem do rio armados com lanÃ§as, arcos curtos e cota de malha."
+    ],
+    [
+     "sessao-05",
+     "Atravessaram o rio com auxÃ­lio de cordas para abordar os aventureiros."
+    ],
+    [
+     "sessao-05",
+     "Subjugaram e capturaram Malzaâhar e Latom, levando-os em direÃ§Ã£o a Arden Vul."
+    ]
+   ],
+   "sessoes": [
+    "sessao-05"
+   ]
+  },
+  "locais/colina-dos-deuses": {
+   "tipo": "local",
+   "nome": "Colina dos Deuses",
+   "apelidos": [],
+   "resumo": "Elevado urbano em Gosterwick acessÃ­vel por escadarias de madeira onde se concentram estruturas religiosas como a Casa dos Deuses, o Templo de Mitra e o santuÃ¡rio de Lucreon.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-05",
+     "Abriga a Casa dos Deuses, o Templo de Mitra e o templo de Lucreon em Gosterwick."
+    ]
+   ],
+   "sessoes": [
+    "sessao-05"
+   ]
+  },
+  "locais/templo-de-mitra": {
+   "tipo": "local",
+   "nome": "Templo de Mitra",
+   "apelidos": [],
+   "resumo": "Estrutura circular de pedra situada atrÃ¡s da Casa dos Deuses na Colina dos Deuses. Ã cercado por portais ornamentados e escadas que levam a uma estÃ¡tua do deus Mitra segurando uma balanÃ§a de justiÃ§a.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Colina dos Deuses, Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-05",
+     "Localiza-se atrÃ¡s da grande estrutura da Casa dos Deuses."
+    ],
+    [
+     "sessao-05",
+     "Possui uma estÃ¡tua central de Mitra segurando a balanÃ§a da justiÃ§a para recebimento de oferendas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-05"
+   ]
+  },
+  "itens/arcanum": {
+   "tipo": "item",
+   "nome": "Arcanum",
+   "apelidos": [],
+   "resumo": "SubstÃ¢ncia mÃ¡gica misteriosa descoberta por Arden e Vul nas profundezas subterrÃ¢neas do vale, motivando a fundaÃ§Ã£o da cidade de Arden Vul.",
+   "atributos": {
+    "Tipo": "Material MÃ¡gico"
+   },
+   "fatos": [
+    [
+     "sessao-05",
+     "Foi a descoberta central dos aventureiros lendÃ¡rios Arden e Vul nas ruÃ­nas subterrÃ¢neas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-05"
+   ]
   }
  },
  "pendencias": [
@@ -903,10 +1162,31 @@
    "aberta_em": "sessao-04",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p11",
+   "texto": "Resgatar a cÃ´nega Lillian de Mitra, desaparecida na rota entre Novo Mercado e Gosterwick, mediante recompensa de 5.000 ciclos de prata.",
+   "aberta_em": "sessao-05",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p12",
+   "texto": "Escapar do cativeiro dos homens-fera apÃ³s serem capturados Ã  beira do rio.",
+   "aberta_em": "sessao-05",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p13",
+   "texto": "Investigar o paradeiro da harpia ferida que voou em direÃ§Ã£o Ã  cachoeira do penhasco de Arden Vul.",
+   "aberta_em": "sessao-05",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-04",
-  "texto": "O grupo estÃ¡ abrigado na Estalagem Capa Amarela em Gosterwick apÃ³s uma longa expediÃ§Ã£o noturna. Hugios foi libertado sob a magia MissÃ£o de Jador e precisa encontrar Edward ou o tesouro roubado para se livrar do encanto. Tobias, Deyos, Hugios e Harllequinnos emboscaram uma patrulha kobold no Emaranhado e retornaram com saques e provas do abate. Na estrada de volta, o grupo conseguiu escapar de um leÃ£o gigante ao distraÃ­-lo com carne fresca. Os objetivos abertos sÃ£o entregar as provas de caÃ§a a Eusebia Phokas, identificar a graxa venenosa obtida e explorar o interior do covil no Emaranhado."
+  "apos": "sessao-05",
+  "texto": "O grupo chegou a Gosterwick e investigou ofertas de trabalho no Templo de Mitra, descobrindo o desaparecimento da cÃ´nega Lillian e recebendo a missÃ£o de resgatÃ¡-la por 5.000 ciclos de prata. Ao partirem para o norte em direÃ§Ã£o ao penhasco de Arden Vul, Malzaâhar e Latom enfrentaram uma harpia ferida, apaziguando a criatura ao curarem suas feridas com magia divina. Mais tarde, enquanto acompanhavam o leito do rio, os dois aventureiros foram cercados e capturados por um bando de sete homens-fera. Atualmente, Malzaâhar e Latom estÃ£o aprisionados e sendo arrastados pelos homens-fera em direÃ§Ã£o ao paredÃ£o rochoso de Arden Vul. O objetivo urgente do grupo Ã© encontrar uma forma de escapar do cativeiro e dar prosseguimento Ã  busca pela cÃ´nega Lillian."
  }
 }
