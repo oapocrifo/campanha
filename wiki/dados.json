@@ -28,6 +28,34 @@
     "npcs/vera",
     "eventos/morte-de-pallas"
    ]
+  },
+  "sessao-02": {
+   "titulo": "O CemitÃ©rio da Pata e o Saque Noturno",
+   "resumo": "Edward chega a Gosterwick de carroÃ§a e atrai a atenÃ§Ã£o de Hugios na praÃ§a central. Os dois decidem formar uma parceria de exploraÃ§Ã£o, compram equipamentos na loja de Damasco, enchem cantis com Vera e partem para explorar os arredores da cidade. Seguindo pela estrada, chegam Ã  colina conhecida como A Pata, um antigo cemitÃ©rio escavado nas rochas pertencente ao povo Thorcinga.\n\nAo subirem a colina e adentrarem as catacumbas subterrÃ¢neas, os aventureiros passam por corredores repletos de caixÃµes antigos e ossadas. Em uma das ramificaÃ§Ãµes, encontram 19 moedas de ouro antigas e pesadas, alÃ©m de uma mochila abandonada contendo um frasco de lÃ­quido misterioso que sobreviveu ao impacto. ApÃ³s escutarem sons estranhos vindo dos nÃ­veis inferiores, decidem retornar em seguranÃ§a para a cidade.\n\nDe volta a Gosterwick na calada da noite, a dupla segue para o Distrito dos Incensos e entra na Casa dos Deuses. Em busca de riquezas rÃ¡pidas, Edward martela e quebra a tranca do baÃº do santuÃ¡rio da deusa da riqueza, obtendo 164 ciclos de ouro, um colar de pÃ©rolas e um amuleto. O barulho alerta a guarda do templo comandada por uma clÃ©riga, que lanÃ§a uma magia de paralisia sobre Hugios. Paralisado, Hugios Ã© capturado e levado Ã s celas do templo, enquanto Edward consegue escapar com todo o saque e a mochila do companheiro, escondendo-se na estalagem gerida por Wolf.",
+   "linha_do_tempo": [
+    "Edward chega a Gosterwick em uma carroÃ§a e conversa com comerciantes na praÃ§a central.",
+    "Hugios aborda Edward e os dois decidem formar uma equipe para explorar a regiÃ£o.",
+    "Os aventureiros adquirem tochas, tenda, cantil e suprimentos nas lojas de Damasco e Vera.",
+    "O grupo deixa a cidade e descobre o conjunto de colinas A Pata, cercado por uma floresta.",
+    "Edward reconhece os sulcos rochosos da colina como antigos tÃºmulos tradicionais do seu povo, os Thorcinga.",
+    "A dupla entra em uma caverna no topo da colina e desce por escadarias espirais atÃ© catacumbas subterrÃ¢neas.",
+    "Nas catacumbas, encontram 19 moedas pesadas de ouro antigo e uma poÃ§Ã£o intacta dentro de uma mochila esmagada.",
+    "Ao escutarem ruÃ­dos de mastigaÃ§Ã£o nas profundezas, os dois fazem um descanso e retornam a Gosterwick.",
+    "No Distrito dos Incensos, Hugios e Edward invadem a Casa dos Deuses durante a madrugada.",
+    "Edward martela a tranca do santuÃ¡rio da deusa da riqueza e saquela 164 ciclos de ouro, um colar e um amuleto.",
+    "O barulho atrai a guarda do templo; a lÃ­der clÃ©riga paralisa Hugios com um feitiÃ§o divino.",
+    "Edward foge transportando o tesouro e a mochila de Hugios, enquanto Hugios Ã© capturado e trancado em uma cela do templo.",
+    "Edward consegue abrigo e um quarto na estalagem gerida pelo idoso Wolf."
+   ],
+   "entidades": [
+    "personagens/hugios",
+    "personagens/edward",
+    "locais/gosterwick",
+    "faccoes/knights-of-the-azure-shield",
+    "locais/the-paw",
+    "locais/casa-dos-deuses",
+    "eventos/saque-da-casa-dos-deuses"
+   ]
   }
  },
  "entidades": {
@@ -60,11 +88,11 @@
    "tipo": "personagem",
    "nome": "Hugios",
    "apelidos": [],
-   "resumo": "Aventureiro da classe explorador que integrou a expediÃ§Ã£o atÃ© Arden Vul. Coletou informaÃ§Ãµes na feira de Gosterwick e conseguiu escapar furtivamente de exploradores hostis apÃ³s o massacre na torre.",
+   "resumo": "Aventureiro da classe explorador que integrou a expediÃ§Ã£o a Arden Vul e posteriormente uniu-se a Edward em Gosterwick. Explorou o cemitÃ©rio Thorcinga na colina A Pata e foi capturado pela guarda da Casa dos Deuses apÃ³s profanar um santuÃ¡rio divino.",
    "atributos": {
     "Classe": "Explorador",
     "Jogador": "Sonard",
-    "Status": "Vivo",
+    "Status": "Preso nas celas do Templo da JustiÃ§a",
     "LocalizaÃ§Ã£o": "Estalagem Capa Amarela, Gosterwick"
    },
    "fatos": [
@@ -79,10 +107,27 @@
     [
      "sessao-01",
      "Fugiu furtivamente de um grupo de treze exploradores armados e retornou em seguranÃ§a a Gosterwick."
+    ],
+    [
+     "sessao-02",
+     "Formou uma parceria de exploraÃ§Ã£o com o aventureiro Thorcinga chamado Edward."
+    ],
+    [
+     "sessao-02",
+     "Explorou as catacumbas subterrÃ¢neas do cemitÃ©rio da colina A Pata e ajudou a recuperar moedas e uma poÃ§Ã£o."
+    ],
+    [
+     "sessao-02",
+     "Arrombou o baÃº de um santuÃ¡rio na Casa dos Deuses no Distrito dos Incensos durante a madrugada."
+    ],
+    [
+     "sessao-02",
+     "Foi atingido por uma magia de paralisia lanÃ§ada por uma clÃ©riga e acabou encarcerado no templo."
     ]
    ],
    "sessoes": [
-    "sessao-01"
+    "sessao-01",
+    "sessao-02"
    ]
   },
   "personagens/pallas": {
@@ -133,7 +178,7 @@
    "tipo": "local",
    "nome": "Gosterwick",
    "apelidos": [],
-   "resumo": "Cidade comercial prÃ³xima Ã s ruÃ­nas de Arden Vul. Serve como base de suprimentos e descanso para aventureiros que exploram a regiÃ£o.",
+   "resumo": "Cidade comercial prÃ³xima Ã s ruÃ­nas de Arden Vul que serve como base de suprimentos para aventureiros. Ã dividida em cinco distritos principais: Mercado Superior, Sob a Colina, Distrito do Mercado, Distrito dos Incensos e Distrito Exterior.",
    "atributos": {
     "Tipo": "Cidade"
    },
@@ -141,10 +186,19 @@
     [
      "sessao-01",
      "Possui uma praÃ§a central movimentada com feiras e lojas de suprimentos gerais."
+    ],
+    [
+     "sessao-02",
+     "Teve a estrutura dos seus cinco distritos detalhada, incluindo a sede da ordem dos Cavaleiros do Escudo AzÃºrio."
+    ],
+    [
+     "sessao-02",
+     "O Distrito dos Incensos abriga a Casa dos Deuses, poÃ§os e fontes de Ã¡gua de pedra, alÃ©m de diversas estalagens."
     ]
    ],
    "sessoes": [
-    "sessao-01"
+    "sessao-01",
+    "sessao-02"
    ]
   },
   "locais/arden-vul": {
@@ -242,6 +296,131 @@
    "sessoes": [
     "sessao-01"
    ]
+  },
+  "personagens/edward": {
+   "tipo": "personagem",
+   "nome": "Edward",
+   "apelidos": [],
+   "resumo": "Aventureiro da raÃ§a Thorcinga recÃ©m-chegado a Gosterwick. Uniu-se a Hugios para explorar o antigo cemitÃ©rio de seu povo na colina A Pata e posteriormente participou do saque Ã  Casa dos Deuses, conseguindo escapar com todo o tesouro.",
+   "atributos": {
+    "RaÃ§a": "Thorcinga",
+    "Jogador": "Marchesini",
+    "Status": "Procurado / Refugiado na Estalagem do AcÃ³lito Atordoado"
+   },
+   "fatos": [
+    [
+     "sessao-02",
+     "Chegou a Gosterwick de carroÃ§a em busca de oportunidades e rumores de aventuras."
+    ],
+    [
+     "sessao-02",
+     "Pertence ao povo Thorcinga, reconhecendo os costumes ancestrais de sepultamento em sulcos de pedra."
+    ],
+    [
+     "sessao-02",
+     "Usou um martelo para arrombar a tranca do santuÃ¡rio da deusa da riqueza na Casa dos Deuses."
+    ],
+    [
+     "sessao-02",
+     "Fugiu da guarda do templo carregando 164 ciclos de ouro e relÃ­quias, refugiando-se na estalagem de Wolf."
+    ]
+   ],
+   "sessoes": [
+    "sessao-02"
+   ]
+  },
+  "faccoes/knights-of-the-azure-shield": {
+   "tipo": "faccao",
+   "nome": "Knights of the Azure Shield",
+   "apelidos": [
+    "Cavaleiros do Escudo AzÃºrio"
+   ],
+   "resumo": "Ordem militarizada de cavaleiros espalhada pelo ImpÃ©rio Arconteano. SÃ£o responsÃ¡veis pelo comando e administraÃ§Ã£o da Fortaleza AzÃºria na colina de Gosterwick.",
+   "atributos": {
+    "Sede": "Fortaleza AzÃºria"
+   },
+   "fatos": [
+    [
+     "sessao-02",
+     "Controlam a Fortaleza AzÃºria e o distrito restrito do Mercado Superior em Gosterwick."
+    ]
+   ],
+   "sessoes": [
+    "sessao-02"
+   ]
+  },
+  "locais/the-paw": {
+   "tipo": "local",
+   "nome": "The Paw",
+   "apelidos": [
+    "A Pata",
+    "Colina da Pata"
+   ],
+   "resumo": "Conjunto de colinas nos arredores de Gosterwick com formato semelhante a uma pata de gato invertida. O local abriga um antigo cemitÃ©rio do povo Thorcinga escavado nas paredÃµes de pedra com tÃºmulos e catacumbas profundas.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Arredores de Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-02",
+     "ContÃ©m sulcos verticais na rocha com restos de caixÃµes de madeira envelhecida do povo Thorcinga."
+    ],
+    [
+     "sessao-02",
+     "Possui uma entrada para catacumbas subterrÃ¢neas repletas de caixÃµes de madeira avermelhada e preta e ossadas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-02"
+   ]
+  },
+  "locais/casa-dos-deuses": {
+   "tipo": "local",
+   "nome": "Casa dos Deuses",
+   "apelidos": [],
+   "resumo": "Grande estrutura de templo em estilo clÃ¡ssico situada no Distrito dos Incensos em Gosterwick. ContÃ©m diversos santuÃ¡rios enfileirados dedicados a diferentes divindades com baÃºs de oferendas em pedra.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Distrito dos Incensos, Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-02",
+     "Possui santuÃ¡rios dedicados a deuses dos mares, da beleza, tristeza e riqueza."
+    ],
+    [
+     "sessao-02",
+     "Ã protegida por uma guarda armada e por uma clÃ©riga que veste armadura com o sÃ­mbolo de um leÃ£o flamejante."
+    ]
+   ],
+   "sessoes": [
+    "sessao-02"
+   ]
+  },
+  "eventos/saque-da-casa-dos-deuses": {
+   "tipo": "evento",
+   "nome": "Saque da Casa dos Deuses",
+   "apelidos": [],
+   "resumo": "Incidente noturno no qual os aventureiros Hugios e Edward invadiram o templo do Distrito dos Incensos e violaram o baÃº de oferendas de uma divindade da riqueza, resultando na captura de Hugios.",
+   "atributos": {
+    "Local": "Casa dos Deuses"
+   },
+   "fatos": [
+    [
+     "sessao-02",
+     "Edward quebrou a tranca do baÃº usando um martelo durante a madrugada."
+    ],
+    [
+     "sessao-02",
+     "O grupo saqueou 164 ciclos de ouro, um colar de pÃ©rolas e um amuleto dourado rosado."
+    ],
+    [
+     "sessao-02",
+     "A guarda do templo interveio e prendeu Hugios apÃ³s ele ser atingido por um feitiÃ§o de paralisia."
+    ]
+   ],
+   "sessoes": [
+    "sessao-02"
+   ]
   }
  },
  "pendencias": [
@@ -265,10 +444,24 @@
    "aberta_em": "sessao-01",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p4",
+   "texto": "Resgatar ou libertar Hugios das celas do templo no Distrito dos Incensos antes do seu julgamento.",
+   "aberta_em": "sessao-02",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p5",
+   "texto": "Trocar ou vender as 19 moedas pesadas de ouro antigo encontradas nas catacumbas da colina A Pata.",
+   "aberta_em": "sessao-02",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-01",
-  "texto": "ApÃ³s se reabastecerem em Gosterwick, o grupo subiu a escadaria do paredÃ£o rumo a Arden Vul e descobriu um poÃ§o profundo sob um posto de descanso tomado por fungos amarelados. No topo das ruÃ­nas, um confronto contra aranhas gigantes na torre de entrada resultou na morte de Pallas. Os sobreviventes Deyos e Hugios foram abordados por um grupo hostil de treze exploradores, mas Deyos conseguiu virar o jogo empurrando o lÃ­der rival para o ninho de aranhas. Agora, Deyos e Hugios estÃ£o em seguranÃ§a na Estalagem Capa Amarela em Gosterwick. Resta decidir se montarÃ£o um novo grupo para resgatar os pertences de Pallas e explorar as profundezas de Arden Vul."
+  "apos": "sessao-02",
+  "texto": "O recÃ©m-chegado Edward uniu forÃ§as com o explorador Hugios em Gosterwick. Juntos, exploraram o antigo cemitÃ©rio Thorcinga na colina A Pata e recuperaram moedas antigas e um frasco com lÃ­quido misterioso nas catacumbas. De volta Ã  cidade durante a madrugada, a dupla profanou e saqueou o baÃº de oferendas de um santuÃ¡rio na Casa dos Deuses. Hugios foi paralisado por magia clÃ©riga e acabou preso pela guarda do templo. Edward fugiu com 164 ciclos de ouro e relÃ­quias, estando refugiado na estalagem do acÃ³lito atordoado com o objetivo aberto de libertar seu parceiro."
  }
 }
