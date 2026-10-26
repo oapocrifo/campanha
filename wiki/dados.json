@@ -529,6 +529,32 @@
     "npcs/astableon",
     "criaturas/lizardmen"
    ]
+  },
+  "sessao-21": {
+   "titulo": "A DevoluÃ§Ã£o dos Pinos de Prata e o Encontro com a Caveira Ãssea",
+   "resumo": "Os aventureiros Miragem, Kazunov e Kaelen passam dias em Gosterwick cuidando de burocracias, abrindo contas de alto nÃ­vel na Casa das Moedas e negociando com a ferreira Torunn a venda de armaduras misteriosas por milhares de pratas. Com o recÃ©m-chegado Astrezenika, o grupo resolve fazer compras na feira e explorar a colina cercada por pinos de prata mÃ¡gicos, decidindo arrancar alguns pinos do chÃ£o para vender. A atitude atrai a fÃºria da ferreira e das autoridades locais, obrigando os aventureiros a escoltarem um clÃ©rigo de volta ao local para reinstalar os artefatos sagrados.\n\nDurante o ritual de consagraÃ§Ã£o dos pinos na colina, o grupo Ã© surpreendido por uma criatura morta-viva bizarra em formato de vÃ©rtebras com uma caveira humana e ossos pretos. Kazunov e Astrezenika unem forÃ§as com um guerreiro local chamado Kalian para destruir a abominaÃ§Ã£o em um combate rÃ¡pido. ApÃ³s o perigo passar e os pinos serem restaurados, os aventureiros retornam em seguranÃ§a para a Estalagem Capa Amarela em Gosterwick, concluindo um dia repleto de transaÃ§Ãµes financeiras e confusÃµes perigosas.",
+   "linha_do_tempo": [
+    "Miragem visita a forja de Marcion e a Casa das Moedas em Gosterwick para avaliar o braÃ§o de estÃ¡tua de mÃ¡rmore e planejar a abertura de sua conta bancÃ¡ria.",
+    "Kazunov negocia a venda de armaduras misteriosas com Torunn por cinco mil ciclos de prata e inicia estudos do idioma arconteano.",
+    "Kaelen entalha uma azagaia e treina tÃ©cnicas de locomoÃ§Ã£o com carga durante seus dias de interlÃºdio na regiÃ£o rural.",
+    "Astrezenika chega a Gosterwick e se junta ao grupo na Estalagem Capa Amarela para organizar o transporte das fortunas em moedas.",
+    "O grupo abre contas de nÃ­vel 2 na Casa das Moedas e realiza compras de suprimentos, armas e cavalos de traÃ§Ã£o no Distrito do Mercado.",
+    "Kazunov adquire um frasco de veneno suspeito de um vendedor encapuzado nas ruas de Gosterwick durante a noite.",
+    "Os aventureiros viajam atÃ© a colina protegida por pinos de prata e decidem arrancar vÃ¡rios deles para tentar vendÃª-los.",
+    "Torunn e um clÃ©rigo descobrem a remoÃ§Ã£o dos pinos sagrados e obrigam o grupo a retornar escoltados para recolocÃ¡-los.",
+    "Uma criatura esquelÃ©tica serpenteante com ossos pretos e caveira humana embosca o grupo na colina durante o ritual de consagraÃ§Ã£o do clÃ©rigo.",
+    "Kazunov e Astrezenika combatem e destroem a abominaÃ§Ã£o Ã³ssea antes de retornarem em seguranÃ§a para a Estalagem Capa Amarela."
+   ],
+   "entidades": [
+    "personagens/miragem",
+    "personagens/kazunov",
+    "personagens/kaelen",
+    "personagens/astrezenika",
+    "npcs/kallian",
+    "criaturas/criatura-esquelatica-vertebral",
+    "locais/colina-dos-pinos-de-prata",
+    "itens/pinos-de-prata-magicos"
+   ]
   }
  },
  "entidades": {
@@ -3923,7 +3949,7 @@
    "tipo": "personagem",
    "nome": "Miragem",
    "apelidos": [],
-   "resumo": "Aventureiro pequenino e mago acompanhado por um cÃ£o de grande porte. Explora as ruÃ­nas de Arden Vul utilizando artes arcanas como Disco Flutuante e hospeda-se na Estalagem Capa Amarela em Gosterwick.",
+   "resumo": "Aventureiro pequenino e mago acompanhado por um cÃ£o de grande porte. Abriu uma conta bancÃ¡ria de nÃ­vel 2 na Casa das Moedas de Gosterwick, comprou suprimentos e uma besta leve, e acabou envolvido no incidente dos pinos de prata.",
    "atributos": {
     "RaÃ§a": "Pequenino",
     "Classe": "Mago",
@@ -3941,21 +3967,34 @@
     [
      "sessao-20",
      "Hospedou-se na Estalagem Capa Amarela em Gosterwick e deixou seu cÃ£o acomodado no canil do local."
+    ],
+    [
+     "sessao-21",
+     "Depositou sua fortuna na Casa das Moedas, alcanÃ§ando o nÃ­vel 2 de conta bancÃ¡ria."
+    ],
+    [
+     "sessao-21",
+     "Comprou uma besta leve, aljava e raÃ§Ãµes extras com o comerciante Damasco e Dona Vera."
+    ],
+    [
+     "sessao-21",
+     "Participou da retirada dos pinos de prata da colina e negociou com um guerreiro local para ajudar na devoluÃ§Ã£o dos itens."
     ]
    ],
    "sessoes": [
-    "sessao-20"
+    "sessao-20",
+    "sessao-21"
    ]
   },
   "personagens/kaelen": {
    "tipo": "personagem",
    "nome": "Kaelen",
    "apelidos": [],
-   "resumo": "Aventureiro homem-fera da espÃ©cie homem-jacarÃ© com audiÃ§Ã£o aguÃ§ada que atua como explorador e ladino. Participou da expediÃ§Ã£o ao subterrÃ¢neo de Arden Vul e negociou tomos arcanos antigos no Clube dos Praticantes Arcanos.",
+   "resumo": "Aventureiro ladino do grupo. Treinou para suportar marchas com grande volume de carga, abriu sua conta bancÃ¡ria e equipou-se com armadura de couro batido e suprimentos na cidade.",
    "atributos": {
     "RaÃ§a": "Homem-Fera (Homem-JacarÃ©)",
     "Classe": "Ladino / Explorador",
-    "Jogador": "Mateus L"
+    "Jogador": "Matheus"
    },
    "fatos": [
     [
@@ -3969,17 +4008,30 @@
     [
      "sessao-20",
      "Hospedou-se na Estalagem PoÃ§a de Lama em Gosterwick."
+    ],
+    [
+     "sessao-21",
+     "Treinou durante o interlÃºdio para otimizar sua capacidade de locomoÃ§Ã£o sob o peso de marchas pesadas."
+    ],
+    [
+     "sessao-21",
+     "Depositou sua parte da recompensa das armaduras na Casa das Moedas de Gosterwick."
+    ],
+    [
+     "sessao-21",
+     "Adquiriu armadura de couro batido, elmo e utensÃ­lios de exploraÃ§Ã£o para as prÃ³ximas incursÃµes."
     ]
    ],
    "sessoes": [
-    "sessao-20"
+    "sessao-20",
+    "sessao-21"
    ]
   },
   "personagens/kazunov": {
    "tipo": "personagem",
    "nome": "Kazunov",
    "apelidos": [],
-   "resumo": "Aventureiro homem-fera da espÃ©cie homem-morcego e explorador dotado de olfato apurado. Integrou a incursÃ£o Ã s ruÃ­nas de Arden Vul, resgatando e vendendo artefatos de prata e deixando uma armadura antiga para anÃ¡lise em Gosterwick.",
+   "resumo": "Aventureiro homem-fera morcego e explorador. Negociou duas armaduras adicionais com Torunn por sete mil ciclos de prata, iniciou estudos de escrita em arconteano, comprou um cavalo de traÃ§Ã£o e adquiriu um frasco de veneno nas ruas.",
    "atributos": {
     "RaÃ§a": "Homem-Fera (Homem-Morcego)",
     "Classe": "Explorador",
@@ -3997,10 +4049,23 @@
     [
      "sessao-20",
      "Entregou sua armadura misteriosa para ser examinada e reparada por Torunn em sua forja."
+    ],
+    [
+     "sessao-21",
+     "Fechou um acordo de fornecimento de armaduras com Torunn recebendo uma imensa quantia em prata."
+    ],
+    [
+     "sessao-21",
+     "Comprador de um cavalo de traÃ§Ã£o e raÃ§Ãµes com a ajuda de Saquon nas fazendas."
+    ],
+    [
+     "sessao-21",
+     "Adquiriu um frasco de veneno de um homem encapuzado na feira noturna de Gosterwick por cinco moedas de ouro."
     ]
    ],
    "sessoes": [
-    "sessao-20"
+    "sessao-20",
+    "sessao-21"
    ]
   },
   "npcs/torunn": {
@@ -4063,6 +4128,124 @@
    ],
    "sessoes": [
     "sessao-20"
+   ]
+  },
+  "personagens/astrezenika": {
+   "tipo": "personagem",
+   "nome": "Astrezenika",
+   "apelidos": [],
+   "resumo": "Aventureiro recÃ©m-chegado a Gosterwick que se uniu ao grupo nas expediÃ§Ãµes urbanas e na exploraÃ§Ã£o da colina dos pinos de prata.",
+   "atributos": {
+    "Jogador": "Louis"
+   },
+   "fatos": [
+    [
+     "sessao-21",
+     "Chegou a Gosterwick de carruagem e integrou-se ao grupo de aventureiros na praÃ§a central."
+    ],
+    [
+     "sessao-21",
+     "Ajudou a carregar os pinos de prata retirados da colina protetora."
+    ],
+    [
+     "sessao-21",
+     "Auxiliou Kazunov no combate contra a criatura esquelÃ©tica na colina."
+    ]
+   ],
+   "sessoes": [
+    "sessao-21"
+   ]
+  },
+  "npcs/kallian": {
+   "tipo": "npc",
+   "nome": "Kallian",
+   "apelidos": [],
+   "resumo": "Guerreiro humano residente em Gosterwick que atua como protetor informal nas tavernas. Auxiliou Miragem durante uma tentativa de invasÃ£o na PoÃ§a de Lama em troca de moedas.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Guerreiro",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-21",
+     "Interviu em uma discussÃ£o e briga na estalagem PoÃ§a de Lama a pedido de Miragem."
+    ],
+    [
+     "sessao-21",
+     "Acompanhou o grupo atÃ© a colina dos pinos de prata e testemunhou o ataque da criatura esquelÃ©tica."
+    ]
+   ],
+   "sessoes": [
+    "sessao-21"
+   ]
+  },
+  "criaturas/criatura-esquelatica-vertebral": {
+   "tipo": "criatura",
+   "nome": "Criatura EsquelÃ©tica vertebral",
+   "apelidos": [
+    "Cobra de Ossos"
+   ],
+   "resumo": "Monstro morto-vivo bizarro composto por vÃ©rtebras segmentadas, ossos pretos e uma caveira humana na ponta. Possui grande ferocidade e foi destruÃ­da pelos aventureiros na colina.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Colina dos Pinos de Prata",
+    "Status": "Morto"
+   },
+   "fatos": [
+    [
+     "sessao-21",
+     "Surgiu descendo a colina durante o ritual de consagraÃ§Ã£o realizado pelo clÃ©rigo."
+    ],
+    [
+     "sessao-21",
+     "Atacou e feriu Kazunov com uma mordida venenosa antes de ser decapitada por Astrezenika."
+    ]
+   ],
+   "sessoes": [
+    "sessao-21"
+   ]
+  },
+  "locais/colina-dos-pinos-de-prata": {
+   "tipo": "local",
+   "nome": "Colina dos Pinos de Prata",
+   "apelidos": [],
+   "resumo": "ElevaÃ§Ã£o nos arredores de Gosterwick cercada por pinos metÃ¡licos prateados com propriedades mÃ¡gicas e protetoras criadas para conter ameaÃ§as locais.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Arredores de Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-21",
+     "Possui uma barreira de pinos de prata pontiagudos que circunda toda a sua base."
+    ],
+    [
+     "sessao-21",
+     "Foi palco de um ataque de criaturas esquelÃ©ticas durante a reinstalaÃ§Ã£o dos pinos mÃ¡gicos."
+    ]
+   ],
+   "sessoes": [
+    "sessao-21"
+   ]
+  },
+  "itens/pinos-de-prata-magicos": {
+   "tipo": "item",
+   "nome": "Pinos de Prata MÃ¡gicos",
+   "apelidos": [],
+   "resumo": "Estacas metÃ¡licas prateadas de cerca de um metro de altura com propriedades sagradas e mÃ¡gicas que formam uma barreira protetora ao redor da colina.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Colina dos Pinos de Prata"
+   },
+   "fatos": [
+    [
+     "sessao-21",
+     "Foram arrancados do solo pelos aventureiros e posteriormente devolvidos sob ordens de Torunn e dos clÃ©rigos locais."
+    ],
+    [
+     "sessao-21",
+     "Exalam um forte odor e ressonÃ¢ncia de magia protetora."
+    ]
+   ],
+   "sessoes": [
+    "sessao-21"
    ]
   }
  },
@@ -4486,10 +4669,24 @@
    "aberta_em": "sessao-20",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p61",
+   "texto": "Investigar as propriedades reais e os efeitos do frasco de veneno comprado por Kazunov de um vendedor suspeito na feira.",
+   "aberta_em": "sessao-21",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p62",
+   "texto": "Averiguar quais perigos reais estavam selados na colina protegida pelos pinos de prata agora reinstalados.",
+   "aberta_em": "sessao-21",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-20",
-  "texto": "O grupo composto por Miragem, Kaelen e Kazunov explorou as ruÃ­nas de Arden Vul e desobstruiu a escadaria subterrÃ¢nea no pÃ¡tio central. Nas profundezas, encontraram tomos antigos em Mithric, louÃ§as de prata e uma misteriosa porta dupla de cristal roxo com sÃ­mbolos de Thoth. Ouvindo vozes e ruÃ­dos do outro lado da porta, os aventureiros optaram por fechar a passagem e retornar em seguranÃ§a. De volta a Gosterwick, negociaram despojos no Clube dos Praticantes Arcanos e na forja de Torunn. O grupo planeja vender os tomos restantes a Astableon e recuperar a armadura entregue para estudo antes de uma nova expediÃ§Ã£o."
+  "apos": "sessao-21",
+  "texto": "Miragem, Kazunov, Kaelen e Astrezenika estÃ£o hospedados na Estalagem Capa Amarela em Gosterwick, apÃ³s acumularem uma imensa fortuna com a venda de armaduras antigas. ApÃ³s passarem dias em transaÃ§Ãµes bancÃ¡rias e compras de equipamentos e cavalos de traÃ§Ã£o, o grupo cometeu o erro de arrancar pinos de prata mÃ¡gicos que protegiam uma colina nos arredores. Descobertos por Torunn e forÃ§ados pelas autoridades a devolverem os artefatos, eles enfrentaram e derrotaram uma criatura esquelÃ©tica mortal durante o ritual de restauraÃ§Ã£o. Agora, o grupo descansa na cidade com suas novas finanÃ§as e contas bancÃ¡rias estabelecidas, prontos para novos rumos."
  }
 }
