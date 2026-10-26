@@ -437,6 +437,28 @@
     "itens/skullcap",
     "itens/objeto-estranho"
    ]
+  },
+  "sessao-17": {
+   "titulo": "A FÃºria da PirÃ¢mide de Thoth",
+   "resumo": "No dia 23 do quinto mÃªs de 2993, os aventureiros Inocente II, Totza e Thydal resolveram o problema dos gatos na Estalagem Capa Amarela incinerando os animais restantes na lareira. Em seguida, partiram em direÃ§Ã£o Ã s ruÃ­nas de Arden Vul seguindo pelo Caminho Imperial. Ao chegarem na escarpa, acamparam em uma das salas abertas na encosta, onde foram atacados por um feroz leÃ£o das cavernas que feriu Thydal antes de ser derrotado e ter sua pele e crÃ¢nio coletados.\n\nNo dia seguinte, o grupo continuou a subida atÃ© o platÃ´ superior de Arden Vul, passando pelo obelisco e encontrando uma Ã¡rvore senciente apelidada de Tuftwillig, que lhes pediu para lidarem com o dragÃ£o Crastonictorex e com os babuÃ­nos albinos locais. Ignorando o aviso, os aventureiros avanÃ§aram atÃ© a PirÃ¢mide de Thoth e subiram atÃ© sua plataforma superior, onde Inocente II arrancou uma colossal gema verde dos olhos da estÃ¡tua de Ãbis.\n\nA remoÃ§Ã£o da gema atraiu criaturas humanoides com cabeÃ§as de Ã­bis e espadas curvas que emboscaram o grupo com raios mÃ¡gicos e ataques implacÃ¡veis. Inocente II foi morto durante a tentativa de fuga, e logo depois Totza e Thydal foram paralisados e abatidos pelos humanoides, resultando na aniquilaÃ§Ã£o total do grupo nas ruÃ­nas.",
+   "linha_do_tempo": [
+    "Os aventureiros limpam a Estalagem Capa Amarela queimando os gatos e partem pela estrada em direÃ§Ã£o a Arden Vul.",
+    "O grupo acampa na encosta da escarpa e derrota um leÃ£o das cavernas que invade o refÃºgio Ã  noite.",
+    "No dia seguinte, o grupo chega ao platÃ´ superior de Arden Vul e conversa com a Ã¡rvore senciente Tuftwillig.",
+    "Os aventureiros escalam a PirÃ¢mide de Thoth e Inocente II arranca a gema verde do olho da estÃ¡tua de Ãbis.",
+    "Guardas humanoides com cabeÃ§a de Ã­bis emboscam o grupo com magias e lÃ¢minas, matando Inocente II.",
+    "Totza e Thydal tentam fugir, mas sÃ£o alcanÃ§ados e eliminados pelas criaturas na escadaria da pirÃ¢mide."
+   ],
+   "entidades": [
+    "personagens/inocente-ii",
+    "personagens/totza",
+    "personagens/thydal",
+    "npcs/tuftwillig",
+    "criaturas/leao",
+    "criaturas/guardiaes-de-abis",
+    "itens/gema-verde-da-piramide",
+    "eventos/chacina-na-piramide-de-thoth"
+   ]
   }
  },
  "entidades": {
@@ -1391,9 +1413,10 @@
    "apelidos": [
     "Pururuca"
    ],
-   "resumo": "Grande predador felino de pelagem bege que ronda as planÃ­cies e margens de estradas entre Gosterwick e Arden Vul. Espreita perto de pontes e rotas de passagem, mas pode ser neutralizado por magias de sono e substÃ¢ncias irritantes.",
+   "resumo": "Grande predador felino que espreita nas encostas de Arden Vul. Um exemplar adulto invadiu o acampamento noturno do grupo e foi morto, tendo sua pele e crÃ¢nio coletados.",
    "atributos": {
-    "Tipo": "Besta Selvagem"
+    "Tipo": "Besta Selvagem",
+    "LocalizaÃ§Ã£o": "Encosta de Arden Vul"
    },
    "fatos": [
     [
@@ -1423,12 +1446,17 @@
     [
      "sessao-16",
      "Ficou sonolento e atordoado apÃ³s ser alvo combinado de magias de sono e poeira fÃºngica atirada por Inocente II."
+    ],
+    [
+     "sessao-17",
+     "Um leÃ£o robusto atacou o acampamento noturno do grupo na encosta e foi morto por Thydal e Inocente II."
     ]
    ],
    "sessoes": [
     "sessao-04",
     "sessao-08",
-    "sessao-16"
+    "sessao-16",
+    "sessao-17"
    ]
   },
   "itens/graxa-venenosa": {
@@ -2947,11 +2975,12 @@
    "tipo": "personagem",
    "nome": "Thydal",
    "apelidos": [],
-   "resumo": "Aventureiro humano da tribo Wiskinga e explorador habilidoso. Chegou a Gosterwick ao lado de Dogios e explorou o pÃ¢ntano prÃ³ximo a Arden Vul, onde descobriu uma abertura na estÃ¡tua de Vul e obteve tesouros nas ruÃ­nas de um casarÃ£o de pedra.",
+   "resumo": "Aventureiro humano da tribo Wiskinga e explorador habilidoso. Lutou bravamente contra o leÃ£o e os guardiÃµes da pirÃ¢mide, mas sucumbiu aos ferimentos fatais.",
    "atributos": {
     "RaÃ§a": "Humano (Wiskinga)",
     "Classe": "Explorador",
-    "Jogador": "Mateus L"
+    "Jogador": "Mateus L",
+    "Status": "Morto"
    },
    "fatos": [
     [
@@ -2969,10 +2998,15 @@
     [
      "sessao-14",
      "Ajudou a obter moedas de ouro antigo e placas de metal em um casarÃ£o no pÃ¢ntano."
+    ],
+    [
+     "sessao-17",
+     "Thydal foi gravemente ferido pelo leÃ£o na encosta e posteriormente morto pelos guardiÃµes humanoides na pirÃ¢mide."
     ]
    ],
    "sessoes": [
-    "sessao-14"
+    "sessao-14",
+    "sessao-17"
    ]
   },
   "personagens/dogios": {
@@ -3125,12 +3159,13 @@
    "tipo": "personagem",
    "nome": "Inocente II",
    "apelidos": [],
-   "resumo": "Aventureiro pequenino e clÃ©rigo devoto de Alder Lightfingers. Subiu novamente a escadaria de Arden Vul, queimou os fungos negros com Ã³leo e usou seu estilingue para abater ratos gigantes no acampamento noturno, retornando a Gosterwick com plantas e artefatos incomuns.",
+   "resumo": "Aventureiro pequenino e clÃ©rigo devoto de Alder Lightfingers. Eliminou os gatos da estalagem, ajudou a abater o leÃ£o na encosta e acabou morto pelos guardiÃµes humanoides na PirÃ¢mide de Thoth.",
    "atributos": {
     "RaÃ§a": "Pequenino",
     "Classe": "ClÃ©rigo",
     "Divindade": "Alder Lightfingers",
-    "Jogador": "Guilherme"
+    "Jogador": "Guilherme",
+    "Status": "Morto"
    },
    "fatos": [
     [
@@ -3168,11 +3203,16 @@
     [
      "sessao-16",
      "Encontrou uma bolsa de tecido fino contendo seis objetos duros de material desconhecido nas ruÃ­nas."
+    ],
+    [
+     "sessao-17",
+     "Inocente II foi morto por disparos de raios mÃ¡gicos e pelos guardiÃµes da PirÃ¢mide de Thoth ao tentar roubar a gema verde."
     ]
    ],
    "sessoes": [
     "sessao-15",
-    "sessao-16"
+    "sessao-16",
+    "sessao-17"
    ]
   },
   "npcs/paullor": {
@@ -3316,11 +3356,12 @@
    "tipo": "personagem",
    "nome": "Totza",
    "apelidos": [],
-   "resumo": "Mago elfo e ex-alquimista recÃ©m-chegado a Gosterwick. Integrou a expediÃ§Ã£o a Arden Vul com Inocente II e Nicodemus, auxiliando na coleta de plantas medicinais e no combate noturno contra ratos gigantes.",
+   "resumo": "Mago elfo e ex-alquimista do grupo. Participou da limpeza dos gatos, tentou auxiliar na fuga na PirÃ¢mide de Thoth e acabou sendo abatido pelos humanoides.",
    "atributos": {
     "RaÃ§a": "Elfo",
     "Classe": "Mago",
-    "Jogador": "Massaki"
+    "Jogador": "Massaki",
+    "Status": "Morto"
    },
    "fatos": [
     [
@@ -3338,10 +3379,15 @@
     [
      "sessao-16",
      "Usou a magia Sono para atordoar um leÃ£o que bloqueava a ponte no caminho de volta."
+    ],
+    [
+     "sessao-17",
+     "Totza tentou usar magias de sono e cogumelos defensivos antes de ser paralisado e morto pelos guardiÃµes de Ãbis."
     ]
    ],
    "sessoes": [
-    "sessao-16"
+    "sessao-16",
+    "sessao-17"
    ]
   },
   "personagens/nicodemus": {
@@ -3476,6 +3522,79 @@
    ],
    "sessoes": [
     "sessao-16"
+   ]
+  },
+  "npcs/tuftwillig": {
+   "tipo": "npc",
+   "nome": "Tuftwillig",
+   "apelidos": [],
+   "resumo": "Grande Ã¡rvore senciente que habita o pÃ¡tio central de Arden Vul. Detesta o dragÃ£o Crastonictorex e os babuÃ­nos albinos, pedindo ajuda aos aventureiros para se livrar deles.",
+   "atributos": {
+    "EspÃ©cie": "Ãrvore Senciente",
+    "LocalizaÃ§Ã£o": "PÃ¡tio central de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-17",
+     "Tuftwillig revelou aos aventureiros a presenÃ§a do dragÃ£o Crastonictorex e dos babuÃ­nos albinos nas ruÃ­nas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-17"
+   ]
+  },
+  "criaturas/guardiaes-de-abis": {
+   "tipo": "criatura",
+   "nome": "GuardiÃµes de Ãbis",
+   "apelidos": [],
+   "resumo": "Humanoides esguios com cabeÃ§as de Ã­bis e espadas curvas que protegem a PirÃ¢mide de Thoth. Possuem poderes mÃ¡gicos de teletransporte, disparos de raios e um grito paralisante.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "The Pyramid of Thoth"
+   },
+   "fatos": [
+    [
+     "sessao-17",
+     "Os guardiÃµes de Ãbis emergem para punir quem ousa roubar a gema verde da estÃ¡tua na PirÃ¢mide de Thoth."
+    ]
+   ],
+   "sessoes": [
+    "sessao-17"
+   ]
+  },
+  "itens/gema-verde-da-piramide": {
+   "tipo": "item",
+   "nome": "Gema Verde da PirÃ¢mide",
+   "apelidos": [],
+   "resumo": "Gigantesca gema verde em formato de laranja incrustada no olho da estÃ¡tua de Ãbis na PirÃ¢mide de Thoth. Sua remoÃ§Ã£o desencadeia a ira dos guardiÃµes mÃ¡gicos.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "The Pyramid of Thoth"
+   },
+   "fatos": [
+    [
+     "sessao-17",
+     "A gema verde foi arrancada por Inocente II e brevemente resgatada por Thydal antes do grupo ser exterminado."
+    ]
+   ],
+   "sessoes": [
+    "sessao-17"
+   ]
+  },
+  "eventos/chacina-na-piramide-de-thoth": {
+   "tipo": "evento",
+   "nome": "Chacina na PirÃ¢mide de Thoth",
+   "apelidos": [],
+   "resumo": "Confronto fatal ocorrido no topo da PirÃ¢mide de Thoth, onde Inocente II, Totza e Thydal foram emboscados e mortos por guardiÃµes humanoides apÃ³s roubarem a gema verde.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "The Pyramid of Thoth"
+   },
+   "fatos": [
+    [
+     "sessao-17",
+     "A tentativa de roubar o tesouro da PirÃ¢mide de Thoth resultou na aniquilaÃ§Ã£o completa do grupo de aventureiros."
+    ]
+   ],
+   "sessoes": [
+    "sessao-17"
    ]
   }
  },
@@ -3808,10 +3927,31 @@
    "aberta_em": "sessao-16",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p48",
+   "texto": "Recuperar os corpos e pertences de Inocente II, Totza e Thydal na PirÃ¢mide de Thoth antes que outros exploradores os saqueiem.",
+   "aberta_em": "sessao-17",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p49",
+   "texto": "Lidar com o dragÃ£o Crastonictorex conforme solicitado pela Ã¡rvore Tuftwillig.",
+   "aberta_em": "sessao-17",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p50",
+   "texto": "Lidar com os babuÃ­nos albinos nas torres de Arden Vul.",
+   "aberta_em": "sessao-17",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-16",
-  "texto": "O grupo estÃ¡ de volta Ã  Estalagem Capa Amarela em Gosterwick apÃ³s explorar o topo de Arden Vul. Na subida, purificaram a caverna da escadaria incinerando os fungos negros com Ã³leo. Durante a noite nas ruÃ­nas do platÃ´, combateram ratos gigantes e colheram valiosas ervas medicinais, como CalÃªndula e Skullcap, alÃ©m de acharem moedas, um porta-papÃ©is nobre e seis objetos duros misteriosos. Na volta, escaparam de um leÃ£o na ponte usando magia e fumaÃ§a fÃºngica. Agora, precisam avaliar e vender seus achados na cidade."
+  "apos": "sessao-17",
+  "texto": "Os aventureiros Inocente II, Totza e Thydal deixaram a Estalagem Capa Amarela apÃ³s exterminar os gatos locais e marcharam rumo Ã s ruÃ­nas de Arden Vul. Durante o acampamento na encosta, sobreviveram ao ataque mortal de um leÃ£o das cavernas e coletaram seus despojos. No platÃ´ superior, conversaram com a Ã¡rvore falante Tuftwillig antes de invadirem a PirÃ¢mide de Thoth. No entanto, ao roubarem a gema verde dos olhos da estÃ¡tua principal, o grupo foi surpreendido por guardiÃµes humanoides com cabeÃ§a de Ã­bis e acabou perecendo em combate."
  }
 }
