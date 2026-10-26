@@ -410,6 +410,33 @@
     "itens/disco-metalico-com-v",
     "eventos/combate-na-escadaria-de-arden-vul"
    ]
+  },
+  "sessao-16": {
+   "titulo": "A ExpediÃ§Ã£o ao PlatÃ´ e as Ervas de Arden Vul",
+   "resumo": "No dia 16 do quinto mÃªs de 2993, os aventureiros Totza e Nicodemus chegaram a Gosterwick de carroÃ§a e se uniram ao pequenino Inocente II na praÃ§a central. ApÃ³s se equiparem na loja de Damasco, no estande de Vera, na loja de armas, na Padaria do LeÃ£o e no estabelecimento de tinturas de Dona Octavia, o trio marchou pelo Caminho Imperial em direÃ§Ã£o Ã s ruÃ­nas de Arden Vul.\n\nDurante a subida pelas escadarias, Inocente II utilizou Ã³leo e uma tocha para atear fogo nos fungos e veias negras enraizados na caverna do terceiro lance, eliminando a ameaÃ§a fÃºngica do refÃºgio. No topo do platÃ´ ao anoitecer, o grupo evitou as torres de entrada e buscou abrigo em um casarÃ£o arruinado de dois andares prÃ³ximo ao lago.\n\nDurante o acampamento noturno, a tenda de Nicodemus foi atacada por ratos gigantes. Em um confronto na escuridÃ£o, Inocente II abateu um monstro com seu estilingue e Totza esfaqueou outro preso Ã  sua perna. Antes do amanhecer, os aventureiros vasculharam as ruÃ­nas e colheram amostras das plantas medicinais Skullcap e CalÃªndula, alÃ©m de encontrarem moedas, um porta-papÃ©is de madeira nobre e seis objetos duros misteriosos.\n\nAo retornarem pela estrada, o grupo encontrou um leÃ£o bloqueando a ponte. Nicodemus e Totza conjuraram magias de sono enquanto Inocente II arremessou poeira fÃºngica, deixando a fera atordoada e garantindo uma fuga segura de volta Ã  Estalagem Capa Amarela em Gosterwick.",
+   "linha_do_tempo": [
+    "Totza e Nicodemus chegam a Gosterwick e unem forÃ§as com Inocente II para explorar Arden Vul.",
+    "O grupo compra suprimentos, armas e tecidos nas lojas de Gosterwick antes de marchar para o paredÃ£o.",
+    "Inocente II incendeia as veias e fungos negros na caverna do terceiro lance da escadaria de Arden Vul.",
+    "Os aventureiros alcanÃ§am o platÃ´ ao anoitecer e montam acampamento nas ruÃ­nas de uma casa de dois andares.",
+    "Ratos gigantes invadem o acampamento noturno e sÃ£o repelidos apÃ³s um combate na escuridÃ£o.",
+    "O grupo explora o entorno das ruÃ­nas antes do amanhecer, colhendo CalÃªndula e Skullcap e encontrando artefatos.",
+    "No regresso a Gosterwick, os aventureiros atordoam um leÃ£o na ponte com magia de sono e poeira fÃºngica, garantindo a fuga."
+   ],
+   "entidades": [
+    "personagens/inocente-ii",
+    "personagens/totza",
+    "personagens/nicodemus",
+    "locais/gosterwick",
+    "locais/arden-vul",
+    "locais/estalagem-capa-amarela",
+    "criaturas/rato-gigante",
+    "criaturas/leao",
+    "npcs/dona-octavia",
+    "itens/calaandula",
+    "itens/skullcap",
+    "itens/objeto-estranho"
+   ]
   }
  },
  "entidades": {
@@ -656,7 +683,7 @@
    "tipo": "local",
    "nome": "Gosterwick",
    "apelidos": [],
-   "resumo": "Cidade comercial prÃ³xima Ã s ruÃ­nas de Arden Vul que serve como base para aventureiros. Possui estabelecimentos variados no Distrito do Mercado, o Clube dos Praticantes Arcanos e forjas de armamentos.",
+   "resumo": "Cidade comercial prÃ³xima Ã s ruÃ­nas de Arden Vul que serve como base para aventureiros. Possui estabelecimentos variados no Distrito do Mercado, o Clube dos Praticantes Arcanos, forjas, a Padaria do LeÃ£o e a loja de tinturas de Dona Octavia.",
    "atributos": {
     "Tipo": "Cidade Comercial"
    },
@@ -680,20 +707,25 @@
     [
      "sessao-11",
      "O Clube Arcano adquiriu grande lote de sÃ¡lvia trazido pelos aventureiros."
+    ],
+    [
+     "sessao-16",
+     "Abriga a loja de tinturas de Dona Octavia na Rua do Mercado, especializada no comÃ©rcio de tecidos e retalhos."
     ]
    ],
    "sessoes": [
     "sessao-01",
     "sessao-02",
     "sessao-04",
-    "sessao-11"
+    "sessao-11",
+    "sessao-16"
    ]
   },
   "locais/arden-vul": {
    "tipo": "local",
    "nome": "Arden Vul",
    "apelidos": [],
-   "resumo": "Antiga cidade em ruÃ­nas localizada no topo de um imenso paredÃ£o rochoso. Ã repleta de perigos, criaturas hostis e mistÃ©rios subterrÃ¢neos. Abriga estÃ¡tuas colossais na base, uma escadaria vertiginosa munida de apoios de ferro, torres arruinadas de entrada, uma longa avenida com Ã¡rvores raras e a PirÃ¢mide de Thoth.",
+   "resumo": "Antiga cidade em ruÃ­nas localizada no topo de um imenso paredÃ£o rochoso. Possui uma escadaria de zigue-zague com apoios de ferro, abrigos de pedra na parede e casarÃµes arruinados repletos de vegetaÃ§Ã£o e perigos no platÃ´ superior.",
    "atributos": {
     "Tipo": "RuÃ­nas / Masmorra",
     "Status": "RuÃ­nas Antigas"
@@ -726,19 +758,28 @@
     [
      "sessao-15",
      "A via principal possui rachaduras de onde brotam Ã¡rvores de copa esfÃ©rica que desembocam em um pÃ¡tio amplo."
+    ],
+    [
+     "sessao-16",
+     "Teve a caverna do terceiro lance desinfetada do mofo e veias negras apÃ³s Inocente II atear fogo com Ã³leo."
+    ],
+    [
+     "sessao-16",
+     "Suas ruÃ­nas prÃ³ximas ao lago abrigam canteiros com as plantas medicinais Skullcap e CalÃªndula."
     ]
    ],
    "sessoes": [
     "sessao-01",
     "sessao-14",
-    "sessao-15"
+    "sessao-15",
+    "sessao-16"
    ]
   },
   "locais/estalagem-capa-amarela": {
    "tipo": "local",
    "nome": "Estalagem Capa Amarela",
    "apelidos": [],
-   "resumo": "Estabelecimento situado em Gosterwick utilizado como refÃºgio e base por aventureiros. Foi palco do estilhaÃ§amento de um osso preto na lareira do salÃ£o principal, o que espalhou uma fumaÃ§a roxa pelo ambiente. Passou a abrigar uma grande quantidade de gatos e a exalar cheiro forte de urina.",
+   "resumo": "Estabelecimento situado em Gosterwick utilizado como refÃºgio e base por aventureiros. Passou a abrigar uma grande quantidade de gatos e a exalar cheiro forte de urina apÃ³s o estilhaÃ§amento de um osso preto na lareira.",
    "atributos": {
     "LocalizaÃ§Ã£o": "Gosterwick"
    },
@@ -770,6 +811,10 @@
     [
      "sessao-14",
      "Apresenta uma grande infestaÃ§Ã£o de gatos e forte cheiro de urina pelo salÃ£o."
+    ],
+    [
+     "sessao-16",
+     "Serviu como local de descanso final onde os aventureiros dividiram os objetos estranhos e as plantas medicinais colhidas."
     ]
    ],
    "sessoes": [
@@ -777,7 +822,8 @@
     "sessao-04",
     "sessao-07",
     "sessao-11",
-    "sessao-14"
+    "sessao-14",
+    "sessao-16"
    ]
   },
   "npcs/damasco": {
@@ -1345,7 +1391,7 @@
    "apelidos": [
     "Pururuca"
    ],
-   "resumo": "Grande predador felino que ronda a margem das florestas e as planÃ­cies de capim alto ao longo da estrada entre Gosterwick e Deep Town. Pode ser apaziguado com carne fresca, mas ataca presas desatentas no escuro. Possui pelagem bege, mordidas destruidoras e garras velozes.",
+   "resumo": "Grande predador felino de pelagem bege que ronda as planÃ­cies e margens de estradas entre Gosterwick e Arden Vul. Espreita perto de pontes e rotas de passagem, mas pode ser neutralizado por magias de sono e substÃ¢ncias irritantes.",
    "atributos": {
     "Tipo": "Besta Selvagem"
    },
@@ -1369,11 +1415,20 @@
     [
      "sessao-08",
      "Demonstrou alta resistÃªncia fÃ­sica ao resistir aos efeitos sonÃ­feros conjurados por Abicon."
+    ],
+    [
+     "sessao-16",
+     "Foi encontrado repousando no acesso Ã  ponte da estrada de regresso para Gosterwick."
+    ],
+    [
+     "sessao-16",
+     "Ficou sonolento e atordoado apÃ³s ser alvo combinado de magias de sono e poeira fÃºngica atirada por Inocente II."
     ]
    ],
    "sessoes": [
     "sessao-04",
-    "sessao-08"
+    "sessao-08",
+    "sessao-16"
    ]
   },
   "itens/graxa-venenosa": {
@@ -3070,7 +3125,7 @@
    "tipo": "personagem",
    "nome": "Inocente II",
    "apelidos": [],
-   "resumo": "Aventureiro pequenino e clÃ©rigo devoto de Alder Lightfingers recÃ©m-chegado a Gosterwick apÃ³s a perda de sua tabacaria. Aliou-se a Dogios e Paullor em busca de riquezas no platÃ´ de Arden Vul, utilizando preces divinas para purificar Ã¡gua e armas de arremesso em combate. Explorou o pÃ¡tio arruinado e a PirÃ¢mide de Thoth antes de retornar com moedas antigas.",
+   "resumo": "Aventureiro pequenino e clÃ©rigo devoto de Alder Lightfingers. Subiu novamente a escadaria de Arden Vul, queimou os fungos negros com Ã³leo e usou seu estilingue para abater ratos gigantes no acampamento noturno, retornando a Gosterwick com plantas e artefatos incomuns.",
    "atributos": {
     "RaÃ§a": "Pequenino",
     "Classe": "ClÃ©rigo",
@@ -3101,10 +3156,23 @@
     [
      "sessao-15",
      "Ficou com sete moedas arcaicas e uma pepita de ouro apÃ³s dividir os tesouros com Dogios."
+    ],
+    [
+     "sessao-16",
+     "Ateou fogo com Ã³leo nas veias e fungos negros da caverna no terceiro lance da escadaria de Arden Vul."
+    ],
+    [
+     "sessao-16",
+     "Abateu um rato gigante no acampamento noturno utilizando seu estilingue na escuridÃ£o."
+    ],
+    [
+     "sessao-16",
+     "Encontrou uma bolsa de tecido fino contendo seis objetos duros de material desconhecido nas ruÃ­nas."
     ]
    ],
    "sessoes": [
-    "sessao-15"
+    "sessao-15",
+    "sessao-16"
    ]
   },
   "npcs/paullor": {
@@ -3242,6 +3310,172 @@
    ],
    "sessoes": [
     "sessao-15"
+   ]
+  },
+  "personagens/totza": {
+   "tipo": "personagem",
+   "nome": "Totza",
+   "apelidos": [],
+   "resumo": "Mago elfo e ex-alquimista recÃ©m-chegado a Gosterwick. Integrou a expediÃ§Ã£o a Arden Vul com Inocente II e Nicodemus, auxiliando na coleta de plantas medicinais e no combate noturno contra ratos gigantes.",
+   "atributos": {
+    "RaÃ§a": "Elfo",
+    "Classe": "Mago",
+    "Jogador": "Massaki"
+   },
+   "fatos": [
+    [
+     "sessao-16",
+     "Adquiriu uma alabarda na Rua do Mercado e retalhos de pano na loja de Dona Octavia em Gosterwick."
+    ],
+    [
+     "sessao-16",
+     "Esfaqueou um rato gigante preso Ã  sua perna durante o combate noturno, ferindo a prÃ³pria coxa no processo."
+    ],
+    [
+     "sessao-16",
+     "Colheu amostras das plantas medicinais Skullcap e CalÃªndula nas ruÃ­nas do platÃ´ de Arden Vul."
+    ],
+    [
+     "sessao-16",
+     "Usou a magia Sono para atordoar um leÃ£o que bloqueava a ponte no caminho de volta."
+    ]
+   ],
+   "sessoes": [
+    "sessao-16"
+   ]
+  },
+  "personagens/nicodemus": {
+   "tipo": "personagem",
+   "nome": "Nicodemus",
+   "apelidos": [],
+   "resumo": "Aventureiro e mago recÃ©m-chegado a Gosterwick em busca de riquezas. Uniu-se a Inocente II e Totza para explorar Arden Vul, onde teve sua tenda atacada por ratos e encontrou valiosos pertences nas ruÃ­nas.",
+   "atributos": {
+    "Classe": "Mago",
+    "Jogador": "Yuki"
+   },
+   "fatos": [
+    [
+     "sessao-16",
+     "Chegou a Gosterwick em uma carroÃ§a pela rota do Caminho Imperial."
+    ],
+    [
+     "sessao-16",
+     "Teve sua tenda invadida por ratos gigantes durante o acampamento noturno nas ruÃ­nas de Arden Vul."
+    ],
+    [
+     "sessao-16",
+     "Encontrou um porta-papÃ©is de madeira avermelhada nobre em um criado-mudo arruinado."
+    ],
+    [
+     "sessao-16",
+     "Achou uma bolsa de couro contendo moedas de ouro, prata e cobre do ImpÃ©rio Arconteano."
+    ],
+    [
+     "sessao-16",
+     "Conjurou a magia Sono ao lado de Totza para neutralizar um leÃ£o na ponte."
+    ]
+   ],
+   "sessoes": [
+    "sessao-16"
+   ]
+  },
+  "criaturas/rato-gigante": {
+   "tipo": "criatura",
+   "nome": "Rato Gigante",
+   "apelidos": [],
+   "resumo": "Grandes roedores gordos do tamanho de gatos que habitam estruturas arruinadas no platÃ´ de Arden Vul. Atacam acampamentos na escuridÃ£o em busca de alimento e ocultam-se em ninhos sob entulhos de pedra.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-16",
+     "Atacaram a tenda de Nicodemus durante a noite em um casarÃ£o arruinado em Arden Vul."
+    ],
+    [
+     "sessao-16",
+     "Possuem visÃ£o no escuro e investem mordeira contra as pernas dos invasores."
+    ],
+    [
+     "sessao-16",
+     "Foram repelidos pelo grupo apÃ³s sofrerem baixas por disparos de estilingue e golpes de adaga."
+    ]
+   ],
+   "sessoes": [
+    "sessao-16"
+   ]
+  },
+  "npcs/dona-octavia": {
+   "tipo": "npc",
+   "nome": "Dona Octavia",
+   "apelidos": [],
+   "resumo": "ProprietÃ¡ria de uma loja de tinturas e tecidos situada na Rua do Mercado em Gosterwick. Comercializa panos decorados, tingidos e caixas de retalhos descartados por preÃ§os baixos.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Comerciante / Tintureira",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-16",
+     "Vendeu retalhos de pano para Totza e Nicodemus cobrando um ciclo de cobre por peÃ§a."
+    ]
+   ],
+   "sessoes": [
+    "sessao-16"
+   ]
+  },
+  "itens/calaandula": {
+   "tipo": "item",
+   "nome": "CalÃªndula",
+   "apelidos": [],
+   "resumo": "Planta de flor amarela brilhante encontrada em canteiros antigos nas ruÃ­nas de Arden Vul. Suas propriedades medicinais e mÃ­sticas ajudam em irritaÃ§Ãµes na pele, efeitos psÃ­quicos e na revelaÃ§Ã£o de ilusÃµes.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-16",
+     "Foi descoberta por Inocente II, Totza e Nicodemus em um canteiro no platÃ´ de Arden Vul."
+    ],
+    [
+     "sessao-16",
+     "Possui 24 ciclos de peso total coletados pelo grupo para uso alchemical e comercial."
+    ]
+   ],
+   "sessoes": [
+    "sessao-16"
+   ]
+  },
+  "itens/skullcap": {
+   "tipo": "item",
+   "nome": "Skullcap",
+   "apelidos": [],
+   "resumo": "Erva com flores arroxeadas que cresce entre as vegetaÃ§Ãµes das ruÃ­nas de Arden Vul. Possui uso medicinal no tratamento de ansiedade e insÃ´nia, alÃ©m de utilidade arcana ligada a magias de fidelidade.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-16",
+     "Foi identificada por Inocente II e colhida por Totza nas ruÃ­nas de Arden Vul."
+    ]
+   ],
+   "sessoes": [
+    "sessao-16"
+   ]
+  },
+  "itens/objeto-estranho": {
+   "tipo": "item",
+   "nome": "Objeto Estranho",
+   "apelidos": [],
+   "resumo": "Conjunto de seis peÃ§as de formato irregular e dureza similar ao metal, divididas entre as cores cinza e laranja. NÃ£o sÃ£o de pedra, metal conhecido ou madeira, permanecendo com natureza e utilidade misteriosas.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-16",
+     "Foram encontradas por Inocente II em uma bolsa de tecido fino no ninho dos ratos em Arden Vul."
+    ],
+    [
+     "sessao-16",
+     "Possuem peso total de 25 ciclos e foram divididas igualmente entre Inocente II, Totza e Nicodemus."
+    ]
+   ],
+   "sessoes": [
+    "sessao-16"
    ]
   }
  },
@@ -3560,10 +3794,24 @@
    "aberta_em": "sessao-15",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p46",
+   "texto": "Descobrir a utilidade e o valor comercial dos seis objetos duros misteriosos (cinza e laranja) encontrados na bolsa fina nas ruÃ­nas.",
+   "aberta_em": "sessao-16",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p47",
+   "texto": "Identificar a espÃ©cie da madeira avermelhada e o valor do porta-papÃ©is encontrado por Nicodemus.",
+   "aberta_em": "sessao-16",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-15",
-  "texto": "O grupo encontra-se em Gosterwick, no interior da Casa das Moedas, apÃ³s uma expediÃ§Ã£o ao platÃ´ de Arden Vul. Dogios e Inocente II dividiram duas pepitas de ouro e treze moedas antigas oxidadas, enquanto o parceiro Paullor partiu com uma placa dourada encrustada com cristal. No topo das ruÃ­nas, os aventureiros alcanÃ§aram o Obelisco do Ankh e a grandiosa PirÃ¢mide de Thoth, retornando antes de adentrarem suas passagens internas. Dogios carrega um enigmÃ¡tico disco metÃ¡lico marcado com o numeral V que ainda carece de estudo. Os exploradores precisam procurar a barraca de cÃ¢mbio de Cassie na praÃ§a para converter as moedas antigas em ciclos utilizÃ¡veis. Enquanto isso, a Estalagem Capa Amarela segue abarrotada de gatos e sob o olhar atento da mulher-planta infiltrada."
+  "apos": "sessao-16",
+  "texto": "O grupo estÃ¡ de volta Ã  Estalagem Capa Amarela em Gosterwick apÃ³s explorar o topo de Arden Vul. Na subida, purificaram a caverna da escadaria incinerando os fungos negros com Ã³leo. Durante a noite nas ruÃ­nas do platÃ´, combateram ratos gigantes e colheram valiosas ervas medicinais, como CalÃªndula e Skullcap, alÃ©m de acharem moedas, um porta-papÃ©is nobre e seis objetos duros misteriosos. Na volta, escaparam de um leÃ£o na ponte usando magia e fumaÃ§a fÃºngica. Agora, precisam avaliar e vender seus achados na cidade."
  }
 }
