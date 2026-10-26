@@ -56,6 +56,26 @@
     "locais/casa-dos-deuses",
     "eventos/saque-da-casa-dos-deuses"
    ]
+  },
+  "sessao-03": {
+   "titulo": "ExploraÃ§Ã£ o em Gosterwick e Rota dos Kobolds",
+   "resumo": "Tobias e Sisco chegam a Gosterwick de carroÃ§a e comeÃ§am a explorar a cidade, visitando o comerciante Damasco, a Casa da Moeda e a prefeitura, onde descobrem informaÃ§Ãµes confidenciais sobre ataques de kobolds a mercadores na estrada de Deep Town. Contratados por Hama com o aval da administraÃ§Ã£o, a dupla junta-se a uma patrulha para rastrear o covil dos kobolds, conhecido como O Emaranhado. ApÃ³s cruzarem o rio e localizarem a entrada do covil dos monstros, decidem retornar para a seguranÃ§a de Gosterwick ao cair da noite, enfrentando uma armadilha e uma perseguiÃ§Ã£o de kobolds no caminho de volta.",
+   "linha_do_tempo": [
+    "Tobias e Sisco chegam de carroÃ§a a Gosterwick e exploram a praÃ§a central e a loja do senhor Damasco.",
+    "A dupla visita a Casa da Moeda e obtÃ©m informaÃ§Ãµes na prefeitura sobre os ataques de kobolds na estrada de Deep Town.",
+    "Hama contrata os aventureiros e recruta um grupo para investigar o covil dos kobolds por 500 ciclos de prata.",
+    "O grupo viaja pela estrada, cruza uma ponte de toras sobre o rio e chega atÃ© O Emaranhado.",
+    "ApÃ³s localizarem a entrada do covil e decidirem nÃ£o acampar ao relento, Tobias e Sisco iniciam a viagem de retorno a Gosterwick.",
+    "No caminho de volta, a dupla escapa de uma armadilha de corda e de kobolds perseguidores antes de alcanÃ§ar a estalagem na cidade."
+   ],
+   "entidades": [
+    "personagens/tobias",
+    "personagens/sisco",
+    "npcs/hama",
+    "npcs/eusebia-phokas",
+    "locais/deep-town",
+    "locais/o-emaranhado"
+   ]
   }
  },
  "entidades": {
@@ -421,6 +441,133 @@
    "sessoes": [
     "sessao-02"
    ]
+  },
+  "personagens/tobias": {
+   "tipo": "personagem",
+   "nome": "Tobias",
+   "apelidos": [],
+   "resumo": "Aventureiro halfling recÃ©m-chegado a Gosterwick ao lado de Sisco. Busca riquezas e aceitou uma missÃ£o para caÃ§ar kobolds.",
+   "atributos": {
+    "Jogador": "Kauan",
+    "RaÃ§a": "Halfling"
+   },
+   "fatos": [
+    [
+     "sessao-03",
+     "Tobias comprou uma funda, dardos, uma tocha e uma pederneira na loja de Damasco."
+    ],
+    [
+     "sessao-03",
+     "Conseguiu negociar diretamente com a administraÃ§Ã£o da cidade uma missÃ£o de recompensa contra os kobolds."
+    ],
+    [
+     "sessao-03",
+     "Conduziu o grupo de Hama atÃ© a entrada do covil dos kobolds e coletou amostras de um minÃ©rio branco no retorno."
+    ]
+   ],
+   "sessoes": [
+    "sessao-03"
+   ]
+  },
+  "personagens/sisco": {
+   "tipo": "personagem",
+   "nome": "Sisco",
+   "apelidos": [],
+   "resumo": "Aventureiro halfling companheiro de Tobias nas exploraÃ§Ãµes por Gosterwick e arredores.",
+   "atributos": {
+    "Jogador": "Mateus L",
+    "RaÃ§a": "Halfling"
+   },
+   "fatos": [
+    [
+     "sessao-03",
+     "Acompanhou Tobias nas compras e na investigaÃ§Ã£o dos locais de Gosterwick."
+    ],
+    [
+     "sessao-03",
+     "Encheu seu cantil com a Ã¡gua cristalina do rio durante a viagem para Deep Town."
+    ],
+    [
+     "sessao-03",
+     "Utilizou bolas de gude para atrapalhar os kobolds que perseguiam a dupla na estrada."
+    ]
+   ],
+   "sessoes": [
+    "sessao-03"
+   ]
+  },
+  "npcs/hama": {
+   "tipo": "npc",
+   "nome": "Hama",
+   "apelidos": [],
+   "resumo": "Guerreiro e lÃ­der de patrulha encarregado de investigar os ataques de kobolds na estrada de Deep Town.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Guerreiro e LÃ­der de Patrulha"
+   },
+   "fatos": [
+    [
+     "sessao-03",
+     "Liderou o grupo de patrulheiros em direÃ§Ã£o ao covil dos kobolds no Emaranhado."
+    ],
+    [
+     "sessao-03",
+     "Convidou Tobias e Sisco para participarem da investigaÃ§Ã£o e acampou na regiÃ£o ao anoitecer."
+    ]
+   ],
+   "sessoes": [
+    "sessao-03"
+   ]
+  },
+  "npcs/eusebia-phokas": {
+   "tipo": "npc",
+   "nome": "Eusebia Phokas",
+   "apelidos": [],
+   "resumo": "Chefe administradora de Gosterwick que gerencia os assuntos e contrata aventureiros na prefeitura.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Chefe Administradora",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-03",
+     "Recebeu Tobias e Sisco em seu escritÃ³rio e ofereceu uma recompensa de 500 ciclos de prata pela eliminaÃ§Ã£o dos kobolds."
+    ]
+   ],
+   "sessoes": [
+    "sessao-03"
+   ]
+  },
+  "locais/deep-town": {
+   "tipo": "local",
+   "nome": "Deep Town",
+   "apelidos": [],
+   "resumo": "Cidade mineira localizada a cerca de meio dia de viagem de Gosterwick, cujas estradas sofrem com ataques de kobolds.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-03",
+     "A rota atÃ© a cidade tornou-se perigosa devido a raptos e ataques de humanoides."
+    ]
+   ],
+   "sessoes": [
+    "sessao-03"
+   ]
+  },
+  "locais/o-emaranhado": {
+   "tipo": "local",
+   "nome": "O Emaranhado",
+   "apelidos": [],
+   "resumo": "RegiÃ£o de colinas e vinhas espinhosas onde se localiza o covil dos kobolds que atacam os mercadores.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-03",
+     "O local possui uma colina de calcÃ¡rio cercada por vinhas densas e tÃºneis de acesso usados pelos kobolds."
+    ]
+   ],
+   "sessoes": [
+    "sessao-03"
+   ]
   }
  },
  "pendencias": [
@@ -458,10 +605,24 @@
    "aberta_em": "sessao-02",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p6",
+   "texto": "Investigar e eliminar os kobolds no covil do Emaranhado para receber a recompensa de 500 ciclos de prata.",
+   "aberta_em": "sessao-03",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p7",
+   "texto": "Identificar a utilidade e o valor dos quatro pedaÃ§os de minÃ©rio de brilho branco coletados nos destroÃ§os da estrada.",
+   "aberta_em": "sessao-03",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-02",
-  "texto": "O recÃ©m-chegado Edward uniu forÃ§as com o explorador Hugios em Gosterwick. Juntos, exploraram o antigo cemitÃ©rio Thorcinga na colina A Pata e recuperaram moedas antigas e um frasco com lÃ­quido misterioso nas catacumbas. De volta Ã  cidade durante a madrugada, a dupla profanou e saqueou o baÃº de oferendas de um santuÃ¡rio na Casa dos Deuses. Hugios foi paralisado por magia clÃ©riga e acabou preso pela guarda do templo. Edward fugiu com 164 ciclos de ouro e relÃ­quias, estando refugiado na estalagem do acÃ³lito atordoado com o objetivo aberto de libertar seu parceiro."
+  "apos": "sessao-03",
+  "texto": "Tobias e Sisco chegaram a Gosterwick e aceitaram uma missÃ£o para investigar ataques de kobolds na estrada de Deep Town. Com a ajuda da patrulha liderada por Hama, o grupo encontrou O Emaranhado, o covil dos kobolds prÃ³ximo a um rio e ao paredÃ£o. Ao anoitecer, os aventureiros iniciaram o retorno para Gosterwick e escaparam de uma emboscada com corda e kobolds hostis na estrada, refugiando-se na Estalagem Capa Amarela. O objetivo atual Ã© descansar na cidade e planejar o ataque definitivo ao covil dos kobolds no dia seguinte."
  }
 }
