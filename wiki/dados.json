@@ -504,6 +504,31 @@
     "personagens/virthurion",
     "personagens/hans"
    ]
+  },
+  "sessao-20": {
+   "titulo": "ExploraÃ§Ã£o SubterrÃ¢nea e os Segredos de Thoth",
+   "resumo": "No dia 18 do sexto mÃªs do ano 2993 do ImpÃ©rio Arconteano, os aventureiros Miragem, Kaelen e Kazunov partiram em direÃ§Ã£o Ã s ruÃ­nas de Arden Vul. Subindo a vasta escadaria do paredÃ£o rochoso, o grupo dirigiu-se ao pÃ¡tio central e utilizou feitiÃ§aria para desobstruir a entrada subterrÃ¢nea descoberta sob os escombros. Descendendo por uma longa e sinuosa escadaria em espiral, os exploradores alcanÃ§aram um antigo complexo de salas e corredores esquecidos nas profundezas. Nas cÃ¢maras inferiores, exploraram uma sala contendo o esqueleto de um humano e um armÃ¡rio tombado, recuperando trÃªs livros bem conservados em idioma Mithric, uma armadura de feitura desconhecida e conjuntos de pratos e talheres de prata oxidada. Em outro salÃ£o ornamentado com quatro estÃ¡tuas metÃ¡licas, depararam-se com uma imponente porta dupla de cristal roxo adornada com sÃ­mbolos arcanos dedicados ao deus antigo Thoth. Ao escutarem vozes e ruÃ­dos do outro lado, decidiram fechar a passagem e acampar na sala superior antes do regresso. De volta a Gosterwick, os exploradores dividiram-se para negociar suas descobertas. Miragem hospedou-se na Estalagem Capa Amarela, Kaelen vendeu um dos tomos no Clube dos Praticantes Arcanos por dez moedas de prata e recebeu a indicaÃ§Ã£o de procurar o comerciante Astableon, enquanto Kazunov vendeu a prata na forja de Torunn por quinze ciclos e deixou a armadura misteriosa para reparos e anÃ¡lises.",
+   "linha_do_tempo": [
+    "No dia 18 do sexto mÃªs de 2993, Miragem, Kaelen e Kazunov viajaram atÃ© as proximidades de Arden Vul e subiram a grande escadaria da escarpa.",
+    "O grupo limpou os escombros no pÃ¡tio central e desentrenhou a entrada para a escadaria subterrÃ¢nea oculta.",
+    "Nas salas subterrÃ¢neas, encontraram um braÃ§o de estÃ¡tua de pedra branca, trÃªs livros antigos no idioma Mithric e pratos com talheres de prata.",
+    "Em uma sala profunda com quatro estÃ¡tuas metÃ¡licas, depararam-se com uma porta dupla de cristal roxo com incisÃµes mÃ­sticas dedicadas a Thoth.",
+    "Ao perceberem vozes abafadas e barulhos do outro lado da porta, os exploradores trancaram a passagem, acamparam na cÃ¢mara superior e retornaram a Gosterwick.",
+    "Em Gosterwick, Kaelen vendeu um dos livros no Clube dos Praticantes Arcanos por 10 moedas, enquanto Kazunov vendeu as peÃ§as de prata para a ferreira Torunn e lhe entregou uma armadura misteriosa para anÃ¡lise."
+   ],
+   "entidades": [
+    "personagens/miragem",
+    "personagens/kaelen",
+    "personagens/kazunov",
+    "locais/arden-vul",
+    "locais/gosterwick",
+    "locais/estalagem-capa-amarela",
+    "locais/clube-dos-praticantes-arcanos",
+    "locais/poaa-de-lama",
+    "npcs/torunn",
+    "npcs/astableon",
+    "criaturas/lizardmen"
+   ]
   }
  },
  "entidades": {
@@ -750,7 +775,7 @@
    "tipo": "local",
    "nome": "Gosterwick",
    "apelidos": [],
-   "resumo": "Cidade comercial prÃ³xima Ã s ruÃ­nas de Arden Vul que serve como base para aventureiros. Possui estabelecimentos variados no Distrito do Mercado, o Clube dos Praticantes Arcanos, forjas, a Padaria do LeÃ£o e a loja de tinturas de Dona Octavia.",
+   "resumo": "Cidade comercial prÃ³xima Ã s ruÃ­nas de Arden Vul que serve como base para aventureiros. Possui estabelecimentos variados no Distrito do Mercado, o Clube dos Praticantes Arcanos, forjas e estalagens como a Capa Amarela e a PoÃ§a de Lama.",
    "atributos": {
     "Tipo": "Cidade Comercial"
    },
@@ -778,6 +803,10 @@
     [
      "sessao-16",
      "Abriga a loja de tinturas de Dona Octavia na Rua do Mercado, especializada no comÃ©rcio de tecidos e retalhos."
+    ],
+    [
+     "sessao-20",
+     "A cidade conta com a famosa forja da ferreira Torunn e estabelecimentos que compram tomos histÃ³ricos em Mithric."
     ]
    ],
    "sessoes": [
@@ -785,14 +814,15 @@
     "sessao-02",
     "sessao-04",
     "sessao-11",
-    "sessao-16"
+    "sessao-16",
+    "sessao-20"
    ]
   },
   "locais/arden-vul": {
    "tipo": "local",
    "nome": "Arden Vul",
    "apelidos": [],
-   "resumo": "Antiga cidade em ruÃ­nas localizada no topo de um imenso paredÃ£o rochoso. Possui uma escadaria de zigue-zague com apoios de ferro, abrigos de pedra na parede, um pÃ¡tio com Ã¡rvores e uma escadaria subterrÃ¢nea oculta sob escombros.",
+   "resumo": "Antiga cidade em ruÃ­nas localizada no topo de um imenso paredÃ£o rochoso. Possui uma escadaria de zigue-zague com apoios de ferro, abrigos de pedra e um pÃ¡tio central com carvalhos. Sob o pÃ¡tio, hÃ¡ uma escadaria subterrÃ¢nea em espiral que leva a salas antigas com portas mÃ¡gicas e estÃ¡tuas de metal.",
    "atributos": {
     "Tipo": "RuÃ­nas",
     "Status": "RuÃ­nas Antigas"
@@ -841,6 +871,10 @@
     [
      "sessao-18",
      "Abriga uma torre quadrada de quatro andares com porta metÃ¡lica trancada no pÃ¡tio."
+    ],
+    [
+     "sessao-20",
+     "Uma escadaria em espiral sob o pÃ¡tio central conduz a complexos subterrÃ¢neos contendo livros antigos, louÃ§as de prata e uma porta dupla mÃ­stica de cristal roxo com sÃ­mbolos de Thoth."
     ]
    ],
    "sessoes": [
@@ -848,14 +882,15 @@
     "sessao-14",
     "sessao-15",
     "sessao-16",
-    "sessao-18"
+    "sessao-18",
+    "sessao-20"
    ]
   },
   "locais/estalagem-capa-amarela": {
    "tipo": "local",
    "nome": "Estalagem Capa Amarela",
    "apelidos": [],
-   "resumo": "Estabelecimento situado em Gosterwick utilizado como refÃºgio e base por aventureiros. Ficou completamente interditado e coberto por vinhas MÃ¡gicas apÃ³s o sacrifÃ­cio de uma drÃ­ade, que transformou seus funcionÃ¡rios em homens-fera-gato.",
+   "resumo": "Estabelecimento situado em Gosterwick utilizado como refÃºgio e base por aventureiros. Passou por reformas e adaptaÃ§Ãµes para conviver com as vinhas mÃ¡gicas deixadas pelo incidente com a drÃ­ade, oferecendo alojamento e serviÃ§o de canil.",
    "atributos": {
     "LocalizaÃ§Ã£o": "Gosterwick",
     "Status": "Interditada"
@@ -900,6 +935,10 @@
     [
      "sessao-18",
      "Teve seus funcionÃ¡rios e proprietÃ¡rios transformados em homens-fera-gato devido ao feitiÃ§o."
+    ],
+    [
+     "sessao-20",
+     "O estabelecimento reorganizou seu funcionamento adaptando a estrutura ao redor da coluna central de vinhas mÃ¡gicas e oferecendo Ã¡rea cercada para animais por 5 ciclos de cobre ao dia."
     ]
    ],
    "sessoes": [
@@ -909,7 +948,8 @@
     "sessao-11",
     "sessao-14",
     "sessao-16",
-    "sessao-18"
+    "sessao-18",
+    "sessao-20"
    ]
   },
   "npcs/damasco": {
@@ -1995,7 +2035,7 @@
    "apelidos": [
     "Clube Arcano"
    ],
-   "resumo": "EdificaÃ§Ã£o de quatro andares situada nos limites urbanos de Gosterwick, composta por trÃªs pisos de granito escuro e um topo de madeira. Funciona como ponto de encontro, pesquisa e comÃ©rcio de itens mÃ¡gicos para praticantes das artes arcanas. Conta com sala de espera com sofÃ¡s no tÃ©rreo e realiza serviÃ§os de transcriÃ§Ã£o de feitiÃ§os.",
+   "resumo": "EdificaÃ§Ã£o de quatro andares situada nos limites urbanos de Gosterwick, composta por trÃªs pisos de granito escuro e um topo de madeira. Funciona como ponto de encontro, pesquisa e comÃ©rcio de itens mÃ¡gicos. Adquire livros e manuscritos em lÃ­nguas antigas como Mithric.",
    "atributos": {
     "LocalizaÃ§Ã£o": "Gosterwick"
    },
@@ -2023,11 +2063,16 @@
     [
      "sessao-08",
      "Realiza transcriÃ§Ãµes, correÃ§Ãµes e encomendas de magias em grimÃ³rios mediante prazos comerciais."
+    ],
+    [
+     "sessao-20",
+     "A atendente do clube adquiriu um tomo antigo escrito em Mithric por 10 moedas e recomendou o comerciante Astableon para a venda de obras histÃ³ricas arconteanas."
     ]
    ],
    "sessoes": [
     "sessao-06",
-    "sessao-08"
+    "sessao-08",
+    "sessao-20"
    ]
   },
   "criaturas/javali": {
@@ -3832,7 +3877,7 @@
    "tipo": "local",
    "nome": "PoÃ§a de Lama",
    "apelidos": [],
-   "resumo": "Estalagem de dois andares feita de pedra e madeira, situada em uma rua paralela Ã  Rua da Colina em Gosterwick. Serve de abrigo para exploradores que buscam hospedagem econÃ´mica na cidade.",
+   "resumo": "Estalagem de dois andares feita de pedra e madeira, situada em uma rua paralela Ã  Rua da Colina em Gosterwick. Serve de abrigo econÃ´mico para exploradores que buscam hospedagem na cidade.",
    "atributos": {
     "Tipo": "Estalagem",
     "LocalizaÃ§Ã£o": "Gosterwick"
@@ -3845,10 +3890,15 @@
     [
      "sessao-18",
      "Ã administrada por Jouko e cobra um ciclo de prata por noite por quarto."
+    ],
+    [
+     "sessao-20",
+     "Serviu de abrigo para Kaelen e Kazunov apÃ³s o retorno da expediÃ§Ã£o ao subterrÃ¢neo de Arden Vul."
     ]
    ],
    "sessoes": [
-    "sessao-18"
+    "sessao-18",
+    "sessao-20"
    ]
   },
   "itens/pergaminho-antigo-com-barbante": {
@@ -3867,6 +3917,152 @@
    ],
    "sessoes": [
     "sessao-18"
+   ]
+  },
+  "personagens/miragem": {
+   "tipo": "personagem",
+   "nome": "Miragem",
+   "apelidos": [],
+   "resumo": "Aventureiro pequenino e mago acompanhado por um cÃ£o de grande porte. Explora as ruÃ­nas de Arden Vul utilizando artes arcanas como Disco Flutuante e hospeda-se na Estalagem Capa Amarela em Gosterwick.",
+   "atributos": {
+    "RaÃ§a": "Pequenino",
+    "Classe": "Mago",
+    "Jogador": "Guilherme"
+   },
+   "fatos": [
+    [
+     "sessao-20",
+     "Explorou os complexos subterrÃ¢neos de Arden Vul junto com Kaelen e Kazunov, ajudando a desobstruir a escadaria com a magia Disco Flutuante."
+    ],
+    [
+     "sessao-20",
+     "Recolheu um braÃ§o de estÃ¡tua de pedra branca com veias de minÃ©rio na sala subterrÃ¢nea."
+    ],
+    [
+     "sessao-20",
+     "Hospedou-se na Estalagem Capa Amarela em Gosterwick e deixou seu cÃ£o acomodado no canil do local."
+    ]
+   ],
+   "sessoes": [
+    "sessao-20"
+   ]
+  },
+  "personagens/kaelen": {
+   "tipo": "personagem",
+   "nome": "Kaelen",
+   "apelidos": [],
+   "resumo": "Aventureiro homem-fera da espÃ©cie homem-jacarÃ© com audiÃ§Ã£o aguÃ§ada que atua como explorador e ladino. Participou da expediÃ§Ã£o ao subterrÃ¢neo de Arden Vul e negociou tomos arcanos antigos no Clube dos Praticantes Arcanos.",
+   "atributos": {
+    "RaÃ§a": "Homem-Fera (Homem-JacarÃ©)",
+    "Classe": "Ladino / Explorador",
+    "Jogador": "Mateus L"
+   },
+   "fatos": [
+    [
+     "sessao-20",
+     "Liderou o avanÃ§o no subterrÃ¢neo de Arden Vul e resgatou trÃªs livros antigos escritos no idioma Mithric."
+    ],
+    [
+     "sessao-20",
+     "Vendeu um dos livros antigos por 10 moedas na recepÃ§Ã£o do Clube dos Praticantes Arcanos."
+    ],
+    [
+     "sessao-20",
+     "Hospedou-se na Estalagem PoÃ§a de Lama em Gosterwick."
+    ]
+   ],
+   "sessoes": [
+    "sessao-20"
+   ]
+  },
+  "personagens/kazunov": {
+   "tipo": "personagem",
+   "nome": "Kazunov",
+   "apelidos": [],
+   "resumo": "Aventureiro homem-fera da espÃ©cie homem-morcego e explorador dotado de olfato apurado. Integrou a incursÃ£o Ã s ruÃ­nas de Arden Vul, resgatando e vendendo artefatos de prata e deixando uma armadura antiga para anÃ¡lise em Gosterwick.",
+   "atributos": {
+    "RaÃ§a": "Homem-Fera (Homem-Morcego)",
+    "Classe": "Explorador",
+    "Jogador": "Massaki"
+   },
+   "fatos": [
+    [
+     "sessao-20",
+     "Vestiu uma armadura de metal desconhecido encontrada junto aos ossos na sala subterrÃ¢nea de Arden Vul."
+    ],
+    [
+     "sessao-20",
+     "Coletou seis pratos e talheres de prata oxidada em uma gaveta de armÃ¡rio e os vendeu para Torunn por 15 ciclos de prata."
+    ],
+    [
+     "sessao-20",
+     "Entregou sua armadura misteriosa para ser examinada e reparada por Torunn em sua forja."
+    ]
+   ],
+   "sessoes": [
+    "sessao-20"
+   ]
+  },
+  "npcs/torunn": {
+   "tipo": "npc",
+   "nome": "Torunn",
+   "apelidos": [],
+   "resumo": "Ferreira de grande porte e cabelos ruivos que opera uma ampla forja no Distrito Exterior de Gosterwick. Compra metais e pratas para fundiÃ§Ã£o e analisa peÃ§as armaduradas raras.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Ferreira",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-20",
+     "Comprou os pratos e talheres de prata oxidada trazidos por Kazunov por 15 ciclos de prata."
+    ],
+    [
+     "sessao-20",
+     "Aceitou examinar e reparar a armadura de aÃ§o com feitura desconhecida trazida por Kazunov."
+    ]
+   ],
+   "sessoes": [
+    "sessao-20"
+   ]
+  },
+  "npcs/astableon": {
+   "tipo": "npc",
+   "nome": "Astableon",
+   "apelidos": [],
+   "resumo": "Comerciante de livros e tomos histÃ³ricos localizado no Mercado Superior de Gosterwick. Ã indicado por praticantes arcanos para a aquisiÃ§Ã£o de obras arconteanas antigas.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Comerciante de Livros",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-20",
+     "Foi recomendado pelo Clube dos Praticantes Arcanos como comprador interessado em tomos sobre a histÃ³ria do povo arconteano."
+    ]
+   ],
+   "sessoes": [
+    "sessao-20"
+   ]
+  },
+  "criaturas/lizardmen": {
+   "tipo": "criatura",
+   "nome": "Lizardmen",
+   "apelidos": [
+    "Homens-lagarto"
+   ],
+   "resumo": "Humanoides reptilianos de pele verde e feiÃ§Ãµes de rÃ©ptil que transitam pelas estradas e arredores de Arden Vul. Costumam cumprimentar viajantes com movimentos discretos sem demonstrar hostilidade.",
+   "atributos": {
+    "Tipo": "Humanoide Reptiliano"
+   },
+   "fatos": [
+    [
+     "sessao-20",
+     "Um grupo de homens-lagarto cruzou a ponte na estrada de Arden Vul e cumprimentou os aventureiros amigavelmente."
+    ]
+   ],
+   "sessoes": [
+    "sessao-20"
    ]
   }
  },
@@ -4225,8 +4421,8 @@
    "id": "p51",
    "texto": "Investigar a escadaria subterrÃ¢nea oculta descoberta sob os escombros no pÃ¡tio de Arden Vul.",
    "aberta_em": "sessao-18",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-20",
+   "como": "O grupo desobstruiu a entrada no pÃ¡tio de Arden Vul, desceu a escadaria em espiral e explorou o complexo subterrÃ¢neo."
   },
   {
    "id": "p52",
@@ -4262,10 +4458,38 @@
    "aberta_em": "sessao-19",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p57",
+   "texto": "Investigar o mistÃ©rio por trÃ¡s da porta dupla de cristal roxo com sÃ­mbolos de Thoth e as vozes desconhecidas no subterrÃ¢neo de Arden Vul.",
+   "aberta_em": "sessao-20",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p58",
+   "texto": "Vender os dois livros arconteanos antigos em Mithric para Astableon no Mercado Superior de Gosterwick.",
+   "aberta_em": "sessao-20",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p59",
+   "texto": "Recuperar a armadura de metal desconhecido deixada com Torunn para reparos e estudos em sua forja.",
+   "aberta_em": "sessao-20",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p60",
+   "texto": "Investigar a origem e serventia do braÃ§o de estÃ¡tua de pedra branca com veias de minÃ©rio encontrado na sala subterrÃ¢nea.",
+   "aberta_em": "sessao-20",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-19",
-  "texto": "Wayne, Virthurion e Hans subiram para as ruÃ­nas de Arden Vul no dia 3 do sexto mÃªs de 2993, mas a expediÃ§Ã£o terminou em tragÃ©dia sangrenta. O grupo foi emboscado por ferozes criaturas quadrÃºpedes nos escombros superiores, resultando nas mortes violentas de Virthurion e Wayne nas escadarias da escarpa. Apenas Hans conseguiu abater uma das feras e escapar de volta pelo caminho imperial, carregando trofÃ©us do monstro. Contudo, ao amanhecer nos arredores de Gosterwick, Hans cruzou com Os Vizinhos Ruins, reagiu a uma extorsÃ£o de espÃ³lio e acabou crivado por flechas do bando hostil, marcando a aniquilaÃ§Ã£o total da expediÃ§Ã£o."
+  "apos": "sessao-20",
+  "texto": "O grupo composto por Miragem, Kaelen e Kazunov explorou as ruÃ­nas de Arden Vul e desobstruiu a escadaria subterrÃ¢nea no pÃ¡tio central. Nas profundezas, encontraram tomos antigos em Mithric, louÃ§as de prata e uma misteriosa porta dupla de cristal roxo com sÃ­mbolos de Thoth. Ouvindo vozes e ruÃ­dos do outro lado da porta, os aventureiros optaram por fechar a passagem e retornar em seguranÃ§a. De volta a Gosterwick, negociaram despojos no Clube dos Praticantes Arcanos e na forja de Torunn. O grupo planeja vender os tomos restantes a Astableon e recuperar a armadura entregue para estudo antes de uma nova expediÃ§Ã£o."
  }
 }
