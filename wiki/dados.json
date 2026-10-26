@@ -347,6 +347,36 @@
     "personagens/abicon",
     "locais/padaria-do-leao"
    ]
+  },
+  "sessao-14": {
+   "titulo": "ExploraÃ§Ã£o ao PÃ¢ntano de Arden Vul",
+   "resumo": "No dia 5 do quinto mÃªs de 2993, os exploradores Thydal e Dogios desembarcaram na praÃ§a central de Gosterwick. ApÃ³s equiparem-se na loja de Damasco e consultarem o quadro de editais da cidade, constataram que nÃ£o possuÃ­am recursos para aguardar cinco dias atÃ© a reuniÃ£o de Eusebia Phokas sobre os kobolds. Decididos a obter tesouros rapidamente, rumaram para a escarpa de Arden Vul. Ao investigarem as monumentais estÃ¡tuas na base do penhasco, Thydal identificou uma abertura oculta na rocha, situada na altura da manga da estÃ¡tua do feiticeiro Vul. AtraÃ­dos pela paisagem ao redor, seguiram em direÃ§Ã£o a uma Ã¡rea alagada.\n\nDurante o acampamento noturno a caminho do pÃ¢ntano, os aventureiros foram surpreendidos por uma patrulha de homens-lagarto comandada por Sgraal. Sem demonstrar hostilidade aberta, a criatura inspecionou os pertences do grupo, apoderou-se de raÃ§Ãµes e prosseguiu em direÃ§Ã£o Ã  escarpa. Na manhÃ£ seguinte, a dupla adentrou o pÃ¢ntano e encontrou as ruÃ­nas de um casarÃ£o de pedra de dois andares. No interior da estrutura, encontraram quatro moedas de ouro antigo e placas de metal gravadas. No entanto, o local era guardado por sapos gigantes, o que forÃ§ou o grupo a recuar apÃ³s um breve confronto disparado por tiros de arco.\n\nDurante a jornada de regresso a Gosterwick pela margem do rio, Thydal e Dogios cruzaram com o abastado mercador TenÃ¡rius e sua escolta armada. Ao partilharem as coordenadas do casarÃ£o no pÃ¢ntano, foram generosamente recompensados com quatro moedas de ouro adicionais. A sessÃ£o encerrou-se com o retorno dos exploradores Ã  Estalagem Capa Amarela em Gosterwick, onde alugaram quartos para repousar, notando a peculiar infestaÃ§Ã£o de gatos e o odor caracterÃ­stico que tomou conta do estabelecimento.",
+   "linha_do_tempo": [
+    "Thydal e Dogios chegam a Gosterwick de carroÃ§a no inÃ­cio da manhÃ£ do dia 5 do quinto mÃªs de 2993.",
+    "Os aventureiros adquirem suprimentos de viagem na loja de Damasco e leem os avisos da praÃ§a central.",
+    "Diante da falta de recursos para aguardar a reuniÃ£o de Eusebia Phokas, a dupla parte pelo Caminho Imperial rumo Ã s ruÃ­nas de Arden Vul.",
+    "Na base do penhasco, conversam com o guarda Surion e examinam as estÃ¡tuas colossais de Arden e Vul.",
+    "Thydal descobre uma abertura misteriosa na rocha, oculta na manga da estÃ¡tua de Vul a cerca de 200 metros de altura.",
+    "Ao avistarem uma regiÃ£o alagada, os dois decidem explorar o pÃ¢ntano e acampam no trajeto.",
+    "Durante a noite, o acampamento Ã© abordado por uma patrulha de homens-lagarto liderada por Sgraal, que consome parte das raÃ§Ãµes de Thydal antes de partir.",
+    "No dia seguinte, o grupo entra no pÃ¢ntano e descobre um casarÃ£o de pedra habitado por sapos gigantes.",
+    "Ao vasculhar a cozinha do casarÃ£o, encontram quatro moedas de ouro antigo e placas de metal com inscriÃ§Ãµes misteriosas.",
+    "Dogios tenta atacar um sapo gigante com seu arco, mas a dupla Ã© forÃ§ada a fugir apÃ³s o monstro reagir com sua lÃ­ngua gigante.",
+    "No retorno a Gosterwick, a dupla encontra o mercador TenÃ¡rius na estrada, que os recompensa com quatro moedas de ouro por informaÃ§Ãµes sobre as ruÃ­nas do pÃ¢ntano.",
+    "Os aventureiros retornam Ã  Estalagem Capa Amarela em Gosterwick, notando o ambiente dominado por gatos, e alugam quartos para descansar."
+   ],
+   "entidades": [
+    "personagens/thydal",
+    "personagens/dogios",
+    "npcs/damasco",
+    "npcs/eusebia-phokas",
+    "npcs/surion",
+    "npcs/sgraal",
+    "npcs/tenarius",
+    "criaturas/sapo-gigante",
+    "locais/estalagem-capa-amarela",
+    "locais/arden-vul"
+   ]
   }
  },
  "entidades": {
@@ -630,7 +660,7 @@
    "tipo": "local",
    "nome": "Arden Vul",
    "apelidos": [],
-   "resumo": "Antiga cidade em ruÃ­nas localizada no topo de um imenso paredÃ£o rochoso. Ã repleta de perigos, criaturas hostis e mistÃ©rios subterrÃ¢neos.",
+   "resumo": "Antiga cidade em ruÃ­nas localizada no topo de um imenso paredÃ£o rochoso. Ã repleta de perigos, criaturas hostis e mistÃ©rios subterrÃ¢neos. Abriga em sua base duas estÃ¡tuas colossais esculpidas na rocha, um posto de guarda e regiÃµes pantanosas com ruÃ­nas em seu entorno.",
    "atributos": {
     "Tipo": "RuÃ­nas / Masmorra"
    },
@@ -642,17 +672,22 @@
     [
      "sessao-01",
      "As torres de entrada sÃ£o habitadas por aranhas gigantes paralisantes."
+    ],
+    [
+     "sessao-14",
+     "A estÃ¡tua do feiticeiro Vul possui uma abertura escondida na pedra na altura de sua manga a cerca de 200 metros de altura."
     ]
    ],
    "sessoes": [
-    "sessao-01"
+    "sessao-01",
+    "sessao-14"
    ]
   },
   "locais/estalagem-capa-amarela": {
    "tipo": "local",
    "nome": "Estalagem Capa Amarela",
    "apelidos": [],
-   "resumo": "Estabelecimento situado em Gosterwick utilizado como refÃºgio e base por aventureiros. Foi palco do estilhaÃ§amento de um osso preto na lareira do salÃ£o principal, o que espalhou uma fumaÃ§a roxa pelo ambiente.",
+   "resumo": "Estabelecimento situado em Gosterwick utilizado como refÃºgio e base por aventureiros. Foi palco do estilhaÃ§amento de um osso preto na lareira do salÃ£o principal, o que espalhou uma fumaÃ§a roxa pelo ambiente. Passou a abrigar uma grande quantidade de gatos e a exalar cheiro forte de urina.",
    "atributos": {
     "LocalizaÃ§Ã£o": "Gosterwick"
    },
@@ -680,20 +715,25 @@
     [
      "sessao-11",
      "Teve seu salÃ£o contaminado por fumaÃ§a roxa criada pela destruiÃ§Ã£o de um osso preto na lareira."
+    ],
+    [
+     "sessao-14",
+     "Apresenta uma grande infestaÃ§Ã£o de gatos e forte cheiro de urina pelo salÃ£o."
     ]
    ],
    "sessoes": [
     "sessao-01",
     "sessao-04",
     "sessao-07",
-    "sessao-11"
+    "sessao-11",
+    "sessao-14"
    ]
   },
   "npcs/damasco": {
    "tipo": "npc",
    "nome": "Damasco",
    "apelidos": [],
-   "resumo": "Comerciante idoso de Gosterwick, proprietÃ¡rio de uma loja de artigos gerais localizada em frente Ã  Estalagem Capa Amarela. Contou aos aventureiros sobre o Arcanum e os descobridores Arden e Vul, fornecendo ferramentas e indicando aÃ§ougueiros locais a grupos de caÃ§a.",
+   "resumo": "Comerciante idoso de Gosterwick, proprietÃ¡rio de uma loja de artigos gerais localizada em frente Ã  Estalagem Capa Amarela. Contou aos aventureiros sobre o Arcanum e os descobridores Arden e Vul, fornecendo ferramentas e indicando aÃ§ougueiros locais a grupos de caÃ§a. Relatou um rumor sobre uma mulher que desmaiou na rua e gritou sobre uma pirÃ¢mide e olhos estranhos.",
    "atributos": {
     "OcupaÃ§Ã£o": "Comerciante",
     "LocalizaÃ§Ã£o": "Gosterwick"
@@ -714,12 +754,17 @@
     [
      "sessao-07",
      "Orientou Corsa sobre a localizaÃ§Ã£o da fazenda de abate de animais operada por Trucleon perto do Caminho Imperial."
+    ],
+    [
+     "sessao-14",
+     "Relatou o incidente de uma mulher que desmaiou em frente Ã  sua loja e gritou sobre uma pirÃ¢mide e olhos estranhos."
     ]
    ],
    "sessoes": [
     "sessao-01",
     "sessao-05",
-    "sessao-07"
+    "sessao-07",
+    "sessao-14"
    ]
   },
   "npcs/vera": {
@@ -1035,9 +1080,9 @@
    "tipo": "npc",
    "nome": "Eusebia Phokas",
    "apelidos": [],
-   "resumo": "Chefe administradora de Gosterwick que gerencia os assuntos e contrata aventureiros na prefeitura. Autorizou a inclusÃ£o de novos aventureiros no contrato sigiloso para eliminar a ameaÃ§a dos kobolds na estrada de Deep Town.",
+   "resumo": "Chefe administradora de Gosterwick que gerencia os assuntos e contrata aventureiros na prefeitura. Autorizou a inclusÃ£o de novos aventureiros no contrato sigiloso para eliminar a ameaÃ§a dos kobolds na estrada de Deep Town. Convocou uma reuniÃ£o oficial para o dia 10 do quinto mÃªs com recompensa de 500 ciclos de prata por grupo.",
    "atributos": {
-    "OcupaÃ§Ã£o": "Prefeita / Administradora",
+    "OcupaÃ§Ã£o": "Administradora da Prefeitura",
     "LocalizaÃ§Ã£o": "Gosterwick"
    },
    "fatos": [
@@ -1048,11 +1093,16 @@
     [
      "sessao-04",
      "Autorizou Tobias a incluir Deyos, Hugios e Harllequinnos no contrato de exterminaÃ§Ã£o dos kobolds sob total sigilo."
+    ],
+    [
+     "sessao-14",
+     "Anunciou no quadro de avisos da praÃ§a uma reuniÃ£o no dia 10 do quinto mÃªs oferecendo 500 ciclos de prata por grupo contra os kobolds."
     ]
    ],
    "sessoes": [
     "sessao-03",
-    "sessao-04"
+    "sessao-04",
+    "sessao-14"
    ]
   },
   "locais/deep-town": {
@@ -2755,6 +2805,162 @@
    "sessoes": [
     "sessao-13"
    ]
+  },
+  "personagens/thydal": {
+   "tipo": "personagem",
+   "nome": "Thydal",
+   "apelidos": [],
+   "resumo": "Aventureiro humano da tribo Wiskinga e explorador habilidoso. Chegou a Gosterwick ao lado de Dogios e explorou o pÃ¢ntano prÃ³ximo a Arden Vul, onde descobriu uma abertura na estÃ¡tua de Vul e obteve tesouros nas ruÃ­nas de um casarÃ£o de pedra.",
+   "atributos": {
+    "RaÃ§a": "Humano (Wiskinga)",
+    "Classe": "Explorador",
+    "Jogador": "Mateus L"
+   },
+   "fatos": [
+    [
+     "sessao-14",
+     "Chegou a Gosterwick e partiu com Dogios para explorar a regiÃ£o de Arden Vul."
+    ],
+    [
+     "sessao-14",
+     "Descobriu uma passagem oculta na rocha atrÃ¡s da manga da estÃ¡tua de Vul."
+    ],
+    [
+     "sessao-14",
+     "Teve raÃ§Ãµes tomadas pelo homem-lagarto Sgraal durante um acampamento noturno."
+    ],
+    [
+     "sessao-14",
+     "Ajudou a obter moedas de ouro antigo e placas de metal em um casarÃ£o no pÃ¢ntano."
+    ]
+   ],
+   "sessoes": [
+    "sessao-14"
+   ]
+  },
+  "personagens/dogios": {
+   "tipo": "personagem",
+   "nome": "Dogios",
+   "apelidos": [],
+   "resumo": "Aventureiro anÃ£o munido de infravisÃ£o que chegou a Gosterwick com Thydal. Integrou a expediÃ§Ã£o ao pÃ¢ntano nas imediaÃ§Ãµes de Arden Vul, confrontando sapos gigantes e negociando informaÃ§Ãµes com o mercador TenÃ¡rius.",
+   "atributos": {
+    "RaÃ§a": "AnÃ£o",
+    "Jogador": "Sonard"
+   },
+   "fatos": [
+    [
+     "sessao-14",
+     "Chegou a Gosterwick e aliou-se a Thydal para explorar os arredores da escarpa."
+    ],
+    [
+     "sessao-14",
+     "Utilizou sua infravisÃ£o para detectar a aproximaÃ§Ã£o de homens-lagarto na noite."
+    ],
+    [
+     "sessao-14",
+     "Atacou um sapo gigante com seu arco dentro de um casarÃ£o em ruÃ­nas no pÃ¢ntano."
+    ],
+    [
+     "sessao-14",
+     "Negociou a localizaÃ§Ã£o das ruÃ­nas do pÃ¢ntano com TenÃ¡rius em troca de moedas de ouro."
+    ]
+   ],
+   "sessoes": [
+    "sessao-14"
+   ]
+  },
+  "npcs/surion": {
+   "tipo": "npc",
+   "nome": "Surion",
+   "apelidos": [],
+   "resumo": "Guarda da cidade de Gosterwick encarregado da vigilÃ¢ncia na cabana e estÃ¡bulo situados na base do penhasco de Arden Vul. Presta informaÃ§Ãµes a exploradores e recebe cavalos sob custÃ³dia.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Guarda de Gosterwick",
+    "LocalizaÃ§Ã£o": "Base de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-14",
+     "Atua na guarda da cabana e estÃ¡bulo aos pÃ©s da escarpa de Arden Vul."
+    ],
+    [
+     "sessao-14",
+     "Indicou o criador SÃ¡quion, irmÃ£o de Trucleon, para a compra e negociaÃ§Ã£o de cavalos."
+    ]
+   ],
+   "sessoes": [
+    "sessao-14"
+   ]
+  },
+  "npcs/sgraal": {
+   "tipo": "npc",
+   "nome": "Sgraal",
+   "apelidos": [],
+   "resumo": "Homem-lagarto patrulheiro que lidera um pequeno bando nas proximidades do pÃ¢ntano de Arden Vul. Aborda viajantes de maneira calma e direta para extrair mantimentos e comida.",
+   "atributos": {
+    "RaÃ§a": "Homem-Lagarto",
+    "LocalizaÃ§Ã£o": "PÃ¢ntano de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-14",
+     "Liderou uma patrulha de seis homens-lagarto no entorno do pÃ¢ntano."
+    ],
+    [
+     "sessao-14",
+     "Abordou o acampamento de Thydal e Dogios e tomou raÃ§Ãµes antes de seguir para a escarpa."
+    ]
+   ],
+   "sessoes": [
+    "sessao-14"
+   ]
+  },
+  "npcs/tenarius": {
+   "tipo": "npc",
+   "nome": "TenÃ¡rius",
+   "apelidos": [],
+   "resumo": "Homem arconteano de baixa estatura e trajes requintados integrante da guilda dos mercadores em Gosterwick. Viaja com escolta armada e paga generosamente por informaÃ§Ãµes de ruÃ­nas e tesouros.",
+   "atributos": {
+    "AfiliaÃ§Ã£o": "Guilda dos Mercadores",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-14",
+     "Foi encontrado na estrada de regresso a Gosterwick acompanhado por seis guardas armados."
+    ],
+    [
+     "sessao-14",
+     "Pagou quatro moedas de ouro a Dogios e Thydal por informaÃ§Ãµes sobre as ruÃ­nas no pÃ¢ntano."
+    ],
+    [
+     "sessao-14",
+     "Afirmou que pode ser localizado na guilda dos mercadores em Gosterwick."
+    ]
+   ],
+   "sessoes": [
+    "sessao-14"
+   ]
+  },
+  "criaturas/sapo-gigante": {
+   "tipo": "criatura",
+   "nome": "Sapo Gigante",
+   "apelidos": [],
+   "resumo": "AnfÃ­bios colossais de coloraÃ§Ã£o verde-escura com manchas pretas que habitam estruturas alagadas no pÃ¢ntano. Possuem lÃ­nguas compridas, ataques de grande alcance e emitem um coaxar extremamente grave.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-14",
+     "Habitam as ruÃ­nas do casarÃ£o de pedra no pÃ¢ntano de Arden Vul."
+    ],
+    [
+     "sessao-14",
+     "Atacam presas utilizando lÃ­nguas compridas que projetam atravÃ©s de corredores e aberturas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-14"
+   ]
   }
  },
  "pendencias": [
@@ -3009,10 +3215,38 @@
    "aberta_em": "sessao-13",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p37",
+   "texto": "Investigar a abertura descoberta na rocha, situada na manga esquerda da estÃ¡tua de Vul a 200 metros de altura.",
+   "aberta_em": "sessao-14",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p38",
+   "texto": "Participar da reuniÃ£o convocada por Eusebia Phokas no dia 10 do quinto mÃªs para a caÃ§ada aos kobolds.",
+   "aberta_em": "sessao-14",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p39",
+   "texto": "Traduzir as inscriÃ§Ãµes registradas nas quatro placas de metal oxidadas encontradas nas ruÃ­nas do casarÃ£o no pÃ¢ntano.",
+   "aberta_em": "sessao-14",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p40",
+   "texto": "Procurar o comerciante TenÃ¡rius na guilda dos mercadores em Gosterwick para futuros negÃ³cios.",
+   "aberta_em": "sessao-14",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-13",
-  "texto": "Deyos, Abicon e Durlan partiram de Gosterwick para investigar as ruÃ­nas e covis do Emaranhado apÃ³s resolverem seus assuntos na cidade. No covil dos kobolds, o grupo encontrou uma passagem secreta sob uma Ã¡rvore gigante e desceu para resgatar uma mulher humana cativa. Contudo, o confronto contra dezenas de kobolds armados culminou em uma batalha trÃ¡gica e desesperadora. O grupo acabou sucumbindo aos ferimentos no subterrÃ¢neo e durante a fuga, marcando o fim de seus aventureiros."
+  "apos": "sessao-14",
+  "texto": "Thydal e Dogios chegaram a Gosterwick e partiram imediatamente para explorar os arredores de Arden Vul. Na base da escarpa, descobriram uma passagem oculta na estÃ¡tua de Vul e uma ruÃ­na no pÃ¢ntano habitada por sapos gigantes. No casarÃ£o em ruÃ­nas, a dupla obteve moedas de ouro antigo e placas metÃ¡licas gravadas antes de fugir dos monstros. No caminho de volta, venderam informaÃ§Ãµes sobre as ruÃ­nas para o mercador TenÃ¡rius, recebendo mais ouro. Atualmente, os aventureiros encontram-se descansando na Estalagem Capa Amarela em Gosterwick."
  }
 }
