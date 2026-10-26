@@ -15,7 +15,9 @@ from pathlib import Path
 
 DADOS = Path("wiki/dados.json")
 DOCS = Path("wiki/docs")
-MODELO = "gemini-3.8-flash"  # o Google bloqueou os modelos 2.5 para projetos novos em set/2026
+# em ordem de preferência; quando um está sobrecarregado (503) ou sem cota (429), tenta o seguinte.
+# O Google bloqueou os modelos 2.5 para projetos novos em set/2026.
+MODELOS = ["gemini-3.8-flash", "gemini-3.6-flash", "gemini-3.5-flash-lite"]
 TIPOS = {  # tipo: (pasta, nome da seção, nome no singular)
     "personagem": ("personagens", "Personagens", "Personagem de jogador"),
     "npc": ("npcs", "NPCs", "NPC"),
@@ -157,9 +159,10 @@ def gemini(texto):
             "HARM_CATEGORY_HARASSMENT", "HARM_CATEGORY_HATE_SPEECH",
             "HARM_CATEGORY_SEXUALLY_EXPLICIT", "HARM_CATEGORY_DANGEROUS_CONTENT")],  # combates e vilões de RPG
     }
-    # streaming: a resposta chega aos pedaços enquanto o Gemini escreve, sem esperar tudo pronto
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODELO}:streamGenerateContent?alt=sse"
-    for _ in range(5):
+    for tentativa in range(3 * len(MODELOS)):
+        modelo = MODELOS[tentativa % len(MODELOS)]
+        # streaming: a resposta chega aos pedaços enquanto o Gemini escreve, sem esperar tudo pronto
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:streamGenerateContent?alt=sse"
         inicio = time.time()
         try:
             r = sessao.post(url, json=corpo, stream=True, timeout=(30, 600),
@@ -172,19 +175,23 @@ def gemini(texto):
                         partes += [p.get("text", "") for p in c.get("content", {}).get("parts", [])
                                    if not p.get("thought")]
                         motivo = c.get("finishReason") or motivo
-                print(f"Gemini respondeu em {time.time() - inicio:.0f} s", flush=True)
+                print(f"Gemini ({modelo}) respondeu em {time.time() - inicio:.0f} s", flush=True)
                 try:
                     return json.loads("".join(partes))
                 except json.JSONDecodeError:
                     raise RuntimeError(f"Resposta do Gemini incompleta ({motivo})")
         except requests.RequestException as erro:
-            print(f"Falha de conexão com o Gemini após {time.time() - inicio:.0f} s ({erro}), "
-                  "tentando de novo em 60 s", flush=True)
-            time.sleep(60)
+            print(f"Falha de conexão com o Gemini ({modelo}) após {time.time() - inicio:.0f} s ({erro})", flush=True)
+            time.sleep(30)
             continue
         if r.status_code == 429 or r.status_code >= 500:
-            print(f"Gemini respondeu {r.status_code}, tentando de novo em 60 s", flush=True)
-            time.sleep(60)
+            try:
+                mensagem = r.json()["error"]["message"]
+            except (ValueError, KeyError, TypeError):
+                mensagem = r.text[:200]
+            print(f"Gemini ({modelo}) respondeu {r.status_code} após {time.time() - inicio:.0f} s: {mensagem}",
+                  flush=True)
+            time.sleep(30)
             continue
         raise RuntimeError(f"Gemini recusou o envio ({r.status_code}): {r.text[:300]}")
     raise Pausa("Gemini sem cota ou indisponível")
