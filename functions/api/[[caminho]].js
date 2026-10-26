@@ -4,7 +4,7 @@
 // /api/chave    troca o código de login do OpenRouter pela chave do visitante
 const GEMINI = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions";
 const OPENROUTER = "https://openrouter.ai/api/v1";
-const MODELO_GRATIS = "gemini-2.5-flash-lite";
+const MODELO_GRATIS = "gemini-3.5-flash-lite";
 
 export async function onRequest({ request, env }) {
   const url = new URL(request.url);
