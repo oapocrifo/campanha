@@ -131,8 +131,23 @@ def slug(texto):
 # ---------- atualização com o Gemini ----------
 
 def gemini(texto):
-    import requests  # só a atualização precisa; a geração de páginas roda sem dependências
+    import socket
 
+    import requests  # só a atualização precisa; a geração de páginas roda sem dependências
+    from requests.adapters import HTTPAdapter
+    from urllib3.connection import HTTPConnection
+
+    class ComKeepalive(HTTPAdapter):
+        """Manda sinais na conexão parada: a rede do GitHub derruba conexões sem tráfego por alguns minutos."""
+        def init_poolmanager(self, *a, **k):
+            k["socket_options"] = HTTPConnection.default_socket_options + [
+                (socket.SOL_SOCKET, socket.SO_KEEPALIVE, 1),
+                (socket.IPPROTO_TCP, socket.TCP_KEEPIDLE, 30),
+                (socket.IPPROTO_TCP, socket.TCP_KEEPINTVL, 30)]
+            super().init_poolmanager(*a, **k)
+
+    sessao = requests.Session()
+    sessao.mount("https://", ComKeepalive())
     corpo = {
         "systemInstruction": {"parts": [{"text": INSTRUCOES}]},
         "contents": [{"role": "user", "parts": [{"text": texto}]}],
@@ -142,22 +157,31 @@ def gemini(texto):
             "HARM_CATEGORY_HARASSMENT", "HARM_CATEGORY_HATE_SPEECH",
             "HARM_CATEGORY_SEXUALLY_EXPLICIT", "HARM_CATEGORY_DANGEROUS_CONTENT")],  # combates e vilões de RPG
     }
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODELO}:generateContent"
+    # streaming: a resposta chega aos pedaços enquanto o Gemini escreve, sem esperar tudo pronto
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODELO}:streamGenerateContent?alt=sse"
     for _ in range(5):
+        inicio = time.time()
         try:
-            r = requests.post(url, json=corpo, timeout=900,
-                              headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]})
+            r = sessao.post(url, json=corpo, stream=True, timeout=(30, 600),
+                            headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]})
+            if r.status_code == 200:
+                partes, motivo = [], None
+                for linha in r.iter_lines(decode_unicode=True):
+                    if linha and linha.startswith("data:"):
+                        c = (json.loads(linha[5:]).get("candidates") or [{}])[0]
+                        partes += [p.get("text", "") for p in c.get("content", {}).get("parts", [])
+                                   if not p.get("thought")]
+                        motivo = c.get("finishReason") or motivo
+                print(f"Gemini respondeu em {time.time() - inicio:.0f} s", flush=True)
+                try:
+                    return json.loads("".join(partes))
+                except json.JSONDecodeError:
+                    raise RuntimeError(f"Resposta do Gemini incompleta ({motivo})")
         except requests.RequestException as erro:
-            print(f"Falha de conexão com o Gemini ({erro}), tentando de novo em 60 s", flush=True)
+            print(f"Falha de conexão com o Gemini após {time.time() - inicio:.0f} s ({erro}), "
+                  "tentando de novo em 60 s", flush=True)
             time.sleep(60)
             continue
-        if r.status_code == 200:
-            candidato = r.json()["candidates"][0]
-            texto = "".join(p.get("text", "") for p in candidato["content"]["parts"] if not p.get("thought"))
-            try:
-                return json.loads(texto)
-            except json.JSONDecodeError:
-                raise RuntimeError(f"Resposta do Gemini incompleta ({candidato.get('finishReason')})")
         if r.status_code == 429 or r.status_code >= 500:
             print(f"Gemini respondeu {r.status_code}, tentando de novo em 60 s", flush=True)
             time.sleep(60)
