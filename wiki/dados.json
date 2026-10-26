@@ -838,6 +838,39 @@
     "itens/pedras-furadas-brilhantes",
     "npcs/deino"
    ]
+  },
+  "sessao-32": {
+   "titulo": "A LanÃ§a da EstÃ¡tua e a Fuga das RuÃ­nas",
+   "resumo": "No vigÃ©simo primeiro dia do oitavo mÃªs de 2993, os aventureiros Markhor, Momonga e Amir despertaram na fria manhÃ£ da Pousada do Sinal da CabeÃ§a Quebrada. No salÃ£o, negociaram com o influente mercador TenÃ¡rius, que estava cercado por mercenÃ¡rios armados. Momonga financiou uma armadura de talas para Markhor e uma armadura de escamas para Amir, alÃ©m de mantimentos e tochas, pagando trinta e nove ciclos de ouro. Em seguida, Momonga garantiu a custÃ³dia de sua carroÃ§a pagando cinco moedas de ouro ao taberneiro Cronos para que mantivesse um guarda vigiando seus pertences no estÃ¡bulo.\n\nO trio marchou em direÃ§Ã£o Ã  oficina de esculturas em ruÃ­nas. Ao chegarem ao porÃ£o, constataram com surpresa que a perna gigante de mÃ¡rmore havia desaparecido e que havia um rastro de sangue seco em direÃ§Ã£o Ã  passagem secreta. Descendo a longa escadaria em espiral, encontraram o cadÃ¡ver recente de um explorador humano loiro no corredor de pedra, portando tochas, Ã³leo e um saquinho com pÃ³ verde aromÃ¡tico. Logo Ã  frente, a estÃ¡tua de pedra cinzenta guardava a sala repleta de tralhas empunhando sua temÃ­vel lanÃ§a escura. Com auxÃ­lio de cordas, vara e Ã¢nforas de Ã³leo arremessadas ao chÃ£o, o grupo conseguiu derrubar o constructo repetidas vezes e, com um tranco conjunto, arrancou a lanÃ§a negra de suas mÃ£os, embora Markhor tenha sofrido um grave golpe perfurante na coxa.\n\nEm fuga barulhenta atÃ© a superfÃ­cie, os exploradores quase foram atacados por um grande urso marrom atraÃ­do pelo retinir da armadura de metal. Markhor conseguiu apaziguar a fera deixando nove raÃ§Ãµes de explorador no solo enquanto recuava cautelosamente. De volta Ã  pousada, o grupo analisou a cabeÃ§a colossal de pedra que adorna a fachada do local, notando sua semelhanÃ§a de material e escala com o braÃ§o em posse de Amir e a perna outrora avistada. Por fim, Momonga apresentou a estÃ¡tua de goblin restaurada aos trÃªs colecionadores do segundo andar, obtendo uma nota promissÃ³ria no valor de trezentos ciclos de prata resgatÃ¡vel em Newmarket.",
+   "linha_do_tempo": [
+    "Markhor vende sua antiga armadura de couro para o mercador TenÃ¡rius por dois ciclos de prata na pousada.",
+    "Momonga gasta trinta e nove ciclos de ouro com TenÃ¡rius para adquirir armaduras pesadas para Markhor e Amir, alÃ©m de raÃ§Ãµes.",
+    "Momonga adianta cinco ciclos de ouro para Cronos designar um guarda particular para vigiar sua carroÃ§a no estÃ¡bulo por duas semanas.",
+    "O grupo caminha pelas margens do rio e nota rastros largos de uma criatura quadrÃºpede pesada perto da ilha murada.",
+    "Os aventureiros entram na casa de esculturas e descobrem que a perna gigante de mÃ¡rmore foi levada embora.",
+    "Amir desce a escadaria espiral e encontra o cadÃ¡ver ensanguentado de um explorador no corredor subterrÃ¢neo.",
+    "Amir saqueia o corpo, recolhendo Ã¢nforas de Ã³leo, tochas e um saquinho de pÃ³ esverdeado de cheiro doce entregue a Momonga.",
+    "Markhor laÃ§a o braÃ§o e a lanÃ§a da estÃ¡tua guardiÃ£ de pedra apÃ³s Amir atraÃ­-la com um bastÃ£o longo.",
+    "O martelo de Markhor e as raÃ­zes mÃ¡gicas de Momonga falham em danificar ou deter o constructo.",
+    "Amir puxa a corda e derruba a estÃ¡tua, mas a criatura perfura a coxa de Markhor com a lanÃ§a durante o confronto.",
+    "Amir derrama Ã³leo nas mÃ£os do monstro e no piso, e um tranco coordenado dos trÃªs arranca a lanÃ§a negra da estÃ¡tua.",
+    "O grupo foge com a lanÃ§a para o tÃ©rreo e depara-se com um grande urso marrom entre as ruÃ­nas externas.",
+    "Markhor berra como um bode e deixa nove raÃ§Ãµes no chÃ£o, distraindo o predador e permitindo a fuga em seguranÃ§a.",
+    "Os aventureiros retornam Ã  pousada e comparam a cabeÃ§a colossal sobre o portal com outras partes de estÃ¡tua conhecidas.",
+    "Momonga vende a estÃ¡tua de goblin restaurada aos trÃªs avaliadores por uma promissÃ³ria de trezentos ciclos de prata resgatÃ¡vel em Newmarket."
+   ],
+   "entidades": [
+    "personagens/markhor",
+    "personagens/momonga",
+    "personagens/amir",
+    "npcs/tenarius",
+    "npcs/cronos",
+    "locais/pousada-do-sinal-da-cabe-a-quebrada",
+    "criaturas/estatua-guardia-de-lanaa-negra",
+    "itens/lanaa-negra-da-estatua",
+    "itens/pa3-esverdeado-aromatico",
+    "criaturas/urso"
+   ]
   }
  },
  "entidades": {
@@ -3605,10 +3638,11 @@
    "tipo": "npc",
    "nome": "TenÃ¡rius",
    "apelidos": [],
-   "resumo": "Homem arconteano de baixa estatura e trajes requintados integrante da guilda dos mercadores em Gosterwick. Viaja com escolta armada e paga generosamente por informaÃ§Ãµes de ruÃ­nas e tesouros.",
+   "resumo": "Homem arconteano idoso e de baixa estatura com trajes requintados que viaja com forte escolta mercenÃ¡ria armada. Opera temporariamente na Pousada do Sinal da CabeÃ§a Quebrada, comercializando armamentos caros e itens raros. Vendeu armaduras para o grupo e solicitou que trouxessem pessoas perdidas das ruÃ­nas em troca de descontos.",
    "atributos": {
     "AfiliaÃ§Ã£o": "Guilda dos Mercadores",
-    "LocalizaÃ§Ã£o": "Gosterwick"
+    "LocalizaÃ§Ã£o": "Pousada do Sinal da CabeÃ§a Quebrada",
+    "OcupaÃ§Ã£o": "Comerciante Mercador"
    },
    "fatos": [
     [
@@ -3622,10 +3656,31 @@
     [
      "sessao-14",
      "Afirmou que pode ser localizado na guilda dos mercadores em Gosterwick."
+    ],
+    [
+     "sessao-32",
+     "Estava na Pousada do Sinal da CabeÃ§a Quebrada cercado por cinco mercenÃ¡rios contratados e armadurados."
+    ],
+    [
+     "sessao-32",
+     "Comprou a antiga armadura de couro de Markhor por dois ciclos de prata."
+    ],
+    [
+     "sessao-32",
+     "Anunciou a posse de uma espada mÃ¡gica avaliada em 15.000 ciclos de ouro."
+    ],
+    [
+     "sessao-32",
+     "Vendeu armaduras e raÃ§Ãµes para Momonga por 39 ciclos de ouro."
+    ],
+    [
+     "sessao-32",
+     "Pediu que os exploradores trouxessem pessoas perdidas nas ruÃ­nas para trabalhar com ele em troca de descontos futuros."
     ]
    ],
    "sessoes": [
-    "sessao-14"
+    "sessao-14",
+    "sessao-32"
    ]
   },
   "criaturas/sapo-gigante": {
@@ -4882,13 +4937,15 @@
    "tipo": "personagem",
    "nome": "Momonga",
    "apelidos": [],
-   "resumo": "Aventureiro clÃ©rigo devoto de Demma que abriga a presenÃ§a espiritual do fantasma Irthol em sua mente. Participou da incursÃ£o Ã  mansÃ£o do pÃ¡tio ovalado em Arden Vul, auxiliando no resgate do cÃ£o de caÃ§a e colhendo orquÃ­deas vermelhas. Utilizou sua prece divina Debulhar da Colheita para imobilizar e abater um ghoul durante a emboscada noturna. Consultou a alta sacerdotisa Vivian em Gosterwick para identificar as caracterÃ­sticas do Monte Errante e iniciou uma estadia de sete dias no Templo de Demma.",
+   "resumo": "Aventureiro clÃ©rigo devoto de Demma que abriga a presenÃ§a espiritual de Irthol em sua mente. Restaurou a estÃ¡tua de goblin e financiou equipamentos e armaduras para o grupo na Pousada do Sinal da CabeÃ§a Quebrada. Apoiou a remoÃ§Ã£o da lanÃ§a negra da estÃ¡tua guardiÃ£ e negociou a venda da escultura por uma promissÃ³ria de 300 ciclos de prata.",
    "atributos": {
     "Classe": "ClÃ©rigo",
     "Jogador": "Silva",
     "AfiliaÃ§Ã£o": "Templo de Demma",
     "Status": "Vivo",
-    "LocalizaÃ§Ã£o": "Templo de Demma, Gosterwick"
+    "LocalizaÃ§Ã£o": "Templo de Demma, Gosterwick",
+    "RaÃ§a": "Humano",
+    "Divindade": "Demma"
    },
    "fatos": [
     [
@@ -4930,12 +4987,37 @@
     [
      "sessao-28",
      "Decidiu hospedar-se por sete dias no Templo de Demma para dedicar-se a estudos religiosos e botÃ¢nicos."
+    ],
+    [
+     "sessao-32",
+     "Concluiu a restauraÃ§Ã£o da estÃ¡tua de goblin utilizando cola e gesso."
+    ],
+    [
+     "sessao-32",
+     "Pagou 39 ciclos de ouro a TenÃ¡rius para equipar Markhor e Amir com armaduras e mantimentos."
+    ],
+    [
+     "sessao-32",
+     "Pagou adiantado 5 ciclos de ouro a Cronos para garantir vigia armado em sua carroÃ§a por duas semanas."
+    ],
+    [
+     "sessao-32",
+     "Tentou conter a estÃ¡tua guardiÃ£ com raÃ­zes divinas, mas a criatura quebrou as amarras facilmente."
+    ],
+    [
+     "sessao-32",
+     "Guardou consigo o saquinho de pÃ³ verde adocicado retirado do cadÃ¡ver subterrÃ¢neo."
+    ],
+    [
+     "sessao-32",
+     "Negociou a estÃ¡tua de goblin com colecionadores por um cheque de 300 ciclos de prata a ser recebido em Newmarket."
     ]
    ],
    "sessoes": [
     "sessao-22",
     "sessao-24",
-    "sessao-28"
+    "sessao-28",
+    "sessao-32"
    ]
   },
   "personagens/selene": {
@@ -5199,7 +5281,7 @@
    "tipo": "personagem",
    "nome": "Amir",
    "apelidos": [],
-   "resumo": "Aventureiro expedicionÃ¡rio equipado de forma leve que atua na regiÃ£o de Gosterwick e Arden Vul. Participou da exploraÃ§Ã£o da mansÃ£o em ruÃ­nas no pÃ¡tio ovalado, onde identificou vinhas em movimento atravÃ©s de um buraco no piso e despertou um temÃ­vel Monte Errante ao arremessar uma porta na escadaria. Foi atingido por um ghoul durante o confronto exterior, resistindo Ã  paralisia e repelindo o monstro com fogo antes de regressar em seguranÃ§a Ã  cidade.",
+   "resumo": "Aventureiro ladino expedicionÃ¡rio que atua em Arden Vul e Gosterwick. Recebeu uma armadura de escamas financiada por Momonga e atuou como batedor no porÃ£o e tÃºneis da oficina de esculturas. Foi peÃ§a-chave para derrubar a estÃ¡tua guardiÃ£ e desarmÃ¡-la utilizando Ã³leo e cordas.",
    "atributos": {
     "Jogador": "Guilherme",
     "Classe": "Ladino",
@@ -5243,11 +5325,32 @@
     [
      "sessao-28",
      "Retornou a Gosterwick e recolheu-se para descansar na Estalagem Capa Amarela."
+    ],
+    [
+     "sessao-32",
+     "Recebeu uma armadura de escamas financiada por Momonga na pousada."
+    ],
+    [
+     "sessao-32",
+     "Localizou o cadÃ¡ver recente de um explorador no corredor da oficina e pilhou Ã¢nforas de Ã³leo, tochas e uma bolsa de cinto."
+    ],
+    [
+     "sessao-32",
+     "Conseguiu derrubar a estÃ¡tua guardiÃ£ puxando a corda amarrada Ã  sua lanÃ§a."
+    ],
+    [
+     "sessao-32",
+     "Arremessou Ã¢nforas de Ã³leo nas mÃ£os da estÃ¡tua e no chÃ£o para fazÃª-la escorregar e facilitar o desarme."
+    ],
+    [
+     "sessao-32",
+     "Recordou que possui um braÃ§o de mÃ¡rmore com veios metÃ¡licos guardado na Estalagem Capa Amarela e citou estÃ¡tuas de cobre perto de portas com sussurros de Thoth."
     ]
    ],
    "sessoes": [
     "sessao-24",
-    "sessao-28"
+    "sessao-28",
+    "sessao-32"
    ]
   },
   "npcs/irthol": {
@@ -6279,11 +6382,11 @@
    "apelidos": [
     "Melchior"
    ],
-   "resumo": "Aventureiro homem-fera com traÃ§os de cabra das montanhas focado em buscar tesouros para seu clÃ£. Explorou as ruÃ­nas de Arden Vul, descobriu cornalinas e resgatou pedaÃ§os de estÃ¡tuas para conserto. ForÃ§ou a passagem secreta na oficina de esculturas e encontrou um amuleto metÃ¡lico de Ankh intacto nos escombros. Foi picado por uma centopeia gigante e comprou um martelo de guerra e uma cota de malha com Ristus.",
+   "resumo": "Aventureiro homem-fera caprino focado em buscar tesouros para seu clÃ£. Explorou as ruÃ­nas de Arden Vul, adquiriu uma armadura de talas com auxÃ­lio financeiro de Momonga e sofreu grave perfuraÃ§Ã£o na coxa pela estÃ¡tua guardiÃ£. Coordenou a captura da lanÃ§a de metal negro e distraiu um urso faminto com raÃ§Ãµes para salvar os aliados.",
    "atributos": {
     "Jogador": "Juliano",
     "Ra a": "Homem-fera",
-    "RaÃ§a": "Homem-fera",
+    "RaÃ§a": "Homem-fera (Caprino)",
     "Classe": "Guerreiro"
    },
    "fatos": [
@@ -6318,11 +6421,28 @@
     [
      "sessao-31",
      "Comprou um martelo de guerra, uma cota de malha com desconto, corda e picareta do mercador homem-fera Ristus."
+    ],
+    [
+     "sessao-32",
+     "Adquiriu uma armadura de talas comprada por Momonga junto a TenÃ¡rius."
+    ],
+    [
+     "sessao-32",
+     "Sofreu uma perfuraÃ§Ã£o profunda na coxa ao ser atingido pela lanÃ§a da estÃ¡tua guardiÃ£ caÃ­da."
+    ],
+    [
+     "sessao-32",
+     "Coordenou o laÃ§o e a remoÃ§Ã£o da lanÃ§a de metal negro das mÃ£os da estÃ¡tua guardiÃ£."
+    ],
+    [
+     "sessao-32",
+     "Sacrificou nove raÃ§Ãµes de explorador e berrou como um bode para distrair um urso marrom nas ruÃ­nas."
     ]
    ],
    "sessoes": [
     "sessao-30",
-    "sessao-31"
+    "sessao-31",
+    "sessao-32"
    ]
   },
   "personagens/nia": {
@@ -6349,11 +6469,11 @@
    "tipo": "npc",
    "nome": "Cronos",
    "apelidos": [],
-   "resumo": "ProprietÃ¡rio idoso e corpulento da Pousada do Sinal da CabeÃ§a Quebrada em Arden Vul. Fornece alojamento, refeiÃ§Ãµes a preÃ§os inflacionados e informaÃ§Ãµes bÃ¡sicas a exploradores. Informou sobre serviÃ§os mÃ¡gicos de cura oferecidos na pousada por Estelle.",
+   "resumo": "ProprietÃ¡rio idoso e corpulento da Pousada do Sinal da CabeÃ§a Quebrada em Arden Vul. Fornece alojamento, refeiÃ§Ãµes a preÃ§os inflacionados e informaÃ§Ãµes bÃ¡sicas a exploradores. Cobrou moedas de ouro de Momonga para destacados funcionÃ¡rios vigiarem sua nova carroÃ§a no estÃ¡bulo.",
    "atributos": {
     "Ocupa £o": "Estalajadeiro",
     "Localiza £o": "Pousada do Sinal da Cabe a Quebrada",
-    "OcupaÃ§Ã£o": "Estalajadeiro",
+    "OcupaÃ§Ã£o": "Taberneiro",
     "LocalizaÃ§Ã£o": "Pousada do Sinal da CabeÃ§a Quebrada"
    },
    "fatos": [
@@ -6368,11 +6488,20 @@
     [
      "sessao-31",
      "Indicou aos aventureiros que a clÃ©riga Estelle oferece magias para retardar ou neutralizar venenos por altos valores em prata."
+    ],
+    [
+     "sessao-32",
+     "Cobrou 10 ciclos de ouro para manter vigilÃ¢ncia na carroÃ§a de Momonga por duas semanas, recebendo metade adiantada."
+    ],
+    [
+     "sessao-32",
+     "Relatou que mortes e ferimentos em grupos de exploradores sÃ£o ocorrÃªncias quase diÃ¡rias na regiÃ£o."
     ]
    ],
    "sessoes": [
     "sessao-30",
-    "sessao-31"
+    "sessao-31",
+    "sessao-32"
    ]
   },
   "npcs/zaron": {
@@ -6397,19 +6526,35 @@
   "locais/pousada-do-sinal-da-cabe-a-quebrada": {
    "tipo": "local",
    "nome": "Pousada do Sinal da Cabe a Quebrada",
-   "apelidos": [],
-   "resumo": "Estabelecimento r stico situado logo ap s as ru nas de Arden Vul na perspectiva de quem sobe a escarpa. Possui uma grande cabe a de est tua sobre a porta e serve de base para aventureiros e guardas.",
+   "apelidos": [
+    "Pousada do Sinal da CabeÃ§a Quebrada"
+   ],
+   "resumo": "Estabelecimento rÃºstico situado nas ruÃ­nas de Arden Vul que serve de base e abrigo para exploradores e guardas. Possui alojamento coletivo com beliches, estÃ¡bulo anexo e uma colossal cabeÃ§a esculpida em mÃ¡rmore branco com elmo romano sobre a entrada. Abriga mercadores itinerantes e avaliadores de antiguidades.",
    "atributos": {
-    "Localiza £o": "A s p s das ru nas de Arden Vul"
+    "Localiza £o": "A s p s das ru nas de Arden Vul",
+    "LocalizaÃ§Ã£o": "PlatÃ´ de Arden Vul"
    },
    "fatos": [
     [
      "sessao-30",
      "A pousada abriga beliches, um quarto privado e serve refe ¥es b sicas aos exploradores da regi o."
+    ],
+    [
+     "sessao-32",
+     "A cabeÃ§a colossal sobre o portal Ã© de mÃ¡rmore branco, possui elmo metÃ¡lico romano de queixo pontiagudo e cavidades oculares vazadas."
+    ],
+    [
+     "sessao-32",
+     "Teve um guarda posicionado no estÃ¡bulo por Cronos para vigiar a carroÃ§a de Momonga."
+    ],
+    [
+     "sessao-32",
+     "Abriga no segundo andar trÃªs colecionadores que compram estÃ¡tuas e emitem promissÃ³rias para Newmarket."
     ]
    ],
    "sessoes": [
-    "sessao-30"
+    "sessao-30",
+    "sessao-32"
    ]
   },
   "itens/cornalina": {
@@ -6567,10 +6712,11 @@
    "tipo": "criatura",
    "nome": "EstÃ¡tua GuardiÃ£ de LanÃ§a Negra",
    "apelidos": [],
-   "resumo": "Constructo ou estÃ¡tua humanoide de pedra cinza em tamanho natural situada em uma cÃ¢mara subterrÃ¢nea sob a oficina de esculturas em Arden Vul. Empunha uma lanÃ§a reluzente de metal negro com grande destreza e impede a passagem de qualquer invasor alÃ©m do batente da porta.",
+   "resumo": "Constructo humanoide de pedra cinza em tamanho natural com saiote e cocar esculpidos, situado em cÃ¢mara subterrÃ¢nea sob a oficina de esculturas. Ã imune a concussÃµes fÃ­sicas comuns e possui forÃ§a extrema capaz de rasgar raÃ­zes mÃ¡gicas. Teve sua lanÃ§a de metal escuro desarmada pelos aventureiros apÃ³s sucessivas quedas provocadas por cordas e Ã³leo.",
    "atributos": {
     "Tipo": "Constructo de pedra",
-    "LocalizaÃ§Ã£o": "SubterrÃ¢neo da oficina de esculturas em Arden Vul"
+    "LocalizaÃ§Ã£o": "SubterrÃ¢neo da Oficina de Esculturas em Arden Vul",
+    "Status": "Desarmada"
    },
    "fatos": [
     [
@@ -6592,10 +6738,27 @@
     [
      "sessao-31",
      "Permanece completamente imÃ³vel quando os invasores recuam, sem reagir a apelos verbais ou Ã  exibiÃ§Ã£o de um amuleto Ankh."
+    ],
+    [
+     "sessao-32",
+     "Repeliu integralmente o impacto do martelo de guerra de Markhor sem sofrer rachaduras."
+    ],
+    [
+     "sessao-32",
+     "Rompeu com facilidade as raÃ­zes mÃ¡gicas de enraizamento conjuradas por Momonga."
+    ],
+    [
+     "sessao-32",
+     "Mesmo caÃ­da no chÃ£o, perfurou a coxa de Markhor com violÃªncia letal."
+    ],
+    [
+     "sessao-32",
+     "Foi desarmada apÃ³s ter suas mÃ£os e o solo cobertos por Ã³leo e sofrer um forte puxÃ£o conjunto de corda."
     ]
    ],
    "sessoes": [
-    "sessao-31"
+    "sessao-31",
+    "sessao-32"
    ]
   },
   "criaturas/centopeia-gigante": {
@@ -6688,6 +6851,77 @@
    ],
    "sessoes": [
     "sessao-31"
+   ]
+  },
+  "itens/lanaa-negra-da-estatua": {
+   "tipo": "item",
+   "nome": "LanÃ§a Negra da EstÃ¡tua",
+   "apelidos": [],
+   "resumo": "Arma longa forjada inteiramente em um metal maciÃ§o e escuro, originalmente empunhada pelo constructo sob a oficina de esculturas em Arden Vul. Possui grande peso, ponta afiada e demonstra letalidade incomum capaz de perfurar armaduras pesadas. Foi arrancada da estÃ¡tua apÃ³s combate violento e encontra-se em posse de Markhor.",
+   "atributos": {
+    "Tipo": "Arma LanÃ§a",
+    "Material": "Metal Negro Desconhecido"
+   },
+   "fatos": [
+    [
+     "sessao-32",
+     "Arma maciÃ§a e escura retirada da estÃ¡tua guardiÃ£ no subterrÃ¢neo da oficina."
+    ],
+    [
+     "sessao-32",
+     "Perfurou a coxa de Markhor de lado a lado durante o confronto."
+    ],
+    [
+     "sessao-32",
+     "Foi mantida pelo grupo para posterior identificaÃ§Ã£o de propriedades mÃ¡gicas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-32"
+   ]
+  },
+  "itens/pa3-esverdeado-aromatico": {
+   "tipo": "item",
+   "nome": "PÃ³ Esverdeado AromÃ¡tico",
+   "apelidos": [],
+   "resumo": "PÃ³ de tonalidade esverdeada mantido em um pequeno saquinho de couro, resgatado do cadÃ¡ver de um explorador no corredor da oficina de esculturas. Exala um odor adocicado e agradÃ¡vel. Permanece guardado com Momonga para averiguaÃ§Ã£o de propriedades alquÃ­micas ou mÃ¡gicas.",
+   "atributos": {
+    "Tipo": "SubstÃ¢ncia em PÃ³"
+   },
+   "fatos": [
+    [
+     "sessao-32",
+     "Encontrado na mochila do explorador morto no tÃºnel subterrÃ¢neo da oficina."
+    ],
+    [
+     "sessao-32",
+     "Possui cheiro doce e agradÃ¡vel, nÃ£o sendo identificado pela experiÃªncia botÃ¢nica de Momonga."
+    ]
+   ],
+   "sessoes": [
+    "sessao-32"
+   ]
+  },
+  "criaturas/urso": {
+   "tipo": "criatura",
+   "nome": "Urso",
+   "apelidos": [],
+   "resumo": "Grande predador carnÃ­voro de pelagem marrom que ronda os escombros e construÃ§Ãµes desabadas nas ruÃ­nas de Arden Vul. Reage defensivamente e com agressividade a barulhos e surpresas, mas pode ser apaziguado com provisÃµes abundantes.",
+   "atributos": {
+    "Tipo": "Animal Predador"
+   },
+   "fatos": [
+    [
+     "sessao-32",
+     "Um exemplar de grande porte vasculhava os escombros vizinhos Ã  casa das esculturas."
+    ],
+    [
+     "sessao-32",
+     "AvanÃ§ou apÃ³s assustar-se com raÃ§Ãµes jogadas, mas foi saciado ao devorar as nove raÃ§Ãµes deixadas por Markhor."
+    ]
+   ],
+   "sessoes": [
+    "sessao-32"
    ]
   }
  },
@@ -7319,8 +7553,8 @@
    "id": "p90",
    "texto": "Consertar as est tuas quebradas de goblin e da mulher utilizando a cola e o gesso encomendados com Zaron.",
    "aberta_em": "sessao-30",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-32",
+   "como": "Momonga concluiu a restauraÃ§Ã£o da estÃ¡tua de goblin utilizando gesso e cola, negociando-a com os colecionadores da pousada."
   },
   {
    "id": "p91",
@@ -7333,8 +7567,8 @@
    "id": "p92",
    "texto": "Descobrir um meio de neutralizar ou ultrapassar a estÃ¡tua guardiÃ£ armada com lanÃ§a negra que bloqueia a cÃ¢mara subterrÃ¢nea na oficina.",
    "aberta_em": "sessao-31",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-32",
+   "como": "O grupo utilizou laÃ§o de corda e Ã³leo nas mÃ£os da estÃ¡tua para desarmÃ¡-la Ã  forÃ§a, arrancando sua lanÃ§a negra sem precisar destruÃ­-la."
   },
   {
    "id": "p93",
@@ -7363,10 +7597,59 @@
    "aberta_em": "sessao-31",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p97",
+   "texto": "Descobrir quem retirou a perna colossal de mÃ¡rmore do porÃ£o da oficina de esculturas.",
+   "aberta_em": "sessao-32",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p98",
+   "texto": "Identificar a identidade do explorador loiro encontrado morto no corredor da estÃ¡tua guardiÃ£ e avisar possÃ­veis companheiros.",
+   "aberta_em": "sessao-32",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p99",
+   "texto": "Identificar a natureza e utilidade do saquinho de pÃ³ esverdeado de cheiro doce encontrado com o explorador morto.",
+   "aberta_em": "sessao-32",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p100",
+   "texto": "Identificar as propriedades mÃ¡gicas da lanÃ§a de metal negro arrancada da estÃ¡tua guardiÃ£.",
+   "aberta_em": "sessao-32",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p101",
+   "texto": "Levar a estÃ¡tua de goblin restaurada atÃ© a cidade de Newmarket para resgatar os 300 ciclos de prata da promissÃ³ria.",
+   "aberta_em": "sessao-32",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p102",
+   "texto": "Contratar os colecionadores da pousada para aprender tÃ©cnicas de avaliaÃ§Ã£o e restauraÃ§Ã£o de estÃ¡tuas antigas.",
+   "aberta_em": "sessao-32",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p103",
+   "texto": "Investigar se a cabeÃ§a de pedra da Pousada do Sinal da CabeÃ§a Quebrada, o braÃ§o guardado por Amir e o pedestal da ponte pertencem Ã  mesma estÃ¡tua colossal desmembrada.",
+   "aberta_em": "sessao-32",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-31",
-  "texto": "O grupo encontra-se repousando na Pousada do Sinal da CabeÃ§a Quebrada, nas ruÃ­nas de Arden Vul. Markhor e Abs-Sur recuperam-se do veneno debilitante das centopeias gigantes, que deve passar em dois dias segundo a elfa Noredden. O grupo adquiriu ferramentas essenciais como martelo de guerra, corda e picareta com o mercador cÃ£o Ristus. No subterrÃ¢neo da oficina de estÃ¡tuas, uma sala abarrotada de tesouros continua bloqueada por uma estÃ¡tua animada armada com uma lanÃ§a negra. Markhor carrega um misterioso amuleto preservado em formato de Ankh resgatado dos escombros. Permanecem em aberto a investigaÃ§Ã£o dos ossos no fundo da chaminÃ© e a busca pelo pedestal de mÃ¡rmore rio abaixo."
+  "apos": "sessao-32",
+  "texto": "O grupo encontra-se reunido na Pousada do Sinal da CabeÃ§a Quebrada apÃ³s uma arriscada incursÃ£o Ã  oficina de esculturas em Arden Vul. Markhor recupera-se de uma perfuraÃ§Ã£o profunda na coxa provocada pela estÃ¡tua guardiÃ£, de quem arrancaram uma poderosa lanÃ§a de metal negro. Momonga assegurou a vigilÃ¢ncia de sua carroÃ§a e possui uma promissÃ³ria de 300 ciclos de prata pela estÃ¡tua de goblin, alÃ©m de um misterioso pÃ³ aromÃ¡tico verde. O paradeiro da perna colossal de mÃ¡rmore que sumiu da oficina permanece um mistÃ©rio. Resta ao trio identificar as propriedades da nova lanÃ§a, explorar a sala desarmada e decidir quando viajar a Newmarket."
  }
 }
