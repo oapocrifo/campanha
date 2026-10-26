@@ -1165,6 +1165,41 @@
     "locais/sala-da-bigorna",
     "locais/gruta-dos-halflings-de-phlebotomas"
    ]
+  },
+  "sessao-44": {
+   "titulo": "SessÃ£o 44: O FÃºria dos BabuÃ­nos e o Legado de Pedra",
+   "resumo": "Durante seus perÃ­odos de interlÃºdio, Momonga ingressou como aprendiz na guilda comercial Wisdom Factor em Newmarket, aprimorando seus conhecimentos na avaliaÃ§Ã£o de estÃ¡tuas antes de viajar atÃ© Arden Vul escoltado pelo grupo anÃ£o Survivors of the Stone. Paralelamente, Leviathan consultou a estudiosa Clavinia na Pousada do Sinal da CabeÃ§a Quebrada em busca de informaÃ§Ãµes sobre almanaques de bestas, recebendo a indicaÃ§Ã£o do escriba Astableon em Gosterwick, alÃ©m de aprimorar seu condicionamento fÃ­sico em treinos de resistÃªncia.\n\nReunidos na pousada, Leviathan e Momonga juntaram-se ao clÃ©rigo Chico LeÃ£o e ao guerreiro Ilyn, conduzindo uma carroÃ§a atÃ© o pÃ¡tio central de Arden Vul. No local, investigaram uma escadaria que descia aos subterrÃ¢neos e contataram um sentinela do grupo goblin Wicktrimmer, descobrindo que eles usam a passagem da antiga porta de obsidiana aberta por forasteiros, negociam vÃ­veres e mantÃªm forte rivalidade com os halflings de Phlebotomas Plumthorn.\n\nAo retornarem Ã  superfÃ­cie para ajudar a Ã¡rvore senciente Tuftwillig contra um bando de babuÃ­nos infestantes, o grupo enfrentou uma tragÃ©dia quando Chico LeÃ£o tentou amedrontar o bando e acabou agarrado e esmagado atÃ© a morte pela fÃªmea gigante albina. Com Momonga cegando a criatura atravÃ©s de sua magia de luz, Ilyn desferiu disparos letais com seu arco longo, derrubando o monstro da torre quadrada e permitindo que o grupo o abatesse no solo junto a dois espÃ©cimes menores. Como agradecimento, Tuftwillig presenteou os aventureiros com a mÃ£o esculpida da lendÃ¡ria estÃ¡tua colossal e revelou a localizaÃ§Ã£o de um pequeno baÃº de tesouro enterrado em suas raÃ­zes, antes de o grupo vender as carcaÃ§as aos goblins e retornar em seguranÃ§a com o corpo do companheiro.",
+   "linha_do_tempo": [
+    "Momonga realiza aprendizado de comÃ©rcio e avaliaÃ§Ã£o de estÃ¡tuas na Wisdom Factor em Newmarket e viaja a Arden Vul sob escolta dos Survivors of the Stone.",
+    "Leviathan obtÃ©m com Clavinia o contato do livreiro Astableon e realiza treinos de estamina na Pousada do Sinal da CabeÃ§a Quebrada.",
+    "Chico LeÃ£o, Ilyn, Leviathan e Momonga partem com uma carroÃ§a rumo ao grande pÃ¡tio da Ã¡rvore Tuftwillig.",
+    "O grupo desce uma escada no pÃ¡tio e negocia com um sentinela goblin do grupo Wicktrimmer, aprendendo sobre sua rota pela porta de obsidiana e a rixa contra Phlebotomas Plumthorn.",
+    "Ao retornar ao pÃ¡tio, os aventureiros deparam-se com um bando de babuÃ­nos escalando a Ã¡rvore Tuftwillig.",
+    "Chico LeÃ£o avanÃ§a e conjura Causar Medo na babuÃ­na gigante albina, mas o monstro resiste ao efeito e o esmaga atÃ© a morte.",
+    "Momonga cega a babuÃ­na gigante com a magia Luz enquanto Leviathan prende dois macacos menores com sua rede de caÃ§a.",
+    "Ilyn atinge a fÃªmea gigante com sucessivas flechadas e derruba a criatura de uma janela da torre quadrada de bronze.",
+    "Os aventureiros cercam a babuÃ­na caÃ­da e a executam no chÃ£o, ouvindo um grito agonizante vindo de dentro da torre.",
+    "Tuftwillig agradece ao grupo, revela que a criatura abatida era parceira do lÃ­der babuÃ­no Rango e presenteia os herÃ³is com a mÃ£o de pedra branca da estÃ¡tua colossal.",
+    "Ilyn desenterra um pequeno baÃº indicado pelas raÃ­zes de Tuftwillig.",
+    "O grupo transporta as carcaÃ§as dos macacos para o posto goblin subterrÃ¢neo e recebe 1.100 ciclos de prata em troca da carne.",
+    "Os aventureiros colocam o cadÃ¡ver de Chico LeÃ£o na carroÃ§a e retornam Ã  Pousada do Sinal da CabeÃ§a Quebrada, desvencilhando-se pacificamente de um grupo de exploradores na entrada."
+   ],
+   "entidades": [
+    "personagens/chico-leao",
+    "personagens/ilyn",
+    "personagens/leviathan",
+    "personagens/momonga",
+    "npcs/tuftwillig",
+    "npcs/rango",
+    "npcs/weskenim",
+    "faccoes/wicktrimmer",
+    "faccoes/survivors-of-the-stone",
+    "npcs/ljot-diorite",
+    "npcs/clavinia",
+    "eventos/morte-de-chico-leao",
+    "itens/mao-de-estatua-de-pedra-branca",
+    "locais/torre-quadrada-do-patio"
+   ]
   }
  },
  "entidades": {
@@ -4470,19 +4505,45 @@
    "tipo": "npc",
    "nome": "Tuftwillig",
    "apelidos": [],
-   "resumo": "Grande Ã¡rvore senciente que habita o pÃ¡tio central de Arden Vul. Detesta o dragÃ£o Crastonictorex e os babuÃ­nos albinos, pedindo ajuda aos aventureiros para se livrar deles.",
+   "resumo": "Grande Ã¡rvore senciente que habita o pÃ¡tio central de Arden Vul com rosto moldado no tronco e raÃ­zes mÃ³veis. Sofria com o bando de babuÃ­nos que quebrava seus galhos e presenteou os aventureiros com a mÃ£o esculpida da estÃ¡tua mÃ¡gica colossal apÃ³s a morte da babuÃ­na albina.",
    "atributos": {
     "EspÃ©cie": "Ãrvore Senciente",
-    "LocalizaÃ§Ã£o": "PÃ¡tio central de Arden Vul"
+    "LocalizaÃ§Ã£o": "PÃ¡tio Central de Arden Vul",
+    "OcupaÃ§Ã£o": "Ãrvore Senciente"
    },
    "fatos": [
     [
      "sessao-17",
      "Tuftwillig revelou aos aventureiros a presenÃ§a do dragÃ£o Crastonictorex e dos babuÃ­nos albinos nas ruÃ­nas."
+    ],
+    [
+     "sessao-44",
+     "Manifestou sua face no tronco para parabenizar o grupo pela morte da babuÃ­na gigante albina."
+    ],
+    [
+     "sessao-44",
+     "Explicou que a criatura abatida era a parceira do lÃ­der dos babuÃ­nos, um primata inteligente de quatro braÃ§os chamado Rango."
+    ],
+    [
+     "sessao-44",
+     "Afirmou nÃ£o possuir poder para reviver Chico LeÃ£o."
+    ],
+    [
+     "sessao-44",
+     "Presenteou o grupo erguendo por suas raÃ­zes uma mÃ£o colossal de pedra branca que pertencia a uma antiga estÃ¡tua mÃ¡gica."
+    ],
+    [
+     "sessao-44",
+     "Prometeu entregar um anel mÃ¡gico resistente a Ã¡cido caso os aventureiros matem o lÃ­der Rango."
+    ],
+    [
+     "sessao-44",
+     "Indicou a localizaÃ§Ã£o de um pequeno baÃº de tesouros enterrado em suas raÃ­zes."
     ]
    ],
    "sessoes": [
-    "sessao-17"
+    "sessao-17",
+    "sessao-44"
    ]
   },
   "criaturas/guardiaes-de-abis": {
@@ -5288,7 +5349,7 @@
    "tipo": "personagem",
    "nome": "Momonga",
    "apelidos": [],
-   "resumo": "ClÃ©rigo devoto de Demma que abriga a presenÃ§a espiritual de Irthol em sua mente. Adquiriu o amaldiÃ§oado Espelho de Zumbiboo em Gosterwick, ganhando visÃ£o aprimorada nas sombras ao custo de uma queimaÃ§Ã£o persistente e de uma aparÃªncia decrÃ©pita e mortificada. Na estrada, reconheceu os cultistas inimigos de Irthol, cegou o lÃ­der com a magia Luz e resgatou 350 ciclos de ouro pela venda das estÃ¡tuas em Newmarket.",
+   "resumo": "ClÃ©rigo devoto de Demma portador de carroÃ§a e mula de carga. Ingressou como aprendiz na guilda comercial Wisdom Factor em Newmarket, completou seu treino de botÃ¢nica em Gosterwick e cegou a babuÃ­na gigante albina com a magia Luz durante o confronto no pÃ¡tio.",
    "atributos": {
     "Classe": "ClÃ©rigo",
     "Jogador": "Silva",
@@ -5390,6 +5451,26 @@
     [
      "sessao-37",
      "Negociou as estÃ¡tuas recuperadas na guilda Wisdom Factor em Newmarket, obtendo 350 ciclos de ouro."
+    ],
+    [
+     "sessao-44",
+     "Pagou cinco ciclos de ouro para se tornar aprendiz na guilda Wisdom Factor em Newmarket sob tutela de Selene."
+    ],
+    [
+     "sessao-44",
+     "Dedicou 20 dias para aprender tÃ©cnicas prÃ¡ticas de avaliaÃ§Ã£o e precificaÃ§Ã£o de estÃ¡tuas antigas."
+    ],
+    [
+     "sessao-44",
+     "Pagou 30 ciclos de ouro por passagem de caravana atÃ© Gosterwick e concluiu seu aprendizado bÃ¡sico sobre ervas comuns no Templo de Demma."
+    ],
+    [
+     "sessao-44",
+     "Contratou a escolta dos Survivors of the Stone por 30 moedas de ouro para levÃ¡-lo com sua carroÃ§a e mula atÃ© Arden Vul."
+    ],
+    [
+     "sessao-44",
+     "Conjura a magia Luz nos olhos da babuÃ­na albina gigante, cegando-a por duas horas e salvando os demais companheiros."
     ]
    ],
    "sessoes": [
@@ -5398,7 +5479,8 @@
     "sessao-28",
     "sessao-32",
     "sessao-34",
-    "sessao-37"
+    "sessao-37",
+    "sessao-44"
    ]
   },
   "personagens/selene": {
@@ -8484,11 +8566,12 @@
    "tipo": "personagem",
    "nome": "Leviathan",
    "apelidos": [],
-   "resumo": "Aventureiro homem-fera que explora os subterrÃ¢neos de Arden Vul. Treinou tÃ©cnicas de combate na pousada, auxiliou no combate contra a lagarta gigante perfurando seus olhos e resgatou os companheiros.",
+   "resumo": "Aventureiro homem-fera e explorador do grupo equipado com espada longa e escudo. Treinou condicionamento fÃ­sico na Pousada do Sinal da CabeÃ§a Quebrada, imobilizou babuÃ­nos com uma rede de caÃ§a e auxiliou no abate da babuÃ­na gigante albina.",
    "atributos": {
     "RaÃ§a": "Homem-fera",
     "Classe": "Explorador",
-    "Jogador": "Melquizedeque"
+    "Jogador": "Melquizedeque",
+    "Status": "Vivo"
    },
    "fatos": [
     [
@@ -8514,12 +8597,33 @@
     [
      "sessao-42",
      "Encontrou um instrutor de combate na pousada e buscou missÃµes de caÃ§a a lagartos."
+    ],
+    [
+     "sessao-44",
+     "Consultou a estudiosa Clavinia sobre tratados de anatomia e fraquezas de monstros."
+    ],
+    [
+     "sessao-44",
+     "Realizou um treinamento fÃ­sico de circuito por 8 dias para ampliar sua estamina e resistÃªncia em corridas."
+    ],
+    [
+     "sessao-44",
+     "Comprou um baÃº grande, cadeado, espelho pequeno e suprimentos para guardar suas riquezas na pousada."
+    ],
+    [
+     "sessao-44",
+     "LanÃ§ou uma rede de caÃ§a que imobilizou dois babuÃ­nos albinos simultaneamente no pÃ¡tio."
+    ],
+    [
+     "sessao-44",
+     "Ajudou a desferir os golpes de espada finais na babuÃ­na gigante caÃ­da no solo."
     ]
    ],
    "sessoes": [
     "sessao-39",
     "sessao-40",
-    "sessao-42"
+    "sessao-42",
+    "sessao-44"
    ]
   },
   "npcs/harold-good-ears": {
@@ -9336,6 +9440,364 @@
    "sessoes": [
     "sessao-43"
    ]
+  },
+  "personagens/chico-leao": {
+   "tipo": "personagem",
+   "nome": "Chico LeÃ£o",
+   "apelidos": [],
+   "resumo": "ClÃ©rigo aventureiro devoto e explorador do grupo. Carregava um braÃ§o de estÃ¡tua de pedra antiga consigo e tentou subjugar o bando de babuÃ­nos albinos em Tuftwillig com magias divinas, mas acabou sendo agarrado e mortalmente esmagado pela fÃªmea gigante.",
+   "atributos": {
+    "Jogador": "Guilherme",
+    "Classe": "ClÃ©rigo",
+    "Status": "Morto"
+   },
+   "fatos": [
+    [
+     "sessao-44",
+     "Liderou a marcha da expediÃ§Ã£o da pousada atÃ© o pÃ¡tio central de Arden Vul."
+    ],
+    [
+     "sessao-44",
+     "Mencionou carregar consigo um braÃ§o de pedra pertencente Ã  estÃ¡tua colossal desmembrada."
+    ],
+    [
+     "sessao-44",
+     "Tentou utilizar a magia Causar Medo contra a babuÃ­na gigante albina."
+    ],
+    [
+     "sessao-44",
+     "Foi agarrado pela mÃ£o colossal do monstro e teve suas costelas e Ã³rgÃ£os esmagados, morrendo no local."
+    ],
+    [
+     "sessao-44",
+     "Teve seu cadÃ¡ver recolhido e transportado de volta Ã  pousada pelos companheiros na carroÃ§a."
+    ]
+   ],
+   "sessoes": [
+    "sessao-44"
+   ]
+  },
+  "personagens/ilyn": {
+   "tipo": "personagem",
+   "nome": "Ilyn",
+   "apelidos": [],
+   "resumo": "Guerreiro arqueiro recÃ©m-chegado ao grupo, portador de olfato aguÃ§ado e excepcional pontaria com arco longo. Foi decisivo no combate no pÃ¡tio de Tuftwillig, eliminando babuÃ­nos Ã  distÃ¢ncia e derrubando a fÃªmea colossal da torre quadrada.",
+   "atributos": {
+    "Jogador": "Marquinhos",
+    "Classe": "Guerreiro",
+    "Status": "Vivo"
+   },
+   "fatos": [
+    [
+     "sessao-44",
+     "Porta um arco longo e demonstrou pontaria de elite durante os combates."
+    ],
+    [
+     "sessao-44",
+     "Identificou pelo faro que o odor corporal vindo da sala subterrÃ¢nea nÃ£o era humano."
+    ],
+    [
+     "sessao-44",
+     "Abateu dois babuÃ­nos menores que tentavam se livrar da rede com flechadas no pescoÃ§o."
+    ],
+    [
+     "sessao-44",
+     "Acertou a mÃ£o da babuÃ­na gigante albina enquanto ela escalava a torre, fazendo-a despencar no chÃ£o."
+    ],
+    [
+     "sessao-44",
+     "Resgatou um pequeno baÃº de tesouro oculto entre as raÃ­zes de Tuftwillig."
+    ],
+    [
+     "sessao-44",
+     "Conduziu o diÃ¡logo para afastar exploradores armados desconfiados na chegada Ã  pousada."
+    ]
+   ],
+   "sessoes": [
+    "sessao-44"
+   ]
+  },
+  "npcs/rango": {
+   "tipo": "npc",
+   "nome": "Rango",
+   "apelidos": [],
+   "resumo": "BabuÃ­no gigante albino inteligente dotado de quatro braÃ§os e capaz de compreender e falar rudimentos da lÃ­ngua comum. Lidera o bando de babuÃ­nos que infesta as torres e a Ã¡rvore de Arden Vul, sendo alvo jurado da Ã¡rvore Tuftwillig.",
+   "atributos": {
+    "EspÃ©cie": "BabuÃ­no Gigante Inteligente",
+    "LocalizaÃ§Ã£o": "Torres do PÃ¡tio Central de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-44",
+     "Ã o lÃ­der supremo do bando de babuÃ­nos de Arden Vul."
+    ],
+    [
+     "sessao-44",
+     "Possui quatro braÃ§os e porte fÃ­sico consideravelmente maior do que sua parceira gigante."
+    ],
+    [
+     "sessao-44",
+     "Compreende e Ã© capaz de falar rudimentos do idioma comum dos humanos."
+    ],
+    [
+     "sessao-44",
+     "Era companheiro da fÃªmea gigante albina abatida pelos aventureiros."
+    ]
+   ],
+   "sessoes": [
+    "sessao-44"
+   ]
+  },
+  "npcs/weskenim": {
+   "tipo": "npc",
+   "nome": "Weskenim",
+   "apelidos": [
+    "Eskeny",
+    "Eskinen"
+   ],
+   "resumo": "LÃ­der e chefe do grupo de goblins imperiais Wicktrimmer estabelecido nos complexos subterrÃ¢neos de Arden Vul. Negociou e comprou a abertura da porta de obsidiana com exploradores e autoriza compras volumosas de vÃ­veres e carnes trazidas de fora.",
+   "atributos": {
+    "RaÃ§a": "Goblin",
+    "OcupaÃ§Ã£o": "Chefe Goblin",
+    "AfiliaÃ§Ã£o": "Wicktrimmer"
+   },
+   "fatos": [
+    [
+     "sessao-44",
+     "Comanda o assentamento e as rotas subterrÃ¢neas do grupo Wicktrimmer em Arden Vul."
+    ],
+    [
+     "sessao-44",
+     "Adquiriu no passado as estÃ¡tuas e o segredo de abertura da porta de obsidiana de exploradores forasteiros."
+    ],
+    [
+     "sessao-44",
+     "Aprovou o pagamento de 1.100 ciclos de prata pela carne dos babuÃ­nos trazida pelos aventureiros."
+    ],
+    [
+     "sessao-44",
+     "Nutre profunda inimizade contra os halflings liderados por Phlebotomas Plumthorn."
+    ]
+   ],
+   "sessoes": [
+    "sessao-44"
+   ]
+  },
+  "faccoes/wicktrimmer": {
+   "tipo": "faccao",
+   "nome": "Wicktrimmer",
+   "apelidos": [
+    "Westcrim"
+   ],
+   "resumo": "Bando organizado de goblins que ocupa salÃµes e corredores subterrÃ¢neos conectados Ã  escadaria do grande pÃ¡tio de Arden Vul. Cobram pedÃ¡gios de passagem, comercializam tesouros e alimentos e mantÃªm forte rivalidade territorial contra os halflings de Phlebotomas Plumthorn.",
+   "atributos": {
+    "Base": "SubterrÃ¢neo sob o grande pÃ¡tio de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-44",
+     "MantÃªm um posto de vigia e pedÃ¡gio em uma sala subterrÃ¢nea no canto do grande pÃ¡tio."
+    ],
+    [
+     "sessao-44",
+     "Acessam seus salÃµes principais atravÃ©s da misteriosa porta de obsidiana desvendada meses atrÃ¡s."
+    ],
+    [
+     "sessao-44",
+     "Cobram por padrÃ£o cinco ciclos de ouro por visitante para permitir livre trÃ¢nsito em suas galerias."
+    ],
+    [
+     "sessao-44",
+     "Compram grandes volumes de carne de caÃ§a e tesouros de exploradores."
+    ],
+    [
+     "sessao-44",
+     "Prometem livre passagem caso alguÃ©m lhes traga a cabeÃ§a do lÃ­der halfling Phlebotomas Plumthorn."
+    ]
+   ],
+   "sessoes": [
+    "sessao-44"
+   ]
+  },
+  "faccoes/survivors-of-the-stone": {
+   "tipo": "faccao",
+   "nome": "Survivors of the Stone",
+   "apelidos": [
+    "Sobreviventes da Pedra"
+   ],
+   "resumo": "Companhia de mercenÃ¡rios e exploradores experientes liderada por Ljot Diorite, composta majoritariamente por anÃµes e uma humana. Operam prestando serviÃ§os de escolta armada entre Gosterwick e Arden Vul pela rota d'A Longa Corrida.",
+   "atributos": {
+    "LÃ­der": "Ljot Diorite",
+    "AtuaÃ§Ã£o": "Arden Vul e Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-44",
+     "Composta por cinco anÃµes e uma mulher humana sob a lideranÃ§a de Ljot Diorite."
+    ],
+    [
+     "sessao-44",
+     "Cobrou trinta moedas de ouro para escoltar Momonga e sua carroÃ§a em uma viagem de dois dias atÃ© a Pousada do Sinal da CabeÃ§a Quebrada."
+    ],
+    [
+     "sessao-44",
+     "Contatou a governadora Lady Alexia Basileon sobre uma contrataÃ§Ã£o militar para enfrentar kobolds no Emaranhado."
+    ],
+    [
+     "sessao-44",
+     "Revelou que o grupo de exploradores liderado por Hama desapareceu apÃ³s adentrar o covil dos kobolds."
+    ]
+   ],
+   "sessoes": [
+    "sessao-44"
+   ]
+  },
+  "npcs/ljot-diorite": {
+   "tipo": "npc",
+   "nome": "Ljot Diorite",
+   "apelidos": [
+    "Ailton",
+    "Eljot"
+   ],
+   "resumo": "LÃ­der da companhia de exploradores Survivors of the Stone. Ã experiente nos caminhos do vale, conduzindo escoltas pelas margens do rio A Longa Corrida e negociando acordos formais com autoridades arconteanas.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "LÃ­der MercenÃ¡ria",
+    "AfiliaÃ§Ã£o": "Survivors of the Stone"
+   },
+   "fatos": [
+    [
+     "sessao-44",
+     "Liderou a escolta da carroÃ§a de Momonga contornando a escarpa Ã  esquerda pelo rio A Longa Corrida."
+    ],
+    [
+     "sessao-44",
+     "Alertou sobre a presenÃ§a de trÃªs dragÃµes, sapos gigantes, crocodilos no lago e ghouls nas ruÃ­nas de Arden Vul."
+    ],
+    [
+     "sessao-44",
+     "Informou que a situaÃ§Ã£o dos kobolds no Emaranhado se agravou apÃ³s as vinhas conectarem-se Ã  floresta sob o comando de um druida desconhecido."
+    ]
+   ],
+   "sessoes": [
+    "sessao-44"
+   ]
+  },
+  "npcs/clavinia": {
+   "tipo": "npc",
+   "nome": "Clavinia",
+   "apelidos": [],
+   "resumo": "Estudiosa e praticante arcana que frequenta a Pousada do Sinal da CabeÃ§a Quebrada acompanhada por quatro guardas-costas armados. Possui amplos conhecimentos bibliogrÃ¡ficos sobre criaturas e vende informaÃ§Ãµes sobre tratados raros.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Estudiosa Arcana",
+    "LocalizaÃ§Ã£o": "Pousada do Sinal da CabeÃ§a Quebrada"
+   },
+   "fatos": [
+    [
+     "sessao-44",
+     "Foi abordada por Leviathan no salÃ£o da pousada enquanto acompanhada por quatro homens armados."
+    ],
+    [
+     "sessao-44",
+     "Explicou que tomos sobre criaturas costumam ser altamente especializados por anatomia de monstros especÃ­ficos."
+    ],
+    [
+     "sessao-44",
+     "Cobrou uma moeda de ouro para indicar o escriba e livreiro Astableon no Mercado Superior de Gosterwick."
+    ]
+   ],
+   "sessoes": [
+    "sessao-44"
+   ]
+  },
+  "eventos/morte-de-chico-leao": {
+   "tipo": "evento",
+   "nome": "Morte de Chico LeÃ£o",
+   "apelidos": [],
+   "resumo": "TrÃ¡gico confronto ocorrido no pÃ¡tio da Ã¡rvore Tuftwillig em Arden Vul, no qual o clÃ©rigo Chico LeÃ£o foi surpreendido pela fÃªmea gigante albina do bando de babuÃ­nos e fatalmente esmagado por suas garras.",
+   "atributos": {
+    "Local": "PÃ¡tio Central de Arden Vul",
+    "VÃ­tima": "Chico LeÃ£o"
+   },
+   "fatos": [
+    [
+     "sessao-44",
+     "Ocorreu no inÃ­cio do combate contra os babuÃ­nos infestantes no pÃ¡tio central de Arden Vul."
+    ],
+    [
+     "sessao-44",
+     "Chico LeÃ£o aproximou-se para conjurar Causar Medo, mas a criatura resistiu incÃ³lume ao encantamento."
+    ],
+    [
+     "sessao-44",
+     "A fÃªmea gigante desceu velozmente pelo tronco e desferiu uma investida agarrando Chico LeÃ£o com uma Ãºnica mÃ£o."
+    ],
+    [
+     "sessao-44",
+     "A forÃ§a mandibular e esmagadora da fera partiu as costelas e Ã³rgÃ£os do clÃ©rigo, causando sua morte instantÃ¢nea."
+    ]
+   ],
+   "sessoes": [
+    "sessao-44"
+   ]
+  },
+  "itens/mao-de-estatua-de-pedra-branca": {
+   "tipo": "item",
+   "nome": "MÃ£o de EstÃ¡tua de Pedra Branca",
+   "apelidos": [
+    "MÃ£o de Pedra"
+   ],
+   "resumo": "Fragmento colossal de escultura esculpido em pedra branca com veios coloridos, entregue por Tuftwillig aos aventureiros. Faz parte da lendÃ¡ria estÃ¡tua mÃ¡gica desmembrada que se encontrava espalhada pelas ruÃ­nas de Arden Vul.",
+   "atributos": {
+    "Material": "Pedra branca com veios coloridos",
+    "Origem": "PÃ¡tio Central de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-44",
+     "Estava preservada e guardada no subsolo entre as raÃ­zes entrelaÃ§adas de Tuftwillig."
+    ],
+    [
+     "sessao-44",
+     "Mede proporÃ§Ãµes gigantescas e Ã© composta pelo mesmo mineral branco venoso do braÃ§o resgatado e da cabeÃ§a da pousada."
+    ],
+    [
+     "sessao-44",
+     "Foi entregue aos aventureiros como recompensa parcial por abaterem a babuÃ­na gigante albina."
+    ]
+   ],
+   "sessoes": [
+    "sessao-44"
+   ]
+  },
+  "locais/torre-quadrada-do-patio": {
+   "tipo": "local",
+   "nome": "Torre Quadrada do PÃ¡tio",
+   "apelidos": [],
+   "resumo": "EdificaÃ§Ã£o em alvenaria perfeitamente conservada situada no pÃ¡tio central de Arden Vul, dotada de uma porta dupla de bronze e janelas estreitas apenas em seus andares mais altos. Serve de ninho e refÃºgio para o bando de babuÃ­nos albinos.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "PÃ¡tio Central de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-44",
+     "Apresenta excelente estado de conservaÃ§Ã£o em meio Ã s ruÃ­nas do pÃ¡tio."
+    ],
+    [
+     "sessao-44",
+     "Possui uma entrada principal com porta dupla forjada em bronze."
+    ],
+    [
+     "sessao-44",
+     "ContÃ©m janelas externas apenas nos pavimentos superiores por onde os babuÃ­nos escalam e ingressam."
+    ],
+    [
+     "sessao-44",
+     "Abrigou a fuga dos macacos sobreviventes, ecoando um misterioso grito de morte em seu interior."
+    ]
+   ],
+   "sessoes": [
+    "sessao-44"
+   ]
   }
  },
  "pendencias": [
@@ -9686,8 +10148,8 @@
    "id": "p50",
    "texto": "Lidar com os babuÃ­nos albinos nas torres de Arden Vul.",
    "aberta_em": "sessao-17",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-44",
+   "como": "O grupo eliminou a fÃªmea gigante albina e dois babuÃ­nos menores que assolavam os galhos de Tuftwillig, recebendo recompensas da Ã¡rvore e descobrindo a identidade do lÃ­der Rango."
   },
   {
    "id": "p51",
@@ -10332,10 +10794,52 @@
    "aberta_em": "sessao-43",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p143",
+   "texto": "Derrotar Rango, o babuÃ­no gigante de quatro braÃ§os, para receber o anel de proteÃ§Ã£o contra Ã¡cido prometido por Tuftwillig.",
+   "aberta_em": "sessao-44",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p144",
+   "texto": "Eliminar Phlebotomas Plumthorn e levar sua cabeÃ§a a Weskenim para obter passagem livre definitiva pelas rotas dos goblins Wicktrimmer.",
+   "aberta_em": "sessao-44",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p145",
+   "texto": "Abrir e avaliar os tesouros contidos no pequeno baÃº desenterrado das raÃ­zes de Tuftwillig.",
+   "aberta_em": "sessao-44",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p146",
+   "texto": "Investigar o que causou o grito agonizante do babuÃ­no que entrou na Torre Quadrada do PÃ¡tio.",
+   "aberta_em": "sessao-44",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p147",
+   "texto": "Reconstituir a estÃ¡tua mÃ¡gica colossal utilizando a mÃ£o de pedra branca dada por Tuftwillig, o braÃ§o em posse do grupo e a cabeÃ§a na pousada.",
+   "aberta_em": "sessao-44",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p148",
+   "texto": "Consultar Astableon no Mercado Superior de Gosterwick para comprar um almanaque de criaturas e anatomia.",
+   "aberta_em": "sessao-44",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-43",
-  "texto": "O grupo encontra-se seguro na Pousada do Sinal da CabeÃ§a Quebrada apÃ³s uma lucrativa expediÃ§Ã£o ao primeiro nÃ­vel subterrÃ¢neo de Arden Vul. ArnÃ³bio, Melios e Malaquias enriqueceram vendendo a lanÃ§a mÃ¡gica 'Vento da Noite' para o colecionador Oberon por nove mil ciclos de prata. Entre os espÃ³lios preservados estÃ£o um mapa detalhado da escarpa, um cÃ¡lice prateado que coincide com o altar de Thoth e uma moeda de cobre com relevos de boca e orelha. Oberon ficou encarregado de traduzir os manuscritos de Karius sobre a antiga guerra civil para os aventureiros. AlÃ©m disso, o grupo obteve pistas sobre a base secundÃ¡ria dos halflings de Phlebotomas e deixou uma passagem com teias de aranha pendente de exploraÃ§Ã£o."
+  "apos": "sessao-44",
+  "texto": "O grupo encontra-se reunido em seguranÃ§a na Pousada do Sinal da CabeÃ§a Quebrada apÃ³s uma caÃ§ada turbulenta no pÃ¡tio central de Arden Vul. A expediÃ§Ã£o culminou na trÃ¡gica morte do clÃ©rigo Chico LeÃ£o, esmagado pela fÃªmea de babuÃ­no gigante albino, cujo corpo foi recuperado e trazido na carroÃ§a. Em contrapartida, os aventureiros conseguiram abater o monstro com flechas certeiras de Ilyn e feitiÃ§os de Momonga, vendendo a carne aos goblins do clÃ£ Wicktrimmer por 1.100 ciclos de prata. A Ã¡rvore senciente Tuftwillig recompensou os sobreviventes com a mÃ£o de pedra branca da estÃ¡tua colossal e um baÃº, prometendo um anel protetor caso matem o lÃ­der de quatro braÃ§os, Rango. Resta agora abrir o baÃº resgatado, decidir o destino dos restos de Chico LeÃ£o e planejar como lidar com Rango e os halflings rivais."
  }
 }
