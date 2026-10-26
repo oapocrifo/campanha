@@ -272,6 +272,31 @@
     "faccoes/knights-of-the-azure-shield",
     "criaturas/beastmen"
    ]
+  },
+  "sessao-11": {
+   "titulo": "O MistÃ©rio dos Ossos Negros de A Pata",
+   "resumo": "No dia 10 do quarto mÃªs de 2993, sob chuva constante em Gosterwick, o grupo formado por Deyos, Hugios, Durlan e Abicon estipulou uma expediÃ§Ã£o Ã  colina A Pata. Antes da partida, Abicon vendeu 68 ciclos de sÃ¡lvia para Lyssandra Astorion no Clube dos Praticantes Arcanos por 340 ciclos de prata, garantindo fundos para a compra de armas e equipamentos.  Na base da colina A Pata, os aventureiros encontraram carcaÃ§as de animais desprovidas de ossos e enfrentaram uma criatura esquelÃ©tica serpenteante. Durante o combate, Abicon foi mordido e sofreu um escurecimento enrijecido em seu abdÃ´men, mas o grupo destruiu a besta e extraiu fragmentos de osso preto de textura vÃ­trea.  ApÃ³s uma breve viagem a Gosterwick para vender ervas, o grupo retornou a A Pata e desceu Ã s catacumbas profundas. No interior dos tÃºneis, encontraram uma mochila de aventureiro com suprimentos, mas recuaram ao escutarem sussurros e ruÃ­dos de pedra raspando. Na Estalagem Capa Amarela, Deyos estilhaÃ§ou um dos ossos pretos na lareira, liberando uma fumaÃ§a arroxeada pelo salÃ£o.",
+   "linha_do_tempo": [
+    "Os aventureiros compram suprimentos e armamentos em Gosterwick, vendendo 68 ciclos de sÃ¡lvia a Lyssandra Astorion no Clube Arcano.",
+    "Na base da colina A Pata, o grupo descobre carcaÃ§as de animais sem estrutura Ã³ssea e enfrenta uma criatura esquelÃ©tica serpenteante.",
+    "Abicon Ã© mordido pela abominaÃ§Ã£o esquelÃ©tica no abdÃ´men, sofrendo um enrijecimento escurecido na pele.",
+    "O grupo elimina a besta, recolhe dois fragmentos de osso preto com propriedades magnÃ©ticas e retorna brevemente a Gosterwick.",
+    "De volta a A Pata, os exploradores descem as escadarias das catacumbas e encontram uma mochila abandonada repleta de suprimentos.",
+    "Ao ouvirem sons de pedra raspando e sussurros vindo de um desmoronamento, os aventureiros decidem recuar e abatem outra serpente Ã³ssea no caminho.",
+    "Na Estalagem Capa Amarela, Deyos esquenta e estilhaÃ§a o osso preto na lareira, liberando uma fumaÃ§a arroxeada no salÃ£o."
+   ],
+   "entidades": [
+    "personagens/deyos",
+    "personagens/hugios",
+    "personagens/durlan",
+    "personagens/abicon",
+    "locais/the-paw",
+    "locais/gosterwick",
+    "locais/estalagem-capa-amarela",
+    "npcs/lyssandra-astorion",
+    "criaturas/esqueleto-mimir",
+    "itens/osso-preto"
+   ]
   }
  },
  "entidades": {
@@ -279,9 +304,9 @@
    "tipo": "personagem",
    "nome": "Deyos",
    "apelidos": [],
-   "resumo": "Aventureiro homem-lagarto do grupo. Foi emboscado pelos Vizinhos Ruins em Gosterwick, tendo seus pertences roubados e o rosto marcado com as letras VR, mas sobreviveu e liderou a nova incursÃ£o aos ermos e catacumbas.",
+   "resumo": "Aventureiro homem-lagarto do grupo. Foi emboscado pelos Vizinhos Ruins em Gosterwick, mas sobreviveu e liderou incursÃµes aos ermos. Na colina A Pata, combateu monstros esquelÃ©ticos e provocou a liberaÃ§Ã£o de uma fumaÃ§a mÃ¡gica ao estilhaÃ§ar um osso mÃ­stico na estalagem.",
    "atributos": {
-    "RaÃ§a": "Homem-lagarto",
+    "RaÃ§a": "Homem-Lagarto",
     "Jogador": "Guilherme",
     "Status": "Vivo",
     "LocalizaÃ§Ã£o": "Gosterwick",
@@ -327,24 +352,38 @@
     [
      "sessao-09",
      "Liderou a exploraÃ§Ã£o nas catacumbas da colina A Pata em busca de riquezas."
+    ],
+    [
+     "sessao-11",
+     "Comprou um cantil, mochila e armadura pesada em Gosterwick antes da expediÃ§Ã£o."
+    ],
+    [
+     "sessao-11",
+     "Ajudou a imobilizar a criatura esquelÃ©tica na colina A Pata durante o combate."
+    ],
+    [
+     "sessao-11",
+     "EstilhaÃ§ou um dos ossos pretos na lareira da Estalagem Capa Amarela, liberando fumaÃ§a arroxeada."
     ]
    ],
    "sessoes": [
     "sessao-01",
     "sessao-04",
-    "sessao-09"
+    "sessao-09",
+    "sessao-11"
    ]
   },
   "personagens/hugios": {
    "tipo": "personagem",
    "nome": "Hugios",
    "apelidos": [],
-   "resumo": "Aventureiro explorador do grupo. Participou da emboscada fracassada contra os Vizinhos Ruins, perdeu todos os seus equipamentos e acompanhou os companheiros nas investigaÃ§Ãµes em Arden Vul e na colina A Pata. Obteve pratas vendendo informaÃ§Ãµes a forasteiros e sobreviveu ao encontro noturno com um dragÃ£o no platÃ´ de Arden Vul.",
+   "resumo": "Aventureiro explorador do grupo. Participou da emboscada fracassada contra os Vizinhos Ruins, perdeu seus equipamentos e acompanhou os companheiros em incursÃµes a A Pata. Comprou novos armamentos em Gosterwick e atingiu o ponto fraco de uma criatura esquelÃ©tica com sua zagaia.",
    "atributos": {
     "Classe": "Explorador",
     "Jogador": "Sonard",
     "Status": "Vivo e exausto",
-    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela em Gosterwick"
+    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela em Gosterwick",
+    "OcupaÃ§Ã£o": "Explorador"
    },
    "fatos": [
     [
@@ -414,6 +453,18 @@
     [
      "sessao-10",
      "Teve que fugir com os companheiros ao se deparar com homens-fera e um dragÃ£o empoleirado nas ruÃ­nas."
+    ],
+    [
+     "sessao-11",
+     "Adquiriu uma espada larga, escudo e zagaia no comÃ©rcio de Gosterwick."
+    ],
+    [
+     "sessao-11",
+     "Acertou o osso preto vÃ­treo de um Esqueleto Mimir com sua zagaia durante a batalha."
+    ],
+    [
+     "sessao-11",
+     "Ajudou a carregar suprimentos e montar a barraca de acampamento durante a viagem."
     ]
    ],
    "sessoes": [
@@ -421,7 +472,8 @@
     "sessao-02",
     "sessao-04",
     "sessao-09",
-    "sessao-10"
+    "sessao-10",
+    "sessao-11"
    ]
   },
   "personagens/pallas": {
@@ -472,9 +524,9 @@
    "tipo": "local",
    "nome": "Gosterwick",
    "apelidos": [],
-   "resumo": "Cidade comercial prÃ³xima Ã s ruÃ­nas de Arden Vul que serve como base de suprimentos para aventureiros. Ã dividida em cinco distritos principais: Mercado Superior, Sob a Colina, Distrito do Mercado, Distrito dos Incensos e Distrito Exterior.",
+   "resumo": "Cidade comercial prÃ³xima Ã s ruÃ­nas de Arden Vul que serve como base para aventureiros. Possui estabelecimentos variados no Distrito do Mercado, o Clube dos Praticantes Arcanos e forjas de armamentos.",
    "atributos": {
-    "Tipo": "Cidade"
+    "Tipo": "Cidade Comercial"
    },
    "fatos": [
     [
@@ -488,12 +540,21 @@
     [
      "sessao-02",
      "O Distrito dos Incensos abriga a Casa dos Deuses, poÃ§os e fontes de Ã¡gua de pedra, alÃ©m de diversas estalagens."
+    ],
+    [
+     "sessao-11",
+     "Suas lojas de armas e padarias do mercado abasteceram o grupo com novos equipamentos."
+    ],
+    [
+     "sessao-11",
+     "O Clube Arcano adquiriu grande lote de sÃ¡lvia trazido pelos aventureiros."
     ]
    ],
    "sessoes": [
     "sessao-01",
     "sessao-02",
-    "sessao-04"
+    "sessao-04",
+    "sessao-11"
    ]
   },
   "locais/arden-vul": {
@@ -522,7 +583,7 @@
    "tipo": "local",
    "nome": "Estalagem Capa Amarela",
    "apelidos": [],
-   "resumo": "Estabelecimento situado na esquina do Caminho Imperial com a Rua da Pedra em Gosterwick, utilizado como refÃºgio e base de descanso por aventureiros. Passou a hospedar Durlan e Corsa apÃ³s a caÃ§ada, enquanto uma mulher-planta disfarÃ§ada vigia seus aposentos no tÃ©rreo.",
+   "resumo": "Estabelecimento situado em Gosterwick utilizado como refÃºgio e base por aventureiros. Foi palco do estilhaÃ§amento de um osso preto na lareira do salÃ£o principal, o que espalhou uma fumaÃ§a roxa pelo ambiente.",
    "atributos": {
     "LocalizaÃ§Ã£o": "Gosterwick"
    },
@@ -542,12 +603,21 @@
     [
      "sessao-07",
      "Seu saguÃ£o tÃ©rreo foi ocupado discretamente por uma mulher-planta metamorfoseada em trajes civis."
+    ],
+    [
+     "sessao-11",
+     "Abrigou o grupo no retorno de suas missÃµes na colina A Pata."
+    ],
+    [
+     "sessao-11",
+     "Teve seu salÃ£o contaminado por fumaÃ§a roxa criada pela destruiÃ§Ã£o de um osso preto na lareira."
     ]
    ],
    "sessoes": [
     "sessao-01",
     "sessao-04",
-    "sessao-07"
+    "sessao-07",
+    "sessao-11"
    ]
   },
   "npcs/damasco": {
@@ -688,9 +758,10 @@
     "A Pata",
     "Colina da Pata"
    ],
-   "resumo": "Conjunto de colinas nos arredores de Gosterwick com formato semelhante a uma pata de gato invertida. O local abriga um antigo cemitÃ©rio do povo Thorcinga escavado nas paredÃµes de pedra com tÃºmulos e catacumbas profundas.",
+   "resumo": "Conjunto de colinas nos arredores de Gosterwick com formato de pata de gato invertida. O local abriga catacumbas do antigo povo Thorcinga com tÃºneis profundos, ninhos com caixÃµes de madeira vermelha, criaturas de ossos negros e desmoronamentos misteriosos.",
    "atributos": {
-    "LocalizaÃ§Ã£o": "Arredores de Gosterwick"
+    "LocalizaÃ§Ã£o": "Arredores de Gosterwick",
+    "RegiÃ£o": "Arredores de Gosterwick"
    },
    "fatos": [
     [
@@ -700,10 +771,23 @@
     [
      "sessao-02",
      "Possui uma entrada para catacumbas subterrÃ¢neas repletas de caixÃµes de madeira avermelhada e preta e ossadas."
+    ],
+    [
+     "sessao-11",
+     "Apresenta carcaÃ§as de pequenos animais totalmente desprovidas de ossos em sua base."
+    ],
+    [
+     "sessao-11",
+     "Sua entrada superior contÃ©m detritos de pedras destruÃ­das por um grande impacto."
+    ],
+    [
+     "sessao-11",
+     "Abriga catacumbas profundas com ninhos de caixÃµes vermelhos e tÃºneis com fendas subterrÃ¢neas."
     ]
    ],
    "sessoes": [
-    "sessao-02"
+    "sessao-02",
+    "sessao-11"
    ]
   },
   "locais/casa-dos-deuses": {
@@ -1494,10 +1578,10 @@
    "apelidos": [
     "Lissandra"
    ],
-   "resumo": "Maga de ascendÃªncia arconteana que gerencia o Clube dos Praticantes Arcanos em Gosterwick ao lado de seu companheiro. Negocia componentes mÃ¡gicos raros e estuda os mistÃ©rios arcanos da regiÃ£o de Arden Vul. Aceitou recolher um grimÃ³rio defeituoso para correÃ§Ã£o e ofereceu admissÃ£o na ordem a aventureiros que colherem mudas de Fernie.",
+   "resumo": "Maga de ascendÃªncia arconteana que gerencia o Clube dos Praticantes Arcanos em Gosterwick. Comprou 68 ciclos de sÃ¡lvia por 340 ciclos de prata, afirmando que o lote suprirÃ¡ suas necessidades por semanas, e cobrou 5 moedas de ouro para detectar magia em itens.",
    "atributos": {
     "RaÃ§a": "Humana (Arconteana)",
-    "OcupaÃ§Ã£o": "Gerente do Clube Arcano",
+    "OcupaÃ§Ã£o": "Maga / Gerente do Clube Arcano",
     "AfiliaÃ§Ã£o": "Clube dos Praticantes Arcanos",
     "LocalizaÃ§Ã£o": "Gosterwick"
    },
@@ -1525,11 +1609,24 @@
     [
      "sessao-08",
      "Instruiu o grupo sobre a localizaÃ§Ã£o da Antiga Floresta, alertando sobre a necessidade de cruzar o rio perto do paredÃ£o de estÃ¡tuas."
+    ],
+    [
+     "sessao-11",
+     "Comprou 68 ciclos de sÃ¡lvia por 340 ciclos de prata do grupo."
+    ],
+    [
+     "sessao-11",
+     "Informou que nÃ£o precisarÃ¡ comprar novas sÃ¡lvias por vÃ¡rias semanas."
+    ],
+    [
+     "sessao-11",
+     "Ofereceu conjurar detecÃ§Ã£o de magia no osso preto pelo valor de cinco peÃ§as de ouro."
     ]
    ],
    "sessoes": [
     "sessao-06",
-    "sessao-08"
+    "sessao-08",
+    "sessao-11"
    ]
   },
   "locais/clube-dos-praticantes-arcanos": {
@@ -1667,7 +1764,7 @@
    "tipo": "personagem",
    "nome": "Durlan",
    "apelidos": [],
-   "resumo": "Guerreiro expedicionÃ¡rio que atua em expediÃ§Ãµes nos arredores de Gosterwick. EnfeitiÃ§ado por uma mulher-planta nos matagais, jurou protegÃª-la e entregou o primeiro gato de seu bizarro pacto na Estalagem Capa Amarela. Acompanhou Abicon e Eugeo em uma marcha equivocada pela estrada de Deep Town, sobreviveu a um ataque de leÃ£o e refugiou-se na hospedaria.",
+   "resumo": "Guerreiro expedicionÃ¡rio que atua em missÃµes ao redor de Gosterwick. Acompanhou o grupo nas buscas por suprimentos na cidade, participou da exploraÃ§Ã£o das catacumbas de A Pata e inalou a fumaÃ§a mÃ­stica liberada na estalagem.",
    "atributos": {
     "Jogador": "Mateus L",
     "Classe": "Guerreiro",
@@ -1710,11 +1807,24 @@
     [
      "sessao-08",
      "Correu em retirada junto a Abicon e Eugeo ao ser interpelado por seis homens armados na estrada."
+    ],
+    [
+     "sessao-11",
+     "Comprou pÃ£es na padaria e refeiÃ§Ãµes secas no mercado de Gosterwick."
+    ],
+    [
+     "sessao-11",
+     "Retirou a espinha dorsal de um Esqueleto Mimir derrotado para estudo."
+    ],
+    [
+     "sessao-11",
+     "Inalou a fumaÃ§a arroxeada do osso preto estilhaÃ§ado na Estalagem Capa Amarela, sentindo forte ardÃªncia nas narinas."
     ]
    ],
    "sessoes": [
     "sessao-07",
-    "sessao-08"
+    "sessao-08",
+    "sessao-11"
    ]
   },
   "npcs/abacuque-overman": {
@@ -1908,10 +2018,10 @@
    "tipo": "personagem",
    "nome": "Abicon",
    "apelidos": [],
-   "resumo": "Mago elfo do grupo. Sofreu com roubos e privaÃ§Ãµes em Gosterwick, mas recuperou recursos vendendo ervas sÃ¡lvias para o Clube dos Praticantes Arcanos. Acompanhou a expediÃ§Ã£o ao penhasco de Arden Vul, arrombando cÃ¢maras de descanso e fugindo de monstros no topo das ruÃ­nas.",
+   "resumo": "Mago elfo do grupo. Recuperou recursos vendendo sÃ¡lvias para Lyssandra Astorion no Clube Arcano e comprou um martelo de guerra. Sofreu uma mordida de Esqueleto Mimir em A Pata que deixou sua pele enrijecida e escura, alÃ©m de inalar fumaÃ§a mÃ¡gica na estalagem.",
    "atributos": {
     "Jogador": "Massaki",
-    "RaÃ§a": "Alto Elfo",
+    "RaÃ§a": "Elfo",
     "Classe": "Mago",
     "LocalizaÃ§Ã£o": "Estalagem Capa Amarela em Gosterwick",
     "Status": "Vivo e exausto"
@@ -1960,12 +2070,25 @@
     [
      "sessao-10",
      "Coletou amostras de fungos esporÃ­feros e fugiu de homens-fera e de um dragÃ£o nas ruÃ­nas de Arden Vul."
+    ],
+    [
+     "sessao-11",
+     "Vendeu 68 unidades de sÃ¡lvia por 340 ciclos de prata a Lyssandra Astorion no Clube Arcano."
+    ],
+    [
+     "sessao-11",
+     "Foi mordido no abdÃ´men por um Esqueleto Mimir, desenvolvendo veias escuras e pele rÃ­gida como pedra."
+    ],
+    [
+     "sessao-11",
+     "Comprou um martelo de guerra e destruiu o crÃ¢nio de duas criaturas esquelÃ©ticas durante as batalhas."
     ]
    ],
    "sessoes": [
     "sessao-08",
     "sessao-09",
-    "sessao-10"
+    "sessao-10",
+    "sessao-11"
    ]
   },
   "personagens/eugeo": {
@@ -2302,6 +2425,62 @@
    "sessoes": [
     "sessao-10"
    ]
+  },
+  "criaturas/esqueleto-mimir": {
+   "tipo": "criatura",
+   "nome": "Esqueleto Mimir",
+   "apelidos": [
+    "Cobra de Ossos"
+   ],
+   "resumo": "Criatura morta-viva serpenteante composta por uma espinha dorsal com ossos e crÃ¢nio acoplados de forma magnÃ©tica. Possui fragmentos de ossos pretos de textura vÃ­trea e secreta toxina enrijecedora atravÃ©s de sua mordida.",
+   "atributos": {
+    "Tipo": "Morto-Vivo"
+   },
+   "fatos": [
+    [
+     "sessao-11",
+     "Move-se de forma rasteira e veloz utilizando uma coluna vertebral como corpo serpenteante."
+    ],
+    [
+     "sessao-11",
+     "Atrai ossos ao seu redor e usa fragmentos vÃ­treos de cor preta como nÃºcleos."
+    ],
+    [
+     "sessao-11",
+     "Transmite uma toxina na mordida que escurece veias e enrijece a pele como pedra."
+    ]
+   ],
+   "sessoes": [
+    "sessao-11"
+   ]
+  },
+  "itens/osso-preto": {
+   "tipo": "item",
+   "nome": "Osso Preto",
+   "apelidos": [
+    "Osso VÃ­treo"
+   ],
+   "resumo": "Fragmento Ã³sseo vÃ­treo e arroxeado extraÃ­do de criaturas esquelÃ©ticas em A Pata. Exerce atraÃ§Ã£o magnÃ©tica sobre outros ossos e libera uma fumaÃ§a roxa de odor ardente ao ser estilhaÃ§ado pelo calor ou impacto.",
+   "atributos": {
+    "Origem": "A Pata"
+   },
+   "fatos": [
+    [
+     "sessao-11",
+     "Possui textura vÃ­trea e tom arroxeado translÃºcido sob luz intensa."
+    ],
+    [
+     "sessao-11",
+     "Exerce forÃ§a magnÃ©tica atrativa sobre ossos comuns prÃ³ximos."
+    ],
+    [
+     "sessao-11",
+     "Libera fumaÃ§a roxa tÃ³xica e ardente quando destruÃ­do por impacto."
+    ]
+   ],
+   "sessoes": [
+    "sessao-11"
+   ]
   }
  },
  "pendencias": [
@@ -2514,10 +2693,31 @@
    "aberta_em": "sessao-10",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p31",
+   "texto": "Descobrir uma cura para a lesÃ£o mÃ¡gica enrijecida e escurecida no abdÃ´men de Abicon provocada pela mordida do Esqueleto Mimir.",
+   "aberta_em": "sessao-11",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p32",
+   "texto": "Investigar as consequÃªncias da fumaÃ§a arroxeada liberada no salÃ£o da Estalagem Capa Amarela apÃ³s a quebra do Osso Preto.",
+   "aberta_em": "sessao-11",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p33",
+   "texto": "Explorar o tÃºnel desmoronado com panos ensanguentados e sussurros nas profundezas das catacumbas de A Pata.",
+   "aberta_em": "sessao-11",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-10",
-  "texto": "O grupo encontra-se refugiado e exausto na Estalagem Capa Amarela em Gosterwick apÃ³s escapar por pouco da morte. No topo de Arden Vul, os aventureiros descobriram o obelisco com inscriÃ§Ãµes arconteanas em Mifirik e uma criatura oculta nas Ã¡guas da barragem. Encurralados pela subida de homens-fera, esconderam-se nas ruÃ­nas e testemunharam um dragÃ£o empoleirado vigiando os escombros. A fuga noturna em disparada sÃ³ terminou ao encontrarem cavaleiros da Fortaleza AzÃºria na estrada. Seguem em aberto os mistÃ©rios sobre o dragÃ£o no penhasco, o sarcÃ³fago revelado na cidade e as propriedades do fungo amarelo coletado."
+  "apos": "sessao-11",
+  "texto": "O grupo retornou a Gosterwick apÃ³s explorar as profundezas da colina A Pata. Durante a jornada, enfrentaram seres esquelÃ©ticos serpenteantes e coletaram estranhos ossos pretos de aparÃªncia vÃ­trea. Abicon foi mordido por uma das bestas, desenvolvendo um enrijecimento escuro na barriga. Na Estalagem Capa Amarela, Deyos destruiu um dos ossos mÃ­stico na lareira, espalhando uma fumaÃ§a roxa pelo ambiente. Os aventureiros agora buscam uma cura para a lesÃ£o de Abicon e precisam entender os efeitos do gÃ¡s liberado."
  }
 }
