@@ -1063,6 +1063,36 @@
     "itens/cota-de-malha-magica",
     "itens/espada-longa-magica"
    ]
+  },
+  "sessao-40": {
+   "titulo": "A MÃºmia de PÃ³rfiro e o SacrifÃ­cio de Otis",
+   "resumo": "No dia 28 do mÃªs de Basilembrios de 2993, os aventureiros Alexander, ArnÃ³bio, Nia e Leviathan recrutaram o guerreiro homem-fera Otis na Pousada do Sinal da CabeÃ§a Quebrada. Equipado com uma cota de malha comprida adquirida com os homens de Cronos, Otis juntou-se Ã  expediÃ§Ã£o de volta Ã  cÃ¢mara subterrÃ¢nea abaixo da chaminÃ© em Arden Vul com o objetivo de explorar o sarcÃ³fago de pÃ³rfiro e tentar neutralizar sua armadilha de fogo.\n\nNa cÃ¢mara do sarcÃ³fago, ArnÃ³bio e Nia utilizaram bolinhas de barro e luvas de couro cortadas como funis improvisados para despejar Ã¡gua benta nos pequenos furos da tampa de pedra. A aÃ§Ã£o ativou instantaneamente a armadilha de chamas do teto e despertou um espectro feminino arconteano, alÃ©m de libertar uma mÃºmia ancestral de seu repouso. Alexander utilizou o poder do amuleto Ankh para afastar o espectro para uma galeria elevada e incinerar os mortos-vivos reanimados no local. Contudo, durante o combate contra a mÃºmia, Otis foi agarrado e teve sua energia vital completamente drenada atÃ© a morte.\n\nApÃ³s Leviathan cortar os tendÃµes da perna da mÃºmia com sua espada longa mÃ¡gica e reduzir sua movimentaÃ§Ã£o pela metade, o grupo recuou escalando um paredÃ£o rochoso de trÃªs metros. Quando a mÃºmia retornou para sua tumba ao nÃ£o conseguir alcanÃ§ar os exploradores, Alexander utilizou uma corda com gancho para arrastar a pesada tampa e pescar um disco metÃ¡lico de ouro batido com furos do interior do sarcÃ³fago. Com os recursos esgotados, os sobreviventes retornaram em seguranÃ§a para a pousada.",
+   "linha_do_tempo": [
+    "O grupo recruta o guerreiro homem-fera Otis na Pousada do Sinal da CabeÃ§a Quebrada e adquire uma cota de malha com os homens de Cronos.",
+    "Os aventureiros seguem pelas margens do rio atÃ© a chaminÃ© em Arden Vul, observando pegadas gigantes de rastejante na beira da Ã¡gua.",
+    "ArnÃ³bio assusta os ratos gigantes na cÃ¢mara subterrÃ¢nea e o grupo desce pelos grampos e cordas atÃ© o nÃ­vel cavernoso.",
+    "ArnÃ³bio e Nia usam bolinhas de barro e luvas cortadas como funis para despejar Ã¡gua benta nos furos do sarcÃ³fago de pÃ³rfiro.",
+    "A armadilha de fogo do teto Ã© ativada e um espectro feminino arconteano surge da tumba reanimando mortos-vivos ao redor.",
+    "Alexander utiliza o poder do amuleto Ankh para afastar o espectro para um tÃºnel elevado e destruir os zumbis da sala.",
+    "A tampa do sarcÃ³fago pende e uma mÃºmia de olhos esverdeados emerge imune Ã s chamas para atacar os aventureiros.",
+    "Leviathan desfere um golpe de espada mÃ¡gica na canela da mÃºmia e corta seus tendÃµes, reduzindo a movimentaÃ§Ã£o do monstro.",
+    "A mÃºmia agarra o guerreiro Otis e drena toda a sua forÃ§a vital, matando-o instantaneamente.",
+    "O grupo escala uma parede rochosa de trÃªs metros e repele a mÃºmia com flechadas atÃ© que ela recue de volta ao sarcÃ³fago.",
+    "Alexander utiliza corda e gancho para mover a tampa de pedra e pescar um disco metÃ¡lico de ouro batido de dentro da tumba.",
+    "Os sobreviventes aguardam um turno na cÃ¢mara e retornam em seguranÃ§a para a Pousada do Sinal da CabeÃ§a Quebrada."
+   ],
+   "entidades": [
+    "personagens/otis",
+    "personagens/alexander",
+    "personagens/arna3bio",
+    "personagens/nia",
+    "personagens/leviathan",
+    "locais/sala-do-sarca3fago-de-pa3rfiro",
+    "criaturas/maomia-de-pa3rfiro",
+    "criaturas/espectro-arconteano",
+    "itens/disco-metalico-de-ouro-batido",
+    "eventos/morte-de-otis"
+   ]
   }
  },
  "entidades": {
@@ -6808,13 +6838,13 @@
    "apelidos": [
     "Louris"
    ],
-   "resumo": "Aventureira exploradora experiente equipada com armadura de escamas e clava de bronze. Integrou a escolta de carroÃ§as rumo a Newmarket e atuou na exploraÃ§Ã£o do poÃ§o de grampos de ferro em Arden Vul. Ao descer a escada subterrÃ¢nea, atraiu a investida de uma gosma cinzenta ao sacar pedaÃ§os de carne seca de sua mochila, tendo de recuar pela subida.",
+   "resumo": "Aventureira exploradora experiente equipada com armadura de escamas e clava de bronze. Integrou a escolta de carroÃ§as rumo a Newmarket e atuou na exploraÃ§Ã£o do poÃ§o de grampos de ferro em Arden Vul. Ao descer a escada subterrÃ¢nea, atraiu a investida de uma gosma cinzenta ao sacar pedaÃ§os de carne.",
    "atributos": {
     "Jogador": "Louis",
     "Status": "Viva (Ferida)",
     "OcupaÃ§Ã£o": "Exploradora",
     "RaÃ§a": "Humana",
-    "Classe": "Guerreira",
+    "Classe": "Guerreira / Exploradora",
     "LocalizaÃ§Ã£o": "Newmarket"
    },
    "fatos": [
@@ -6897,6 +6927,14 @@
     [
      "sessao-39",
      "Recuou subindo pelos grampos de ferro no escuro enquanto a criatura dissolvia os apoios logo abaixo de seus pÃ©s."
+    ],
+    [
+     "sessao-40",
+     "Utilizou as lentes de sua lanterna para examinar o interior do sarcÃ³fago de pÃ³rfiro atravÃ©s dos furos."
+    ],
+    [
+     "sessao-40",
+     "Ajudou a puxar a tampa do sarcÃ³fago de pÃ³rfiro com corda para resgatar o tesouro."
     ]
    ],
    "sessoes": [
@@ -6906,7 +6944,8 @@
     "sessao-35",
     "sessao-36",
     "sessao-37",
-    "sessao-39"
+    "sessao-39",
+    "sessao-40"
    ]
   },
   "npcs/cronos": {
@@ -7699,7 +7738,7 @@
    "resumo": "Aventureiro homem-fera arqueiro dotado de olfato aguÃ§ado que explora a regiÃ£o de Arden Vul. Destacou-se em combate ao desabilitar carniÃ§ais com disparos precisos de flecha e resgatar artefatos mÃ¡gicos e histÃ³ricos em ruÃ­nas soterradas.",
    "atributos": {
     "RaÃ§a": "Homem-fera",
-    "Classe": "Arqueiro",
+    "Classe": "CaÃ§ador / Arqueiro",
     "Jogador": "Juliano"
    },
    "fatos": [
@@ -7718,10 +7757,19 @@
     [
      "sessao-35",
      "Escavou a torre em ruÃ­nas e descobriu o Olho de Safira e Azeviche oculto entre os entulhos."
+    ],
+    [
+     "sessao-40",
+     "Usou o Ãºltimo poder do amuleto Ankh para afastar um espectro feminino e destruir zumbis reanimados."
+    ],
+    [
+     "sessao-40",
+     "Resgatou um disco metÃ¡lico de ouro batido de dentro do sarcÃ³fago de pÃ³rfiro usando corda e gancho."
     ]
    ],
    "sessoes": [
-    "sessao-35"
+    "sessao-35",
+    "sessao-40"
    ]
   },
   "npcs/oberon": {
@@ -8233,7 +8281,7 @@
    "apelidos": [
     "Caolho"
    ],
-   "resumo": "Ladino esguio e alto, conhecido como Caolho, que explora os subterrÃ¢neos de Arden Vul com grande cautela. Carrega arco longo, funda, vara de trÃªs metros e um canÃ¡rio em gaiola para testar o ar e armadilhas. Conduziu o desarmamento Ã  distÃ¢ncia dos cadÃ¡veres na cÃ¢mara do sarcÃ³fago de pÃ³rfiro apÃ³s enfrentar a gosma cinzenta com Ã³leo inflamÃ¡vel.",
+   "resumo": "Ladino esguio e alto, conhecido como Caolho, que explora os subterrÃ¢neos de Arden Vul com grande cautela. Carrega arco longo, funda, vara de trÃªs metros e um canÃ¡rio em gaiola para testar o ar e armadilhas. Conduziu o desarmamento Ã  distÃ¢ncia dos cadÃ¡veres na cÃ¢mara do sarcÃ³fago de pÃ³rfiro.",
    "atributos": {
     "Classe": "Ladino",
     "Jogador": "Xiko"
@@ -8258,10 +8306,19 @@
     [
      "sessao-39",
      "Utilizou sua corda e a vara com a gaiola do canÃ¡rio para arrastar trÃªs corpos incinerados para fora da sala do sarcÃ³fago sem disparar a armadilha do teto."
+    ],
+    [
+     "sessao-40",
+     "Ajudou a preparar as bolinhas de barro e a despejar Ã¡gua benta nos furos do sarcÃ³fago de pÃ³rfiro."
+    ],
+    [
+     "sessao-40",
+     "Atingiu a mÃºmia com um disparo crÃ­tico de flecha nas costas durante a batalha."
     ]
    ],
    "sessoes": [
-    "sessao-39"
+    "sessao-39",
+    "sessao-40"
    ]
   },
   "personagens/kalec": {
@@ -8318,10 +8375,15 @@
     [
      "sessao-39",
      "Recebeu a espada longa mÃ¡gica resgatada da cÃ¢mara do sarcÃ³fago de pÃ³rfiro."
+    ],
+    [
+     "sessao-40",
+     "Cortou os tendÃµes da perna da mÃºmia com sua espada longa mÃ¡gica, reduzindo pela metade a movimentaÃ§Ã£o do monstro."
     ]
    ],
    "sessoes": [
-    "sessao-39"
+    "sessao-39",
+    "sessao-40"
    ]
   },
   "npcs/harold-good-ears": {
@@ -8436,7 +8498,7 @@
    "tipo": "local",
    "nome": "Sala do SarcÃ³fago de PÃ³rfiro",
    "apelidos": [],
-   "resumo": "CÃ¢mara quadrangular de pedra situada em nÃ­vel cavernoso abaixo da chaminÃ© em Arden Vul, acessÃ­vel por trÃªs degraus de ardÃ³sia cinzenta. ContÃ©m mosaicos arconteanos nas paredes laterais e frontais, um sarcÃ³fago central de pÃ³rfiro e um teto repleto de orifÃ­cios projetados para liberar rajadas de fogo sobre intrusos.",
+   "resumo": "CÃ¢mara quadrangular de pedra situada em nÃ­vel cavernoso abaixo da chaminÃ© em Arden Vul, acessÃ­vel por trÃªs degraus de ardÃ³sia cinzenta. ContÃ©m mosaicos arconteanos nas paredes laterais e frontais, um sarcÃ³fago central de pÃ³rfiro e um teto repleto de orifÃ­cios projetados para liberar rajadas de fogo.",
    "atributos": {
     "LocalizaÃ§Ã£o": "SubterrÃ¢neo da ChaminÃ© de Arden Vul"
    },
@@ -8456,10 +8518,19 @@
     [
      "sessao-39",
      "Seu teto Ã© perfurado por mÃºltiplos orifÃ­cios equidistantes conectados a uma armadilha incendiÃ¡ria que chamuscou todo o piso e calcinou trÃªs aventureiros."
+    ],
+    [
+     "sessao-40",
+     "Teve sua armadilha de chamas do teto ativada ao receber Ã¡gua benta no interior do sarcÃ³fago de pÃ³rfiro."
+    ],
+    [
+     "sessao-40",
+     "Abrigava um espectro feminino arconteano e uma mÃºmia guerreira adormecida."
     ]
    ],
    "sessoes": [
-    "sessao-39"
+    "sessao-39",
+    "sessao-40"
    ]
   },
   "itens/bastao-bifurcado-de-madeira": {
@@ -8547,6 +8618,118 @@
    ],
    "sessoes": [
     "sessao-39"
+   ]
+  },
+  "personagens/otis": {
+   "tipo": "personagem",
+   "nome": "Otis",
+   "apelidos": [],
+   "resumo": "Guerreiro homem-fera porco que ingressou no grupo na Pousada do Sinal da CabeÃ§a Quebrada. Adquiriu uma cota de malha de Cronos e participou da expediÃ§Ã£o ao sarcÃ³fago de pÃ³rfiro em Arden Vul, onde foi agarrado e fatalmente drenado por uma mÃºmia.",
+   "atributos": {
+    "RaÃ§a": "Homem-fera porco",
+    "Classe": "Guerreiro",
+    "Jogador": "Guilherme",
+    "Status": "Morto"
+   },
+   "fatos": [
+    [
+     "sessao-40",
+     "Comprou cota de malha de Cronos na Pousada do Sinal da CabeÃ§a Quebrada por vinte e um ciclos de ouro."
+    ],
+    [
+     "sessao-40",
+     "Foi morto ao ter sua energia vital drenada por uma mÃºmia na Sala do SarcÃ³fago de PÃ³rfiro."
+    ]
+   ],
+   "sessoes": [
+    "sessao-40"
+   ]
+  },
+  "criaturas/maomia-de-pa3rfiro": {
+   "tipo": "criatura",
+   "nome": "MÃºmia de PÃ³rfiro",
+   "apelidos": [],
+   "resumo": "Monstruosidade morta-viva mumificada de traÃ§os masculinos e olhos esverdeados que repousava no sarcÃ³fago de pÃ³rfiro de Arden Vul. Ã imune a chamas, veloz em combate e possui toque mÃ¡gico capaz de drenar a energia vital de suas vÃ­timas.",
+   "atributos": {
+    "Habilidades": "Drenar NÃ­vel, Imunidade a Fogo"
+   },
+   "fatos": [
+    [
+     "sessao-40",
+     "Despertou de seu sarcÃ³fago de pÃ³rfiro apÃ³s o derramamento de Ã¡gua benta em sua tumba."
+    ],
+    [
+     "sessao-40",
+     "Matou o guerreiro Otis ao drenar toda a sua energia vital em combate."
+    ]
+   ],
+   "sessoes": [
+    "sessao-40"
+   ]
+  },
+  "criaturas/espectro-arconteano": {
+   "tipo": "criatura",
+   "nome": "Espectro Arconteano",
+   "apelidos": [],
+   "resumo": "Entidade incorpÃ³rea com feiÃ§Ãµes de mulher arconteana vestindo robes brancos elegantes que surgiu da nÃ©voa do sarcÃ³fago de pÃ³rfiro. Foi repelida pelo poder sagrado do amuleto Ankh de Alexander para uma galeria elevada.",
+   "atributos": {
+    "Natureza": "Morte-viva IncorpÃ³rea"
+   },
+   "fatos": [
+    [
+     "sessao-40",
+     "Manifestou-se em meio Ã s chamas da cÃ¢mara do sarcÃ³fago de pÃ³rfiro."
+    ],
+    [
+     "sessao-40",
+     "Fugiu aterrorizada apÃ³s Alexander canalizar o poder sagrado do Ankh."
+    ]
+   ],
+   "sessoes": [
+    "sessao-40"
+   ]
+  },
+  "itens/disco-metalico-de-ouro-batido": {
+   "tipo": "item",
+   "nome": "Disco MetÃ¡lico de Ouro Batido",
+   "apelidos": [],
+   "resumo": "Grande placa circular de ouro batido com cerca de 71 centÃ­metros de diÃ¢metro (28 polegadas) e diversos orifÃ­cios de uma polegada em seu centro. Foi pescada do interior do sarcÃ³fago de pÃ³rfiro por Alexander usando corda e gancho.",
+   "atributos": {
+    "Material": "Ouro Batido",
+    "DiÃ¢metro": "71 cm (28 polegadas)"
+   },
+   "fatos": [
+    [
+     "sessao-40",
+     "Possui diÃ¢metro de 71 centÃ­metros e furos de uma polegada no centro."
+    ],
+    [
+     "sessao-40",
+     "Foi resgatado de dentro do sarcÃ³fago de pÃ³rfiro de Arden Vul."
+    ]
+   ],
+   "sessoes": [
+    "sessao-40"
+   ]
+  },
+  "eventos/morte-de-otis": {
+   "tipo": "evento",
+   "nome": "Morte de Otis",
+   "apelidos": [],
+   "resumo": "Confronto trÃ¡gico ocorrido na cÃ¢mara do sarcÃ³fago de pÃ³rfiro em Arden Vul, no qual o guerreiro homem-fera Otis foi agarrado e drenado atÃ© a morte por uma mÃºmia libertada de sua tumba.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-40",
+     "Otis foi imobilizado e drenado fatalmente por uma mÃºmia na Sala do SarcÃ³fago de PÃ³rfiro."
+    ],
+    [
+     "sessao-40",
+     "Seu corpo e cota de malha foram deixados temporariamente na cÃ¢mara subterrÃ¢nea."
+    ]
+   ],
+   "sessoes": [
+    "sessao-40"
    ]
   }
  },
@@ -9446,10 +9629,31 @@
    "aberta_em": "sessao-39",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p129",
+   "texto": "Recuperar o corpo e a cota de malha do guerreiro Otis deixados na cÃ¢mara do sarcÃ³fago de pÃ³rfiro.",
+   "aberta_em": "sessao-40",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p130",
+   "texto": "Investigar a utilidade e o valor comercial ou arcano do disco metÃ¡lico de ouro batido com furos resgatado do sarcÃ³fago.",
+   "aberta_em": "sessao-40",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p131",
+   "texto": "Descobrir uma forma de destruir ou neutralizar permanentemente a mÃºmia e o espectro que habitam a Sala do SarcÃ³fago de PÃ³rfiro.",
+   "aberta_em": "sessao-40",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-39",
-  "texto": "O grupo retornou Ã  Pousada do Sinal da CabeÃ§a Quebrada apÃ³s descer pelo poÃ§o de grampos de ferro nas ruÃ­nas da chaminÃ© em Arden Vul. No subterrÃ¢neo, os herÃ³is superaram uma gosma cinzenta Ã¡cida que destruiu parte dos degraus de metal e recolheram trÃªs itens mÃ¡gicos de corpos calcinados perto de uma cÃ¢mara com sarcÃ³fago de pÃ³rfiro. Kalec assumiu a posse da cota de malha mÃ¡gica, Leviathan ficou com a espada longa mÃ¡gica e Kalvos guardou o bastÃ£o bifurcado de madeira. A sala do sarcÃ³fago permanece com sua armadilha incendiÃ¡ria de teto ativa e ainda nÃ£o foi aberta. AlÃ©m disso, um tÃºnel estreito e elevado parte da caverna da gosma e segue inexplorado."
+  "apos": "sessao-40",
+  "texto": "O grupo encontra-se descansando na Pousada do Sinal da CabeÃ§a Quebrada apÃ³s uma perigosa expediÃ§Ã£o aos subterrÃ¢neos de Arden Vul. Durante a exploraÃ§Ã£o da Sala do SarcÃ³fago de PÃ³rfiro, o guerreiro homem-fera Otis foi morto ao ter sua energia vital drenada por uma mÃºmia libertada de sua tumba. Apesar da trÃ¡gica perda, os aventureiros conseguiram desabilitar temporariamente a perna do monstro e resgatar um valioso disco metÃ¡lico de ouro batido do interior do sarcÃ³fago. Atualmente, a mÃºmia permanece na cÃ¢mara com as armadilhas de chamas ativas e o corpo de Otis precisa ser recuperado. O grupo planeja avaliar o artefato obtido e organizar uma nova incursÃ£o ao local."
  }
 }
