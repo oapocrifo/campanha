@@ -1010,6 +1010,23 @@
     "itens/espelho-de-zumbiboo",
     "eventos/morte-de-amir"
    ]
+  },
+  "sessao-38": {
+   "titulo": "Explorando a ChaminÃ© e o Lar de Lankius",
+   "resumo": "No dia 14 de Basilembrios de 2993, os aventureiros Kalvos, ArnÃ³bio (Caolho), Cara Suja (Louis) e Leviathan partiram da Pousada do Sinal da CabeÃ§a Quebrada rumo Ã s ruÃ­nas de Arden Vul. Eles desceram pela lareira e chaminÃ© que haviam desobstruÃ­do anteriormente e exploraram os tÃºneis subterrÃ¢neos, encontrando uma porta trancada que ArnÃ³bio conseguiu abrir apÃ³s criar ferramentas improvisadas. Na sala revelada, quatro esqueletos (incluindo quatro esqueletos de babuÃ­nos e um humanoide) atacaram o grupo, mas Kalvos utilizou o poder de seu amuleto Ankh para destruir instantaneamente todos os mortos-vivos. Em seguida, os herÃ³is encontraram uma porta secreta que dava para um aposento contendo candelabros de ouro, cÃ¡lices, uma estatueta de Thoth em Ã©bano e marfim, e um cofre trancado que guardava quinze moedas de ouro pesadas com inscriÃ§Ãµes em Mithric. Durante a exploraÃ§Ã£o, o grupo encontrou Lankius, um homem arconteano pacÃ­fico e recluso que vivia nos tÃºneis e preparava uma sopa fedida com carne de rato e estirges. ApÃ³s visitarem o lar de Lankius e beberem a sopa por cortesia, os aventureiros retornaram Ã  superfÃ­cie e venderam boa parte do tesouro para Ristos, alÃ©m de obterem um recibo de valor elevado com os avaliadores de estÃ¡tuas por sua estatueta de Thoth.",
+   "linha_do_tempo": [
+    "Os aventureiros Kalvos, ArnÃ³bio, Cara Suja e Leviathan saem da Pousada do Sinal da CabeÃ§a Quebrada e seguem para a chaminÃ© em Arden Vul.",
+    "O grupo desce para os tÃºneis subterrÃ¢neos e ArnÃ³bio usa ferramentas improvisadas para destrancar uma porta secreta.",
+    "Um grupo de esqueletos e esqueletos de babuÃ­nos ataca o grupo, mas Kalvos usa o amuleto Ankh para destruir todos os mortos-vivos instantaneamente.",
+    "Os aventureiros abrem uma porta giratÃ³ria secreta e encontram utensÃ­lios de ouro, uma estatueta de Thoth e quinze pesadas moedas de ouro em um cofre.",
+    "O grupo conhece Lankius, um homem recluso que vive nos tÃºneis e os convida para comer sua sopa de ratos e estirges.",
+    "Os aventureiros retornam Ã  superfÃ­cie, vendem os tesouros para Ristos e obtÃªm um recibo de alto valor com os avaliadores de estÃ¡tuas."
+   ],
+   "entidades": [
+    "npcs/lankius",
+    "itens/moedas-pesadas-de-ouro",
+    "itens/estatueta-de-thoth"
+   ]
   }
  },
  "entidades": {
@@ -8046,6 +8063,87 @@
    "sessoes": [
     "sessao-37"
    ]
+  },
+  "npcs/lankius": {
+   "tipo": "npc",
+   "nome": "Lankius",
+   "apelidos": [],
+   "resumo": "Homem arconteano recluso e de traÃ§os magros que vive descalÃ§o nos tÃºneis subterrÃ¢neos de Arden Vul, sobrevivendo comendo sopa feita de ratos e estirges.",
+   "atributos": {
+    "RaÃ§a": "Humano Arconteano",
+    "LocalizaÃ§Ã£o": "SubterrÃ¢neos de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-38",
+     "AparÃªncia desleixada e suja, usando trapos e vivendo em um aposento subterrÃ¢neo nos tÃºneis."
+    ],
+    [
+     "sessao-38",
+     "Convidou os aventureiros para provarem sua sopa horripilante de rato e estirges."
+    ],
+    [
+     "sessao-38",
+     "Demonstrou total indiferenÃ§a ao mundo exterior e desconhecimento sobre o sol e cidades vizinhas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-38"
+   ]
+  },
+  "itens/moedas-pesadas-de-ouro": {
+   "tipo": "item",
+   "nome": "Moedas Pesadas de Ouro",
+   "apelidos": [
+    "Moedas pesadas"
+   ],
+   "resumo": "Quinze moedas de ouro extragrandes encontradas em um cofre subterrÃ¢neo, pesando meio quilo cada e contendo inscriÃ§Ãµes em lÃ­ngua e alfabeto Mithric.",
+   "atributos": {
+    "Material": "Ouro puro",
+    "Peso": "0,5 kg cada"
+   },
+   "fatos": [
+    [
+     "sessao-38",
+     "Cada moeda pesa dez vezes mais que uma moeda normal, somando cerca de sete quilos e meio no total."
+    ],
+    [
+     "sessao-38",
+     "Apresentam o busto de uma pessoa coroada com folhas de oliveira e letras em Mithric."
+    ],
+    [
+     "sessao-38",
+     "Foram guardadas no cofre secreto da sala dos sacerdotes de Thoth."
+    ]
+   ],
+   "sessoes": [
+    "sessao-38"
+   ]
+  },
+  "itens/estatueta-de-thoth": {
+   "tipo": "item",
+   "nome": "Estatueta de Thoth",
+   "apelidos": [
+    "Estatueta"
+   ],
+   "resumo": "Valiosa estatueta religiosa esculpida em Ã©bano e marfim representando a divindade Thoth, encontrada na sala secreta dos subterrÃ¢neos.",
+   "atributos": {
+    "Material": "Ãbano e marfim",
+    "Valor Estimado": "1000 ciclos de ouro"
+   },
+   "fatos": [
+    [
+     "sessao-38",
+     "Foi avaliada pelos compradores de estÃ¡tuas na base por cerca de mil ciclos de ouro."
+    ],
+    [
+     "sessao-38",
+     "Apresenta rica iconografia do deus Thoth e materiais nobres raros."
+    ]
+   ],
+   "sessoes": [
+    "sessao-38"
+   ]
   }
  },
  "pendencias": [
@@ -8909,10 +9007,17 @@
    "aberta_em": "sessao-37",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p124",
+   "texto": "Resgatar os mil ciclos de ouro prometidos pelos avaliadores de estÃ¡tuas ao entregar a estatueta de Thoth em Novo Mercado.",
+   "aberta_em": "sessao-38",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-37",
-  "texto": "O grupo encontra-se em Newmarket, abrigado na estalagem PadrÃ£o Imperial apÃ³s uma longa viagem pelo Caminho Imperial. Amir pereceu em combate contra cultistas na estrada e foi sepultado no cemitÃ©rio local, enquanto a maga elfa Jani Belmont uniu-se formalmente aos aventureiros. O grupo vendeu com sucesso as estÃ¡tuas na guilda Wisdom Factor e libertou seis pessoas resgatadas das mÃ£os da seita da serpente em espiral. Permanece em aberto investigar o templo de Chibalba no cemitÃ©rio, encontrar o cultista que fugiu e descobrir como desfazer a aparÃªncia mortificada imposta pelo Espelho de Zumbiboo."
+  "apos": "sessao-38",
+  "texto": "O grupo de aventureiros composto por Kalvos, ArnÃ³bio, Cara Suja e Leviathan explorou os subterrÃ¢neos de Arden Vul a partir da chaminÃ©. Eles enfrentaram e destruÃ­ram um grupo de esqueletos usando o poder sagrado de um amuleto e saquearam uma sala secreta com utensÃ­lios de ouro e moedas raras. No caminho, conheceram Lankius, um habitante excÃªntrico dos tÃºneis que os convidou para uma sopa bizarra. De volta Ã  base, o grupo negociou os tesouros e obteve uma promissÃ³ria valiosa por uma estatueta de Thoth."
  }
 }
