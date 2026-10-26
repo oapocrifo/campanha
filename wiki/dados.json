@@ -240,6 +240,38 @@
     "personagens/abicon",
     "faccoes/os-vizinhos-ruins"
    ]
+  },
+  "sessao-10": {
+   "titulo": "A Sombra do DragÃ£o em Arden Vul",
+   "resumo": "No dia 3 do quarto mÃªs de 2993, Ãºltimo dia da primavera, uma feira movimentou a praÃ§a de Gosterwick. O anÃ£o Ãcarus desembarcou na cidade decidido a divulgar a fÃ© em seu deus Zodarrim e logo se associou a Hugios e Abicon. ApÃ³s lucrarem vendendo orientaÃ§Ãµes aos recÃ©m-chegados Creon e Cyra, os aventureiros presenciaram um tumulto no Caminho Imperial, onde a demoliÃ§Ã£o de uma parede secular despertou uma gÃ¡rgula de pedra. A fera foi destruÃ­da por outros aventureiros, revelando um sarcÃ³fago oculto com tesouros. Antes de partir para os ermos, Abicon vendeu sÃ¡lvias para Lyssandra Astorion no Clube Arcano por vinte e cinco ciclos de prata, garantindo suprimentos para a jornada.\n\nO trio marchou atÃ© o paredÃ£o de Arden Vul e subiu as escadarias auxiliando-se nos cravos de ferro cravados na rocha. Pelo caminho, descobriram um abrigo seco com lenha e arrombaram o posto de descanso tomado por esporos amarelos, recolhendo amostras fÃºngicas e constatando a profundidade do buraco no piso. Ao atingirem a superfÃ­cie do penhasco, depararam-se com um colossal obelisco de granito decorado com entalhes solares, humanos montados em lagartos, mais de cem nomes em Mifirik e um receptÃ¡culo entalhado em forma de Ankh apontando para uma pirÃ¢mide distante. Ao buscarem Ã¡gua fresca no lago escuro da barragem, perceberam a presenÃ§a ameaÃ§adora de uma criatura submersa de grandes proporÃ§Ãµes e decidiram bater em retirada.\n\nA tentativa de descida noturna foi frustrada pela aproximaÃ§Ã£o de sete homens-fera armadurados que subiam o paredÃ£o, obrigando o grupo a se esconder no interior de uma casa em ruÃ­nas no platÃ´. No meio da noite, passos pesados fizeram a terra tremer e Ãcarus avistou um imenso dragÃ£o pousado sobre uma construÃ§Ã£o prÃ³xima, observando a Ã¡rea. Em fuga desesperada e sem tochas, os aventureiros desceram os degraus e correram pelos ermos atÃ© encontrarem uma patrulha dos Cavaleiros do Escudo AzÃºrio, que investigava rumores da fera alada. Exauridos e castigados pela privaÃ§Ã£o de sono, os companheiros alcanÃ§aram os portÃµes de Gosterwick e se refugiaram na Estalagem Capa Amarela.",
+   "linha_do_tempo": [
+    "Ãcarus chega a Gosterwick de carroÃ§a no Ãºltimo dia da primavera e se junta a Hugios e Abicon na praÃ§a central.",
+    "Hugios e Abicon vendem informaÃ§Ãµes da cidade ao casal de novatos Creon e Cyra por dez ciclos de prata.",
+    "A demoliÃ§Ã£o de uma parede antiga no Caminho Imperial liberta uma gÃ¡rgula de pedra, destruÃ­da por mercenÃ¡rios que encontram um sarcÃ³fago com tesouros.",
+    "Abicon vende cinco ciclos de peso em sÃ¡lvia para Lyssandra no Clube Arcano por vinte e cinco pratas, reequipando o grupo.",
+    "O trio viaja pela estrada imperial atÃ© a base de Arden Vul e sobe as escadarias Ãºmidas segurando-se nos cravos de ferro.",
+    "O grupo localiza uma caverna seca com fogueira e arromba a porta de um posto infestado por esporos amarelos, coletando amostras do fungo.",
+    "No platÃ´ superior, Ãcarus examina um obelisco de granito coberto de entalhes solares, nomes em Mifirik e um encaixe de Ankh.",
+    "Ao encherem cantis no lago escuro prÃ³ximo Ã  barragem, os aventureiros avistam olhos e o vulto de uma enorme criatura na Ã¡gua.",
+    "Ao tentarem descer a escadaria Ã  noite, recuam diante da aproximaÃ§Ã£o de sete homens-fera armados e se ocultam em uma casa em ruÃ­nas.",
+    "Tremores no solo despertam os aventureiros de madrugada, e Ãcarus vÃª um dragÃ£o empoleirado sobre uma estrutura nas ruÃ­nas.",
+    "O grupo foge em disparada penhasco abaixo no escuro, sofrendo exaustÃ£o e cruzando com patrulheiros do Escudo AzÃºrio na estrada.",
+    "Os trÃªs companheiros retornam em seguranÃ§a a Gosterwick e recolhem-se na Estalagem Capa Amarela."
+   ],
+   "entidades": [
+    "personagens/acarus",
+    "personagens/hugios",
+    "personagens/abicon",
+    "npcs/creon",
+    "npcs/cyra",
+    "npcs/josafina",
+    "criaturas/gargula",
+    "criaturas/dragao",
+    "locais/obelisco-de-arden-vul",
+    "itens/salvia",
+    "faccoes/knights-of-the-azure-shield",
+    "criaturas/beastmen"
+   ]
   }
  },
  "entidades": {
@@ -307,12 +339,12 @@
    "tipo": "personagem",
    "nome": "Hugios",
    "apelidos": [],
-   "resumo": "Aventureiro explorador do grupo. Participou da emboscada fracassada contra os Vizinhos Ruins, perdeu todos os seus equipamentos e acompanhou os companheiros nas investigaÃ§Ãµes em Arden Vul e na colina A Pata.",
+   "resumo": "Aventureiro explorador do grupo. Participou da emboscada fracassada contra os Vizinhos Ruins, perdeu todos os seus equipamentos e acompanhou os companheiros nas investigaÃ§Ãµes em Arden Vul e na colina A Pata. Obteve pratas vendendo informaÃ§Ãµes a forasteiros e sobreviveu ao encontro noturno com um dragÃ£o no platÃ´ de Arden Vul.",
    "atributos": {
     "Classe": "Explorador",
     "Jogador": "Sonard",
-    "Status": "Vivo",
-    "LocalizaÃ§Ã£o": "Gosterwick"
+    "Status": "Vivo e exausto",
+    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela em Gosterwick"
    },
    "fatos": [
     [
@@ -366,13 +398,30 @@
     [
      "sessao-09",
      "Acompanhou Deyos e Abicon na jornada de exploraÃ§Ã£o rumo Ã  cachoeira e Ã  colina A Pata."
+    ],
+    [
+     "sessao-10",
+     "Vendeu orientaÃ§Ãµes bÃ¡sicas da cidade para o casal Creon e Cyra na feira da praÃ§a central."
+    ],
+    [
+     "sessao-10",
+     "Tentou ingressar no Clube dos Praticantes Arcanos e descobriu que a taxa comum de admissÃ£o custa 15 ciclos de ouro."
+    ],
+    [
+     "sessao-10",
+     "Guiou o grupo de volta ao topo de Arden Vul, subindo os lances de escadaria com cravos de ferro."
+    ],
+    [
+     "sessao-10",
+     "Teve que fugir com os companheiros ao se deparar com homens-fera e um dragÃ£o empoleirado nas ruÃ­nas."
     ]
    ],
    "sessoes": [
     "sessao-01",
     "sessao-02",
     "sessao-04",
-    "sessao-09"
+    "sessao-09",
+    "sessao-10"
    ]
   },
   "personagens/pallas": {
@@ -609,18 +658,27 @@
    "apelidos": [
     "Cavaleiros do Escudo AzÃºrio"
    ],
-   "resumo": "Ordem militarizada de cavaleiros espalhada pelo ImpÃ©rio Arconteano. SÃ£o responsÃ¡veis pelo comando e administraÃ§Ã£o da Fortaleza AzÃºria na colina de Gosterwick.",
+   "resumo": "Ordem militarizada de cavaleiros espalhada pelo ImpÃ©rio Arconteano. SÃ£o responsÃ¡veis pelo comando e administraÃ§Ã£o da Fortaleza AzÃºria na colina de Gosterwick e realizam patrulhas montadas na estrada imperial.",
    "atributos": {
-    "Sede": "Fortaleza AzÃºria"
+    "Sede": "Fortaleza AzÃºria em Gosterwick"
    },
    "fatos": [
     [
      "sessao-02",
      "Controlam a Fortaleza AzÃºria e o distrito restrito do Mercado Superior em Gosterwick."
+    ],
+    [
+     "sessao-10",
+     "Uma patrulha de cavaleiros em armaduras azuis abordou o grupo na estrada de volta a Gosterwick."
+    ],
+    [
+     "sessao-10",
+     "Interrogaram os aventureiros sobre o avistamento de um suposto dragÃ£o verde em Arden Vul."
     ]
    ],
    "sessoes": [
-    "sessao-02"
+    "sessao-02",
+    "sessao-10"
    ]
   },
   "locais/the-paw": {
@@ -1223,7 +1281,7 @@
    "apelidos": [
     "Homens-fera"
    ],
-   "resumo": "Criaturas hÃ­bridas de humanos com caracterÃ­sticas animais como cÃ£o, porco e cabra que patrulham o vale. Um bando de sete deles usou cordas para cruzar o rio e capturou Malzaâhar e Latom.",
+   "resumo": "Criaturas hÃ­bridas de humanos com caracterÃ­sticas animais como cÃ£o, porco e cabra que patrulham o vale. Grupos organizados e armadurados sobem as escadarias de Arden Vul para ocupar as ruÃ­nas superiores.",
    "atributos": {
     "EspÃ©cie": "Homem-Fera"
    },
@@ -1239,10 +1297,15 @@
     [
      "sessao-05",
      "Subjugaram e capturaram Malzaâhar e Latom, levando-os em direÃ§Ã£o a Arden Vul."
+    ],
+    [
+     "sessao-10",
+     "Uma patrulha armada de sete homens-fera subiu as escadas de Arden Vul durante a noite, forÃ§ando os aventureiros a se entocarem nas ruÃ­nas."
     ]
    ],
    "sessoes": [
-    "sessao-05"
+    "sessao-05",
+    "sessao-10"
    ]
   },
   "locais/colina-dos-deuses": {
@@ -1845,13 +1908,13 @@
    "tipo": "personagem",
    "nome": "Abicon",
    "apelidos": [],
-   "resumo": "Mago elfo do grupo. Tentou distrair os perseguidores na praÃ§a, sofreu com a derrota e o roubo em Gosterwick, e enfrentou fortes privaÃ§Ãµes e exaustÃ£o durante a travessia atÃ© a colina A Pata.",
+   "resumo": "Mago elfo do grupo. Sofreu com roubos e privaÃ§Ãµes em Gosterwick, mas recuperou recursos vendendo ervas sÃ¡lvias para o Clube dos Praticantes Arcanos. Acompanhou a expediÃ§Ã£o ao penhasco de Arden Vul, arrombando cÃ¢maras de descanso e fugindo de monstros no topo das ruÃ­nas.",
    "atributos": {
     "Jogador": "Massaki",
-    "RaÃ§a": "Elfo",
+    "RaÃ§a": "Alto Elfo",
     "Classe": "Mago",
-    "LocalizaÃ§Ã£o": "Gosterwick",
-    "Status": "Vivo"
+    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela em Gosterwick",
+    "Status": "Vivo e exausto"
    },
    "fatos": [
     [
@@ -1881,11 +1944,28 @@
     [
      "sessao-09",
      "Sofreu com a exaustÃ£o e problemas estomacais ao beber Ã¡gua nÃ£o fervida nos ermos."
+    ],
+    [
+     "sessao-10",
+     "Vendeu cinco ciclos de peso de sÃ¡lvia por vinte e cinco ciclos de prata para Lyssandra no Clube Arcano."
+    ],
+    [
+     "sessao-10",
+     "Comprou armadura de couro, cantis, Ã³leo e uma lanÃ§a antes da expediÃ§Ã£o a Arden Vul."
+    ],
+    [
+     "sessao-10",
+     "Arrombou a marretadas a maÃ§aneta da cÃ¢mara tomada por fungos nas escadarias do penhasco."
+    ],
+    [
+     "sessao-10",
+     "Coletou amostras de fungos esporÃ­feros e fugiu de homens-fera e de um dragÃ£o nas ruÃ­nas de Arden Vul."
     ]
    ],
    "sessoes": [
     "sessao-08",
-    "sessao-09"
+    "sessao-09",
+    "sessao-10"
    ]
   },
   "personagens/eugeo": {
@@ -1996,6 +2076,231 @@
    ],
    "sessoes": [
     "sessao-09"
+   ]
+  },
+  "personagens/acarus": {
+   "tipo": "personagem",
+   "nome": "Ãcarus",
+   "apelidos": [],
+   "resumo": "ClÃ©rigo anÃ£o devoto do deus da batalha Zodarrim que chegou a Gosterwick buscando erguer um culto Ã  sua divindade. Uniu-se a Hugios e Abicon em uma expediÃ§Ã£o ao topo de Arden Vul, valendo-se de sua visÃ£o no escuro para explorar cavernas e decifrar lÃ­nguas antigas. Sobreviveu ao avistamento aterrorizante de um dragÃ£o nas ruÃ­nas e guiou a fuga de volta Ã  Estalagem Capa Amarela.",
+   "atributos": {
+    "RaÃ§a": "AnÃ£o",
+    "Classe": "ClÃ©rigo",
+    "OcupaÃ§Ã£o": "Explorador e Sacerdote de Zodarrim",
+    "Status": "Vivo e exausto",
+    "LocalizaÃ§Ã£o": "Estalagem Capa Amarela em Gosterwick",
+    "Jogador": "JoÃ£o"
+   },
+   "fatos": [
+    [
+     "sessao-10",
+     "Chegou a Gosterwick em uma carroÃ§a com a missÃ£o de disseminar a fÃ© em Zodarrim e fundar um templo."
+    ],
+    [
+     "sessao-10",
+     "Integrou o grupo de exploradores ao lado de Hugios e Abicon rumo a Arden Vul."
+    ],
+    [
+     "sessao-10",
+     "Identificou escritas arconteanas em idioma Mifirik e figuras rituais gravadas no obelisco de granito."
+    ],
+    [
+     "sessao-10",
+     "Avistou um dragÃ£o enorme sobre uma estrutura em ruÃ­nas durante a noite no platÃ´ de Arden Vul."
+    ],
+    [
+     "sessao-10",
+     "Sofreu privaÃ§Ã£o de sono e exaustÃ£o durante a corrida de volta pela estrada imperial."
+    ]
+   ],
+   "sessoes": [
+    "sessao-10"
+   ]
+  },
+  "npcs/creon": {
+   "tipo": "npc",
+   "nome": "Creon",
+   "apelidos": [],
+   "resumo": "Guerreiro humano loiro e alto que desembarcou em Gosterwick com sua esposa Cyra. Pagou a Hugios por informaÃ§Ãµes locais e administra uma loja de penhores na Rua da Colina.",
+   "atributos": {
+    "RaÃ§a": "Humano",
+    "OcupaÃ§Ã£o": "Aventureiro e Dono de Loja de Penhores",
+    "LocalizaÃ§Ã£o": "Rua da Colina em Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-10",
+     "Chegou Ã  cidade de carroÃ§a acompanhado de Cyra portando armadura de couro e espada."
+    ],
+    [
+     "sessao-10",
+     "Pagou cinco ciclos de prata a Hugios em troca de dicas sobre locais e perigos de Gosterwick."
+    ],
+    [
+     "sessao-10",
+     "Ã filho da mercadora Josafina e proprietÃ¡rio de uma loja de penhores na Rua da Colina."
+    ]
+   ],
+   "sessoes": [
+    "sessao-10"
+   ]
+  },
+  "npcs/cyra": {
+   "tipo": "npc",
+   "nome": "Cyra",
+   "apelidos": [],
+   "resumo": "Aventureira de traÃ§os arconteanos, cabelos pretos e pele parda, casada com Creon. Desembarcou na praÃ§a central de Gosterwick e pagou moedas de prata por recomendaÃ§Ãµes de seguranÃ§a e compras.",
+   "atributos": {
+    "RaÃ§a": "Arconteana",
+    "OcupaÃ§Ã£o": "Aventureira",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-10",
+     "Chegou Ã  praÃ§a de Gosterwick na mesma carroÃ§a que Creon vestindo trajes comuns."
+    ],
+    [
+     "sessao-10",
+     "Entregou cinco ciclos de prata aos aventureiros para receber informaÃ§Ãµes sobre lojas e pousadas da cidade."
+    ]
+   ],
+   "sessoes": [
+    "sessao-10"
+   ]
+  },
+  "npcs/josafina": {
+   "tipo": "npc",
+   "nome": "Josafina",
+   "apelidos": [],
+   "resumo": "Senhora idosa de cabelos brancos e pele enrugada que comercializa medicamentos e tÃ´nicos na feira especial de Gosterwick. Ã mÃ£e de Creon, dono da loja de penhores.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Herborista e Vendedora de Medicamentos",
+    "LocalizaÃ§Ã£o": "PraÃ§a Central de Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-10",
+     "Manteve uma barraca vendendo frascos com medicamentos e tÃ´nicos medicinais nÃ£o mÃ¡gicos na praÃ§a."
+    ],
+    [
+     "sessao-10",
+     "Indicou a localizaÃ§Ã£o da loja de penhores de seu filho Creon na Rua da Colina."
+    ],
+    [
+     "sessao-10",
+     "Explicou a rota para Novo Mercado atravÃ©s do Caminho Imperial."
+    ]
+   ],
+   "sessoes": [
+    "sessao-10"
+   ]
+  },
+  "criaturas/gargula": {
+   "tipo": "criatura",
+   "nome": "GÃ¡rgula",
+   "apelidos": [],
+   "resumo": "Criatura alada feita de pedra que repousa oculta em construÃ§Ãµes antigas. Uma delas despertou apÃ³s a demoliÃ§Ã£o de uma parede no Caminho Imperial em Gosterwick, ferindo trabalhadores atÃ© ser abatida.",
+   "atributos": {
+    "Tipo": "Monstro Construto",
+    "Status": "DestruÃ­da"
+   },
+   "fatos": [
+    [
+     "sessao-10",
+     "Estava escondida atrÃ¡s de uma parede secular em demoliÃ§Ã£o no Caminho Imperial."
+    ],
+    [
+     "sessao-10",
+     "Despertou violenta com o desabamento da parede de pedra e atacou os operÃ¡rios da obra."
+    ],
+    [
+     "sessao-10",
+     "Foi destruÃ­da por um grupo de aventureiros armadurados, revelando um sarcÃ³fago com tesouro antigo."
+    ]
+   ],
+   "sessoes": [
+    "sessao-10"
+   ]
+  },
+  "criaturas/dragao": {
+   "tipo": "criatura",
+   "nome": "DragÃ£o",
+   "apelidos": [],
+   "resumo": "Besta alada colossal que espreita nas ruÃ­nas do platÃ´ de Arden Vul. Caminha com passos que provocam fortes tremores no solo e vigia os arredores empoleirada em ruÃ­nas Ã  noite, sendo alvo de investigaÃ§Ãµes dos Cavaleiros do Escudo AzÃºrio.",
+   "atributos": {
+    "Tipo": "DragÃ£o",
+    "LocalizaÃ§Ã£o": "PlatÃ´ das ruÃ­nas de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-10",
+     "Provocou vibraÃ§Ãµes e tremores pesados no platÃ´ de Arden Vul durante a madrugada."
+    ],
+    [
+     "sessao-10",
+     "Foi avistado por Ãcarus empoleirado sobre uma construÃ§Ã£o antiga olhando na direÃ§Ã£o do esconderijo do grupo."
+    ],
+    [
+     "sessao-10",
+     "Os Cavaleiros do Escudo AzÃºrio suspeitam tratar-se de um dragÃ£o verde que ronda as ruÃ­nas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-10"
+   ]
+  },
+  "locais/obelisco-de-arden-vul": {
+   "tipo": "local",
+   "nome": "Obelisco de Arden Vul",
+   "apelidos": [],
+   "resumo": "Monumento quadrangular de granito com trÃªs metros de largura por dez de altura localizado na via que liga o portÃ£o de Arden Vul Ã  PirÃ¢mide de Thoth. Apresenta gravuras de homens montando lagartos, cultos solares, um encaixe de Ankh em baixo-relevo e centenas de nomes arconteanos em Mifirik.",
+   "atributos": {
+    "Material": "Granito",
+    "LocalizaÃ§Ã£o": "SuperfÃ­cie de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-10",
+     "Fica localizado no centro da estrada logo apÃ³s as torres do portÃ£o de entrada de Arden Vul."
+    ],
+    [
+     "sessao-10",
+     "Possui imagens de humanos montando e convivendo com lagartos gigantes e executando feras."
+    ],
+    [
+     "sessao-10",
+     "ContÃ©m entalhes rituais voltados ao sol e um relevo no formato de Ankh no topo."
+    ],
+    [
+     "sessao-10",
+     "Apresenta mais de cem nomes arconteanos talhados na escrita arcaica Mifirik."
+    ]
+   ],
+   "sessoes": [
+    "sessao-10"
+   ]
+  },
+  "itens/salvia": {
+   "tipo": "item",
+   "nome": "SÃ¡lvia",
+   "apelidos": [],
+   "resumo": "Planta herbÃ¡cea com propriedades medicinais, espirituais e mentais que cresce nas colinas da regiÃ£o. Ã valorizada por magos e alquimistas do Clube dos Praticantes Arcanos.",
+   "atributos": {
+    "Tipo": "Erva Medicinal / Catalisador Arcano"
+   },
+   "fatos": [
+    [
+     "sessao-10",
+     "Foi extraÃ­da com raÃ­zes por Abicon nas colinas de A Pata."
+    ],
+    [
+     "sessao-10",
+     "Cinco ciclos de peso da planta foram vendidos por vinte e cinco ciclos de prata para Lyssandra Astorion."
+    ]
+   ],
+   "sessoes": [
+    "sessao-10"
    ]
   }
  },
@@ -2181,10 +2486,38 @@
    "aberta_em": "sessao-09",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p27",
+   "texto": "Investigar a espÃ©cie e a exata localizaÃ§Ã£o do dragÃ£o avistado no topo das ruÃ­nas de Arden Vul.",
+   "aberta_em": "sessao-10",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p28",
+   "texto": "Investigar o sarcÃ³fago antigo e o tesouro desenterrados na reforma residencial do Caminho Imperial.",
+   "aberta_em": "sessao-10",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p29",
+   "texto": "Descobrir qual objeto se encaixa no sÃ­mbolo de Ankh entalhado no topo do grande Obelisco de Arden Vul.",
+   "aberta_em": "sessao-10",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p30",
+   "texto": "Identificar a criatura gigantesca avistada nas profundezas do lago escuro junto Ã  barragem de Arden Vul.",
+   "aberta_em": "sessao-10",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-09",
-  "texto": "Deyos, Hugios e Abicon sofreram uma emboscada violenta em Gosterwick nas mÃ£os dos Vizinhos Ruins, perdendo todos os seus pertences, armas e dinheiro, alÃ©m de Deyos ficar marcado com as letras VR no rosto. ApÃ³s venderem as cordas de volta a Damasco por metade do preÃ§o e adquirirem novos equipamentos bÃ¡sicos, o grupo viajou para os ermos na base de Arden Vul. LÃ¡, investigaram um lago rochoso misterioso perto da cachoeira e exploraram novamente as catacumbas assombradas da colina A Pata. Sem encontrar tesouros e lidando com a exaustÃ£o e a fome, os aventureiros retornaram exaustos para a Estalagem Capa Amarela em Gosterwick."
+  "apos": "sessao-10",
+  "texto": "O grupo encontra-se refugiado e exausto na Estalagem Capa Amarela em Gosterwick apÃ³s escapar por pouco da morte. No topo de Arden Vul, os aventureiros descobriram o obelisco com inscriÃ§Ãµes arconteanas em Mifirik e uma criatura oculta nas Ã¡guas da barragem. Encurralados pela subida de homens-fera, esconderam-se nas ruÃ­nas e testemunharam um dragÃ£o empoleirado vigiando os escombros. A fuga noturna em disparada sÃ³ terminou ao encontrarem cavaleiros da Fortaleza AzÃºria na estrada. Seguem em aberto os mistÃ©rios sobre o dragÃ£o no penhasco, o sarcÃ³fago revelado na cidade e as propriedades do fungo amarelo coletado."
  }
 }
