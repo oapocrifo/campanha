@@ -898,6 +898,33 @@
     "itens/pedra-magnatica",
     "eventos/morte-de-markhor"
    ]
+  },
+  "sessao-34": {
+   "titulo": "O Segredo sob a ChaminÃ©",
+   "resumo": "No dÃ©cimo segundo dia do nono mÃªs de 2993, os aventureiros Kalvos, Nia e Momonga reuniram-se no salÃ£o comunitÃ¡rio da Pousada do Sinal da CabeÃ§a Quebrada. O anÃ£o clÃ©rigo Kalvos encontrou seu irmÃ£o Bolkas tentando negociar a aquisiÃ§Ã£o da cabeÃ§a de mÃ¡rmore da fachada da pousada com o taberneiro Cronos. Bolkas revelou que jÃ¡ havia recuperado a perna de mÃ¡rmore da antiga estÃ¡tua colossal de Arden Vul e desejava reunir todas as partes do monumento. Disposto a fortalecer a expediÃ§Ã£o, Momonga financiou a compra de duas armaduras de talas com o influente comerciante TenÃ¡rius para equipar Kalvos e Bolkas.\n\nGuiando o cavalo de traÃ§Ã£o PocotÃ³ pelas margens do rio furioso, o grupo marchou em direÃ§Ã£o Ã  edificaÃ§Ã£o da chaminÃ© em ruÃ­nas. ApÃ³s inspecionarem pegadas recentes de botas que seguiam rumo Ã  pirÃ¢mide, Nia e Kalvos desceram pelo duto da chaminÃ©. Utilizando uma lona e raÃ§Ãµes como isca, o grupo atraiu e eliminou as cinco stirges remanescentes na cÃ¢mara subterrÃ¢nea. No local, revistaram a pilha de carne e resgataram os pertences do falecido Markhor, incluindo sua armadura de talas, centenas de moedas de prata e cobre, um cone de incenso, um livreto de couro e uma haste de bronze ornamentada com um nÃ³ esculpido e inscriÃ§Ãµes em idioma antigo.\n\nExplorando as passagens adjacentes, os exploradores encontraram uma sala com quatro vasos de pedra contendo Ã¡gua salgada, azeite ranÃ§oso, Ã³leo de lamparina e um cogumelo branco em formato de trompete. Em outra sala, Kalvos laÃ§ou o pÃ© de um esqueleto sob os escombros e resgatou uma bota de couro em perfeito estado. A expediÃ§Ã£o tambÃ©m descobriu um poÃ§o com degraus de ferro sob uma tampa de mÃ¡rmore â de onde resgataram um anel de cobre preso a uma corda â e um amplo salÃ£o com uma escadaria em espiral de pedra que conduz aos nÃ­veis inferiores de Arden Vul.\n\nQuando se preparavam para subir, a estrutura da chaminÃ© sofreu um desabamento parcial. Momonga esquivou-se dos tijolos a tempo e o grupo trabalhou por cerca de uma hora e meia para remover os entulhos, improvisando uma rampa de escalada com as hastes da tenda. Durante a desobstruÃ§Ã£o, um carrapato gigante emergiu dos escombros e atacou o grupo, sendo cegado por uma magia de luz de Kalvos e esmagado por seu mangual. De volta Ã  pousada, TenÃ¡rius recusou-se a comprar as peÃ§as arrancadas do cadÃ¡ver devido ao forte cheiro de decomposiÃ§Ã£o, e os aventureiros encerraram o dia dividindo os tesouros obtidos.",
+   "linha_do_tempo": [
+    "Kalvos, Nia e Momonga despertam na Pousada do Sinal da CabeÃ§a Quebrada e conversam com Bolkas sobre a restauraÃ§Ã£o da estÃ¡tua colossal de Arden Vul.",
+    "Momonga financia duas armaduras de talas com TenÃ¡rius para equipar Kalvos e Bolkas.",
+    "O grupo viaja acompanhando a margem do rio com o cavalo PocotÃ³ atÃ© a estrutura em ruÃ­nas da chaminÃ©.",
+    "Nia e Kalvos descem pela chaminÃ©, resgatam as mochilas e usam a lona e raÃ§Ãµes para eliminar as cinco stirges remanescentes na cÃ¢mara subterrÃ¢nea.",
+    "A expediÃ§Ã£o revista a pilha de carne no centro da cÃ¢mara, resgatando a armadura de Markhor, moedas de prata e cobre, o livreto de couro, a haste de bronze e incenso.",
+    "Kalvos e Bolkas inspecionam a sala dos quatro vasos de pedra, encontrando Ã¡gua salgada, azeite ranÃ§oso, Ã³leo de lamparina e um cogumelo branco.",
+    "Kalvos recolhe uma bota de couro preservada do esqueleto em uma sala desabada e descobre um salÃ£o com uma escadaria em espiral de pedra que desce para o subterrÃ¢neo.",
+    "O grupo encontra um poÃ§o vertical com degraus de ferro sob uma tampa de mÃ¡rmore e recupera um anel simples de cobre preso a um pedaÃ§o de corda.",
+    "A chaminÃ© sofre um desabamento parcial e o grupo leva dez turnos para remover pedras e improvisar uma rampa de saÃ­da utilizando as hastes da tenda de Momonga.",
+    "Durante a limpeza dos escombros, um carrapato gigante ataca o grupo e Ã© destruÃ­do pelo mangual de Kalvos.",
+    "De volta Ã  pousada, TenÃ¡rius recusa-se a comprar a armadura suja de Markhor devido ao cheiro de cadÃ¡ver, e o grupo divide as moedas obtidas."
+   ],
+   "entidades": [
+    "personagens/kalvos",
+    "personagens/nia",
+    "personagens/momonga",
+    "npcs/bolkas",
+    "npcs/tenarius",
+    "npcs/cronos",
+    "criaturas/carrapato-gigante",
+    "itens/haste-de-bronze-com-na3"
+   ]
   }
  },
  "entidades": {
@@ -3665,7 +3692,7 @@
    "tipo": "npc",
    "nome": "TenÃ¡rius",
    "apelidos": [],
-   "resumo": "Homem arconteano idoso e de baixa estatura com trajes requintados que viaja com forte escolta mercenÃ¡ria armada. Opera temporariamente na Pousada do Sinal da CabeÃ§a Quebrada, comercializando armamentos caros e itens raros. Vendeu armaduras para o grupo e solicitou que trouxessem pessoas perdidas das ruÃ­nas em troca de descontos.",
+   "resumo": "Homem arconteano idoso e de baixa estatura com trajes requintados que viaja com forte escolta mercenÃ¡ria armada. Opera temporariamente na Pousada do Sinal da CabeÃ§a Quebrada, comercializando armamentos caros e itens raros. Vendeu duas armaduras de talas a Momonga por treze ciclos de ouro, mas recusou-se veementemente a comprar a armadura ensanguentada de Markhor.",
    "atributos": {
     "AfiliaÃ§Ã£o": "Guilda dos Mercadores",
     "LocalizaÃ§Ã£o": "Pousada do Sinal da CabeÃ§a Quebrada",
@@ -3703,11 +3730,24 @@
     [
      "sessao-32",
      "Pediu que os exploradores trouxessem pessoas perdidas nas ruÃ­nas para trabalhar com ele em troca de descontos futuros."
+    ],
+    [
+     "sessao-34",
+     "Vendeu duas armaduras de talas para o grupo mediante pagamento de treze ciclos de ouro feito por Momonga."
+    ],
+    [
+     "sessao-34",
+     "Mencionou manter contatos e acordos com a governadora Lady Alexia Basileon em Gosterwick."
+    ],
+    [
+     "sessao-34",
+     "Recusou-se a comprar a armadura e armas retiradas do cadÃ¡ver de Markhor devido ao cheiro de decomposiÃ§Ã£o."
     ]
    ],
    "sessoes": [
     "sessao-14",
-    "sessao-32"
+    "sessao-32",
+    "sessao-34"
    ]
   },
   "criaturas/sapo-gigante": {
@@ -4977,7 +5017,7 @@
    "tipo": "personagem",
    "nome": "Momonga",
    "apelidos": [],
-   "resumo": "Aventureiro clÃ©rigo devoto de Demma que abriga a presenÃ§a espiritual de Irthol em sua mente. Restaurou a estÃ¡tua de goblin e financiou equipamentos e armaduras para o grupo na Pousada do Sinal da CabeÃ§a Quebrada. Apoiou a remoÃ§Ã£o da lanÃ§a negra da estÃ¡tua guardiÃ£ e negociou a venda da escultura por uma promissÃ³ria de 300 ciclos de prata.",
+   "resumo": "Aventureiro clÃ©rigo devoto de Demma que abriga a presenÃ§a espiritual de Irthol em sua mente. Restaurou a estÃ¡tua de goblin e financiou equipamentos e armaduras para o grupo na Pousada do Sinal da CabeÃ§a Quebrada. Financiou armaduras de talas para Kalvos e Bolkas e organizou a subida de pertences e desobstruÃ§Ã£o da chaminÃ©.",
    "atributos": {
     "Classe": "ClÃ©rigo",
     "Jogador": "Silva",
@@ -5051,13 +5091,26 @@
     [
      "sessao-32",
      "Negociou a estÃ¡tua de goblin com colecionadores por um cheque de 300 ciclos de prata a ser recebido em Newmarket."
+    ],
+    [
+     "sessao-34",
+     "Financiou duas armaduras de talas com o comerciante TenÃ¡rius para equipar Kalvos e Bolkas."
+    ],
+    [
+     "sessao-34",
+     "Coletou dezessete asas e bicos de stirges e recolheu um cogumelo branco em formato de trompete."
+    ],
+    [
+     "sessao-34",
+     "Escapou ileso do desabamento parcial da chaminÃ© e usou hastes de sua tenda para criar uma rampa de escalada."
     ]
    ],
    "sessoes": [
     "sessao-22",
     "sessao-24",
     "sessao-28",
-    "sessao-32"
+    "sessao-32",
+    "sessao-34"
    ]
   },
   "personagens/selene": {
@@ -6505,10 +6558,11 @@
    "apelidos": [
     "Louris"
    ],
-   "resumo": "Aventureira exploradora habilidosa e resistente que atua em Arden Vul munida de espada curta e tÃ©cnicas de escalada. Desceu na vanguarda da chaminÃ© rochosa, abateu stirges com estocadas precisas e resgatou os pertences mais valiosos de Markhor apÃ³s seu falecimento.",
+   "resumo": "Aventureira exploradora habilidosa e resistente que atua em Arden Vul munida de espada curta e tÃ©cnicas de escalada. Desceu na vanguarda da chaminÃ© rochosa, abateu stirges com estocadas precisas e resgatou os pertences mais valiosos de Markhor apÃ³s seu falecimento. Auxiliou a expediÃ§Ã£o na captura das stirges com lona e no combate contra o carrapato gigante.",
    "atributos": {
     "Jogador": "Louis",
-    "Status": "Viva (Ferida)"
+    "Status": "Viva (Ferida)",
+    "OcupaÃ§Ã£o": "Exploradora"
    },
    "fatos": [
     [
@@ -6530,18 +6584,27 @@
     [
      "sessao-33",
      "Carregou a pesada lanÃ§a negra de Markhor e seu amuleto de volta Ã  Pousada do Sinal da CabeÃ§a Quebrada."
+    ],
+    [
+     "sessao-34",
+     "Desceu pela chaminÃ© amarrada por cordas para resgatar as mochilas e inspecionar a cÃ¢mara subterrÃ¢nea."
+    ],
+    [
+     "sessao-34",
+     "Auxiliou Kalvos no combate contra o carrapato gigante cravando sua espada curta na carapaÃ§a do monstro."
     ]
    ],
    "sessoes": [
     "sessao-30",
-    "sessao-33"
+    "sessao-33",
+    "sessao-34"
    ]
   },
   "npcs/cronos": {
    "tipo": "npc",
    "nome": "Cronos",
    "apelidos": [],
-   "resumo": "ProprietÃ¡rio idoso e corpulento da Pousada do Sinal da CabeÃ§a Quebrada em Arden Vul. Fornece alojamento, refeiÃ§Ãµes e raÃ§Ãµes a preÃ§os inflacionados para aventureiros. Demonstrou interesse cauteloso na aquisiÃ§Ã£o de carne de centopeia para refeiÃ§Ãµes caso seja comprovadamente segura.",
+   "resumo": "ProprietÃ¡rio idoso e corpulento da Pousada do Sinal da CabeÃ§a Quebrada em Arden Vul. Fornece alojamento, refeiÃ§Ãµes e raÃ§Ãµes a preÃ§os inflacionados para aventureiros. Recusou-se a ceder a cabeÃ§a de mÃ¡rmore da fachada a Bolkas a menos que receba uma escultura maior para substituÃ­-la.",
    "atributos": {
     "Ocupa £o": "Estalajadeiro",
     "Localiza £o": "Pousada do Sinal da Cabe a Quebrada",
@@ -6576,13 +6639,18 @@
     [
      "sessao-33",
      "Afirmou que cozinheiras da estalagem poderiam preparar pratos com carnes exÃ³ticas se os aventureiros provassem que nÃ£o eram venenosas."
+    ],
+    [
+     "sessao-34",
+     "Declarou que sÃ³ entregarÃ¡ a cabeÃ§a de mÃ¡rmore da fachada caso lhe tragam uma escultura substituta maior."
     ]
    ],
    "sessoes": [
     "sessao-30",
     "sessao-31",
     "sessao-32",
-    "sessao-33"
+    "sessao-33",
+    "sessao-34"
    ]
   },
   "npcs/zaron": {
@@ -6693,7 +6761,7 @@
     "Bulkas",
     "Poucas"
    ],
-   "resumo": "Guerreiro anÃ£o ruivo e inexperiente contratado como auxiliar de expediÃ§Ã£o pelo grupo de Markhor. Possui conhecimentos prÃ¡ticos sobre cinzelamento e alvenaria em mÃ¡rmore. Auxiliou na abertura de passagens secretas e na luta contra vermes nas ruÃ­nas de Arden Vul.",
+   "resumo": "Guerreiro anÃ£o ruivo e irmÃ£o de Kalvos que explora Arden Vul. Possui conhecimentos prÃ¡ticos sobre cinzelamento e alvenaria em mÃ¡rmore. Tem como objetivo reconstituir a estÃ¡tua colossal de Arden Vul, tendo resgatado uma perna de mÃ¡rmore e tentando negociar a cabeÃ§a exibida na fachada da pousada de Cronos.",
    "atributos": {
     "RaÃ§a": "AnÃ£o",
     "OcupaÃ§Ã£o": "Guerreiro mercenÃ¡rio",
@@ -6724,10 +6792,19 @@
     [
      "sessao-31",
      "Recebeu 38 ciclos de prata como sua fatia do tesouro ao retornar Ã  pousada."
+    ],
+    [
+     "sessao-34",
+     "Revelou jÃ¡ ter resgatado a perna colossal de mÃ¡rmore e tentou negociar a aquisiÃ§Ã£o da cabeÃ§a da fachada com Cronos."
+    ],
+    [
+     "sessao-34",
+     "Recebeu uma armadura de talas financiada por Momonga e auxiliou na abertura dos vasos de pedra e remoÃ§Ã£o dos entulhos."
     ]
    ],
    "sessoes": [
-    "sessao-31"
+    "sessao-31",
+    "sessao-34"
    ]
   },
   "npcs/ristus": {
@@ -7121,6 +7198,77 @@
    ],
    "sessoes": [
     "sessao-33"
+   ]
+  },
+  "personagens/kalvos": {
+   "tipo": "personagem",
+   "nome": "Kalvos",
+   "apelidos": [
+    "Calvos"
+   ],
+   "resumo": "ClÃ©rigo anÃ£o devoto de Heschius Ban e irmÃ£o de Bolkas. Chegou Ã s ruÃ­nas de Arden Vul equipado com armadura de talas financiada por Momonga. Liderou a exploraÃ§Ã£o da cÃ¢mara subterrÃ¢nea sob a chaminÃ©, utilizando sua visÃ£o no escuro, magias de iluminaÃ§Ã£o e habilidades com manguais para combater criaturas.",
+   "atributos": {
+    "RaÃ§a": "AnÃ£o",
+    "Classe": "ClÃ©rigo",
+    "Divindade": "Heschius Ban",
+    "Jogador": "Juliano"
+   },
+   "fatos": [
+    [
+     "sessao-34",
+     "Comprou uma armadura de talas financiada por Momonga na Pousada do Sinal da CabeÃ§a Quebrada."
+    ],
+    [
+     "sessao-34",
+     "Investigou as salas subterrÃ¢neas sob a chaminÃ© e resgatou uma bota preservada usando um laÃ§o de corda."
+    ],
+    [
+     "sessao-34",
+     "Cegou o carrapato gigante com magia de luz e destruiu a criatura com seu mangual."
+    ]
+   ],
+   "sessoes": [
+    "sessao-34"
+   ]
+  },
+  "criaturas/carrapato-gigante": {
+   "tipo": "criatura",
+   "nome": "Carrapato Gigante",
+   "apelidos": [],
+   "resumo": "Monstruosidade aracnÃ­dea de oito patas e quelÃ­ceras afiadas que habita os entulhos subterrÃ¢neos de Arden Vul. Ataca presas com ferocidade tentando cravar suas quelÃ­ceras para sugar sangue.",
+   "atributos": {
+    "Tipo": "Monstruosidade"
+   },
+   "fatos": [
+    [
+     "sessao-34",
+     "Emergiu dos escombros do desabamento da chaminÃ© e atacou o grupo antes de ter sua cabeÃ§a esmagada por Kalvos."
+    ]
+   ],
+   "sessoes": [
+    "sessao-34"
+   ]
+  },
+  "itens/haste-de-bronze-com-na3": {
+   "tipo": "item",
+   "nome": "Haste de Bronze com NÃ³",
+   "apelidos": [],
+   "resumo": "Artefato de bronze do tamanho de um antebraÃ§o humano resgatado da pilha de entulho na cÃ¢mara subterrÃ¢nea da chaminÃ©. Uma de suas extremidades Ã© esculpida no formato de um nÃ³ complexo de cinco segundos e seu corpo possui uma inscriÃ§Ã£o em idioma antigo.",
+   "atributos": {
+    "Material": "Bronze"
+   },
+   "fatos": [
+    [
+     "sessao-34",
+     "Encontrada na pilha de carnes e escombros da cÃ¢mara subterrÃ¢nea sob a chaminÃ© de Arden Vul."
+    ],
+    [
+     "sessao-34",
+     "Possui gravuras em caracteres comuns que formam palavras em uma lÃ­ngua desconhecida."
+    ]
+   ],
+   "sessoes": [
+    "sessao-34"
    ]
   }
  },
@@ -7850,15 +7998,15 @@
    "id": "p104",
    "texto": "Recuperar a armadura de talas de Markhor e as mochilas do grupo escondidas nos entulhos da edificaÃ§Ã£o da chaminÃ©.",
    "aberta_em": "sessao-33",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-34",
+   "como": "O grupo desceu pela chaminÃ©, derrotou os stirges remanescentes e resgatou a armadura de talas de Markhor, moedas de prata e cobre, e as mochilas da expediÃ§Ã£o anterior."
   },
   {
    "id": "p105",
    "texto": "Explorar a cÃ¢mara subterrÃ¢nea sob a chaminÃ©, verificando as portas trancadas e a pilha vermelha e viscosa situada no centro da sala.",
    "aberta_em": "sessao-33",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-34",
+   "como": "A cÃ¢mara foi inteiramente explorada, tendo a pilha de carne sido revistada e suas portas checadas, revelando vasos com lÃ­quidos, uma escadaria em espiral e um poÃ§o com degraus de ferro."
   },
   {
    "id": "p106",
@@ -7866,10 +8014,59 @@
    "aberta_em": "sessao-33",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p107",
+   "texto": "Decifrar a inscriÃ§Ã£o gravada na haste de bronze com nÃ³ esculpido encontrada sob a chaminÃ©.",
+   "aberta_em": "sessao-34",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p108",
+   "texto": "Investigar o conteÃºdo e o autor do livreto de couro de poucas pÃ¡ginas resgatado dos entulhos.",
+   "aberta_em": "sessao-34",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p109",
+   "texto": "Identificar as propriedades do cogumelo branco em formato de trompete recolhido na sala dos vasos de pedra.",
+   "aberta_em": "sessao-34",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p110",
+   "texto": "Explorar a escadaria em espiral de pedra descoberta no salÃ£o subterrÃ¢neo, que desce para os nÃ­veis inferiores de Arden Vul.",
+   "aberta_em": "sessao-34",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p111",
+   "texto": "Investigar o poÃ§o vertical com degraus de ferro sob a tampa de mÃ¡rmore e a origem do cheiro de esgoto.",
+   "aberta_em": "sessao-34",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p112",
+   "texto": "Limpar e encontrar um comprador para a armadura de talas e armas recolhidas do corpo de Markhor apÃ³s a recusa de TenÃ¡rius.",
+   "aberta_em": "sessao-34",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p113",
+   "texto": "Encontrar uma rota alternativa ou desobstruir os escombros da chaminÃ© apÃ³s o desabamento da estrutura.",
+   "aberta_em": "sessao-34",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-33",
-  "texto": "Os aventureiros Nia, Miragem e Salazarr retornaram feridos e exaustos Ã  Pousada do Sinal da CabeÃ§a Quebrada apÃ³s uma trÃ¡gica expediÃ§Ã£o Ã  edificaÃ§Ã£o da chaminÃ©. O guerreiro caprino Markhor pereceu apÃ³s ser completamente drenado por um enxame de stirges na cÃ¢mara subterrÃ¢nea recÃ©m-descoberta. Seus companheiros conseguiram recuperar a lanÃ§a de metal negro e o amuleto de Ankh de seu corpo, mas tiveram que ocultar as mochilas e a armadura de talas entre os entulhos para conseguirem fugir com vida. Restam em aberto a recuperaÃ§Ã£o dos equipamentos abandonados na ruÃ­na e a exploraÃ§Ã£o da misteriosa cÃ¢mara subterrÃ¢nea e suas portas."
+  "apos": "sessao-34",
+  "texto": "O grupo encontra-se na Pousada do Sinal da CabeÃ§a Quebrada apÃ³s uma expediÃ§Ã£o bem-sucedida Ã  cÃ¢mara subterrÃ¢nea sob a chaminÃ© de Arden Vul. Com a ajuda do anÃ£o Kalvos e seu irmÃ£o Bolkas, os aventureiros recuperaram a armadura e os pertences do falecido Markhor, alÃ©m de descobrirem uma nova escadaria em espiral que desce para as profundezas da cidade antiga. Durante a exploraÃ§Ã£o, recolheram uma haste de bronze com inscriÃ§Ãµes antigas, um livreto de couro e um cogumelo misterioso, mas a chaminÃ© desabou parcialmente durante a saÃ­da. Em aberto estÃ£o a exploraÃ§Ã£o da nova escadaria subterrÃ¢nea, a decifraÃ§Ã£o da haste de bronze e a busca por um comprador para os equipamentos ensanguentados rejeitados por TenÃ¡rius."
  }
 }
