@@ -1200,6 +1200,23 @@
     "itens/mao-de-estatua-de-pedra-branca",
     "locais/torre-quadrada-do-patio"
    ]
+  },
+  "sessao-45": {
+   "titulo": "A Morte no Lago Sombrio e o Encontro com o Dragao",
+   "resumo": "Parnasso e Sulongui partiram em expedicao rumo ao norte, seguindo o curso de um rio gelado e nebuloso ate chegarem a um vasto lago isolado. Durante a exploracao das margens e das aguas profundas, enfrentaram criaturas aquaticas e tiveram um encontro marcante com o colossal dragao verde Crastorithorex, com quem negociaram informacoes sobre a regiao e conseguiram uma perna de ave gigante como alimento. Pouco depois, em uma nova tentativa de explorar o buraco subaquatico no centro do lago, Sulongui e Parnasso foram atacados por um crustaceo gigante mortal, resultando no afogamento e morte de ambos os aventureiros nas profundezas.\n\nEnquanto isso, a aventureira Vixen Vestappen separou-se do grupo para explorar as encostas rochosas da montanha adjacente ao lago. Durante sua jornada, Vixen observou o dragao se alimentando, evitou sorrateiramente um grupo de humanoides barulhentos e descalÃ§os que caminhavam pela regiao durante a noite, e conseguiu retornar em seguranca para a Pousada do Sinal da Cabeca Quebrada apos avistar o local do alto.",
+   "linha_do_tempo": [
+    "Parnasso e Sulongui seguiram o rio rumo ao norte por horas ate chegarem a um grande lago nebuloso.",
+    "Sulongui mergulhou nas aguas profundas do lago e avistou uma misteriosa abertura subaquatica no fundo.",
+    "A dupla encontrou o cadaver de uma ave vermelha gigante flutuando nas aguas e cortou uma de suas pernas.",
+    "O dragao verde Crastorithorex apareceu para recolher sua presa, conversou com Parnasso e ofereceu informacoes sobre Galef em troca de segredos das ruinas.",
+    "Parnasso e Sulongui retornaram ao lago com um nadador contratado e mergulharam novamente na abertura subaquatica.",
+    "Um crustaceo gigante hostil emergiu do fundo e atacou os aventureiros, matando Sulongui e Parnasso por afogamento.",
+    "Vixen Vestappen explorou a montanha rochosa, observou o dragao caÃ§ando e evitou um grupo de humanoides descalÃ§os durante a noite antes de retornar a pousada."
+   ],
+   "entidades": [
+    "criaturas/crastorithorex",
+    "criaturas/crustaceo-gigante"
+   ]
   }
  },
  "entidades": {
@@ -9798,6 +9815,64 @@
    "sessoes": [
     "sessao-44"
    ]
+  },
+  "criaturas/crastorithorex": {
+   "tipo": "criatura",
+   "nome": "Crastorithorex",
+   "apelidos": [
+    "Crasturitorex"
+   ],
+   "resumo": "Colossal e inteligente dragao verde que habita as montanhas e o grande lago ao norte em Arden Vul. E exigente com forasteiros, mas aceitou negociar informacoes sobre a regiao com Parnasso em troca de dados sobre ruinas locais.",
+   "atributos": {
+    "Especie": "Dragao Verde",
+    "Localizacao": "Lago ao Norte de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-45",
+     "Crastorithorex caÃ§ou e abateu uma grande ave vermelha nas margens do lago ao norte."
+    ],
+    [
+     "sessao-45",
+     "Conversou pacificamente com Parnasso apos receber informacoes sobre a arvore viva Tuftwillig e o local da estavela de golen."
+    ],
+    [
+     "sessao-45",
+     "Demonstrou interesse em obter informacoes sobre as fraquezas da entidade morta-viva Galef."
+    ]
+   ],
+   "sessoes": [
+    "sessao-45"
+   ]
+  },
+  "criaturas/crustaceo-gigante": {
+   "tipo": "criatura",
+   "nome": "Crustaceo Gigante",
+   "apelidos": [
+    "Lagosta Gigante"
+   ],
+   "resumo": "Monstruosidade aquatica colossal com pincas poderosas e apendices faciais que habita a abertura subaquatica no fundo do grande lago. Possui extrema agressividade e forca suficiente para arrastar aventureiros para o fundo.",
+   "atributos": {
+    "Habitat": "Fundo do Grande Lago",
+    "Status": "Ativo e Letal"
+   },
+   "fatos": [
+    [
+     "sessao-45",
+     "Emerge das profundezas da abertura subaquatica no lago para defender seu territorio."
+    ],
+    [
+     "sessao-45",
+     "Atacou e matou os aventureiros Sulongui e Parnasso durante mergulhos de exploracao."
+    ],
+    [
+     "sessao-45",
+     "Conseguiu derrotar e afogar combatentes experientes utilizando suas pincas esmagadoras."
+    ]
+   ],
+   "sessoes": [
+    "sessao-45"
+   ]
   }
  },
  "pendencias": [
@@ -10836,10 +10911,31 @@
    "aberta_em": "sessao-44",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p149",
+   "texto": "Investigar a vasta rede de cavernas e estruturas subaquaticas acessiveis pelo buraco no fundo do grande lago ao norte.",
+   "aberta_em": "sessao-45",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p150",
+   "texto": "Descobrir as fraquezas de Galef, o poderoso morto-vivo que habita a Casa Longa, para relatar a Crastorithorex.",
+   "aberta_em": "sessao-45",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p151",
+   "texto": "Lidar com o perigoso crustaceo gigante que domina a passagem subaquatica no lago.",
+   "aberta_em": "sessao-45",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-44",
-  "texto": "O grupo encontra-se reunido em seguranÃ§a na Pousada do Sinal da CabeÃ§a Quebrada apÃ³s uma caÃ§ada turbulenta no pÃ¡tio central de Arden Vul. A expediÃ§Ã£o culminou na trÃ¡gica morte do clÃ©rigo Chico LeÃ£o, esmagado pela fÃªmea de babuÃ­no gigante albino, cujo corpo foi recuperado e trazido na carroÃ§a. Em contrapartida, os aventureiros conseguiram abater o monstro com flechas certeiras de Ilyn e feitiÃ§os de Momonga, vendendo a carne aos goblins do clÃ£ Wicktrimmer por 1.100 ciclos de prata. A Ã¡rvore senciente Tuftwillig recompensou os sobreviventes com a mÃ£o de pedra branca da estÃ¡tua colossal e um baÃº, prometendo um anel protetor caso matem o lÃ­der de quatro braÃ§os, Rango. Resta agora abrir o baÃº resgatado, decidir o destino dos restos de Chico LeÃ£o e planejar como lidar com Rango e os halflings rivais."
+  "apos": "sessao-45",
+  "texto": "O grupo explorou o grande lago ao norte de Arden Vul, onde encontrou um vasto reservatorio de aguas frias e criaturas perigosas. Parnasso e Sulongui negociaram com o dragao verde Crastorithorex, mas acabaram perecendo ao enfrentar um crustaceo gigante subaquatico em busca de tesouros. Vixen Vestappen explorou a montanha proxima, evitou perigos noturnos e retornou em seguranca para a Pousada do Sinal da Cabeca Quebrada. Novos objetivos e perigos aguardam os sobreviventes nas profundezas e nas margens do lago."
  }
 }
