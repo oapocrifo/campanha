@@ -297,6 +297,35 @@
     "criaturas/esqueleto-mimir",
     "itens/osso-preto"
    ]
+  },
+  "sessao-12": {
+   "titulo": "O Resgate de Herodian e a Queda de Lycan",
+   "resumo": "No dia 19 do quarto mÃªs de 2993, o homem-fera Lycan desembarcou na praÃ§a de Gosterwick e juntou-se a Hugios e Abicon. ApÃ³s descobrirem que o comÃ©rcio de metais estava inflacionado devido aos ataques na estrada de Deep Town, o grupo foi indicado a procurar o mago Bernerius Pictor em uma pousada luxuosa perto da Colina dos Deuses. LÃ¡, reencontraram Creon e Cyra e aceitaram a missÃ£o de Bernerius para resgatar seu amigo Herodian, um mago desaparecido no Emaranhado enquanto pesquisava feitiÃ§os. Em troca do resgate, Bernerius prometeu 1.000 ciclos de prata e a remoÃ§Ã£o da maldiÃ§Ã£o de Abicon.\n\nO grupo, acompanhado por Creon e Cyra, marchou atÃ© O Emaranhado. Ao explorar as passagens entre as vinhas espinhosas, Abicon caiu em um fosso de armadilha, e logo em seguida o grupo foi emboscado por uma patrulha de kobolds. Cyra destruiu um dos agressores com mÃ­sseis mÃ¡gicos, e Abicon colocou os demais para dormir com magia, permitindo que decapitassem os alvos. No entanto, arqueiros kobolds no topo das Ã¡rvores atacaram o grupo, e Creon sofreu alucinaÃ§Ãµes devido ao veneno das adagas kobolds.\n\nNa tentativa de abrir caminho incendiando as vinhas com Ã³leo, Abicon provocou a reaÃ§Ã£o da vegetaÃ§Ã£o viva, que se moldou em humanoides de vinha agressivos. ForÃ§ados a uma fuga desesperada, os aventureiros recuaram sob uma chuva de flechas dos kobolds. Lycan acabou sendo atingido fatalmente por mÃºltiplos disparos enquanto carregava Creon, perecendo no local. De volta a Gosterwick, Hugios e Abicon tentaram entregar as trÃªs cabeÃ§as de kobold na prefeitura, mas souberam que a recompensa sÃ³ serÃ¡ paga se a ameaÃ§a for totalmente eliminada.",
+   "linha_do_tempo": [
+    "Lycan chega a Gosterwick e une-se a Hugios e Abicon na praÃ§a central.",
+    "O grupo descobre o encarecimento dos itens de ferro e Ã© direcionado ao mago Bernerius Pictor.",
+    "Na pousada perto da Colina dos Deuses, os aventureiros reencontram Creon e Cyra e aceitam o contrato de Bernerius Pictor.",
+    "Bernerius promete remover a maldiÃ§Ã£o de Abicon e pagar 1.000 ciclos de prata caso tragam o mago Herodian em seguranÃ§a.",
+    "A expediÃ§Ã£o viaja pela rota de Deep Town atÃ© O Emaranhado.",
+    "Abicon cai em uma armadilha de fosso com espinhos no Emaranhado, sendo resgatado por cordas.",
+    "Uma patrulha de kobolds embosca o grupo; Cyra abate um inimigo com MÃ­sseis MÃ¡gicos e Abicon adormece os demais com magia Sono.",
+    "O grupo decapita os kobolds adormecidos, mas Ã© atacado por arqueiros nas Ã¡rvores e Creon sofre alucinaÃ§Ãµes pelo veneno das adagas.",
+    "Abicon incendeia as vinhas com Ã³leo, despertando criaturas humanoides vegetais que atacam com espinhos.",
+    "Durante a fuga sob saraivada de flechas, Lycan Ã© atingido fatalmente e morre no local.",
+    "Os sobreviventes retornam a Gosterwick e descobrem na prefeitura que a recompensa exige a eliminaÃ§Ã£o total dos kobolds."
+   ],
+   "entidades": [
+    "personagens/hugios",
+    "personagens/abicon",
+    "personagens/lycan",
+    "npcs/bernerius-pictor",
+    "npcs/herodian",
+    "npcs/creon",
+    "npcs/cyra",
+    "locais/o-emaranhado",
+    "criaturas/kobold",
+    "eventos/morte-de-lycan"
+   ]
   }
  },
  "entidades": {
@@ -377,13 +406,14 @@
    "tipo": "personagem",
    "nome": "Hugios",
    "apelidos": [],
-   "resumo": "Aventureiro explorador do grupo. Participou da emboscada fracassada contra os Vizinhos Ruins, perdeu seus equipamentos e acompanhou os companheiros em incursÃµes a A Pata. Comprou novos armamentos em Gosterwick e atingiu o ponto fraco de uma criatura esquelÃ©tica com sua zagaia.",
+   "resumo": "Aventureiro explorador do grupo. Participou da emboscada fracassada contra os Vizinhos Ruins, comprou novos armamentos em Gosterwick e integrou a expediÃ§Ã£o ao Emaranhado em busca do mago Herodian, sobrevivendo ao combate e Ã  fuga do local.",
    "atributos": {
-    "Classe": "Explorador",
+    "Classe": "Guerreiro",
     "Jogador": "Sonard",
     "Status": "Vivo e exausto",
     "LocalizaÃ§Ã£o": "Estalagem Capa Amarela em Gosterwick",
-    "OcupaÃ§Ã£o": "Explorador"
+    "OcupaÃ§Ã£o": "Explorador",
+    "RaÃ§a": "Humano"
    },
    "fatos": [
     [
@@ -465,6 +495,14 @@
     [
      "sessao-11",
      "Ajudou a carregar suprimentos e montar a barraca de acampamento durante a viagem."
+    ],
+    [
+     "sessao-12",
+     "Acompanhou a expediÃ§Ã£o ao Emaranhado em busca do mago Herodian."
+    ],
+    [
+     "sessao-12",
+     "Sobreviveu Ã  emboscada dos kobolds e Ã  fuga do Emaranhado."
     ]
    ],
    "sessoes": [
@@ -473,7 +511,8 @@
     "sessao-04",
     "sessao-09",
     "sessao-10",
-    "sessao-11"
+    "sessao-11",
+    "sessao-12"
    ]
   },
   "personagens/pallas": {
@@ -1006,9 +1045,10 @@
    "tipo": "local",
    "nome": "O Emaranhado",
    "apelidos": [],
-   "resumo": "RegiÃ£o de colinas e vinhas espinhosas artificiais onde se localiza o covil fortificado dos kobolds. Abriga um complexo de cavernas em sua colina central de calcÃ¡rio com fossos, alarmes mÃ¡gicos e dezenas de tÃºneis interligados.",
+   "resumo": "RegiÃ£o de colinas e vinhas espinhosas artificiais onde se localiza o covil fortificado dos kobolds. Abriga fossos com espinhos vegetais, emboscadas de arqueiros em Ã¡rvores e vinhas vivas que ganham forma humanoide ao serem queimadas.",
    "atributos": {
-    "RegiÃ£o": "Vale de Burdock"
+    "RegiÃ£o": "Vale de Burdock",
+    "Tipo": "RegiÃ£o Fortificada"
    },
    "fatos": [
     [
@@ -1038,12 +1078,21 @@
     [
      "sessao-06",
      "Teve trechos de suas vinhas incendiados pela tocha arremessada por Albert Lion durante sua fuga."
+    ],
+    [
+     "sessao-12",
+     "Apresenta armadilhas de fosso cobertas por terra e espinhos vegetais afiados."
+    ],
+    [
+     "sessao-12",
+     "Suas vinhas reagem ao fogo ganhando vida e formando criaturas humanoides de planta."
     ]
    ],
    "sessoes": [
     "sessao-03",
     "sessao-04",
-    "sessao-06"
+    "sessao-06",
+    "sessao-12"
    ]
   },
   "personagens/harllequinnos": {
@@ -1119,9 +1168,9 @@
    "tipo": "criatura",
    "nome": "Kobold",
    "apelidos": [],
-   "resumo": "Pequenas criaturas reptilianas noturnas que habitam covis no Emaranhado e atacam comboios na estrada de Deep Town. Organizam-se em patrulhas coordenadas e utilizam arcos curtos com flechas envenenadas por um unguento esverdeado.",
+   "resumo": "Pequenas criaturas reptilianas noturnas que habitam covis no Emaranhado e atacam comboios na estrada de Deep Town. Atacam em patrulhas com adagas envenenadas por toxinas alucinÃ³genas e posicionam arqueiros estratÃ©gicos no topo das Ã¡rvores.",
    "atributos": {
-    "Tipo": "HumanÃ³ide Reptiliano"
+    "Tipo": "Humanoide Reptiliano"
    },
    "fatos": [
     [
@@ -1131,10 +1180,19 @@
     [
      "sessao-04",
      "Utilizam flechas com pontas de espinho impregnadas com graxa esverdeada venenosa."
+    ],
+    [
+     "sessao-12",
+     "Suas adagas sÃ£o besuntadas com um veneno esverdeado que provoca fortes alucinaÃ§Ãµes nas vÃ­timas."
+    ],
+    [
+     "sessao-12",
+     "Utilizam tÃ¡ticas de emboscada com arqueiros ocultos nas copas das Ã¡rvores."
     ]
    ],
    "sessoes": [
-    "sessao-04"
+    "sessao-04",
+    "sessao-12"
    ]
   },
   "criaturas/leao": {
@@ -2018,7 +2076,7 @@
    "tipo": "personagem",
    "nome": "Abicon",
    "apelidos": [],
-   "resumo": "Mago elfo do grupo. Recuperou recursos vendendo sÃ¡lvias para Lyssandra Astorion no Clube Arcano e comprou um martelo de guerra. Sofreu uma mordida de Esqueleto Mimir em A Pata que deixou sua pele enrijecida e escura, alÃ©m de inalar fumaÃ§a mÃ¡gica na estalagem.",
+   "resumo": "Mago elfo do grupo com uma lesÃ£o enrijecida de Esqueleto Mimir. Negociou com Bernerius Pictor a remoÃ§Ã£o de sua maldiÃ§Ã£o em troca de resgatar Herodian. Caiu em um fosso de espinhos e ateou fogo Ã s vinhas do Emaranhado, despertando monstros vegetais antes de fugir para Gosterwick.",
    "atributos": {
     "Jogador": "Massaki",
     "RaÃ§a": "Elfo",
@@ -2082,13 +2140,30 @@
     [
      "sessao-11",
      "Comprou um martelo de guerra e destruiu o crÃ¢nio de duas criaturas esquelÃ©ticas durante as batalhas."
+    ],
+    [
+     "sessao-12",
+     "Negociou a cura de sua maldiÃ§Ã£o com o mago Bernerius Pictor."
+    ],
+    [
+     "sessao-12",
+     "Caiu em uma armadilha de fosso com espinhos no Emaranhado."
+    ],
+    [
+     "sessao-12",
+     "Usou a magia Sono para adormecer uma patrulha de kobolds e recolheu suas cabeÃ§as."
+    ],
+    [
+     "sessao-12",
+     "Ateou fogo Ã s vinhas do Emaranhado, despertando humanoides vegetais agressivos."
     ]
    ],
    "sessoes": [
     "sessao-08",
     "sessao-09",
     "sessao-10",
-    "sessao-11"
+    "sessao-11",
+    "sessao-12"
    ]
   },
   "personagens/eugeo": {
@@ -2244,11 +2319,12 @@
    "tipo": "npc",
    "nome": "Creon",
    "apelidos": [],
-   "resumo": "Guerreiro humano loiro e alto que desembarcou em Gosterwick com sua esposa Cyra. Pagou a Hugios por informaÃ§Ãµes locais e administra uma loja de penhores na Rua da Colina.",
+   "resumo": "Guerreiro humano loiro e alto, casado com Cyra, que administra uma loja de penhores em Gosterwick. Reencontrou Hugios em uma pousada perto da Colina dos Deuses e juntou-se Ã  expediÃ§Ã£o ao Emaranhado vestindo cota de malha. Sofreu alucinaÃ§Ãµes graves ao ser atingido pelo veneno das adagas kobolds durante a batalha.",
    "atributos": {
     "RaÃ§a": "Humano",
     "OcupaÃ§Ã£o": "Aventureiro e Dono de Loja de Penhores",
-    "LocalizaÃ§Ã£o": "Rua da Colina em Gosterwick"
+    "LocalizaÃ§Ã£o": "Rua da Colina em Gosterwick",
+    "Equipamento": "Cota de Malha"
    },
    "fatos": [
     [
@@ -2262,21 +2338,31 @@
     [
      "sessao-10",
      "Ã filho da mercadora Josafina e proprietÃ¡rio de uma loja de penhores na Rua da Colina."
+    ],
+    [
+     "sessao-12",
+     "Uniu-se Ã  expediÃ§Ã£o do grupo ao Emaranhado usando cota de malha e espada larga."
+    ],
+    [
+     "sessao-12",
+     "Sofreu alucinaÃ§Ãµes intensas apÃ³s ser ferido por uma adaga envenenada de kobold."
     ]
    ],
    "sessoes": [
-    "sessao-10"
+    "sessao-10",
+    "sessao-12"
    ]
   },
   "npcs/cyra": {
    "tipo": "npc",
    "nome": "Cyra",
    "apelidos": [],
-   "resumo": "Aventureira de traÃ§os arconteanos, cabelos pretos e pele parda, casada com Creon. Desembarcou na praÃ§a central de Gosterwick e pagou moedas de prata por recomendaÃ§Ãµes de seguranÃ§a e compras.",
+   "resumo": "Aventureira de traÃ§os arconteanos casada com Creon. Acompanhou a expediÃ§Ã£o ao Emaranhado portando armadura de couro e robes, utilizando a magia MÃ­sseis MÃ¡gicos para abater um kobold que atacava seu marido.",
    "atributos": {
     "RaÃ§a": "Arconteana",
     "OcupaÃ§Ã£o": "Aventureira",
-    "LocalizaÃ§Ã£o": "Gosterwick"
+    "LocalizaÃ§Ã£o": "Gosterwick",
+    "Classe": "Maga"
    },
    "fatos": [
     [
@@ -2286,10 +2372,19 @@
     [
      "sessao-10",
      "Entregou cinco ciclos de prata aos aventureiros para receber informaÃ§Ãµes sobre lojas e pousadas da cidade."
+    ],
+    [
+     "sessao-12",
+     "Participou da incursÃ£o ao Emaranhado ao lado de Creon."
+    ],
+    [
+     "sessao-12",
+     "Conjurou MÃ­sseis MÃ¡gicos para destruir um kobold em combate."
     ]
    ],
    "sessoes": [
-    "sessao-10"
+    "sessao-10",
+    "sessao-12"
    ]
   },
   "npcs/josafina": {
@@ -2480,6 +2575,111 @@
    ],
    "sessoes": [
     "sessao-11"
+   ]
+  },
+  "personagens/lycan": {
+   "tipo": "personagem",
+   "nome": "Lycan",
+   "apelidos": [],
+   "resumo": "Aventureiro homem-fera que chegou a Gosterwick e juntou-se a Hugios e Abicon. PossuÃ­a audiÃ§Ã£o apurada que permitiu detectar a aproximaÃ§Ã£o de kobolds no Emaranhado. Carregou Creon durante o combate, mas foi atingido por mÃºltiplos disparos de arqueiros kobolds durante a fuga e faleceu.",
+   "atributos": {
+    "RaÃ§a": "Homem-Fera",
+    "Jogador": "Louis",
+    "Status": "Morto"
+   },
+   "fatos": [
+    [
+     "sessao-12",
+     "Chegou a Gosterwick e uniu-se ao grupo de Hugios e Abicon."
+    ],
+    [
+     "sessao-12",
+     "Utilizou sua audiÃ§Ã£o aguÃ§ada para detectar passos e movimentaÃ§Ãµes inimigas no Emaranhado."
+    ],
+    [
+     "sessao-12",
+     "Auxiliou Creon quando este sofreu alucinaÃ§Ãµes durante o confronto."
+    ],
+    [
+     "sessao-12",
+     "Foi fatalmente atingido por flechas de arqueiros kobolds durante a fuga do Emaranhado e morreu."
+    ]
+   ],
+   "sessoes": [
+    "sessao-12"
+   ]
+  },
+  "npcs/bernerius-pictor": {
+   "tipo": "npc",
+   "nome": "Bernerius Pictor",
+   "apelidos": [],
+   "resumo": "Mago integrante do ColÃ©gio de Thoth hospedado em uma pousada luxuosa perto da Colina dos Deuses em Gosterwick. Contratou o grupo para localizar seu amigo Herodian, oferecendo 1.000 ciclos de prata de recompensa e a conjuraÃ§Ã£o de Remover MaldiÃ§Ã£o.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Mago",
+    "AfiliaÃ§Ã£o": "ColÃ©gio de Thoth",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-12",
+     "Contratou o grupo para buscar notÃ­cias de seu amigo desaparecido Herodian no Emaranhado."
+    ],
+    [
+     "sessao-12",
+     "Ofereceu 1.000 ciclos de prata pelo resgate de Herodian e a conjuraÃ§Ã£o da magia Remover MaldiÃ§Ã£o para Abicon."
+    ]
+   ],
+   "sessoes": [
+    "sessao-12"
+   ]
+  },
+  "npcs/herodian": {
+   "tipo": "npc",
+   "nome": "Herodian",
+   "apelidos": [
+    "Erodien",
+    "Erosion"
+   ],
+   "resumo": "Mago e pesquisador amigo de Bernerius Pictor que desapareceu hÃ¡ cerca de um mÃªs na regiÃ£o do Emaranhado. Buscava desenvolver um feitiÃ§o para revolucionar o acampamento de exploradores baseado no livro Magia PrÃ¡tica para o Mago Ativo.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Mago",
+    "Status": "Desaparecido"
+   },
+   "fatos": [
+    [
+     "sessao-12",
+     "Desapareceu no Emaranhado hÃ¡ cerca de um mÃªs enquanto pesquisava feitiÃ§os de acampamento."
+    ],
+    [
+     "sessao-12",
+     "Seguia os ensinamentos do livro Magia PrÃ¡tica para o Mago Ativo."
+    ]
+   ],
+   "sessoes": [
+    "sessao-12"
+   ]
+  },
+  "eventos/morte-de-lycan": {
+   "tipo": "evento",
+   "nome": "Morte de Lycan",
+   "apelidos": [],
+   "resumo": "TrÃ¡gico confronto ocorrido durante a fuga do Emaranhado, no qual o aventureiro homem-fera Lycan foi atingido por disparos de arqueiros kobolds e faleceu no local.",
+   "atributos": {
+    "Local": "O Emaranhado",
+    "VÃ­timas": "Lycan"
+   },
+   "fatos": [
+    [
+     "sessao-12",
+     "Ocorreu na saÃ­da do Emaranhado durante a fuga contra as criaturas de vinha e arqueiros kobolds."
+    ],
+    [
+     "sessao-12",
+     "Resultou na morte imediata do aventureiro homem-fera Lycan."
+    ]
+   ],
+   "sessoes": [
+    "sessao-12"
    ]
   }
  },
@@ -2714,10 +2914,24 @@
    "aberta_em": "sessao-11",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p34",
+   "texto": "Localizar o mago Herodian no Emaranhado e trazÃª-lo em seguranÃ§a para Bernerius Pictor em troca de 1.000 ciclos de prata e a cura da maldiÃ§Ã£o de Abicon.",
+   "aberta_em": "sessao-12",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p35",
+   "texto": "Recuperar o corpo e os pertences do falecido Lycan no Emaranhado.",
+   "aberta_em": "sessao-12",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-11",
-  "texto": "O grupo retornou a Gosterwick apÃ³s explorar as profundezas da colina A Pata. Durante a jornada, enfrentaram seres esquelÃ©ticos serpenteantes e coletaram estranhos ossos pretos de aparÃªncia vÃ­trea. Abicon foi mordido por uma das bestas, desenvolvendo um enrijecimento escuro na barriga. Na Estalagem Capa Amarela, Deyos destruiu um dos ossos mÃ­stico na lareira, espalhando uma fumaÃ§a roxa pelo ambiente. Os aventureiros agora buscam uma cura para a lesÃ£o de Abicon e precisam entender os efeitos do gÃ¡s liberado."
+  "apos": "sessao-12",
+  "texto": "O grupo retornou a Gosterwick apÃ³s uma trÃ¡gica expediÃ§Ã£o ao Emaranhado que custou a vida do companheiro Lycan. Abicon e Hugios negociaram com o mago Bernerius Pictor, que ofereceu uma recompensa generosa e a cura da maldiÃ§Ã£o de Abicon caso encontrem seu amigo Herodian. Durante o combate no covil das vinhas, o grupo confirmou que o veneno das adagas kobolds causa fortes alucinaÃ§Ãµes e que as vinhas reagem violentamente ao fogo. Atualmente, os aventureiros descansam na Estalagem Capa Amarela, com o corpo de Lycan deixado para trÃ¡s e a missÃ£o de localizar Herodian pendente."
  }
 }
