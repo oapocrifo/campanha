@@ -4,12 +4,16 @@
   const raiz = document.getElementById("assistente");
   if (!raiz) return;
 
-  const LIMITE = 60000; // caracteres de contexto por pergunta, cabe em modelos de 32 mil tokens
+  // caracteres de contexto por pergunta: o Gemini do site aceita 1 milhão de tokens, e 300 mil caracteres
+  // (cerca de 85 mil tokens) cabem uma sessão inteira. Modelos do OpenRouter recebem o que cabe no contexto deles.
+  const LIMITE_SITE = 300000;
+  const contextos = {};
   const PARADAS = new Set(("que qual quais quem como onde quando porque nao sim sobre ate apos entre isso esse essa este esta " +
     "aquele aquela ele ela eles elas lhe meu minha seu sua seus suas nos voce voces foi era sao ser estar tem ter teve " +
     "houve aconteceu acontece acontecer sabemos sabe saber diga fale conte mim qualquer coisa coisas todo toda todos " +
-    "todas mais menos muito pouco ainda tambem apenas sessao sessoe episodio campanha para pelo pela pelos pelas com " +
-    "sem dos das nas nos uma umas uns por").split(" "));
+    "todas mais menos muito pouco ainda tambem apenas sessao sessoes episodio episodios campanha para pelo pela pelos pelas com " +
+    "sem dos das nas nos uma umas uns por apareceu aparece aparecer apareceram aparicao aparicoes minutagem disponibilize " +
+    "dele dela deles delas final inicio fim comeco resuma resumo explique").split(" "));
 
   const ler = (k) => { try { return localStorage.getItem(k) || ""; } catch { return ""; } };
   const guardar = (k, v) => { try { v ? localStorage.setItem(k, v) : localStorage.removeItem(k); } catch { /* sem armazenamento */ } };
@@ -36,9 +40,9 @@
 
   // ---------- texto ----------
   const normalizar = (t) => t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
-  const termos = (t) => normalizar(t).split(/[^a-z0-9]+/)
+  const termos = (t) => normalizar(t).split(/[^a-z0-9]+/).filter((p) => !PARADAS.has(p))
     .map((p) => (p.length > 4 && p.endsWith("s") ? p.slice(0, -1) : p))
-    .filter((p) => p.length >= 3 && !PARADAS.has(p) && !/^\d+$/.test(p));
+    .filter((p) => p.length >= 3 && !/^\d+$/.test(p));
   const escapar = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const frase = (nome) => new RegExp(`(^|[^a-z0-9])${escapar(normalizar(nome))}([^a-z0-9]|$)`);
   const numero = (ep) => Number((ep.match(/(\d+)\D*$/) || [])[1] || NaN);
@@ -89,7 +93,11 @@
 
   // ---------- montagem do contexto ----------
   const linkFala = (f) => `[${nomeSessao(f.ep)}, ${f.hora}](transcricoes/${f.ep}.html#${f.ancora}) ${f.quem}: ${f.texto.slice(0, 260)}`;
-  const linkSessao = (ep) => `[${nomeSessao(ep)}${dados.sessoes[ep] ? ": " + dados.sessoes[ep].titulo : ""}](sessoes/${ep}.html)`;
+  const linkSessao = (ep) => (dados.sessoes[ep] ? `[${nomeSessao(ep)}: ${dados.sessoes[ep].titulo}](sessoes/${ep}.html)`
+    : `[${nomeSessao(ep)}](transcricoes/${ep}.html)`); // sessão ainda sem página na wiki: liga à transcrição
+  const transcricaoCompleta = (ep) => `TRANSCRIÇÃO COMPLETA DA ${nomeSessao(ep).toUpperCase()} ` +
+    `(link de um horário hh:mm:ss: transcricoes/${ep}.html#t-hhmmss):\n` +
+    falas.filter((f) => f.ep === ep).map((f) => `[${f.hora}] ${f.quem}: ${f.texto}`).join("\n");
 
   function textoSessao(ep) {
     const s = dados.sessoes[ep];
@@ -115,8 +123,7 @@
     ].filter(Boolean).join("\n");
   }
 
-  function textoMencoes(e) {
-    const padroes = [e.nome, ...e.apelidos].filter((n) => n.length >= 3).map(frase);
+  function textoMencoes(rotulo, padroes) {
     const porSessao = new Map();
     for (const f of falas) {
       if (padroes.some((p) => p.test(f.norm))) {
@@ -125,7 +132,7 @@
       }
     }
     const total = [...porSessao.values()].reduce((s, l) => s + l.length, 0);
-    const linhas = [`MENÇÕES A "${e.nome}" NAS TRANSCRIÇÕES: ${total} falas em ${porSessao.size} sessões. Cada linha tem o link da minutagem.`];
+    const linhas = [`MENÇÕES A "${rotulo}" NAS TRANSCRIÇÕES: ${total} falas em ${porSessao.size} sessões. Cada linha tem o link da minutagem.`];
     const porEp = Math.max(3, Math.floor(120 / Math.max(1, porSessao.size)));
     for (const [ep, lista] of [...porSessao.entries()].sort((a, b) => ordenar(a[0], b[0]))) {
       linhas.push(`${nomeSessao(ep)}: ${lista.length} falas, a primeira às ${lista[0].hora} e a última às ${lista.at(-1).hora}`);
@@ -134,7 +141,7 @@
     return linhas.join("\n");
   }
 
-  function contexto(pergunta) {
+  function contexto(pergunta, limite) {
     const q = normalizar(pergunta);
     const qt = [...new Set(termos(pergunta))];
     const partes = [];
@@ -159,6 +166,7 @@
           .filter(([s]) => s > 0).sort((a, b) => b[0] - a[0]).slice(0, 4)
           .forEach(([, b]) => partes.push(`TRECHO DA ${nomeSessao(ep).toUpperCase()}:\n` + b.trecho.map(linkFala).join("\n")));
       }
+      partes.push(transcricaoCompleta(ep));
     }
 
     // páginas cujo nome aparece na pergunta ("Oberon", "kobolds do Emaranhado")
@@ -172,7 +180,17 @@
       }
       return [nota, id];
     }).filter(([n]) => n >= 0.5).sort((a, b) => b[0] - a[0]).slice(0, 5).map(([, id]) => id);
-    for (const id of achadas) partes.push(textoPagina(id), textoMencoes(dados.entidades[id]));
+    for (const id of achadas) {
+      const e = dados.entidades[id];
+      partes.push(textoPagina(id), textoMencoes(e.nome, [e.nome, ...e.apelidos].filter((n) => n.length >= 3).map(frase)));
+    }
+
+    // nomes da pergunta que ainda não têm página: todas as falas que os citam ("Abicon", "kobolds")
+    const cobertos = new Set(achadas.flatMap((id) => [dados.entidades[id].nome, ...dados.entidades[id].apelidos].flatMap(termos)));
+    const total = blocos.length + docs.length;
+    qt.filter((t) => !cobertos.has(t) && df.get(t) && df.get(t) <= total * 0.25)
+      .sort((a, b) => df.get(a) - df.get(b)).slice(0, 3)
+      .forEach((t) => partes.push(textoMencoes(t, [new RegExp(`(^|[^a-z0-9])${escapar(t)}`)])));
 
     // busca por palavras na wiki e nas transcrições
     if (qt.length) {
@@ -183,7 +201,7 @@
           if (d.tipo === "sessao" && !citadas.includes(d.id)) partes.push(textoSessao(d.id));
         });
       blocos.map((b) => [pontuar(qt, b.termos, blocos.length), b]).filter(([s]) => s > 0)
-        .sort((a, b) => b[0] - a[0]).slice(0, 6)
+        .sort((a, b) => b[0] - a[0]).slice(0, 40)
         .forEach(([, b]) => partes.push(`TRECHO DA ${nomeSessao(b.ep).toUpperCase()}:\n` + b.trecho.map(linkFala).join("\n")));
     }
 
@@ -191,13 +209,15 @@
     if (dados.recapitulacao) geral.push(`RECAPITULAÇÃO MAIS RECENTE (depois da ${nomeSessao(dados.recapitulacao.apos)}):\n${dados.recapitulacao.texto}`);
     const abertas = dados.pendencias.filter((p) => !p.resolvida_em);
     if (abertas.length) geral.push("PENDÊNCIAS EM ABERTO (página: pendencias.html):\n" + abertas.map((p) => `- ${p.texto} (desde a ${nomeSessao(p.aberta_em)})`).join("\n"));
+    if (Object.keys(dados.sessoes).length) geral.push("RESUMOS DE TODAS AS SESSÕES:\n" +
+      Object.keys(dados.sessoes).sort(ordenar).map((ep) => `${linkSessao(ep)}: ${dados.sessoes[ep].resumo}`).join("\n"));
     const nomes = {};
     for (const [id, e] of Object.entries(dados.entidades)) (nomes[e.tipo] ||= []).push(`[${e.nome}](${id}.html)`);
-    geral.push("TODAS AS PÁGINAS DA WIKI:\n" + Object.entries(nomes).map(([t, l]) => `${t}: ${l.join(", ")}`).join("\n"));
+    if (Object.keys(nomes).length) geral.push("TODAS AS PÁGINAS DA WIKI:\n" + Object.entries(nomes).map(([t, l]) => `${t}: ${l.join(", ")}`).join("\n"));
 
     let texto = "";
     for (const parte of [...geral.slice(0, 2), ...partes, ...geral.slice(2)]) {
-      if (texto.length + parte.length > LIMITE) { texto += "\n\n" + parte.slice(0, LIMITE - texto.length); break; }
+      if (texto.length + parte.length > limite) { texto += "\n\n" + parte.slice(0, limite - texto.length); break; }
       texto += "\n\n" + parte;
     }
     return texto.trim();
@@ -205,9 +225,9 @@
 
   const INSTRUCOES = `Você é o assistente da wiki de uma campanha de RPG de mesa. Responda em português do Brasil, de forma direta.
 Use só as informações do CONTEXTO, que vem da wiki e das transcrições das sessões. Se a resposta não estiver no contexto, diga que não encontrou essa informação na wiki.
-Nas transcrições, cada fala começa com um link de minutagem, depois "Personagem (Jogador)" ou "Mestre". O Mestre narra e interpreta os NPCs.
-Quando citar um momento, informe a sessão e a minutagem usando o link correspondente do contexto.
-Inclua links para as páginas da wiki relevantes, no formato [nome](link), usando exatamente os links do contexto. Não invente links.`;
+Nas transcrições, cada fala tem o horário, depois "Personagem (Jogador)" ou "Mestre". O Mestre narra e interpreta os NPCs.
+Quando citar um momento, informe a sessão e a minutagem com link: use o link da fala ou, numa transcrição completa, monte o link pelo modelo indicado no cabeçalho dela.
+Inclua links para as páginas da wiki relevantes, no formato [nome](link), usando exatamente os links do contexto. Não invente outros links.`;
 
   // ---------- conta OpenRouter ----------
   const base64url = (bytes) => btoa(String.fromCharCode(...new Uint8Array(bytes))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
@@ -243,6 +263,7 @@ Inclua links para as páginas da wiki relevantes, no formato [nome](link), usand
         const lista = ((await (await fetch("/api/modelos")).json()).data || [])
           .filter((m) => (m.context_length || 0) >= 32000 && (m.architecture?.output_modalities || ["text"]).includes("text"))
           .sort((a, b) => a.name.localeCompare(b.name));
+        lista.forEach((m) => { contextos[m.id] = m.context_length; });
         const grupo = (rotulo, itens, texto) => {
           const g = document.createElement("optgroup");
           g.label = rotulo;
@@ -291,7 +312,8 @@ Inclua links para as páginas da wiki relevantes, no formato [nome](link), usand
       await carregar();
       espera.textContent = "Pensando…";
       const usandoConta = modelo !== "site" && Boolean(chave);
-      const mensagens = [{ role: "system", content: `${INSTRUCOES}\n\nCONTEXTO:\n${contexto(pergunta)}` },
+      const limite = usandoConta ? Math.min(LIMITE_SITE, Math.floor((contextos[modelo] || 32000) * 2)) : LIMITE_SITE;
+      const mensagens = [{ role: "system", content: `${INSTRUCOES}\n\nCONTEXTO:\n${contexto(pergunta, limite)}` },
         ...historico.slice(-6), { role: "user", content: pergunta }];
       const r = await fetch("/api/chat", {
         method: "POST",
