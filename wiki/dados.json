@@ -581,6 +581,36 @@
     "itens/gema-verde-da-piramide",
     "itens/painel-de-vidro-azul"
    ]
+  },
+  "sessao-23": {
+   "titulo": "A PermissÃ£o da PirÃ¢mide e a AmeaÃ§a Mortal",
+   "resumo": "No inÃ­cio do outono, Galmyr, Erphel, Miragem e Astrezenika reÃºnem-se em Gosterwick. Antes de partir, Galmyr entrega uma placa com inscriÃ§Ãµes em Mithric no Clube dos Praticantes Arcanos e toma conhecimento sobre um veneno mortal que assola a regiÃ£o. O grupo entÃ£o segue em direÃ§Ã£o Ã  PirÃ¢mide de Thoth em Arden Vul.\\n\\nNas profundezas da pirÃ¢mide, os aventureiros encontram os Halflings de Phlebotomas, que exigem o pagamento de 25 ciclos de prata por uma permissÃ£o de exploraÃ§Ã£o. AvanÃ§ando pelos corredores, o grupo enfrenta ferozes esqueletos de macaco em um combate sangrento, onde Galmyr fica gravemente ferido antes de ser salvo pelos companheiros.\\n\\nApÃ³s derrotarem os monstros e descobrirem dois pergaminhos selados, Galmyr nota uma parede falsa que ocultava uma escadaria em espiral. No topo, percebem uma ameaÃ§a no teto e decidem recuar. Na viagem de volta a Gosterwick, Erphel ajuda um comerciante de grÃ£os com a carroÃ§a quebrada e ganha 17 ciclos de ouro, encerrando a expediÃ§Ã£o em seguranÃ§a.",
+   "linha_do_tempo": [
+    "O grupo acorda na Estalagem Capa Amarela no inÃ­cio do outono e faz preparativos na cidade.",
+    "Galmyr deixa uma pedra gravada em Mithric no Clube dos Praticantes Arcanos e descobre sobre o veneno Mortalidade na praÃ§a.",
+    "A equipe viaja atÃ© a PirÃ¢mide de Thoth em Arden Vul e descende ao seu interior subterrÃ¢neo.",
+    "O grupo encontra o explorador Mikkel e, mais fundo, paga 25 ciclos de prata aos Halflings de Phlebotomas por uma permissÃ£o.",
+    "Galmyr encontra um pergaminho selado no bolso do cadÃ¡ver sobre uma pilha de lixo.",
+    "Aventureiros confrontam dois esqueletos de macaco e os destroem em combate prÃ³ximo.",
+    "Miragem encontra um segundo pergaminho clerical num pequeno mÃ³vel da sala dos esqueletos.",
+    "Galmyr identifica uma parede ilusÃ³ria que escondia uma escadaria em espiral.",
+    "O grupo detecta uma criatura no teto da sala superior e decide recuar atÃ© a superfÃ­cie.",
+    "No caminho de volta a Gosterwick, cruzam com figuras encapuzadas carregando sacos pesados.",
+    "Erphel auxilia o comerciante Krik a reparar a roda de sua carroÃ§a e recebe 17 ciclos de ouro de recompensa.",
+    "O grupo retorna em seguranÃ§a para a Estalagem Capa Amarela."
+   ],
+   "entidades": [
+    "personagens/galmyr",
+    "personagens/erphel",
+    "personagens/miragem",
+    "personagens/astrezenika",
+    "locais/the-pyramid-of-thoth",
+    "npcs/krik",
+    "faccoes/halflings-de-phlebotomas-plumthorn",
+    "criaturas/esqueleto-de-macaco",
+    "npcs/mikkel",
+    "itens/mortalidade"
+   ]
   }
  },
  "entidades": {
@@ -3461,7 +3491,7 @@
    "apelidos": [
     "PirÃ¢mide de Thoth"
    ],
-   "resumo": "Monumental estrutura de pedra situada no platÃ´ de Arden Vul ao final da grande avenida cerimonial. Apresenta topo coberto sustentado por pilares com efÃ­gies de babuÃ­nos, piso de pedra branca desgastada e fraco odor de decomposiÃ§Ã£o.",
+   "resumo": "Monumental estrutura de pedra situada no platÃ´ de Arden Vul. Possui nÃ­veis subterrÃ¢neos habitados por Halflings de Phlebotomas, esqueletos de macacos em salas trancadas e passagens ocultas por paredes ilusÃ³rias.",
    "atributos": {
     "LocalizaÃ§Ã£o": "PlatÃ´ de Arden Vul",
     "Tipo": "Templo / PirÃ¢mide"
@@ -3486,11 +3516,20 @@
     [
      "sessao-18",
      "Apresenta correntes de ar sutis e odor fraco de decomposiÃ§Ã£o em sua plataforma superior."
+    ],
+    [
+     "sessao-23",
+     "Abriga uma base operacional mantida pelos Halflings de Phlebotomas no nÃ­vel subterrÃ¢neo."
+    ],
+    [
+     "sessao-23",
+     "ContÃ©m uma parede ilusÃ³ria na sala dos esqueletos que esconde uma escadaria em espiral rumo a pavimentos superiores."
     ]
    ],
    "sessoes": [
     "sessao-15",
-    "sessao-18"
+    "sessao-18",
+    "sessao-23"
    ]
   },
   "itens/disco-metalico-com-v": {
@@ -3983,7 +4022,7 @@
    "tipo": "personagem",
    "nome": "Miragem",
    "apelidos": [],
-   "resumo": "Aventureiro pequenino e mago acompanhado por um cÃ£o de grande porte. Abriu uma conta bancÃ¡ria de nÃ­vel 2 na Casa das Moedas de Gosterwick, comprou suprimentos e uma besta leve, e acabou envolvido no incidente dos pinos de prata.",
+   "resumo": "Aventureiro pequenino e mago acompanhado por um cÃ£o de grande porte. Explora as ruÃ­nas de Arden Vul utilizando suas magias e astÃºcia, auxiliando o grupo nas batalhas e buscas no subterrÃ¢neo.",
    "atributos": {
     "RaÃ§a": "Pequenino",
     "Classe": "Mago",
@@ -4013,11 +4052,20 @@
     [
      "sessao-21",
      "Participou da retirada dos pinos de prata da colina e negociou com um guerreiro local para ajudar na devoluÃ§Ã£o dos itens."
+    ],
+    [
+     "sessao-23",
+     "Encontrou um pergaminho clerical selado dentro das gavetas de um pequeno mÃ³vel destruÃ­do."
+    ],
+    [
+     "sessao-23",
+     "Comandou seu cÃ£o de caÃ§a para atacar o esqueleto de macaco durante o combate no subterrÃ¢neo."
     ]
    ],
    "sessoes": [
     "sessao-20",
-    "sessao-21"
+    "sessao-21",
+    "sessao-23"
    ]
   },
   "personagens/kaelen": {
@@ -4170,7 +4218,7 @@
    "apelidos": [
     "Lois"
    ],
-   "resumo": "Aventureiro do grupo que explorou as ruÃ­nas de Arden Vul e ajudou a enfrentar os perigos no subterrÃ¢neo da pirÃ¢mide.",
+   "resumo": "Aventureiro homem-fera do grupo que explorou as ruÃ­nas de Arden Vul. Destaca-se no combate corporal e pelo uso aguÃ§ado de seus sentidos selvagens.",
    "atributos": {
     "Jogador": "Louis"
    },
@@ -4190,11 +4238,20 @@
     [
      "sessao-22",
      "Astrezenika participou ativamente da invasÃ£o Ã  sala secreta e ajudou a imobilizar os zumbis em combate."
+    ],
+    [
+     "sessao-23",
+     "Puxou Galmyr para fora do alcance do esqueleto de macaco na abertura da porta."
+    ],
+    [
+     "sessao-23",
+     "Destruiu um dos esqueletos de macaco no subterrÃ¢neo golpeando-o com sua espada."
     ]
    ],
    "sessoes": [
     "sessao-21",
-    "sessao-22"
+    "sessao-22",
+    "sessao-23"
    ]
   },
   "npcs/kallian": {
@@ -4293,7 +4350,7 @@
    "tipo": "personagem",
    "nome": "Galmyr",
    "apelidos": [],
-   "resumo": "Aventureiro anÃ£o ferreiro e explorador do grupo. Subiu as escadarias de Arden Vul, decifrou o mecanismo da estÃ¡tua de Thoth e negociou gemas valiosas no Clube dos Praticantes Arcanos.",
+   "resumo": "Aventureiro anÃ£o ferreiro e explorador do grupo. Subiu as escadarias de Arden Vul, decifrou o mecanismo da estÃ¡tua de Thoth e negociou gemas no Clube dos Praticantes Arcanos. Deixou uma pedra gravada em Mithric na guilda dos magos, pagou a permissÃ£o dos halflings e descobriu a parede ilusÃ³ria na PirÃ¢mide de Thoth.",
    "atributos": {
     "RaÃ§a": "AnÃ£o",
     "Classe": "Guerreiro",
@@ -4303,17 +4360,34 @@
     [
      "sessao-22",
      "Galmyr utilizou conhecimentos de metalurgia para identificar alumÃ­nio e negociou pedras preciosas no Clube dos Praticantes Arcanos."
+    ],
+    [
+     "sessao-23",
+     "Deixou no Clube dos Praticantes Arcanos uma pedra com anotaÃ§Ãµes das inscriÃ§Ãµes do Obelisco para anÃ¡lise."
+    ],
+    [
+     "sessao-23",
+     "Contribuiu para o pagamento de 25 ciclos de prata exigidos pelos Halflings de Phlebotomas na PirÃ¢mide de Thoth."
+    ],
+    [
+     "sessao-23",
+     "Foi gravemente ferido na coxa por um esqueleto de macaco, curando-se parcialmente com Ã¡gua benta durante a luta."
+    ],
+    [
+     "sessao-23",
+     "Identificou uma parede com acabamento atÃ­pico que revelou ser uma passagem ilusÃ³ria para uma escadaria em espiral."
     ]
    ],
    "sessoes": [
-    "sessao-22"
+    "sessao-22",
+    "sessao-23"
    ]
   },
   "personagens/erphel": {
    "tipo": "personagem",
    "nome": "Erphel",
    "apelidos": [],
-   "resumo": "Aventureiro clÃ©rigo e arqueÃ³logo do grupo. Investigou inscriÃ§Ãµes antigas na pirÃ¢mide, arrebentou a parede secreta e participou do combate contra os zumbis subterrÃ¢neos.",
+   "resumo": "Aventureiro clÃ©rigo e arqueÃ³logo do grupo. Investigou inscriÃ§Ãµes antigas na pirÃ¢mide, arrebentou a parede secreta com seu mangual e destruiu a ilusÃ£o da escadaria. Ajudou o comerciante Krik na estrada e recebeu uma generosa recompensa em ouro.",
    "atributos": {
     "RaÃ§a": "Humano",
     "Classe": "ClÃ©rigo",
@@ -4327,10 +4401,27 @@
     [
      "sessao-22",
      "Erphel sofreu ferimentos graves ao ser atacado por zumbis nas ruÃ­nas subterrÃ¢neas."
+    ],
+    [
+     "sessao-23",
+     "Adquiriu uma vara de pesca e tochas na loja de Damasco antes da viagem."
+    ],
+    [
+     "sessao-23",
+     "Derrubou a ilusÃ£o da parede secreta golpeando-a com seu mangual."
+    ],
+    [
+     "sessao-23",
+     "Auxiliou o comerciante Krik a reparar a carroÃ§a quebrada na estrada de Gosterwick, afastando lobos com carne seca."
+    ],
+    [
+     "sessao-23",
+     "Recebeu 17 ciclos de ouro como recompensa do comerciante Krik."
     ]
    ],
    "sessoes": [
-    "sessao-22"
+    "sessao-22",
+    "sessao-23"
    ]
   },
   "personagens/momonga": {
@@ -4447,6 +4538,121 @@
    ],
    "sessoes": [
     "sessao-22"
+   ]
+  },
+  "npcs/krik": {
+   "tipo": "npc",
+   "nome": "Krik",
+   "apelidos": [],
+   "resumo": "Comerciante de grÃ£os loiro de cabelos grisalhos oriundo de Newmarket. Teve sua carroÃ§a danificada na estrada perto de Gosterwick e recompensou generosamente Erphel com 17 ciclos de ouro apÃ³s ser ajudado.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Comerciante de grÃ£os",
+    "Origem": "Newmarket"
+   },
+   "fatos": [
+    [
+     "sessao-23",
+     "Ã um comerciante de grÃ£os loiro de cabelos grisalhos vindo de Newmarket."
+    ],
+    [
+     "sessao-23",
+     "Teve a roda de sua carroÃ§a quebrada perto da encruzilhada de Gosterwick Ã  noite."
+    ],
+    [
+     "sessao-23",
+     "Pagou 17 ciclos de ouro a Erphel pelo auxÃ­lio no conserto de seu veÃ­culo."
+    ]
+   ],
+   "sessoes": [
+    "sessao-23"
+   ]
+  },
+  "faccoes/halflings-de-phlebotomas-plumthorn": {
+   "tipo": "faccao",
+   "nome": "Halflings de Phlebotomas Plumthorn",
+   "apelidos": [],
+   "resumo": "Bando de pequeninos liderados por Phlebotomas Plumthorn que dominam e patrulham trechos subterrÃ¢neos da PirÃ¢mide de Thoth, cobrando taxas de permissÃ£o de aventureiros e combatendo a presenÃ§a de goblins.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-23",
+     "Cobram 25 ciclos de prata por uma permissÃ£o de exploraÃ§Ã£o na Ã¡rea subterrÃ¢nea da PirÃ¢mide de Thoth."
+    ],
+    [
+     "sessao-23",
+     "Exigem uma taxa adicional de 10 ciclos de prata por retorno e 10% do tesouro encontrado."
+    ],
+    [
+     "sessao-23",
+     "MantÃªm patrulhas na sala da estÃ¡tua de Thoth para repelir a expansÃ£o de goblins."
+    ]
+   ],
+   "sessoes": [
+    "sessao-23"
+   ]
+  },
+  "criaturas/esqueleto-de-macaco": {
+   "tipo": "criatura",
+   "nome": "Esqueleto de Macaco",
+   "apelidos": [],
+   "resumo": "Pequenos esqueletos mortos-vivos de sÃ­mios com mordidas potentes que habitavam uma cÃ¢mara fechada no subterrÃ¢neo da PirÃ¢mide de Thoth.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-23",
+     "Massa de ossos de sÃ­mio do tamanho do quadril humano com mordida feroz e persistente."
+    ],
+    [
+     "sessao-23",
+     "Eram mantidos trancados em uma sala subterrÃ¢nea contÃ­gua na PirÃ¢mide de Thoth."
+    ]
+   ],
+   "sessoes": [
+    "sessao-23"
+   ]
+  },
+  "npcs/mikkel": {
+   "tipo": "npc",
+   "nome": "Mikkel",
+   "apelidos": [],
+   "resumo": "Aventureiro humano portador de machado e armadura que lidera um pequeno grupo de quatro exploradores no segundo nÃ­vel da PirÃ¢mide de Thoth.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Aventureiro"
+   },
+   "fatos": [
+    [
+     "sessao-23",
+     "Lidera um grupo de quatro exploradores humanos armados e equipados com armaduras."
+    ],
+    [
+     "sessao-23",
+     "Foi encontrado descansando no segundo nÃ­vel subterrÃ¢neo da PirÃ¢mide de Thoth."
+    ]
+   ],
+   "sessoes": [
+    "sessao-23"
+   ]
+  },
+  "itens/mortalidade": {
+   "tipo": "item",
+   "nome": "Mortalidade",
+   "apelidos": [],
+   "resumo": "Veneno letal que se espalha por Gosterwick e Newmarket, levando as autoridades locais a oferecerem recompensas por informaÃ§Ãµes sobre seus distribuidores.",
+   "atributos": {
+    "Tipo": "Veneno / Toxina"
+   },
+   "fatos": [
+    [
+     "sessao-23",
+     "SubstÃ¢ncia tÃ³xica mortal que se espalha pelas cidades de Gosterwick e Newmarket."
+    ],
+    [
+     "sessao-23",
+     "As autoridades de ambas as cidades oferecem recompensa a quem descobrir os responsÃ¡veis pela distribuiÃ§Ã£o."
+    ]
+   ],
+   "sessoes": [
+    "sessao-23"
    ]
   }
  },
@@ -4898,10 +5104,38 @@
    "aberta_em": "sessao-22",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p65",
+   "texto": "Investigar a origem e os distribuidores do veneno Mortalidade que se espalha por Gosterwick e Newmarket.",
+   "aberta_em": "sessao-23",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p66",
+   "texto": "Descobrir o conteÃºdo e a utilidade dos dois pergaminhos mÃ­stico/clericais selados encontrados no subterrÃ¢neo da PirÃ¢mide de Thoth.",
+   "aberta_em": "sessao-23",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p67",
+   "texto": "Investigar o grupo de oito figuras encapuzadas carregando sacos corporais em direÃ§Ã£o a Arden Vul durante a noite.",
+   "aberta_em": "sessao-23",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p68",
+   "texto": "Investigar a criatura que se movia no teto da sala acima da escada em espiral secreta na PirÃ¢mide de Thoth.",
+   "aberta_em": "sessao-23",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-22",
-  "texto": "Os aventureiros viajaram de Gosterwick atÃ© as ruÃ­nas de Arden Vul e conseguiram abrir a passagem secreta na PirÃ¢mide de Thoth. Nas masmorras subterrÃ¢neas, o grupo encontrou o grupo de Baltazar e derrotou mortos-vivos perigosos atrÃ¡s de uma parede oculta. Eles resgataram gemas valiosas e um painel de vidro mecÃ¢nico, evitando confrontos com um drone inseto voador. De volta a Gosterwick, o grupo vendeu suas descobertas com sucesso e descansou na Estalagem Capa Amarela."
+  "apos": "sessao-23",
+  "texto": "Os aventureiros retornaram em seguranÃ§a para a Estalagem Capa Amarela apÃ³s explorarem as profundezas da PirÃ¢mide de Thoth. No subterrÃ¢neo, pagaram uma taxa aos Halflings de Phlebotomas, derrotaram esqueletos de macaco e encontraram uma passagem secreta e pergaminhos selados. Na cidade, souberam de uma recompensa pela investigaÃ§Ã£o do veneno Mortalidade. O grupo agora planeja identificar os pergaminhos e decidir o prÃ³ximo destino."
  }
 }
