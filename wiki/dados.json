@@ -747,6 +747,37 @@
     "locais/arden-vul",
     "locais/templo-de-demma"
    ]
+  },
+  "sessao-29": {
+   "titulo": "Ossos no Corredor e os Muros do Mercado Superior",
+   "resumo": "No quinto dia do oitavo mÃªs de 2993, os recÃ©m-chegados Hermes e Kutis-Check juntaram-se a Albion e Kaelen na praÃ§a de Gosterwick. ApÃ³s estocarem raÃ§Ãµes e Ã¡gua com Damasco, adquirirem pastas coagulantes com Josafina e deixarem o cavalo de Kaelen sob os cuidados do cavalariÃ§o na base da escarpa, a expediÃ§Ã£o subiu a grande escadaria e rumou atÃ© as ruÃ­nas de Arden Vul. O quarteto acionou o mecanismo da estÃ¡tua no topo da PirÃ¢mide de Thoth e desceu aos nÃ­veis subterrÃ¢neos, pagando a taxa de 25 ciclos de prata aos guardas halflings para acessar as alas interiores.\n\nNas proximidades da sala adornada com cabeÃ§as de Ã­bis, Hermes inspecionou as esculturas e vislumbrou, atravÃ©s das frestas oculares vazadas, uma cÃ¢mara empoeirada contendo uma alabarda de metal alaranjado e uma porta lateral de madeira. ApÃ³s Kaelen falhar sucessivamente em arrombar a fechadura da grande porta dupla de metal com suas gazuas, o grupo montou vigÃ­lia e iniciou um descanso na cÃ¢mara iluminada. Durante o turno de Hermes, ruÃ­dos secos anunciaram a movimentaÃ§Ã£o da maÃ§aneta de madeira, forÃ§ando Kutis-Check a segurar a porta contra o avanÃ§o de invasores enquanto Albion e Kaelen contornavam os salÃµes para flanquear a ameaÃ§a.\n\nNo caminho, a dupla encontrou um mago com turbante e seu companheiro Lucrotus, que alertaram sobre esqueletos vagando pela Ã¡rea e se uniram ao contra-ataque. Em uma manobra em pinÃ§a pelas duas extremidades do corredor, os aventureiros e os aliados eliminaram quatro esqueletos antes de concluÃ­rem seu repouso. ApÃ³s uma tentativa frustrada de forÃ§ar a porta alaranjada com alavanca e picareta, o grupo retornou em seguranÃ§a a Gosterwick. Na manhÃ£ seguinte, Albion tentou infiltrar-se no Mercado Superior por uma brecha entre as torres da muralha, mas foi advertido por uma sentinela de que a entrada exige permissÃ£o expressa da governadora Lady Alexia Basileon ou do capitÃ£o da guarda.",
+   "linha_do_tempo": [
+    "Hermes e Kutis-Check desembarcam em Gosterwick e compram pergaminhos, tintas e provisÃµes com o comerciante Damasco.",
+    "Albion adquire pasta coagulante com a ervanÃ¡ria Josafina e uma armadura de couro endurecido no mercado.",
+    "O grupo marcha pela estrada imperial atÃ© a base de Arden Vul e hospeda o cavalo de traÃ§Ã£o de Kaelen nas cabanas da escarpa.",
+    "Os aventureiros sobem a escadaria em zigue-zague, atravessam o pÃ¡tio central e abrem a entrada secreta no topo da PirÃ¢mide de Thoth.",
+    "O grupo paga a taxa de 25 ciclos de prata aos halflings no entreposto subterrÃ¢neo e tem suas mochilas vistoriadas.",
+    "Hermes observa a cÃ¢mara contÃ­gua atravÃ©s dos olhos das esculturas de Ã­bis e avista uma alabarda com lÃ¢mina de metal alaranjado.",
+    "Kaelen tenta forÃ§ar a fechadura da grande porta dupla de metal alaranjado, mas nÃ£o consegue destrancÃ¡-la.",
+    "Durante o descanso na sala iluminada, Hermes percebe a porta de madeira sendo forÃ§ada e Kutis-Check barra a abertura com o corpo.",
+    "Albion e Kaelen correm pelo saguÃ£o principal, encontram um aventureiro de turbante e Lucrotus e armam um ataque em pinÃ§a contra quatro esqueletos.",
+    "O grupo derrota os quatro esqueletos no corredor, completa o descanso de cura e fracassa em forÃ§ar a porta com alavanca e picareta.",
+    "A expediÃ§Ã£o faz a descida da escarpa, resgata o cavalo e regressa em seguranÃ§a a Gosterwick durante a noite.",
+    "Albion escala a encosta da colina atÃ© o Mercado Superior e Ã© orientado por uma sentinela armada a obter autorizaÃ§Ã£o da governadora Lady Alexia Basileon."
+   ],
+   "entidades": [
+    "personagens/albion",
+    "personagens/kaelen",
+    "personagens/hermes",
+    "personagens/kutis-check",
+    "locais/the-pyramid-of-thoth",
+    "faccoes/halflings-de-phlebotomas-plumthorn",
+    "npcs/lucrotus",
+    "npcs/lady-alexia-basileon",
+    "locais/mercado-superior",
+    "criaturas/esqueleto",
+    "npcs/josafina"
+   ]
   }
  },
  "entidades": {
@@ -3030,10 +3061,10 @@
    "tipo": "npc",
    "nome": "Josafina",
    "apelidos": [],
-   "resumo": "Senhora idosa de cabelos brancos e pele enrugada que comercializa medicamentos e tÃ´nicos na feira especial de Gosterwick. Ã mÃ£e de Creon, dono da loja de penhores.",
+   "resumo": "Senhora idosa de cabelos brancos que comercializa medicamentos, unguentos e tÃ´nicos na feira de Gosterwick enquanto visita seu filho Creon. Recusa-se terminantemente a produzir ou negociar venenos, enfatizando princÃ­pios morais. Vende pasta coagulante para estancar sangramentos de exploradores.",
    "atributos": {
-    "OcupaÃ§Ã£o": "Herborista e Vendedora de Medicamentos",
-    "LocalizaÃ§Ã£o": "PraÃ§a Central de Gosterwick"
+    "OcupaÃ§Ã£o": "ErvanÃ¡ria e BoticÃ¡ria",
+    "LocalizaÃ§Ã£o": "Gosterwick"
    },
    "fatos": [
     [
@@ -3047,10 +3078,19 @@
     [
      "sessao-10",
      "Explicou a rota para Novo Mercado atravÃ©s do Caminho Imperial."
+    ],
+    [
+     "sessao-29",
+     "Vendeu um pote de pasta coagulante medicinal para Albion por 5 ciclos de ouro na feira matinal."
+    ],
+    [
+     "sessao-29",
+     "Declarou categoricamente que nÃ£o trabalha com venenos por questÃ£o de carÃ¡ter pessoal."
     ]
    ],
    "sessoes": [
-    "sessao-10"
+    "sessao-10",
+    "sessao-29"
    ]
   },
   "criaturas/gargula": {
@@ -3682,7 +3722,7 @@
    "apelidos": [
     "PirÃ¢mide de Thoth"
    ],
-   "resumo": "Monumental estrutura de pedra situada no platÃ´ de Arden Vul com vastos nÃ­veis subterrÃ¢neos. ContÃ©m santuÃ¡rios dedicados aos deuses antigos, o entreposto comercial dos halflings de Phlebotomas, bocas mÃ¡gicas zombeteiras e cÃ¢maras barricadas guarnecidas por tribos de homens-fera.",
+   "resumo": "Monumental estrutura de pedra situada no platÃ´ de Arden Vul com vastos nÃ­veis subterrÃ¢neos. ContÃ©m santuÃ¡rios dedicados aos deuses antigos, o entreposto comercial dos halflings de Phlebotomas, bocas mÃ¡gicas zombeteiras e cÃ¢maras barricadas. Abriga portas duplas de metal alaranjado trancadas e corredores patrulhados por esqueletos errantes.",
    "atributos": {
     "LocalizaÃ§Ã£o": "PlatÃ´ de Arden Vul",
     "Tipo": "Templo / PirÃ¢mide"
@@ -3739,6 +3779,18 @@
     [
      "sessao-26",
      "ContÃ©m uma cÃ¢mara dividida por uma barricada com estacas afiadas, fossos ocultos e cabeÃ§as empaladas mantida por seguidores de Deino."
+    ],
+    [
+     "sessao-29",
+     "A passagem secreta no piso superior foi aberta posicionando-se os braÃ§os da estÃ¡tua de Ã­bis para a frente."
+    ],
+    [
+     "sessao-29",
+     "A cÃ¢mara com cabeÃ§as de Ã­bis pintadas possui quatro furos oculares na parede que permitem espionar uma sala adjacente com uma alabarda de metal alaranjado."
+    ],
+    [
+     "sessao-29",
+     "Esqueletos armados com espadas enferrujadas rondam os corredores prÃ³ximos Ã  sala iluminada por Luz ContÃ­nua."
     ]
    ],
    "sessoes": [
@@ -3746,7 +3798,8 @@
     "sessao-18",
     "sessao-23",
     "sessao-25",
-    "sessao-26"
+    "sessao-26",
+    "sessao-29"
    ]
   },
   "itens/disco-metalico-com-v": {
@@ -4289,11 +4342,11 @@
    "tipo": "personagem",
    "nome": "Kaelen",
    "apelidos": [],
-   "resumo": "Aventureiro ladino do grupo. Treinou para suportar marchas com grande volume de carga, abriu sua conta bancÃ¡ria e equipou-se com armadura de couro batido e suprimentos na cidade.",
+   "resumo": "Aventureiro ladino habilidoso de Gosterwick que atua em exploraÃ§Ãµes no vale e em Arden Vul. Possui um cavalo de traÃ§Ã£o que deixa sob guarda paga na base da escarpa. Tentou abrir a porta dupla de metal alaranjado na PirÃ¢mide de Thoth e abateu um esqueleto disparando sua funda na coluna lombar da criatura.",
    "atributos": {
-    "RaÃ§a": "Homem-Fera (Homem-JacarÃ©)",
-    "Classe": "Ladino / Explorador",
-    "Jogador": "Matheus"
+    "RaÃ§a": "Humano",
+    "Classe": "Ladino",
+    "Jogador": "Mateus L"
    },
    "fatos": [
     [
@@ -4319,11 +4372,28 @@
     [
      "sessao-21",
      "Adquiriu armadura de couro batido, elmo e utensÃ­lios de exploraÃ§Ã£o para as prÃ³ximas incursÃµes."
+    ],
+    [
+     "sessao-29",
+     "Comprou cenouras, maÃ§Ã£s, pederneira e um pÃ© de cabra no comÃ©rcio da praÃ§a de Gosterwick."
+    ],
+    [
+     "sessao-29",
+     "Hospedou seu cavalo de traÃ§Ã£o no estÃ¡bulo da base da escarpa de Arden Vul pelo custo diÃ¡rio de 8 ciclos de prata."
+    ],
+    [
+     "sessao-29",
+     "Tentou destrancar a porta de metal alaranjado com gazuas e audiÃ§Ã£o aguÃ§ada, sem sucesso."
+    ],
+    [
+     "sessao-29",
+     "Destruiu um esqueleto fraturando sua coluna lombar com um disparo certeiro de funda."
     ]
    ],
    "sessoes": [
     "sessao-20",
-    "sessao-21"
+    "sessao-21",
+    "sessao-29"
    ]
   },
   "personagens/kazunov": {
@@ -4946,9 +5016,11 @@
    "tipo": "faccao",
    "nome": "Halflings de Phlebotomas Plumthorn",
    "apelidos": [],
-   "resumo": "Bando de pequeninos que dominam e patrulham os trechos superiores subterrÃ¢neos da PirÃ¢mide de Thoth sob as ordens de Phlebotomas Plumthorn. Cobram pedÃ¡gios de passagem, registram inventÃ¡rios de aventureiros e comercializam relÃ­quias encontradas.",
+   "resumo": "Bando de pequeninos que dominam e patrulham os trechos superiores subterrÃ¢neos da PirÃ¢mide de Thoth sob as ordens de Phlebotomas Plumthorn. Cobram pedÃ¡gios de passagem, registram inventÃ¡rios de aventureiros e comercializam relÃ­quias encontradas. MantÃªm postos armados perto de arcos e salas de controle.",
    "atributos": {
-    "LocalizaÃ§Ã£o": "PirÃ¢mide de Thoth"
+    "LocalizaÃ§Ã£o": "PirÃ¢mide de Thoth",
+    "LÃ­der": "Phlebotomas Plumthorn",
+    "Base": "PirÃ¢mide de Thoth"
    },
    "fatos": [
     [
@@ -4978,12 +5050,25 @@
     [
      "sessao-26",
      "Revistaram as mochilas e pertences de Fheng, Pixelado e Kazunov antes de franquear o acesso."
+    ],
+    [
+     "sessao-29",
+     "Cobraram 25 ciclos de prata dos aventureiros para emitir ou renovar o passe de circulaÃ§Ã£o subterrÃ¢nea."
+    ],
+    [
+     "sessao-29",
+     "Inspecionaram o conteÃºdo das mochilas dos exploradores sem confiscar itens antes de autorizarem o avanÃ§o."
+    ],
+    [
+     "sessao-29",
+     "Foram confrontados por outros exploradores por nÃ£o alertarem sobre o surgimento de esqueletos nos corredores."
     ]
    ],
    "sessoes": [
     "sessao-23",
     "sessao-25",
-    "sessao-26"
+    "sessao-26",
+    "sessao-29"
    ]
   },
   "criaturas/esqueleto-de-macaco": {
@@ -5654,11 +5739,13 @@
    "tipo": "personagem",
    "nome": "Albion",
    "apelidos": [],
-   "resumo": "Aventureiro recÃ©m-chegado a Gosterwick acompanhado por um cÃ£o de caÃ§a treinado. Participou da incursÃ£o Ã  mansÃ£o em ruÃ­nas do pÃ¡tio ovalado em Arden Vul ao lado de Amir e Momonga. Resgatou trÃªs moedas pesadas de ouro antigo, uma chave oxidada e orquÃ­deas vermelhas nos aposentos superiores do palÃ¡cio. Enfrentou ghouls necrÃ³fagos com azagaias e sua massa de espinhos antes de buscar negociar seus espÃ³lios no Mercado Superior.",
+   "resumo": "Aventureiro explorador homem-fera felino acompanhado por um cÃ£o de caÃ§a treinado. Participou da incursÃ£o Ã  mansÃ£o do pÃ¡tio ovalado e liderou a expediÃ§Ã£o Ã  PirÃ¢mide de Thoth, auxiliando no combate contra esqueletos com sua maÃ§a estrelada. Tentou subir a colina do Mercado Superior por um trecho sem muro, descobrindo a necessidade de autorizaÃ§Ã£o da governadora Lady Alexia Basileon.",
    "atributos": {
     "Jogador": "Massaki",
     "OcupaÃ§Ã£o": "Aventureiro",
-    "LocalizaÃ§Ã£o": "Gosterwick"
+    "LocalizaÃ§Ã£o": "Gosterwick",
+    "RaÃ§a": "Homem-fera (felino)",
+    "Classe": "Explorador"
    },
    "fatos": [
     [
@@ -5688,10 +5775,27 @@
     [
      "sessao-28",
      "Retornou ileso a Gosterwick e buscou direÃ§Ãµes para alcanÃ§ar o Mercado Superior situado na colina da cidade."
+    ],
+    [
+     "sessao-29",
+     "Adquiriu pasta coagulante medicinal com a ervanÃ¡ria Josafina por 5 ciclos de ouro."
+    ],
+    [
+     "sessao-29",
+     "Comprou uma armadura de couro endurecido e uma picareta em Gosterwick."
+    ],
+    [
+     "sessao-29",
+     "Destruiu esqueletos no corredor subterrÃ¢neo da PirÃ¢mide de Thoth utilizando sua maÃ§a estrelada."
+    ],
+    [
+     "sessao-29",
+     "Escalou a encosta Ã­ngreme atÃ© o Mercado Superior e foi advertido por guardas armadurados de que o acesso exige permissÃ£o da governadora Lady Alexia Basileon."
     ]
    ],
    "sessoes": [
-    "sessao-28"
+    "sessao-28",
+    "sessao-29"
    ]
   },
   "npcs/vivian": {
@@ -5919,6 +6023,166 @@
    ],
    "sessoes": [
     "sessao-28"
+   ]
+  },
+  "personagens/hermes": {
+   "tipo": "personagem",
+   "nome": "Hermes",
+   "apelidos": [],
+   "resumo": "Aventureiro humano arconteano e mago recÃ©m-chegado a Gosterwick munido da magia Sono. Portando pergaminhos, tintas e lamparina, integrou a expediÃ§Ã£o aos subterrÃ¢neos da PirÃ¢mide de Thoth. Identificou a magia Luz ContÃ­nua na sala das esculturas de Ã­bis e auxiliou no combate e vigÃ­lia contra mortos-vivos.",
+   "atributos": {
+    "RaÃ§a": "Humano (Arconteano)",
+    "Classe": "Mago",
+    "Jogador": "KauÃ£ M"
+   },
+   "fatos": [
+    [
+     "sessao-29",
+     "Chegou a Gosterwick em uma carroÃ§a coberta e comprou papÃ©is, tinta, penas e raÃ§Ãµes com o comerciante Damasco."
+    ],
+    [
+     "sessao-29",
+     "Identificou que a iluminaÃ§Ã£o permanente no centro da sala dos Ã­bis Ã© proveniente do feitiÃ§o Luz ContÃ­nua."
+    ],
+    [
+     "sessao-29",
+     "Utilizou um espelho para projetar luz atravÃ©s dos olhos vazados das esculturas de Ã­bis, avistando uma alabarda e uma porta de madeira na sala vizinha."
+    ],
+    [
+     "sessao-29",
+     "Alertou Kutis-Check ao notar a maÃ§aneta da porta girando e sobreviveu a um golpe de esqueleto durante o combate no corredor."
+    ]
+   ],
+   "sessoes": [
+    "sessao-29"
+   ]
+  },
+  "personagens/kutis-check": {
+   "tipo": "personagem",
+   "nome": "Kutis-Check",
+   "apelidos": [
+    "Cheque"
+   ],
+   "resumo": "Aventureiro homem-fera e guerreiro recÃ©m-chegado a Gosterwick que empunha espada longa. Destaca-se por sua prontidÃ£o em combate e reflexos rÃ¡pidos. Segurou a porta de madeira contra a invasÃ£o de mortos-vivos na PirÃ¢mide de Thoth e desferiu golpes precisos para decapitar esqueletos no corredor.",
+   "atributos": {
+    "RaÃ§a": "Homem-fera",
+    "Classe": "Guerreiro",
+    "Jogador": "Louis"
+   },
+   "fatos": [
+    [
+     "sessao-29",
+     "Chegou a Gosterwick em carroÃ§a ao lado de Hermes e comprou mantimentos e saco de dormir na praÃ§a."
+    ],
+    [
+     "sessao-29",
+     "Bloqueou com o prÃ³prio corpo a abertura de uma porta forÃ§ada por esqueletos na PirÃ¢mide de Thoth."
+    ],
+    [
+     "sessao-29",
+     "Abriu a porta repentinamente em ataque surpresa e cortou o pescoÃ§o e a clavÃ­cula de um esqueleto com sua espada."
+    ]
+   ],
+   "sessoes": [
+    "sessao-29"
+   ]
+  },
+  "npcs/lucrotus": {
+   "tipo": "npc",
+   "nome": "Lucrotus",
+   "apelidos": [
+    "Locrutus"
+   ],
+   "resumo": "Explorador integrante de um grupo armado que opera nas ruÃ­nas da PirÃ¢mide de Thoth. Porta um arco curto e acompanha um lÃ­der mago vestido com turbante e robe multicolorido. Auxiliou o grupo de Albion a combater esqueletos nos corredores subterrÃ¢neos.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Explorador / Aventureiro"
+   },
+   "fatos": [
+    [
+     "sessao-29",
+     "Estava discutindo com guardas halflings no salÃ£o subterrÃ¢neo da pirÃ¢mide antes de ser recrutado."
+    ],
+    [
+     "sessao-29",
+     "Disparou flechas com seu arco para neutralizar um dos esqueletos que atacava o grupo no corredor."
+    ]
+   ],
+   "sessoes": [
+    "sessao-29"
+   ]
+  },
+  "npcs/lady-alexia-basileon": {
+   "tipo": "npc",
+   "nome": "Lady Alexia Basileon",
+   "apelidos": [
+    "Dama Leixia",
+    "Green Lady"
+   ],
+   "resumo": "Alta autoridade nobre arconteana conhecida como a 'Dama Verde', que atua como governadora ou administradora sÃªnior em Gosterwick. DetÃ©m a autoridade suprema para conceder licenÃ§as de circulaÃ§Ã£o a forasteiros no Mercado Superior e na Fortaleza AzÃºria.",
+   "atributos": {
+    "OcupaÃ§Ã£o": "Governadora / Nobre Arconteana",
+    "LocalizaÃ§Ã£o": "Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-29",
+     "Identificada pela guarda municipal como a governante que detÃ©m o poder de emitir autorizaÃ§Ãµes para entrada no Mercado Superior."
+    ]
+   ],
+   "sessoes": [
+    "sessao-29"
+   ]
+  },
+  "locais/mercado-superior": {
+   "tipo": "local",
+   "nome": "Mercado Superior",
+   "apelidos": [],
+   "resumo": "Distrito murado e fortificado localizado no topo de uma colina Ã­ngreme em Gosterwick, anexo Ã  Fortaleza AzÃºria. Possui ruelas ladeadas por edificaÃ§Ãµes de comÃ©rcio seletivo e Ã© guarnecido rigorosamente por sentinelas da cidade, com acesso restrito a membros autorizados e oficiais.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Colina da Fortaleza AzÃºria, Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-29",
+     "Situa-se em terreno Ã­ngreme acessÃ­vel por becos a partir do Caminho Imperial."
+    ],
+    [
+     "sessao-29",
+     "Possui uma falha temporÃ¡ria na muralha exterior entre duas torres vigias onde nÃ£o hÃ¡ muro de pedra."
+    ],
+    [
+     "sessao-29",
+     "Sua circulaÃ§Ã£o interna Ã© restrita a soldados armadurados e indivÃ­duos portadores de autorizaÃ§Ã£o governamental."
+    ]
+   ],
+   "sessoes": [
+    "sessao-29"
+   ]
+  },
+  "criaturas/esqueleto": {
+   "tipo": "criatura",
+   "nome": "Esqueleto",
+   "apelidos": [],
+   "resumo": "Criaturas mortas-vivas animadas por forÃ§as necromÃ¢nticas que espreitam em ruÃ­nas e catacumbas. Apresentam ossos ressequidos que produzem ruÃ­dos de atrito ao se moverem, empunham espadas antigas enferrujadas e possuem resistÃªncia contra armas cortantes ou perfurantes.",
+   "atributos": {
+    "Tipo": "Morto-vivo"
+   },
+   "fatos": [
+    [
+     "sessao-29",
+     "Um grupo de quatro indivÃ­duos tentou forÃ§ar a porta de madeira de um cÃ´modo na PirÃ¢mide de Thoth."
+    ],
+    [
+     "sessao-29",
+     "Um deles portava uma espada oxidada capaz de causar ferimentos graves."
+    ],
+    [
+     "sessao-29",
+     "Sofrem dano reduzido de armas cortantes e perfurantes, mas sÃ£o vulnerÃ¡veis a impactos contundentes de maÃ§as e fundas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-29"
    ]
   }
  },
@@ -6524,10 +6788,31 @@
    "aberta_em": "sessao-28",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p87",
+   "texto": "Obter autorizaÃ§Ã£o formal da governadora Lady Alexia Basileon ou do capitÃ£o da guarda para ingressar legalmente no Mercado Superior de Gosterwick.",
+   "aberta_em": "sessao-29",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p88",
+   "texto": "Destrancar a porta dupla de metal alaranjado na PirÃ¢mide de Thoth para acessar a sala onde repousa a alabarda de metal alaranjado.",
+   "aberta_em": "sessao-29",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p89",
+   "texto": "Investigar o motivo do surgimento repentino de patrulhas de esqueletos nos corredores superiores da PirÃ¢mide de Thoth.",
+   "aberta_em": "sessao-29",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-28",
-  "texto": "O grupo encontra-se em seguranÃ§a em Gosterwick apÃ³s escapar da mansÃ£o em ruÃ­nas de Arden Vul, onde despertou um Monte Errante e combateu uma matilha de ghouls necrÃ³fagos. Albion e Amir descansam na Estalagem Capa Amarela, onde recuperam o fÃ´lego da perigosa marcha noturna. Albion busca informaÃ§Ãµes para subir a escadaria da colina e acessar o Mercado Superior, visando negociar as trÃªs moedas de ouro antigo e a chave oxidada encontradas no palÃ¡cio. Momonga iniciou um retiro de sete dias no Templo de Demma junto Ã  alta sacerdotisa Vivian, aprofundando seus estudos botÃ¢nicos e religiosos sobre a criatura vegetal. Permanecem em aberto os segredos do palÃ¡cio abobadado no pÃ¡tio ovalado e a forma de neutralizar a boca mÃ¡gica e o monstro de vinhas."
+  "apos": "sessao-29",
+  "texto": "O grupo composto por Albion, Kaelen, Hermes e Kutis-Check encontra-se abrigado na Estalagem Capa Amarela em Gosterwick apÃ³s retornar de uma incursÃ£o Ã  PirÃ¢mide de Thoth. No subterrÃ¢neo, os aventureiros repeliram com sucesso uma patrulha de esqueletos com o auxÃ­lio do explorador Lucrotus e de seu companheiro de turbante. A grande porta dupla de metal alaranjado na pirÃ¢mide permaneceu lacrada, mantendo inacessÃ­vel a cÃ¢mara onde repousa uma alabarda de bronze ou metal similar. Em Gosterwick, Albion apurou que o Mercado Superior Ã© Ã¡rea restrita e sÃ³ pode ser acessado com autorizaÃ§Ã£o da governadora Lady Alexia Basileon ou da guarda. Seguem em aberto a busca por credenciais para o mercado fortificado e o desenvolvimento de um mÃ©todo para destrancar os portÃµes na pirÃ¢mide."
  }
 }
