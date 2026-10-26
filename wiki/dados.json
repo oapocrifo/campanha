@@ -1132,6 +1132,39 @@
     "criaturas/lagarta-gigante-com-tentaculos",
     "itens/chave-do-poao"
    ]
+  },
+  "sessao-43": {
+   "titulo": "A LanÃ§a Vento da Noite",
+   "resumo": "Durante seu interlÃºdio na Pousada do Sinal da CabeÃ§a Quebrada, ArnÃ³bio confirmou com Nara que a bolsa resgatada continha ouro puro em pÃ³, vendendo-a em seguida ao comerciante Zaron por 60 ciclos de ouro. Utilizando gÃ­ria de ladrÃ£o e subornos generosos em ouro, o ladino contatou um pequenino ex-agiota e descobriu detalhes sobre a operaÃ§Ã£o dos halflings de Phlebotomas Plumthorn, revelando a localizaÃ§Ã£o de uma base secundÃ¡ria em uma gruta na escarpa e uma lucrativa rota de contrabando com as cidades do vale. Na manhÃ£ seguinte, ArnÃ³bio juntou-se aos recÃ©m-chegados Melios e Malaquias para retornar Ã s ruÃ­nas subterrÃ¢neas de Arden Vul descendo pela chaminÃ©.\n\nNo primeiro nÃ­vel subterrÃ¢neo, o grupo explorou o antigo covil da serpente e reencontrou uma misteriosa lanÃ§a de metal incrivelmente pesada com inscriÃ§Ãµes em Mithric, alÃ©m de recolherem papiros histÃ³ricos em jarros de barro. Em uma cÃ¢mara adjacente decorada com mosaicos de Thoth, os aventureiros analisaram cenas rituais e testaram o despejo de lÃ­quidos em baixos-relevos de um altar de pedra, permitindo que ArnÃ³bio desarmasse uma mola interna com ferramentas de ladino. Em seguida, depararam-se com uma sala repleta de aventureiros mortos cujos cadÃ¡veres eram movidos por larvas parasitas. Agindo com cautela, laÃ§aram e puxaram corpos para saquear seus pertences pela entrada, abatendo uma das larvas para constatar o efeito entorpecente de suas secreÃ§Ãµes e pilhando um mapa da superfÃ­cie de Arden Vul, frascos e uma incomum moeda de cobre com gravuras de boca e orelha.\n\nAvanÃ§ando pelos corredores, os companheiros entraram em uma cÃ¢mara intacta onde recolheram um cÃ¡lice de metal prateado colocado sobre uma bigorna e avistaram uma passagem bloqueada por teias densas. Prevendo o tÃ©rmino do tempo seguro de exploraÃ§Ã£o, dividiram o peso absurdo da lanÃ§a metÃ¡lica entre os trÃªs e retornaram Ã  Pousada do Sinal da CabeÃ§a Quebrada sem incidentes. No salÃ£o comunal, o colecionador Oberon examinou a arma, leu a inscriÃ§Ã£o 'Vento da Noite' e pagou 9.000 ciclos de prata por ela. Por fim, Oberon adquiriu os quatro pergaminhos em lÃ­ngua antiga por 120 ciclos de prata, selando o acordo com a promessa de entregar ao grupo uma transcriÃ§Ã£o completa dos relatos de Karius sobre a antiga guerra civil.",
+   "linha_do_tempo": [
+    "ArnÃ³bio vende a bolsa de ouro em pÃ³ para Zaron por 60 ciclos de ouro na Pousada do Sinal da CabeÃ§a Quebrada.",
+    "ArnÃ³bio suborna um pequenino com dez moedas de ouro e descobre a localizaÃ§Ã£o de uma gruta secundÃ¡ria e a rota comercial dos halflings de Phlebotomas.",
+    "Melios e Malaquias unem-se a ArnÃ³bio e descem a chaminÃ© em direÃ§Ã£o ao primeiro nÃ­vel subterrÃ¢neo de Arden Vul.",
+    "O grupo retorna Ã  sala da serpente morta e encontra a pesada lanÃ§a com inscriÃ§Ãµes em Mithric e quatro papiros antigos em jarros.",
+    "Os aventureiros inspecionam a sala dos mosaicos de Thoth, vertem lÃ­quidos nas concavidades do altar e ArnÃ³bio desarma a mola do mecanismo.",
+    "O grupo localiza uma sala com oito cadÃ¡veres humanos infestados por larvas parasitas e puxa corpos com corda para saqueÃ¡-los.",
+    "ArnÃ³bio abate uma larva com flechadas, comprova o veneno entorpecente em seus tentÃ¡culos e recolhe frascos, um mapa e uma moeda de cobre entalhada.",
+    "Os exploradores recolhem um cÃ¡lice prateado sobre uma bigorna em uma cÃ¢mara limpa e avistam uma passagem tomada por teias de aranha.",
+    "Dividindo os oitocentos ciclos da lanÃ§a entre os trÃªs, os aventureiros sobem pela chaminÃ© e regressam em seguranÃ§a Ã  pousada.",
+    "Oberon identifica a arma como a lanÃ§a mÃ¡gica Vento da Noite e a compra por 9.000 ciclos de prata, adquirindo tambÃ©m os pergaminhos de Karius por 120 ciclos mediante promessa de traduÃ§Ã£o."
+   ],
+   "entidades": [
+    "personagens/arna3bio",
+    "personagens/melios",
+    "personagens/malaquias",
+    "npcs/oberon",
+    "npcs/zaron",
+    "npcs/nara",
+    "npcs/karius",
+    "itens/lanaa-vento-da-noite",
+    "itens/calice-de-prata-da-bigorna",
+    "itens/moeda-de-cobre-da-boca-e-orelha",
+    "itens/mapa-das-ruanas-da-escarpa",
+    "itens/pergaminhos-de-karius",
+    "locais/sala-do-altar-de-thoth",
+    "locais/sala-da-bigorna",
+    "locais/gruta-dos-halflings-de-phlebotomas"
+   ]
   }
  },
  "entidades": {
@@ -7058,7 +7091,8 @@
    "atributos": {
     "Ocupa £o": "Comerciante",
     "Localiza £o": "Pousada do Sinal da Cabe a Quebrada",
-    "OcupaÃ§Ã£o": "Mercador"
+    "OcupaÃ§Ã£o": "Comerciante",
+    "LocalizaÃ§Ã£o": "Pousada do Sinal da CabeÃ§a Quebrada"
    },
    "fatos": [
     [
@@ -7068,11 +7102,20 @@
     [
      "sessao-39",
      "Estava sozinho atendendo na pousada pela manhÃ£ enquanto seu parceiro Oberon saÃ­a antes do amanhecer."
+    ],
+    [
+     "sessao-43",
+     "Comprou a bolsa de ouro em pÃ³ de ArnÃ³bio por 60 moedas de ouro apÃ³s negociaÃ§Ã£o."
+    ],
+    [
+     "sessao-43",
+     "Demonstrou interesse no cÃ¡lice prateado mas repassou a avaliaÃ§Ã£o da pesada lanÃ§a para Oberon."
     ]
    ],
    "sessoes": [
     "sessao-30",
-    "sessao-39"
+    "sessao-39",
+    "sessao-43"
    ]
   },
   "locais/pousada-do-sinal-da-cabe-a-quebrada": {
@@ -7815,10 +7858,10 @@
    "tipo": "npc",
    "nome": "Oberon",
    "apelidos": [],
-   "resumo": "Comerciante e colecionador de relÃ­quias arconteano que atua em parceria com Zaron na Pousada do Sinal da CabeÃ§a Quebrada. Traja uma armadura refinada, porta uma espada longa e possui vasto conhecimento sobre a histÃ³ria arcana de Arden Vul. Adquiriu tesouros valiosos do grupo pagando mais de 7.500 ciclos em moedas de ouro extraÃ­das de sua bolsa mÃ¡gica.",
+   "resumo": "Comerciante, nobre e colecionador de relÃ­quias arconteano que atua na Pousada do Sinal da CabeÃ§a Quebrada trajando armadura de placas clara. Adquiriu a lanÃ§a mÃ¡gica Vento da Noite por 9.000 ciclos de prata e comprou quatro pergaminhos antigos de Karius por 120 ciclos de prata, comprometendo-se a fornecer uma traduÃ§Ã£o de seu conteÃºdo aos aventureiros.",
    "atributos": {
-    "RaÃ§a": "Arconteano",
-    "OcupaÃ§Ã£o": "Comerciante / Colecionador",
+    "RaÃ§a": "Humano (Arconteano)",
+    "OcupaÃ§Ã£o": "Comerciante e Colecionador",
     "LocalizaÃ§Ã£o": "Pousada do Sinal da CabeÃ§a Quebrada"
    },
    "fatos": [
@@ -7833,10 +7876,23 @@
     [
      "sessao-35",
      "Adquiriu os artefatos mÃ¡gicos e histÃ³ricos do grupo pagando mais de 7.500 ciclos em moedas de ouro e prata."
+    ],
+    [
+     "sessao-43",
+     "Empunhou a lanÃ§a pesada com facilidade e traduziu a inscriÃ§Ã£o em Mithric como 'Vento da Noite'."
+    ],
+    [
+     "sessao-43",
+     "Comprou a lanÃ§a mÃ¡gica Vento da Noite por 9.000 ciclos de prata pagos em moedas de ouro para sua coleÃ§Ã£o."
+    ],
+    [
+     "sessao-43",
+     "Adquiriu quatro pergaminhos em lÃ­ngua Mithric da guerra civil por 120 ciclos de prata e concordou em traduzir os relatos para o grupo."
     ]
    ],
    "sessoes": [
-    "sessao-35"
+    "sessao-35",
+    "sessao-43"
    ]
   },
   "itens/olho-de-safira-e-azeviche": {
@@ -8015,7 +8071,8 @@
    "resumo": "Mulher de roupas simples que frequenta a Pousada do Sinal da CabeÃ§a Quebrada e realiza serviÃ§os de apoio para aventureiros. JÃ¡ foi contratada para cuidar de mulas e foi procurada por ArnÃ³bio para carregar tochas, mas a negociaÃ§Ã£o nÃ£o se concretizou.",
    "atributos": {
     "Ocupacao": "Guardia de carga",
-    "OcupaÃ§Ã£o": "Trabalhadora de aluguel"
+    "OcupaÃ§Ã£o": "Trabalhadora de aluguel",
+    "LocalizaÃ§Ã£o": "Pousada do Sinal da CabeÃ§a Quebrada"
    },
    "fatos": [
     [
@@ -8029,11 +8086,16 @@
     [
      "sessao-39",
      "Pediu oito moedas de ouro adiantadas para segurar a lanterna e a gaiola do canÃ¡rio durante uma incursÃ£o subterrÃ¢nea."
+    ],
+    [
+     "sessao-43",
+     "Examinou a bolsa de pÃ³ dourado trazida por ArnÃ³bio e confirmou tratar-se de ouro em pÃ³ sem cobrar pelo serviÃ§o."
     ]
    ],
    "sessoes": [
     "sessao-36",
-    "sessao-39"
+    "sessao-39",
+    "sessao-43"
    ]
   },
   "itens/cimitarra-magica-1": {
@@ -8320,7 +8382,7 @@
    "apelidos": [
     "Caolho"
    ],
-   "resumo": "Ladino esguio e alto conhecido como Caolho que explora os subterrÃ¢neos de Arden Vul com cautela. Conduziu estratÃ©gias com armadilhas de estacas no corredor, coletou gosma paralisante da criatura derrotada e negociou a venda do pergaminho encontrado.",
+   "resumo": "Ladino esguio e experiente conhecido como Caolho que explora os subterrÃ¢neos de Arden Vul com extrema astÃºcia. Durante o interlÃºdio, vendeu ouro em pÃ³ e obteve de um pequenino informaÃ§Ãµes sobre a base secundÃ¡ria dos halflings de Phlebotomas. Em nova incursÃ£o com Melios e Malaquias, desativou a mola do altar de Thoth, laÃ§ou corpos infestados por larvas para saqueÃ¡-los e resgatou a mÃ¡gica lanÃ§a Vento da Noite e um cÃ¡lice de prata.",
    "atributos": {
     "Classe": "Ladino",
     "Jogador": "Xiko"
@@ -8357,12 +8419,37 @@
     [
      "sessao-42",
      "Negociou a venda de um pergaminho antigo por mil ciclos de prata com o comerciante TenÃ¡rius."
+    ],
+    [
+     "sessao-43",
+     "Vendeu uma bolsa de ouro em pÃ³ para Zaron por 60 moedas de ouro."
+    ],
+    [
+     "sessao-43",
+     "Pagou dez moedas de ouro a um pequenino por informaÃ§Ãµes confidenciais sobre a gruta secundÃ¡ria e a rota de contrabando dos halflings de Phlebotomas Plumthorn."
+    ],
+    [
+     "sessao-43",
+     "LaÃ§ou corpos infestados por parasitas Ã  distÃ¢ncia com corda, matando uma larva e decidindo poupar as demais para farmar secreÃ§Ãµes paralisantes no futuro."
+    ],
+    [
+     "sessao-43",
+     "Pilhou dos mortos uma moeda de cobre entalhada com boca e orelha, frascos e um mapa do platÃ´ superior de Arden Vul."
+    ],
+    [
+     "sessao-43",
+     "Desarmou com sucesso a mola interna do mecanismo do altar de Thoth usando agulha e ferramentas de ladino."
+    ],
+    [
+     "sessao-43",
+     "Resgatou o cÃ¡lice prateado da bigorna e ajudou a transportar a lanÃ§a Vento da Noite atÃ© a pousada."
     ]
    ],
    "sessoes": [
     "sessao-39",
     "sessao-40",
-    "sessao-42"
+    "sessao-42",
+    "sessao-43"
    ]
   },
   "personagens/kalec": {
@@ -8955,6 +9042,299 @@
    ],
    "sessoes": [
     "sessao-42"
+   ]
+  },
+  "personagens/melios": {
+   "tipo": "personagem",
+   "nome": "Melios",
+   "apelidos": [],
+   "resumo": "Ladino humano de ascendÃªncia arconteana que se uniu a ArnÃ³bio e Malaquias para explorar os subterrÃ¢neos de Arden Vul. Auxiliou no saque aos corpos dos aventureiros mortos, no transporte da pesada lanÃ§a Vento da Noite e na divisÃ£o dos espÃ³lios na Pousada do Sinal da CabeÃ§a Quebrada.",
+   "atributos": {
+    "RaÃ§a": "Humano (Arconteano)",
+    "Classe": "Ladino",
+    "Jogador": "Mateus L"
+   },
+   "fatos": [
+    [
+     "sessao-43",
+     "Chegou Ã  Pousada do Sinal da CabeÃ§a Quebrada e integrou a expediÃ§Ã£o subterrÃ¢nea com ArnÃ³bio e Malaquias."
+    ],
+    [
+     "sessao-43",
+     "Testou o peso da lanÃ§a mÃ¡gica golpeando o chÃ£o de pedra e lascando o piso."
+    ],
+    [
+     "sessao-43",
+     "Acertou um golpe de adaga perfurando a cota de malha de um cadÃ¡ver infestado para eliminar uma larva parasita."
+    ],
+    [
+     "sessao-43",
+     "Ajudou a carregar a lanÃ§a de oitocentos ciclos de volta Ã  superfÃ­cie para ser vendida."
+    ]
+   ],
+   "sessoes": [
+    "sessao-43"
+   ]
+  },
+  "personagens/malaquias": {
+   "tipo": "personagem",
+   "nome": "Malaquias",
+   "apelidos": [],
+   "resumo": "Mago elfo recÃ©m-chegado Ã  regiÃ£o de Arden Vul que integrou a incursÃ£o aos subterrÃ¢neos ao lado de ArnÃ³bio e Melios. Coletou papiros histÃ³ricos em jarros, investigou mosaicos dedicados a Thoth e ajudou no transporte da lanÃ§a Vento da Noite, negociando sua venda e a traduÃ§Ã£o dos manuscritos com Oberon.",
+   "atributos": {
+    "RaÃ§a": "Elfo",
+    "Classe": "Mago",
+    "Jogador": "Gustavo"
+   },
+   "fatos": [
+    [
+     "sessao-43",
+     "Ingressou no grupo de exploradores partindo da Pousada do Sinal da CabeÃ§a Quebrada."
+    ],
+    [
+     "sessao-43",
+     "Recolheu quatro pergaminhos em caracteres Mithric guardados dentro de jarros de barro na sala das estantes."
+    ],
+    [
+     "sessao-43",
+     "Identificou os mosaicos subterrÃ¢neos como representaÃ§Ãµes rituais consagradas ao deus antigo Thoth."
+    ],
+    [
+     "sessao-43",
+     "Auxiliou no transporte da pesada lanÃ§a e negociou a venda dos pergaminhos histÃ³ricos com Oberon em troca de dinheiro e transcriÃ§Ã£o."
+    ]
+   ],
+   "sessoes": [
+    "sessao-43"
+   ]
+  },
+  "npcs/karius": {
+   "tipo": "npc",
+   "nome": "Karius",
+   "apelidos": [],
+   "resumo": "Oficial ou figura de alta patente arconteana que viveu durante o perÃ­odo da guerra civil entre as facÃ§Ãµes dos Sortians e Theosophs em Arden Vul. Escreveu memÃ³rias e registros pessoais em primeira pessoa no idioma Mithric em folhas que foram preservadas dentro de jarros subterrÃ¢neos.",
+   "atributos": {
+    "Status": "Falecido (HistÃ³rico)"
+   },
+   "fatos": [
+    [
+     "sessao-43",
+     "Identificado nos pergaminhos traduzidos como autor de relatos em primeira pessoa sobre a Ã©poca da guerra civil entre Sortians e Theosophs."
+    ]
+   ],
+   "sessoes": [
+    "sessao-43"
+   ]
+  },
+  "itens/lanaa-vento-da-noite": {
+   "tipo": "item",
+   "nome": "LanÃ§a Vento da Noite",
+   "apelidos": [
+    "Night Wind"
+   ],
+   "resumo": "LanÃ§a mÃ¡gica forjada inteiramente em metal com a inscriÃ§Ã£o 'Vento da Noite' entalhada no meio de sua haste no alfabeto Mithric. Pesa absurdos oitocentos ciclos devido a um encantamento de manipulaÃ§Ã£o de massa que desafia as leis fÃ­sicas, mas pode ser erguida sem esforÃ§o por quem compreende seu funcionamento. Foi resgatada do covil subterrÃ¢neo e vendida a Oberon por 9.000 ciclos de prata.",
+   "atributos": {
+    "Peso": "800 ciclos",
+    "Tipo de Item": "Arma MÃ¡gica"
+   },
+   "fatos": [
+    [
+     "sessao-43",
+     "Estava abandonada sobre uma pilha de ossos no covil subterrÃ¢neo da serpente gigante."
+    ],
+    [
+     "sessao-43",
+     "Possui um peso mecÃ¢nico de 800 ciclos e apresenta a palavra 'Vento da Noite' gravada em Mithric em sua haste."
+    ],
+    [
+     "sessao-43",
+     "Foi adquirida por Oberon por 9.000 ciclos de prata para integrar seu acervo particular de artefatos."
+    ]
+   ],
+   "sessoes": [
+    "sessao-43"
+   ]
+  },
+  "itens/calice-de-prata-da-bigorna": {
+   "tipo": "item",
+   "nome": "CÃ¡lice de Prata da Bigorna",
+   "apelidos": [],
+   "resumo": "CÃ¡lice fabricado em metal prateado reluzente e completamente imune a oxidaÃ§Ã£o ou escurecimento pelo tempo, pesando sete ciclos. Foi encontrado sobre uma bigorna de ferreiro em uma cÃ¢mara do primeiro nÃ­vel subterrÃ¢neo de Arden Vul. Sua base circular mede aproximadamente um palmo de diÃ¢metro, dimensÃ£o exata dos relevos no altar de Thoth.",
+   "atributos": {
+    "Peso": "7 ciclos"
+   },
+   "fatos": [
+    [
+     "sessao-43",
+     "Encontrado isolado sobre uma bigorna de ferro em uma sala limpa de escombros."
+    ],
+    [
+     "sessao-43",
+     "Apresenta metal prateado bastante claro e livre de marcas de ferrugem ou oxidaÃ§Ã£o."
+    ],
+    [
+     "sessao-43",
+     "Possui base de cerca de um palmo de diÃ¢metro, tamanho idÃªntico aos cÃ­rculos de baixo-relevo do altar de Thoth."
+    ],
+    [
+     "sessao-43",
+     "Foi retido por ArnÃ³bio para servir como chave em potenciais mecanismos rituais."
+    ]
+   ],
+   "sessoes": [
+    "sessao-43"
+   ]
+  },
+  "itens/moeda-de-cobre-da-boca-e-orelha": {
+   "tipo": "item",
+   "nome": "Moeda de Cobre da Boca e Orelha",
+   "apelidos": [],
+   "resumo": "Moeda pesada de cobre medindo cerca de meio palmo de diÃ¢metro, sem furo central e consideravelmente maior que ciclos comuns. Foi pilhada dos pertences de um cadÃ¡ver no primeiro nÃ­vel subterrÃ¢neo de Arden Vul. Exibe uma boca aberta entalhada em uma de suas faces e uma orelha humana detalhada na outra.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-43",
+     "Encontrada no interior da mochila rasgada de um explorador humano morto."
+    ],
+    [
+     "sessao-43",
+     "NÃ£o apresenta furo circular no centro e possui o dobro do tamanho de uma moeda comum."
+    ],
+    [
+     "sessao-43",
+     "Apresenta o entalhe de uma boca aberta em um dos lados e de uma orelha no lado oposto."
+    ]
+   ],
+   "sessoes": [
+    "sessao-43"
+   ]
+  },
+  "itens/mapa-das-ruanas-da-escarpa": {
+   "tipo": "item",
+   "nome": "Mapa das RuÃ­nas da Escarpa",
+   "apelidos": [],
+   "resumo": "Mapa em pergaminho desenhado Ã  mÃ£o que ilustra as regiÃµes e ruÃ­nas situadas no platÃ´ superior acima da grande escarpa de Arden Vul. Mostra a escadaria principal, trechos do rio, canais e estruturas arruinadas. Foi resgatado da mochila de um explorador abatido por parasitas no primeiro nÃ­vel subterrÃ¢neo.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-43",
+     "Resgatado da mochila mais bem conservada encontrada no salÃ£o dos cadÃ¡veres."
+    ],
+    [
+     "sessao-43",
+     "Ilustra a grande escadaria, o rio e as Ã¡reas superiores do platÃ´ de Arden Vul."
+    ]
+   ],
+   "sessoes": [
+    "sessao-43"
+   ]
+  },
+  "itens/pergaminhos-de-karius": {
+   "tipo": "item",
+   "nome": "Pergaminhos de Karius",
+   "apelidos": [],
+   "resumo": "Conjunto de quatro manuscritos antigos redigidos em lÃ­ngua e caracteres Mithric encontrados dentro de jarros vedados de barro em Arden Vul. ContÃªm memÃ³rias histÃ³ricas e apontamentos militares redigidos por Karius, oficial da Ã©poca da guerra civil entre Sortians e Theosophs. Foram negociados com Oberon em troca de 120 ciclos de prata e uma traduÃ§Ã£o completa.",
+   "atributos": {
+    "Idioma": "Mithric"
+   },
+   "fatos": [
+    [
+     "sessao-43",
+     "Recolhidos por Malaquias do interior de quatro jarros de barro fechados em estantes deterioradas."
+    ],
+    [
+     "sessao-43",
+     "Redigidos em primeira pessoa no idioma Mithric tratando da guerra civil arconteana."
+    ],
+    [
+     "sessao-43",
+     "Vendidos a Oberon por 120 ciclos de prata sob a condiÃ§Ã£o de que o colecionador forneÃ§a uma traduÃ§Ã£o em arconteano."
+    ]
+   ],
+   "sessoes": [
+    "sessao-43"
+   ]
+  },
+  "locais/sala-do-altar-de-thoth": {
+   "tipo": "local",
+   "nome": "Sala do Altar de Thoth",
+   "apelidos": [],
+   "resumo": "CÃ¢mara com piso e paredes adornados por mosaicos dedicados a Thoth, situada no primeiro nÃ­vel subterrÃ¢neo de Arden Vul. Exibe murais com o deus de cabeÃ§a de Ã­bis recebendo oferendas, babuÃ­nos albinos combatendo criaturas e figuras eletrocutadas diante de portas negras. Possui um altar central com suportes para tochas e duas concavidades circulares com molas que drenam lÃ­quidos.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Arden Vul (Primeiro NÃ­vel SubterrÃ¢neo)"
+   },
+   "fatos": [
+    [
+     "sessao-43",
+     "Apresenta mosaicos retratando Thoth sobre sepultamentos, oferendas de pergaminhos e joias, babuÃ­nos brancos em batalha e relÃ¢mpagos em portas negras."
+    ],
+    [
+     "sessao-43",
+     "Possui um altar com suportes laterais onde cabem tochas e dois cÃ­rculos em baixo-relevo de um palmo de diÃ¢metro."
+    ],
+    [
+     "sessao-43",
+     "LÃ­quidos despejados nos relevos sÃ£o drenados para frestas internas ligadas a um sistema mecÃ¢nico de molas."
+    ],
+    [
+     "sessao-43",
+     "ArnÃ³bio utilizou gazuas e agulha para soltar uma das molas ocultas sob a pedra do altar."
+    ]
+   ],
+   "sessoes": [
+    "sessao-43"
+   ]
+  },
+  "locais/sala-da-bigorna": {
+   "tipo": "local",
+   "nome": "Sala da Bigorna",
+   "apelidos": [],
+   "resumo": "CÃ¢mara retangular relativamente limpa de escombros localizada no primeiro nÃ­vel subterrÃ¢neo de Arden Vul. ContÃ©m um pedestal de pedra com uma bigorna de ferreiro de onde foi retirado um cÃ¡lice prateado, alÃ©m de uma passagem irregular com paredes em desnÃ­vel que dÃ¡ acesso a uma abertura completamente selada por teias de aranha.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Arden Vul (Primeiro NÃ­vel SubterrÃ¢neo)"
+   },
+   "fatos": [
+    [
+     "sessao-43",
+     "Possui piso limpo com montinhos esparsos de poeira e sem pegadas aparentes."
+    ],
+    [
+     "sessao-43",
+     "Abriga um pedestal com uma bigorna sobre a qual repousava um cÃ¡lice prateado."
+    ],
+    [
+     "sessao-43",
+     "Apresenta uma passagem em desnÃ­vel que conduz a uma saÃ­da coberta por teias de aranha densas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-43"
+   ]
+  },
+  "locais/gruta-dos-halflings-de-phlebotomas": {
+   "tipo": "local",
+   "nome": "Gruta dos Halflings de Phlebotomas",
+   "apelidos": [],
+   "resumo": "Base secundÃ¡ria operada pelos halflings de Phlebotomas Plumthorn localizada em uma caverna ao pÃ© do paredÃ£o da escarpa de Arden Vul. Situa-se a cerca de duas horas de marcha para a direita da grande escadaria, mantendo a rocha Ã  esquerda. Serve como ponto estratÃ©gico para o escoamento de mercadorias e contrabando com Gosterwick e Newmarket.",
+   "atributos": {
+    "AfiliaÃ§Ã£o": "Halflings de Phlebotomas Plumthorn"
+   },
+   "fatos": [
+    [
+     "sessao-43",
+     "Revelada a ArnÃ³bio por um pequenino ex-agiota em troca de dez moedas de ouro."
+    ],
+    [
+     "sessao-43",
+     "Fica situada na base do vale a cerca de duas horas de caminhada Ã  direita da escadaria principal, margeando o paredÃ£o."
+    ],
+    [
+     "sessao-43",
+     "Constitui o principal ponto de apoio para o transporte de cargas e a principal fonte de renda da facÃ§Ã£o de Phlebotomas."
+    ]
+   ],
+   "sessoes": [
+    "sessao-43"
    ]
   }
  },
@@ -9910,10 +10290,52 @@
    "aberta_em": "sessao-42",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p137",
+   "texto": "Descobrir a utilidade ritual ou mecÃ¢nica do CÃ¡lice de Prata da Bigorna e se sua base se encaixa nos cÃ­rculos do Altar de Thoth.",
+   "aberta_em": "sessao-43",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p138",
+   "texto": "Investigar o que se oculta atrÃ¡s da passagem bloqueada por teias de aranha na Sala da Bigorna.",
+   "aberta_em": "sessao-43",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p139",
+   "texto": "Cobrar e receber de Oberon a traduÃ§Ã£o em arconteano dos relatos de Karius contidos nos quatro pergaminhos antigos de Mithric.",
+   "aberta_em": "sessao-43",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p140",
+   "texto": "Localizar e investigar a gruta que serve de base secundÃ¡ria para os halflings de Phlebotomas Plumthorn na base da escarpa.",
+   "aberta_em": "sessao-43",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p141",
+   "texto": "Descobrir o significado, origem e valor da moeda pesada de cobre com relevos de boca aberta e orelha.",
+   "aberta_em": "sessao-43",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p142",
+   "texto": "Retornar Ã  sala dos cadÃ¡veres infestados para extrair a secreÃ§Ã£o paralisante dos filhotes de lagarta quando atingirem maturaÃ§Ã£o.",
+   "aberta_em": "sessao-43",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-42",
-  "texto": "Partindo da Pousada do Sinal da CabeÃ§a Quebrada, o grupo formado por ArnÃ³bio, Leviathan e Gunther explorou o primeiro nÃ­vel subterrÃ¢neo de Arden Vul atravÃ©s da chaminÃ©. Nos corredores escuros, enfrentaram e derrotaram uma perigosa criatura lagartiforme com tentÃ¡culos paralisantes apÃ³s uma batalha brutal que deixou Gunther gravemente ferido com as pernas quebradas. Explorando novas salas, descobriram uma cÃ¢mara com um poÃ§o lodoso e o corpo de uma mulher, recuperando uma chave, moedas e um pergaminho traduzido e vendido ao comerciante TenÃ¡rius. O grupo agora descansa e busca recursos na base para lidar com os ferimentos e os prÃ³ximos perigos das ruÃ­nas."
+  "apos": "sessao-43",
+  "texto": "O grupo encontra-se seguro na Pousada do Sinal da CabeÃ§a Quebrada apÃ³s uma lucrativa expediÃ§Ã£o ao primeiro nÃ­vel subterrÃ¢neo de Arden Vul. ArnÃ³bio, Melios e Malaquias enriqueceram vendendo a lanÃ§a mÃ¡gica 'Vento da Noite' para o colecionador Oberon por nove mil ciclos de prata. Entre os espÃ³lios preservados estÃ£o um mapa detalhado da escarpa, um cÃ¡lice prateado que coincide com o altar de Thoth e uma moeda de cobre com relevos de boca e orelha. Oberon ficou encarregado de traduzir os manuscritos de Karius sobre a antiga guerra civil para os aventureiros. AlÃ©m disso, o grupo obteve pistas sobre a base secundÃ¡ria dos halflings de Phlebotomas e deixou uma passagem com teias de aranha pendente de exploraÃ§Ã£o."
  }
 }
