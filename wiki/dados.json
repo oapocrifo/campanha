@@ -637,6 +637,34 @@
     "npcs/jarud",
     "npcs/franalis-raedisdottir"
    ]
+  },
+  "sessao-25": {
+   "titulo": "A Pena de Maat e a Sombra da Serpente",
+   "resumo": "No dia 14 do sÃ©timo mÃªs de 2993, Erphel, Galmyr e Astrezenika reabasteceram seus mantimentos em Gosterwick e partiram para mais uma expediÃ§Ã£o Ã s ruÃ­nas de Arden Vul. Durante a subida da grande escadaria da escarpa, o grupo foi recebido por gritos e projÃ©teis de fezes lanÃ§ados por babuÃ­nos albinos aninhados no topo de uma estÃ¡tua monumental, mas conseguiram avanÃ§ar atÃ© o topo do pÃ¡tio e acessar a PirÃ¢mide de Thoth.\n\nNas profundezas da pirÃ¢mide, sob a supervisÃ£o dos Halflings de Phlebotomas, os aventureiros exploraram novos corredores subterrÃ¢neos. Descobriram uma cÃ¢mara oval sustentada por pilares entalhados com as efÃ­gies dos deuses arconteanos OsÃ­ris, Wadjet, Maat e Thoth. Em uma sala adjacente, encontraram um altar de mÃ¡rmore e Ã´nix com penas brancas flutuantes da deusa Maat, alÃ©m de saquearem o corpo de um explorador em uma cÃ¢mara circular, obtendo moedas e frascos mÃ¡gicos. Uma das PoÃ§Ãµes de Invisibilidade encontradas foi vendida aos halflings por 100 ciclos de ouro antes do regresso.\n\nNa viagem de volta, os aventureiros reencontraram Baltazar o Azul e sua expediÃ§Ã£o de nove exploradores na escadaria, trocando cortesias e moedas de prata. Contudo, ao chegarem a Gosterwick Ã  noite, uma mulher encapuzada esbarrou no grupo. Ao tentar examinar o rosto da desconhecida, Astrezenika viu escamas e cabelos de serpente, falhou em sua salvaguarda e foi gradualmente transformado em pedra, sucumbindo Ã  petrificaÃ§Ã£o no corredor da Estalagem Capa Amarela enquanto a criatura fugia dos guardas da cidade.",
+   "linha_do_tempo": [
+    "Erphel realiza saques na Casa das Moedas e adquire uma bolsa para seu grimÃ³rio na loja de Damasco, enquanto Astrezenika e Galmyr compram raÃ§Ãµes e suprimentos.",
+    "O grupo marcha rumo a Arden Vul e enfrenta o assÃ©dio de quatro babuÃ­nos albinos que atiram fezes do topo de uma estÃ¡tua na escadaria da escarpa.",
+    "Os aventureiros entram na PirÃ¢mide de Thoth e passam pela inspeÃ§Ã£o de rotina dos Halflings de Phlebotomas.",
+    "Erphel identifica pilares esculpidos com as divindades arconteanas OsÃ­ris, Wadjet, Maat e Thoth em uma sala oval subterrÃ¢nea.",
+    "O grupo descobre um altar com penas brancas flutuantes da deusa Maat e coleta trÃªs exemplares divinos.",
+    "Em uma sala circular, o grupo saqueia o cadÃ¡ver de um explorador, obtendo moedas, uma armadura de couro e dois frascos com lÃ­quidos mÃ¡gicos.",
+    "Um dos halflings identifica uma PoÃ§Ã£o de Invisibilidade entre os saques e a compra por 100 ciclos de ouro.",
+    "Durante a descida da escadaria de Arden Vul, Galmyr reencontra Baltazar o Azul e sua companhia de nove exploradores, presenteando-os com moedas de prata.",
+    "Nas ruas de Gosterwick Ã  noite, uma mulher encapuzada esbarra em Galmyr e tenta fugir sem revelar o rosto.",
+    "Astrezenika tenta encarar a mulher e descobre feiÃ§Ãµes de serpente e cobras no lugar de cabelos, falhando no teste contra petrificaÃ§Ã£o.",
+    "A mulher-serpente foge em direÃ§Ã£o Ã s saÃ­das da cidade enquanto guardas urbanos a perseguem.",
+    "Astrezenika fica completamente petrificado no corredor da Estalagem Capa Amarela."
+   ],
+   "entidades": [
+    "personagens/erphel",
+    "personagens/galmyr",
+    "personagens/astrezenika",
+    "npcs/baltazar-o-azul",
+    "faccoes/halflings-de-phlebotomas-plumthorn",
+    "locais/the-pyramid-of-thoth",
+    "criaturas/gorgona",
+    "itens/pena-de-maat"
+   ]
   }
  },
  "entidades": {
@@ -3517,9 +3545,9 @@
    "apelidos": [
     "PirÃ¢mide de Thoth"
    ],
-   "resumo": "Monumental estrutura de pedra situada no platÃ´ de Arden Vul. Possui nÃ­veis subterrÃ¢neos habitados por Halflings de Phlebotomas, esqueletos de macacos em salas trancadas e passagens ocultas por paredes ilusÃ³rias.",
+   "resumo": "Monumental estrutura de pedra situada no platÃ´ de Arden Vul. Possui nÃ­veis subterrÃ¢neos com salas adornadas por pilares dos deuses OsÃ­ris, Wadjet, Maat e Thoth, um altar de mÃ¡rmore com penas flutuantes e mecanismos de alavancas e grades.",
    "atributos": {
-    "LocalizaÃ§Ã£o": "PlatÃ´ de Arden Vul",
+    "LocalizaÃ§Ã£o": "Arden Vul",
     "Tipo": "Templo / PirÃ¢mide"
    },
    "fatos": [
@@ -3550,12 +3578,25 @@
     [
      "sessao-23",
      "ContÃ©m uma parede ilusÃ³ria na sala dos esqueletos que esconde uma escadaria em espiral rumo a pavimentos superiores."
+    ],
+    [
+     "sessao-25",
+     "Abriga uma cÃ¢mara oval sustentada por quatro pilares esculpidos com as efÃ­gies de OsÃ­ris, Wadjet, Maat e Thoth."
+    ],
+    [
+     "sessao-25",
+     "Possui uma cÃ¢mara sagrada com mesa de Ã´nix e pedestal de mÃ¡rmore onde penas brancas da deusa Maat flutuam magicamente no ar."
+    ],
+    [
+     "sessao-25",
+     "ContÃ©m uma sala circular equipada com trÃªs alavancas de ferro e trÃªs grades de elevaÃ§Ã£o."
     ]
    ],
    "sessoes": [
     "sessao-15",
     "sessao-18",
-    "sessao-23"
+    "sessao-23",
+    "sessao-25"
    ]
   },
   "itens/disco-metalico-com-v": {
@@ -4244,9 +4285,11 @@
    "apelidos": [
     "Lois"
    ],
-   "resumo": "Aventureiro homem-fera do grupo que explorou as ruÃ­nas de Arden Vul. Destaca-se no combate corporal e pelo uso aguÃ§ado de seus sentidos selvagens.",
+   "resumo": "Aventureiro homem-fera do grupo que explorou as ruÃ­nas de Arden Vul. Destaca-se no combate corporal e pelo uso aguÃ§ado de seus sentidos selvagens. Foi petrificado ao encarar uma mulher de cabelos de serpente em Gosterwick.",
    "atributos": {
-    "Jogador": "Louis"
+    "Jogador": "Louis",
+    "Status": "Petrificado",
+    "RaÃ§a": "Homem-fera"
    },
    "fatos": [
     [
@@ -4272,12 +4315,29 @@
     [
      "sessao-23",
      "Destruiu um dos esqueletos de macaco no subterrÃ¢neo golpeando-o com sua espada."
+    ],
+    [
+     "sessao-25",
+     "Obteve uma das penas brancas flutuantes no altar da deusa Maat na PirÃ¢mide de Thoth."
+    ],
+    [
+     "sessao-25",
+     "Tentou examinar de perto o rosto de uma mulher encapuzada que esbarrou no grupo em Gosterwick."
+    ],
+    [
+     "sessao-25",
+     "Descobriu escamas de cobra e cabelos de serpente na mulher, falhando no teste de salvaguarda contra petrificaÃ§Ã£o."
+    ],
+    [
+     "sessao-25",
+     "Ficou completamente petrificado no corredor da Estalagem Capa Amarela ao tÃ©rmino da jornada."
     ]
    ],
    "sessoes": [
     "sessao-21",
     "sessao-22",
-    "sessao-23"
+    "sessao-23",
+    "sessao-25"
    ]
   },
   "npcs/kallian": {
@@ -4376,12 +4436,13 @@
    "tipo": "personagem",
    "nome": "Galmyr",
    "apelidos": [],
-   "resumo": "Aventureiro anÃ£o ferreiro e explorador do grupo. Vendeu pergaminhos no Templo de Demma, obteve 160 ciclos de ouro e abateu cultistas encapuzados com arco e flechas no acampamento da Colina da Pata de Gato.",
+   "resumo": "Aventureiro anÃ£o ferreiro e explorador do grupo. Vendeu pergaminhos no Templo de Demma, obteve 160 ciclos de ouro, combateu cultistas e guiou o grupo pelas profundezas da PirÃ¢mide de Thoth, negociando itens e alavancas.",
    "atributos": {
     "RaÃ§a": "AnÃ£o",
     "Classe": "Guerreiro",
     "Jogador": "Massaki",
-    "Status": "Vivo"
+    "Status": "Vivo",
+    "OcupaÃ§Ã£o": "Ferreiro"
    },
    "fatos": [
     [
@@ -4415,23 +4476,45 @@
     [
      "sessao-24",
      "Matou o lÃ­der dos cultistas encapuzados com disparos de flechas envenenadas durante a emboscada noturna."
+    ],
+    [
+     "sessao-25",
+     "Adquiriu Ã³leo e uma lamparina no mercado de Gosterwick antes de partir para a expediÃ§Ã£o."
+    ],
+    [
+     "sessao-25",
+     "Tentou operar alavancas de ferro emperradas em uma cÃ¢mara circular subterrÃ¢nea."
+    ],
+    [
+     "sessao-25",
+     "Negociou a venda de uma PoÃ§Ã£o de Invisibilidade com os Halflings de Phlebotomas por 100 moedas de ouro."
+    ],
+    [
+     "sessao-25",
+     "Presenteou Baltazar o Azul com moedas de prata ao cruzar com sua expediÃ§Ã£o na escadaria de Arden Vul."
+    ],
+    [
+     "sessao-25",
+     "Resistiu ao efeito de petrificaÃ§Ã£o da mulher-serpente ao fechar os olhos durante o confronto em Gosterwick."
     ]
    ],
    "sessoes": [
     "sessao-22",
     "sessao-23",
-    "sessao-24"
+    "sessao-24",
+    "sessao-25"
    ]
   },
   "personagens/erphel": {
    "tipo": "personagem",
    "nome": "Erphel",
    "apelidos": [],
-   "resumo": "Aventureiro clÃ©rigo e arqueÃ³logo do grupo. Investigou inscriÃ§Ãµes antigas na pirÃ¢mide, arrebentou a parede secreta com seu mangual e destruiu a ilusÃ£o da escadaria. Ajudou o comerciante Krik na estrada e recebeu uma generosa recompensa em ouro.",
+   "resumo": "Aventureiro clÃ©rigo e arqueÃ³logo do grupo. Investigou inscriÃ§Ãµes antigas na pirÃ¢mide, arrebentou a parede secreta com seu mangual e destruiu a ilusÃ£o da escadaria. Identificou as estÃ¡tuas dos antigos deuses arconteanos na PirÃ¢mide de Thoth e adquiriu uma pena divina de Maat.",
    "atributos": {
     "RaÃ§a": "Humano",
     "Classe": "ClÃ©rigo",
-    "Jogador": "Mateus L"
+    "Jogador": "Mateus L",
+    "OcupaÃ§Ã£o": "ArqueÃ³logo"
    },
    "fatos": [
     [
@@ -4457,11 +4540,28 @@
     [
      "sessao-23",
      "Recebeu 17 ciclos de ouro como recompensa do comerciante Krik."
+    ],
+    [
+     "sessao-25",
+     "Comprou uma bolsa de cinto reforÃ§ada com o comerciante Damasco para carregar seu pesado grimÃ³rio."
+    ],
+    [
+     "sessao-25",
+     "Identificou os pilares entalhados com as figuras de OsÃ­ris, Wadjet, Maat e Thoth nas profundezas da pirÃ¢mide."
+    ],
+    [
+     "sessao-25",
+     "Coletou uma pena branca divina do altar de Maat e equipou uma armadura de couro retirada do corpo de um explorador morto."
+    ],
+    [
+     "sessao-25",
+     "Evitou encarar o rosto da mulher encapuzada em Gosterwick, escapando do efeito de petrificaÃ§Ã£o."
     ]
    ],
    "sessoes": [
     "sessao-22",
-    "sessao-23"
+    "sessao-23",
+    "sessao-25"
    ]
   },
   "personagens/momonga": {
@@ -4522,19 +4622,29 @@
    "apelidos": [
     "Baltazar"
    ],
-   "resumo": "Lider experiente do grupo de exploradores conhecido como Achados e Perdidos. Encontrou os aventureiros na escadaria subterrÃ¢nea de Arden Vul e forneceu conselhos Ãºteis sobre os perigos locais.",
+   "resumo": "LÃ­der experiente do grupo de exploradores conhecido como Achados e Perdidos. Encontrou os aventureiros na escadaria de Arden Vul, trocou saudaÃ§Ãµes amigÃ¡veis e recebeu moedas de prata de Galmyr como cortesia.",
    "atributos": {
     "AfiliaÃ§Ã£o": "Achados e Perdidos",
-    "LocalizaÃ§Ã£o": "Arden Vul"
+    "LocalizaÃ§Ã£o": "Arden Vul",
+    "Status": "Vivo"
    },
    "fatos": [
     [
      "sessao-22",
      "Baltazar o Azul alertou os aventureiros sobre os perigos dos goblins e recomendou cautela nas masmorras subterrÃ¢neas."
+    ],
+    [
+     "sessao-25",
+     "Liderava uma expediÃ§Ã£o de nove exploradores composta por humanos, uma elfa e um goblin subindo as escadarias de Arden Vul."
+    ],
+    [
+     "sessao-25",
+     "Recebeu cortesmente moedas de prata de presente de Galmyr e prometeu pagar-lhe uma bebida no futuro em Gosterwick."
     ]
    ],
    "sessoes": [
-    "sessao-22"
+    "sessao-22",
+    "sessao-25"
    ]
   },
   "npcs/drombauch-slate": {
@@ -4626,8 +4736,10 @@
    "tipo": "faccao",
    "nome": "Halflings de Phlebotomas Plumthorn",
    "apelidos": [],
-   "resumo": "Bando de pequeninos liderados por Phlebotomas Plumthorn que dominam e patrulham trechos subterrÃ¢neos da PirÃ¢mide de Thoth, cobrando taxas de permissÃ£o de aventureiros e combatendo a presenÃ§a de goblins.",
-   "atributos": {},
+   "resumo": "Bando de pequeninos liderados por Phlebotomas Plumthorn que dominam e patrulham trechos subterrÃ¢neos da PirÃ¢mide de Thoth, cobrando taxas de permissÃ£o de aventureiros, inspecionando saques e comprando itens mÃ¡gicos raros.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "PirÃ¢mide de Thoth"
+   },
    "fatos": [
     [
      "sessao-23",
@@ -4640,10 +4752,19 @@
     [
      "sessao-23",
      "MantÃªm patrulhas na sala da estÃ¡tua de Thoth para repelir a expansÃ£o de goblins."
+    ],
+    [
+     "sessao-25",
+     "Inspecionaram os pertences do grupo na entrada e na saÃ­da dos nÃ­veis subterrÃ¢neos da PirÃ¢mide de Thoth."
+    ],
+    [
+     "sessao-25",
+     "Identificaram um dos frascos saqueados como uma PoÃ§Ã£o de Invisibilidade e a adquiriram por 100 ciclos de ouro."
     ]
    ],
    "sessoes": [
-    "sessao-23"
+    "sessao-23",
+    "sessao-25"
    ]
   },
   "criaturas/esqueleto-de-macaco": {
@@ -4932,6 +5053,56 @@
    ],
    "sessoes": [
     "sessao-24"
+   ]
+  },
+  "criaturas/gorgona": {
+   "tipo": "criatura",
+   "nome": "Gorgona",
+   "apelidos": [
+    "Mulher-Serpente"
+   ],
+   "resumo": "Criatura humanoide feminina altamente perigosa com escamas reptilianas na pele e cobras vivas no lugar de cabelos. Seu olhar direto possui a capacidade mÃ¡gica de petrificar seres vivos instantaneamente.",
+   "atributos": {
+    "Habilidade": "Olhar Petrificante"
+   },
+   "fatos": [
+    [
+     "sessao-25",
+     "Transitava disfarÃ§ada com mantos encapuzados pelas ruas de Gosterwick durante a noite."
+    ],
+    [
+     "sessao-25",
+     "Petrificou o homem-fera Astrezenika apÃ³s ele olhar diretamente para o seu rosto desvelado."
+    ],
+    [
+     "sessao-25",
+     "Fugiu em disparada em direÃ§Ã£o aos limites da cidade enquanto era perseguida por patrulhas da guarda de Gosterwick."
+    ]
+   ],
+   "sessoes": [
+    "sessao-25"
+   ]
+  },
+  "itens/pena-de-maat": {
+   "tipo": "item",
+   "nome": "Pena de Maat",
+   "apelidos": [],
+   "resumo": "Pena branca de grande porte impregnada com aura divina que flutua de forma estÃ¡tica sobre um altar de Ã´nix na PirÃ¢mide de Thoth. Reaparece magicamente no local assim que Ã© retirada.",
+   "atributos": {
+    "Origem": "PirÃ¢mide de Thoth"
+   },
+   "fatos": [
+    [
+     "sessao-25",
+     "Coletada por Erphel, Galmyr e Astrezenika no altar dedicado Ã  deusa Maat na PirÃ¢mide de Thoth."
+    ],
+    [
+     "sessao-25",
+     "Possui ligaÃ§Ã£o mÃ­stica direta com a divindade arconteana Maat e emite sensaÃ§Ã£o de poder sagrado ao toque."
+    ]
+   ],
+   "sessoes": [
+    "sessao-25"
    ]
   }
  },
@@ -5432,10 +5603,31 @@
    "aberta_em": "sessao-24",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p72",
+   "texto": "Encontrar um mÃ©todo ou conjuraÃ§Ã£o mÃ¡gica para despetrificar Astrezenika, que foi transformado em pedra no corredor da Estalagem Capa Amarela.",
+   "aberta_em": "sessao-25",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p73",
+   "texto": "Investigar a presenÃ§a e o paradeiro da Gorgona que perambula encapuzada pelas ruas de Gosterwick.",
+   "aberta_em": "sessao-25",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p74",
+   "texto": "Descobrir a utilidade ritualÃ­stica e o valor sagrado das penas brancas de Maat recolhidas na PirÃ¢mide de Thoth.",
+   "aberta_em": "sessao-25",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-24",
-  "texto": "O grupo encontra-se em Gosterwick apÃ³s retornar de uma expediÃ§Ã£o rÃ¡pida aos arredores do paredÃ£o de Arden Vul e da Colina da Pata de Gato. Durante a viagem, Momonga aceitou abrigar em sua mente o espÃ­rito do fantasma Irthol, que busca recuperar a pulseira de esmeralda de sua falecida esposa Naema e vingar-se dos cultistas de um deus antigo. Na mesma noite, os aventureiros foram atacados por quatro cultistas encapuzados, os quais foram repelidos por Galmyr. Permanecem em aberto as buscas pelos restos de Naema, a investigaÃ§Ã£o sobre a seita dos cultistas encapuzados e o mistÃ©rio do CÃ¡lice AmaldiÃ§oado exibido em Gosterwick."
+  "apos": "sessao-25",
+  "texto": "O grupo retornou de uma incursÃ£o Ã  PirÃ¢mide de Thoth carregando penas sagradas da deusa Maat e lucrando com a venda de uma poÃ§Ã£o mÃ¡gica. No entanto, o regresso a Gosterwick tomou um rumo trÃ¡gico quando esbarraram com uma figura misteriosa nas ruas. Astrezenika encarou o rosto de uma mulher com cabelos de serpente e acabou petrificado no corredor da Estalagem Capa Amarela. Agora, Erphel e Galmyr precisam encontrar com urgÃªncia uma forma de reverter a petrificaÃ§Ã£o de seu companheiro enquanto lidam com a ameaÃ§a oculta na cidade."
  }
 }
