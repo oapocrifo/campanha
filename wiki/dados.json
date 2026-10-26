@@ -1112,6 +1112,26 @@
     "locais/barragem-do-lago",
     "itens/frascos-de-acido"
    ]
+  },
+  "sessao-42": {
+   "titulo": "A CaÃ§ada na Masmorra e a Fera do Corredor",
+   "resumo": "Nesta sessÃ£o, os aventureiros ArnÃ³bio, Leviathan e o recÃ©m-chegado Gunther realizaram interlÃºdios em Gosterwick e na Pousada do Sinal da CabeÃ§a Quebrada antes de empreenderem uma nova exploraÃ§Ã£o nas ruÃ­nas de Arden Vul. Descendo pela chaminÃ© atÃ© o primeiro nÃ­vel da masmorra, o grupo explorou corredores desconhecidos, deparando-se com uma sala contendo uma gigantesca serpente enrolada e uma sala com estÃ¡tuas de macaco. Durante a exploraÃ§Ã£o, foram emboscados por uma criatura bizarra semelhante a uma lagarta com tentÃ¡culos e propriedades paralisantes. ApÃ³s um confronto feroz onde Gunther teve as pernas esmagadas pela constriÃ§Ã£o do monstro e Leviathan sofreu dormÃªncia temporÃ¡ria, a criatura foi finalmente derrotada. Em seguida, o grupo encontrou uma sala com um poÃ§o lodoso e o corpo de uma mulher mumificada, cujos pertences incluÃ­am uma chave misteriosa, um pergaminho antigo e uma bolsa com pÃ³ dourado e 88 moedas de prata. Para finalizar, ArnÃ³bio negociou a venda do pergaminho e de parte dos itens com o comerciante TenÃ¡rius na pousada antes do encerramento da sessÃ£o.",
+   "linha_do_tempo": [
+    "ArnÃ³bio e Leviathan concluem seus interlÃºdios na Pousada do Sinal da CabeÃ§a Quebrada e se alinham com o recÃ©m-chegado Gunther para explorar o primeiro andar de Arden Vul.",
+    "O grupo desce pela chaminÃ© e limpa o acampamento de ratos no primeiro nÃ­vel da masmorra.",
+    "Ao avanÃ§arem pelos corredores, o grupo evita uma sala com uma serpente gigante enroscada e investiga cÃ´modos vazios e salas com estÃ¡tuas de macaco.",
+    "Uma criatura lagartiforme com tentÃ¡culos paralisantes surge e embosca os aventureiros no corredor.",
+    "ApÃ³s um combate desesperado que quase custa a vida de Gunther, que tem as pernas esmagadas, a criatura Ã© morta por tiros de flecha e golpes de espada.",
+    "O grupo explora uma nova sala com um poÃ§o lodoso e o corpo de uma mulher, recuperando uma chave, um pergaminho, pÃ³ dourado e 88 moedas de prata.",
+    "Retornando em seguranÃ§a para a pousada, ArnÃ³bio vende o pergaminho e parte dos tesouros para o comerciante TenÃ¡rius."
+   ],
+   "entidades": [
+    "personagens/arna3bio",
+    "personagens/leviathan",
+    "personagens/gunther",
+    "criaturas/lagarta-gigante-com-tentaculos",
+    "itens/chave-do-poao"
+   ]
   }
  },
  "entidades": {
@@ -8300,7 +8320,7 @@
    "apelidos": [
     "Caolho"
    ],
-   "resumo": "Ladino esguio e alto, conhecido como Caolho, que explora os subterrÃ¢neos de Arden Vul com grande cautela. Carrega arco longo, funda, vara de trÃªs metros e um canÃ¡rio em gaiola para testar o ar e armadilhas. Conduziu o desarmamento Ã  distÃ¢ncia dos cadÃ¡veres na cÃ¢mara do sarcÃ³fago de pÃ³rfiro.",
+   "resumo": "Ladino esguio e alto conhecido como Caolho que explora os subterrÃ¢neos de Arden Vul com cautela. Conduziu estratÃ©gias com armadilhas de estacas no corredor, coletou gosma paralisante da criatura derrotada e negociou a venda do pergaminho encontrado.",
    "atributos": {
     "Classe": "Ladino",
     "Jogador": "Xiko"
@@ -8333,11 +8353,16 @@
     [
      "sessao-40",
      "Atingiu a mÃºmia com um disparo crÃ­tico de flecha nas costas durante a batalha."
+    ],
+    [
+     "sessao-42",
+     "Negociou a venda de um pergaminho antigo por mil ciclos de prata com o comerciante TenÃ¡rius."
     ]
    ],
    "sessoes": [
     "sessao-39",
-    "sessao-40"
+    "sessao-40",
+    "sessao-42"
    ]
   },
   "personagens/kalec": {
@@ -8372,10 +8397,10 @@
    "tipo": "personagem",
    "nome": "Leviathan",
    "apelidos": [],
-   "resumo": "Aventureiro homem-fera que explora os subterrÃ¢neos de Arden Vul junto ao grupo. Possui visÃ£o adaptada Ã  penumbra e auxiliou na descida e subida do poÃ§o de grampos sob a chaminÃ©, cedendo sua corda para contornar os degraus derretidos. Ficou com a espada longa mÃ¡gica encontrada na cÃ¢mara do sarcÃ³fago.",
+   "resumo": "Aventureiro homem-fera que explora os subterrÃ¢neos de Arden Vul. Treinou tÃ©cnicas de combate na pousada, auxiliou no combate contra a lagarta gigante perfurando seus olhos e resgatou os companheiros.",
    "atributos": {
     "RaÃ§a": "Homem-fera",
-    "Classe": "Guerreiro",
+    "Classe": "Explorador",
     "Jogador": "Melquizedeque"
    },
    "fatos": [
@@ -8398,11 +8423,16 @@
     [
      "sessao-40",
      "Cortou os tendÃµes da perna da mÃºmia com sua espada longa mÃ¡gica, reduzindo pela metade a movimentaÃ§Ã£o do monstro."
+    ],
+    [
+     "sessao-42",
+     "Encontrou um instrutor de combate na pousada e buscou missÃµes de caÃ§a a lagartos."
     ]
    ],
    "sessoes": [
     "sessao-39",
-    "sessao-40"
+    "sessao-40",
+    "sessao-42"
    ]
   },
   "npcs/harold-good-ears": {
@@ -8871,6 +8901,60 @@
    ],
    "sessoes": [
     "sessao-41"
+   ]
+  },
+  "personagens/gunther": {
+   "tipo": "personagem",
+   "nome": "Gunther",
+   "apelidos": [],
+   "resumo": "Guerreiro homem-bode recÃ©m-chegado Ã  Pousada do Sinal da CabeÃ§a Quebrada em busca de riquezas. Participou da incursÃ£o aos subterrÃ¢neos, posicionou armadilhas de estacas e teve as duas pernas quebradas durante o confronto brutal contra a lagarta gigante.",
+   "atributos": {
+    "Jogador": "AndrÃ©",
+    "Classe": "Guerreiro",
+    "RaÃ§a": "Homem-bode"
+   },
+   "fatos": [
+    [
+     "sessao-42",
+     "Teve as duas pernas esmagadas pela constriÃ§Ã£o da criatura lagartiforme nos subterrÃ¢neos de Arden Vul."
+    ]
+   ],
+   "sessoes": [
+    "sessao-42"
+   ]
+  },
+  "criaturas/lagarta-gigante-com-tentaculos": {
+   "tipo": "criatura",
+   "nome": "Lagarta Gigante com TentÃ¡culos",
+   "apelidos": [],
+   "resumo": "Monstruosidade subterrÃ¢nea de grande porte com corpo ondulante, mÃºltiplas patas e tentÃ¡culos ao redor da boca capazes de secretar uma toxina paralisante e entorpecente. Habita os corredores do primeiro nÃ­vel de Arden Vul e foi eliminada pelo grupo.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Primeiro nÃ­vel subterrÃ¢neo de Arden Vul"
+   },
+   "fatos": [
+    [
+     "sessao-42",
+     "Possui tentÃ¡culos em volta da boca que secretam veneno de efeito paralisante e entorpecente."
+    ]
+   ],
+   "sessoes": [
+    "sessao-42"
+   ]
+  },
+  "itens/chave-do-poao": {
+   "tipo": "item",
+   "nome": "Chave do PoÃ§o",
+   "apelidos": [],
+   "resumo": "Pequena chave metÃ¡lica encontrada no fundo de um poÃ§o lodoso em uma cÃ¢mara secreta dos subterrÃ¢neos de Arden Vul.",
+   "atributos": {},
+   "fatos": [
+    [
+     "sessao-42",
+     "Foi recuperada do fundo de um poÃ§o com Ã¡gua lodosa e viscosa."
+    ]
+   ],
+   "sessoes": [
+    "sessao-42"
    ]
   }
  },
@@ -9812,10 +9896,24 @@
    "aberta_em": "sessao-41",
    "resolvida_em": null,
    "como": ""
+  },
+  {
+   "id": "p135",
+   "texto": "Encontrar uma forma de curar ou tratar as pernas quebradas de Gunther apÃ³s o ataque da criatura subterrÃ¢nea.",
+   "aberta_em": "sessao-42",
+   "resolvida_em": null,
+   "como": ""
+  },
+  {
+   "id": "p136",
+   "texto": "Investigar a utilidade da chave metÃ¡lica recuperada do poÃ§o lodoso e das pedras preciosas amarelada e azulada.",
+   "aberta_em": "sessao-42",
+   "resolvida_em": null,
+   "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-41",
-  "texto": "O grupo de aventureiros deixou a pousada para explorar a regiÃ£o pantanosa ao sul do grande lago de Arden Vul. ApÃ³s atravessar uma ponte metÃ¡lica enferrujada com a ajuda de cordas, eles investigaram uma antiga ruÃ­na civil na borda do pÃ¢ntano, onde recuperaram frascos de Ã¡cido, um fÃªmur com runas e um tubo de metal com cartas. Paralelamente, Vixen arriscou-se sozinha pelo pÃ¢ntano e encontrou um enorme dragÃ£o verde, que lhe ordenou descobrir a fraqueza de uma entidade maligna chamada Galef na Casa Longa. Sob ameaÃ§a de morte apÃ³s hesitar, a raposa recuou e o grupo retornou em seguranÃ§a para a pousada para reavaliar os prÃ³ximos passos."
+  "apos": "sessao-42",
+  "texto": "Partindo da Pousada do Sinal da CabeÃ§a Quebrada, o grupo formado por ArnÃ³bio, Leviathan e Gunther explorou o primeiro nÃ­vel subterrÃ¢neo de Arden Vul atravÃ©s da chaminÃ©. Nos corredores escuros, enfrentaram e derrotaram uma perigosa criatura lagartiforme com tentÃ¡culos paralisantes apÃ³s uma batalha brutal que deixou Gunther gravemente ferido com as pernas quebradas. Explorando novas salas, descobriram uma cÃ¢mara com um poÃ§o lodoso e o corpo de uma mulher, recuperando uma chave, moedas e um pergaminho traduzido e vendido ao comerciante TenÃ¡rius. O grupo agora descansa e busca recursos na base para lidar com os ferimentos e os prÃ³ximos perigos das ruÃ­nas."
  }
 }
