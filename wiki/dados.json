@@ -326,6 +326,27 @@
     "criaturas/kobold",
     "eventos/morte-de-lycan"
    ]
+  },
+  "sessao-13": {
+   "titulo": "O Fim na Trilha",
+   "resumo": "Durante os dias de intervalo em Gosterwick, Durlan treinou duramente na fazenda para aprimorar seus ataques com os punhos e recolheu gatos para sua amiga. Deyos esculpiu estatuetas de Ã³sseos de animais e vendeu algumas por trÃªs cÃ­rculos de prata cada. Abicon, gravemente debilitado pela maldiÃ§Ã£o do Esqueleto Mimir, buscou ajuda do mago Bernerius Pictor, que o curou em troca da promessa de retomar a expediÃ§Ã£o ao Emaranhado.\n\nApÃ³s os preparativos, o grupo comprou raÃ§Ãµes de viagem e pÃ£es secos, recuperou as cabeÃ§as de kobold escondidas na beira da cidade e seguiu pela estrada em direÃ§Ã£o ao Emaranhado. Eles cruzaram o rio, atravessaram a ponte de madeira e adentraram o covil secreto dos kobolds pelas vinhas espinhosas. Explorando o labirinto subterrÃ¢neo com a ajuda de uma marcaÃ§Ã£o com o sÃ­mbolo de presa, o grupo encontrou uma Ã¡rvore gigante com um alÃ§apÃ£o ao lado.\n\nAo descerem pelo alÃ§apÃ£o, os aventureiros depararam-se com uma sala repleta de kobolds armados e uma mulher humana desacordada. Abicon tentou incendiar o local arremessando Ã³leo em uma tocha, mas o plano falhou e iniciou-se um confronto sangrento. Embora a magia de sono de Abicon tenha derrubado vÃ¡rios inimigos, os kobolds restantes revidaram com violÃªncia, resultando nas mortes em combate e na exaustÃ£o fatal de Deyos, Abicon e Durlan nas rodadas finais.",
+   "linha_do_tempo": [
+    "Durlan passou quinze dias treinando golpes de punho em Ã¡rvores e recolhendo gatos nas ruas para sua amiga.",
+    "Deyos esculpiu estatuetas de Ã³sseos de animais na praÃ§a e vendeu algumas para moradores de Gosterwick.",
+    "Abicon negociou com Bernerius Pictor e teve sua maldiÃ§Ã£o curada em troca de retornar ao Emaranhado.",
+    "O grupo comprou suprimentos e pÃ£es na Padaria do LeÃ£o antes de seguir pela estrada rumo ao Emaranhado.",
+    "Os aventureiros cruzaram o rio pela ponte de madeira e encontraram a passagem secreta dos kobolds pelas vinhas.",
+    "O grupo localizou um alÃ§apÃ£o secreto ao lado de uma Ã¡rvore gigante e desceu para o subterrÃ¢neo.",
+    "No subterrÃ¢neo, o grupo encontrou uma sala com dezenas de kobolds e uma mulher humana desacordada.",
+    "Abicon tentou usar Ã³leo para criar um incÃªndio estratÃ©gico, mas a substÃ¢ncia apenas apagou a tocha.",
+    "Os kobolds atacaram com fÃºria implacÃ¡vel e o grupo foi derrotado e morto durante o confronto."
+   ],
+   "entidades": [
+    "personagens/deyos",
+    "personagens/durlan",
+    "personagens/abicon",
+    "locais/padaria-do-leao"
+   ]
   }
  },
  "entidades": {
@@ -333,11 +354,11 @@
    "tipo": "personagem",
    "nome": "Deyos",
    "apelidos": [],
-   "resumo": "Aventureiro homem-lagarto do grupo. Foi emboscado pelos Vizinhos Ruins em Gosterwick, mas sobreviveu e liderou incursÃµes aos ermos. Na colina A Pata, combateu monstros esquelÃ©ticos e provocou a liberaÃ§Ã£o de uma fumaÃ§a mÃ¡gica ao estilhaÃ§ar um osso mÃ­stico na estalagem.",
+   "resumo": "Aventureiro homem-fera do grupo. Criou estatuetas de ossos na praÃ§a de Gosterwick, mas acabou sendo morto por golpes de pÃ¡ desferidos por kobolds no covil subterrÃ¢neo.",
    "atributos": {
     "RaÃ§a": "Homem-Lagarto",
     "Jogador": "Guilherme",
-    "Status": "Vivo",
+    "Status": "Morto",
     "LocalizaÃ§Ã£o": "Gosterwick",
     "Classe": "Guerreiro"
    },
@@ -393,13 +414,22 @@
     [
      "sessao-11",
      "EstilhaÃ§ou um dos ossos pretos na lareira da Estalagem Capa Amarela, liberando fumaÃ§a arroxeada."
+    ],
+    [
+     "sessao-13",
+     "Vendeu estatuetas de osso de gato para uma mulher misteriosa de cabelo esverdeado por trÃªs cÃ­rculos de prata cada."
+    ],
+    [
+     "sessao-13",
+     "Foi emboscado e morto por kobolds armados com pÃ¡s no interior do covil subterrÃ¢neo do Emaranhado."
     ]
    ],
    "sessoes": [
     "sessao-01",
     "sessao-04",
     "sessao-09",
-    "sessao-11"
+    "sessao-11",
+    "sessao-13"
    ]
   },
   "personagens/hugios": {
@@ -1822,11 +1852,11 @@
    "tipo": "personagem",
    "nome": "Durlan",
    "apelidos": [],
-   "resumo": "Guerreiro expedicionÃ¡rio que atua em missÃµes ao redor de Gosterwick. Acompanhou o grupo nas buscas por suprimentos na cidade, participou da exploraÃ§Ã£o das catacumbas de A Pata e inalou a fumaÃ§a mÃ­stica liberada na estalagem.",
+   "resumo": "Guerreiro expedicionÃ¡rio do grupo. Treinou intensamente durante quinze dias para aprender a desferir dois ataques desarmados por turno e acabou perecendo junto aos companheiros.",
    "atributos": {
     "Jogador": "Mateus L",
     "Classe": "Guerreiro",
-    "Status": "EnfeitiÃ§ado",
+    "Status": "Morto",
     "LocalizaÃ§Ã£o": "Estalagem Capa Amarela"
    },
    "fatos": [
@@ -1877,12 +1907,25 @@
     [
      "sessao-11",
      "Inalou a fumaÃ§a arroxeada do osso preto estilhaÃ§ado na Estalagem Capa Amarela, sentindo forte ardÃªncia nas narinas."
+    ],
+    [
+     "sessao-13",
+     "Treinou socos e chutes em Ã¡rvores por quinze dias para aprimorar suas tÃ©cnicas de combate desarmado."
+    ],
+    [
+     "sessao-13",
+     "Coletou vÃ¡rios gatos soltos nas ruas de Gosterwick para entregar a uma amiga misteriosa."
+    ],
+    [
+     "sessao-13",
+     "Morreu no confronto contra os kobolds nas profundezas do Emaranhado."
     ]
    ],
    "sessoes": [
     "sessao-07",
     "sessao-08",
-    "sessao-11"
+    "sessao-11",
+    "sessao-13"
    ]
   },
   "npcs/abacuque-overman": {
@@ -2076,13 +2119,13 @@
    "tipo": "personagem",
    "nome": "Abicon",
    "apelidos": [],
-   "resumo": "Mago elfo do grupo com uma lesÃ£o enrijecida de Esqueleto Mimir. Negociou com Bernerius Pictor a remoÃ§Ã£o de sua maldiÃ§Ã£o em troca de resgatar Herodian. Caiu em um fosso de espinhos e ateou fogo Ã s vinhas do Emaranhado, despertando monstros vegetais antes de fugir para Gosterwick.",
+   "resumo": "Mago elfo que sofria com a lesÃ£o do Esqueleto Mimir. Foi curado por Bernerius Pictor em troca de um novo acordo e acabou morto por kobolds apÃ³s uma tentativa frustrada de usar Ã³leo.",
    "atributos": {
     "Jogador": "Massaki",
     "RaÃ§a": "Elfo",
     "Classe": "Mago",
     "LocalizaÃ§Ã£o": "Estalagem Capa Amarela em Gosterwick",
-    "Status": "Vivo e exausto"
+    "Status": "Morto"
    },
    "fatos": [
     [
@@ -2156,6 +2199,18 @@
     [
      "sessao-12",
      "Ateou fogo Ã s vinhas do Emaranhado, despertando humanoides vegetais agressivos."
+    ],
+    [
+     "sessao-13",
+     "Conseguiu a cura para sua maldiÃ§Ã£o enrijecida com Bernerius Pictor em troca da promessa de retornar ao Emaranhado."
+    ],
+    [
+     "sessao-13",
+     "Tentou usar uma Ã¢nfora de Ã³leo para incendiar os kobolds, mas a tocha acabou se apagando."
+    ],
+    [
+     "sessao-13",
+     "Pereceu no combate contra os kobolds no covil subterrÃ¢neo."
     ]
    ],
    "sessoes": [
@@ -2163,7 +2218,8 @@
     "sessao-09",
     "sessao-10",
     "sessao-11",
-    "sessao-12"
+    "sessao-12",
+    "sessao-13"
    ]
   },
   "personagens/eugeo": {
@@ -2681,6 +2737,24 @@
    "sessoes": [
     "sessao-12"
    ]
+  },
+  "locais/padaria-do-leao": {
+   "tipo": "local",
+   "nome": "Padaria do LeÃ£o",
+   "apelidos": [],
+   "resumo": "Estabelecimento comercial situado na Rua do Mercado em Gosterwick, especializado na venda de pÃ£es secos e tradicionais.",
+   "atributos": {
+    "LocalizaÃ§Ã£o": "Rua do Mercado, Gosterwick"
+   },
+   "fatos": [
+    [
+     "sessao-13",
+     "Foi visitada por Abicon, Deyos e Durlan para a compra de pÃ£es durÃ¡veis para a viagem."
+    ]
+   ],
+   "sessoes": [
+    "sessao-13"
+   ]
   }
  },
  "pendencias": [
@@ -2723,8 +2797,8 @@
    "id": "p6",
    "texto": "Investigar e eliminar os kobolds no covil do Emaranhado para receber a recompensa de 500 ciclos de prata.",
    "aberta_em": "sessao-03",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-13",
+   "como": "O grupo invadiu o covil subterrÃ¢neo dos kobolds no Emaranhado, mas foi derrotado e morto."
   },
   {
    "id": "p7",
@@ -2898,8 +2972,8 @@
    "id": "p31",
    "texto": "Descobrir uma cura para a lesÃ£o mÃ¡gica enrijecida e escurecida no abdÃ´men de Abicon provocada pela mordida do Esqueleto Mimir.",
    "aberta_em": "sessao-11",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-13",
+   "como": "Abicon teve sua maldiÃ§Ã£o removida pelo mago Bernerius Pictor antes de morrer em combate."
   },
   {
    "id": "p32",
@@ -2919,19 +2993,26 @@
    "id": "p34",
    "texto": "Localizar o mago Herodian no Emaranhado e trazÃª-lo em seguranÃ§a para Bernerius Pictor em troca de 1.000 ciclos de prata e a cura da maldiÃ§Ã£o de Abicon.",
    "aberta_em": "sessao-12",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-13",
+   "como": "Abicon firmou acordo com Bernerius Pictor, mas acabou perecendo no covil antes de concluir o resgate."
   },
   {
    "id": "p35",
    "texto": "Recuperar o corpo e os pertences do falecido Lycan no Emaranhado.",
    "aberta_em": "sessao-12",
+   "resolvida_em": "sessao-13",
+   "como": "Os corpos e pertences de Lycan permaneceram abandonados no Emaranhado apÃ³s a fuga anterior."
+  },
+  {
+   "id": "p36",
+   "texto": "Investigar o paradeiro da mulher humana desacordada encontrada na sala subterrÃ¢nea dos kobolds.",
+   "aberta_em": "sessao-13",
    "resolvida_em": null,
    "como": ""
   }
  ],
  "recapitulacao": {
-  "apos": "sessao-12",
-  "texto": "O grupo retornou a Gosterwick apÃ³s uma trÃ¡gica expediÃ§Ã£o ao Emaranhado que custou a vida do companheiro Lycan. Abicon e Hugios negociaram com o mago Bernerius Pictor, que ofereceu uma recompensa generosa e a cura da maldiÃ§Ã£o de Abicon caso encontrem seu amigo Herodian. Durante o combate no covil das vinhas, o grupo confirmou que o veneno das adagas kobolds causa fortes alucinaÃ§Ãµes e que as vinhas reagem violentamente ao fogo. Atualmente, os aventureiros descansam na Estalagem Capa Amarela, com o corpo de Lycan deixado para trÃ¡s e a missÃ£o de localizar Herodian pendente."
+  "apos": "sessao-13",
+  "texto": "Deyos, Abicon e Durlan partiram de Gosterwick para investigar as ruÃ­nas e covis do Emaranhado apÃ³s resolverem seus assuntos na cidade. No covil dos kobolds, o grupo encontrou uma passagem secreta sob uma Ã¡rvore gigante e desceu para resgatar uma mulher humana cativa. Contudo, o confronto contra dezenas de kobolds armados culminou em uma batalha trÃ¡gica e desesperadora. O grupo acabou sucumbindo aos ferimentos no subterrÃ¢neo e durante a fuga, marcando o fim de seus aventureiros."
  }
 }
