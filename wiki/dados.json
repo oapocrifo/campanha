@@ -551,7 +551,7 @@
     "personagens/kaelen",
     "personagens/astrezenika",
     "npcs/kallian",
-    "criaturas/criatura-esqueletica-vertebral",
+    "criaturas/esqueleto-mimir",
     "locais/colina-dos-pinos-de-prata",
     "itens/pinos-de-prata-magicos"
    ]
@@ -3598,13 +3598,24 @@
    "tipo": "criatura",
    "nome": "Esqueleto Mimir",
    "apelidos": [
-    "Cobra de Ossos"
+    "Cobra de Ossos",
+    "Criatura Esquelética vertebral"
    ],
    "resumo": "Criatura morta-viva serpenteante composta por uma espinha dorsal com ossos e crânio acoplados de forma magnética. Possui fragmentos de ossos pretos de textura vítrea e secreta toxina enrijecedora através de sua mordida.",
    "atributos": {
+    "Localização": "Colina dos Pinos de Prata",
+    "Status": "Morto",
     "Tipo": "Morto-Vivo"
    },
    "fatos": [
+    [
+     "sessao-21",
+     "Surgiu descendo a colina durante o ritual de consagração realizado pelo clérigo."
+    ],
+    [
+     "sessao-21",
+     "Atacou e feriu Kazunov com uma mordida venenosa antes de ser decapitada por Astrezenika."
+    ],
     [
      "sessao-11",
      "Move-se de forma rasteira e veloz utilizando uma coluna vertebral como corpo serpenteante."
@@ -3619,7 +3630,8 @@
     ]
    ],
    "sessoes": [
-    "sessao-11"
+    "sessao-11",
+    "sessao-21"
    ]
   },
   "itens/osso-preto": {
@@ -6948,9 +6960,9 @@
   },
   "locais/pousada-do-sinal-da-cabe-a-quebrada": {
    "tipo": "local",
-   "nome": "Pousada do Sinal da Cabe a Quebrada",
+   "nome": "Pousada do Sinal da Cabeça Quebrada",
    "apelidos": [
-    "Pousada do Sinal da Cabeça Quebrada"
+    "Pousada do Sinal da Cabe a Quebrada"
    ],
    "resumo": "Estabelecimento rústico situado nas ruínas de Arden Vul que serve de base e abrigo para exploradores e guardas. Possui alojamento coletivo com beliches, estábulo anexo e uma colossal cabeça esculpida em mármore branco com elmo romano sobre a entrada. Abriga mercadores itinerantes e avaliadores de antiguidades.",
    "atributos": {
@@ -9389,31 +9401,6 @@
     "sessao-20"
    ]
   },
-  "criaturas/criatura-esqueletica-vertebral": {
-   "tipo": "criatura",
-   "nome": "Criatura Esquelética vertebral",
-   "apelidos": [
-    "Cobra de Ossos"
-   ],
-   "resumo": "Monstro morto-vivo bizarro composto por vértebras segmentadas, ossos pretos e uma caveira humana na ponta. Possui grande ferocidade e foi destruída pelos aventureiros na colina.",
-   "atributos": {
-    "Localização": "Colina dos Pinos de Prata",
-    "Status": "Morto"
-   },
-   "fatos": [
-    [
-     "sessao-21",
-     "Surgiu descendo a colina durante o ritual de consagração realizado pelo clérigo."
-    ],
-    [
-     "sessao-21",
-     "Atacou e feriu Kazunov com uma mordida venenosa antes de ser decapitada por Astrezenika."
-    ]
-   ],
-   "sessoes": [
-    "sessao-21"
-   ]
-  },
   "locais/torre-em-ruinas-do-paredao": {
    "tipo": "local",
    "nome": "Torre em Ruínas do Paredão",
@@ -10552,8 +10539,8 @@
    "id": "p97",
    "texto": "Descobrir quem retirou a perna colossal de mármore do porão da oficina de esculturas.",
    "aberta_em": "sessao-32",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-34",
+   "como": "O anão Bolkas revelou que retirou a perna de mármore para reunir as partes da estátua colossal."
   },
   {
    "id": "p98",
