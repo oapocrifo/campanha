@@ -1107,7 +1107,7 @@
    ],
    "entidades": [
     "personagens/vixen-vestappen",
-    "criaturas/dragao-verde",
+    "criaturas/crastorithorex",
     "npcs/galef",
     "locais/barragem-do-lago",
     "itens/frascos-de-acido"
@@ -7507,7 +7507,7 @@
    "tipo": "personagem",
    "nome": "Alexander",
    "apelidos": [],
-   "resumo": "Aventureiro homem-fera arqueiro dotado de olfato aguçado que explora a região de Arden Vul. Destacou-se em combate ao desabilitar carniçais com disparos precisos de flecha e resgatar artefatos mágicos e históricos em ruínas soterradas.",
+   "resumo": "Aventureiro homem-fera arqueiro dotado de olfato aguçado que explora Arden Vul. Destacou-se abatendo carniçais e resgatando a Capa de Leão e o Olho de Safira e Azeviche em ruínas soterradas. Na câmara do sarcófago de pórfiro, utilizou o amuleto de Ankh para afastar um espectro e destruir zumbis reanimados. Resgatou ainda um disco metálico de ouro batido de dentro do sarcófago.",
    "atributos": {
     "Raça": "Homem-fera",
     "Classe": "Caçador / Arqueiro",
@@ -8471,33 +8471,6 @@
     "sessao-41"
    ]
   },
-  "criaturas/dragao-verde": {
-   "tipo": "criatura",
-   "nome": "Dragão Verde",
-   "apelidos": [],
-   "resumo": "Colossal e poderoso dragão de escamas verdes que habita o platô e as regiões pantanosas de Arden Vul, dotado de uma aterrorizante aura de medo e exigente com aqueles que o ousam abordar.",
-   "atributos": {
-    "Localização": "Pântano de Arden Vul",
-    "Status": "Ativo"
-   },
-   "fatos": [
-    [
-     "sessao-41",
-     "O dragão verde avistou Vixen se aproximando pelo pântano, voou ao seu encontro e pousou gerando ondas de água."
-    ],
-    [
-     "sessao-41",
-     "Emitiu uma poderosa aura de medo que aterrorizou Vixen e impediu qualquer tentativa de ataque."
-    ],
-    [
-     "sessao-41",
-     "Exigiu que Vixen descubra a fraqueza de Galef, uma entidade maligna e 'White' superior que habita a Casa Longa."
-    ]
-   ],
-   "sessoes": [
-    "sessao-41"
-   ]
-  },
   "npcs/galef": {
    "tipo": "npc",
    "nome": "Galef",
@@ -8569,7 +8542,7 @@
    "tipo": "personagem",
    "nome": "Gunther",
    "apelidos": [],
-   "resumo": "Guerreiro homem-bode recém-chegado à Pousada do Sinal da Cabeça Quebrada em busca de riquezas. Participou da incursão aos subterrâneos, posicionou armadilhas de estacas e teve as duas pernas quebradas durante o confronto brutal contra a lagarta gigante.",
+   "resumo": "Guerreiro homem-bode recém-chegado à Pousada do Sinal da Cabeça Quebrada em busca de riquezas. Participou da incursão aos subterrâneos de Arden Vul, onde teve as duas pernas esmagadas pela constrição de uma criatura lagartiforme.",
    "atributos": {
     "Jogador": "André",
     "Classe": "Guerreiro",
@@ -9206,17 +9179,32 @@
    ]
   },
   "criaturas/crastorithorex": {
-   "tipo": "criatura",
+   "tipo": "npc",
    "nome": "Crastorithorex",
    "apelidos": [
-    "Crasturitorex"
+    "Crasturitorex",
+    "Dragão Verde"
    ],
    "resumo": "Colossal e inteligente dragao verde que habita as montanhas e o grande lago ao norte em Arden Vul. E exigente com forasteiros, mas aceitou negociar informacoes sobre a regiao com Parnasso em troca de dados sobre ruinas locais.",
    "atributos": {
+    "Localização": "Pântano de Arden Vul",
+    "Status": "Ativo",
     "Especie": "Dragao Verde",
     "Localizacao": "Lago ao Norte de Arden Vul"
    },
    "fatos": [
+    [
+     "sessao-41",
+     "O dragão verde avistou Vixen se aproximando pelo pântano, voou ao seu encontro e pousou gerando ondas de água."
+    ],
+    [
+     "sessao-41",
+     "Emitiu uma poderosa aura de medo que aterrorizou Vixen e impediu qualquer tentativa de ataque."
+    ],
+    [
+     "sessao-41",
+     "Exigiu que Vixen descubra a fraqueza de Galef, uma entidade maligna e 'White' superior que habita a Casa Longa."
+    ],
     [
      "sessao-45",
      "Crastorithorex caçou e abateu uma grande ave vermelha nas margens do lago ao norte."
@@ -9231,6 +9219,7 @@
     ]
    ],
    "sessoes": [
+    "sessao-41",
     "sessao-45"
    ]
   },
@@ -9566,7 +9555,7 @@
    "tipo": "item",
    "nome": "Lança Negra da Estátua",
    "apelidos": [],
-   "resumo": "Arma longa forjada inteiramente em um metal maciço e escuro, originalmente empunhada pelo constructo sob a oficina de esculturas em Arden Vul. Possui grande peso, ponta afiada e demonstra letalidade incomum capaz de perfurar armaduras pesadas. Foi arrancada da estátua após combate violento e encontra-se em posse de Markhor.",
+   "resumo": "Arma longa forjada em metal escuro maciço, retirada de uma estátua guardiã no subterrâneo da oficina de esculturas em Arden Vul. Possui grande peso e ponta afiada, tendo perfurado a coxa de Markhor durante o combate. Foi guardada pelo grupo de aventureiros para posterior identificação de suas propriedades mágicas.",
    "atributos": {
     "Tipo": "Arma Lança",
     "Material": "Metal Negro Desconhecido"
@@ -9665,7 +9654,7 @@
    "apelidos": [
     "Caolho"
    ],
-   "resumo": "Ladino esguio e experiente conhecido como Caolho que explora os subterrâneos de Arden Vul com extrema astúcia. Durante o interlúdio, vendeu ouro em pó e obteve de um pequenino informações sobre a base secundária dos halflings de Phlebotomas. Em nova incursão com Melios e Malaquias, desativou a mola do altar de Thoth, laçou corpos infestados por larvas para saqueá-los e resgatou a mágica lança Vento da Noite e um cálice de prata.",
+   "resumo": "Ladino conhecido como Caolho que explora Arden Vul usando um canário sentinela contra armadilhas e gases tóxicos. Participou da incursão na chaminé e do confronto contra a múmia de pórfiro nas sessões 39 e 40, além de vender um pergaminho a Tenárius na sessão 42. Na sessão 43, negociou ouro em pó, comprou informações sobre os halflings de Phlebotomas e desarmou a mola do altar de Thoth. Também saqueou cadáveres infestados por larvas e auxiliou no resgate do cálice prateado e da lança Vento da Noite.",
    "atributos": {
     "Classe": "Ladino",
     "Jogador": "Xiko"
@@ -10168,8 +10157,8 @@
    "id": "p44",
    "texto": "Investigar o acesso e a entrada situada na plataforma superior sustentada por mármore da Pirâmide de Thoth.",
    "aberta_em": "sessao-15",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-22",
+   "como": "Os aventureiros decifraram os relevos no topo da Pirâmide de Thoth e alinharam os braços da estátua, revelando a escadaria subterrânea secreta."
   },
   {
    "id": "p45",

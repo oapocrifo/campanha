@@ -1,9 +1,11 @@
 {
- "ultima": "2026-11-02",
+ "ultima": "2026-11-09",
  "reportados": [
+  "contradicao:locais/estalagem-capa-amarela",
   "identidade_incerta:criaturas/crastorithorex,criaturas/dragao,criaturas/dragao-verde",
   "identidade_incerta:criaturas/crastorithorex,criaturas/dragao-verde",
   "identidade_incerta:criaturas/criatura-esqueletica-vertebral,criaturas/esqueleto-mimir",
-  "identidade_incerta:criaturas/dragao,criaturas/dragao-verde"
+  "identidade_incerta:criaturas/dragao,criaturas/dragao-verde",
+  "identidade_incerta:itens/lanca-negra-da-estatua,itens/lanca-vento-da-noite"
  ]
 }
