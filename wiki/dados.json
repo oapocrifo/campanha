@@ -1224,7 +1224,7 @@
    "tipo": "personagem",
    "nome": "Deyos",
    "apelidos": [],
-   "resumo": "Aventureiro homem-fera do grupo. Criou estatuetas de ossos na praça de Gosterwick, mas acabou sendo morto por golpes de pá desferidos por kobolds no covil subterrâneo.",
+   "resumo": "Aventureiro homem-lagarto explorador do grupo. Participou de diversas expedições a Arden Vul, à colina A Pata e ao Emaranhado. Vendeu estatuetas de osso de gato para uma mulher misteriosa em Gosterwick. Foi emboscado e morto por kobolds armados com pás no covil subterrâneo.",
    "atributos": {
     "Raça": "Homem-Lagarto",
     "Jogador": "Guilherme",
@@ -4035,7 +4035,7 @@
    "tipo": "personagem",
    "nome": "Inocente II",
    "apelidos": [],
-   "resumo": "Aventureiro pequenino e clérigo devoto de Alder Lightfingers. Eliminou os gatos da estalagem, ajudou a abater o leão na encosta e acabou morto pelos guardiões humanoides na Pirâmide de Thoth.",
+   "resumo": "Aventureiro pequenino e clérigo devoto de Alder Lightfingers. Auxiliou o grupo purificando águas e explorando a escadaria de Arden Vul. Resgatou moedas e objetos antigos durante as investigações. Foi morto por disparos de raios mágicos e guardiões na Pirâmide de Thoth ao tentar roubar a gema verde.",
    "atributos": {
     "Raça": "Pequenino",
     "Classe": "Clérigo",
@@ -10262,8 +10262,8 @@
    "id": "p59",
    "texto": "Recuperar a armadura de metal desconhecido deixada com Torunn para reparos e estudos em sua forja.",
    "aberta_em": "sessao-20",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-21",
+   "como": "Kazunov vendeu a armadura misteriosa para a ferreira Torunn por 5.000 ciclos de prata."
   },
   {
    "id": "p60",
@@ -10549,8 +10549,8 @@
    "id": "p100",
    "texto": "Identificar as propriedades mágicas da lança de metal negro arrancada da estátua guardiã.",
    "aberta_em": "sessao-32",
-   "resolvida_em": null,
-   "como": ""
+   "resolvida_em": "sessao-43",
+   "como": "Oberon identificou a arma como a lança mágica Vento da Noite e a comprou por 9.000 ciclos de prata."
   },
   {
    "id": "p101",
